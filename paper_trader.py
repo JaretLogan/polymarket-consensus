@@ -273,6 +273,9 @@ def main():
                      help="only open trades resolving within this many days (e.g. 3). Default: no limit")
     ap.add_argument("--no-new-entries", action="store_true", help="only settle/refresh, don't open new positions")
     ap.add_argument("--discord-webhook", default=os.environ.get("DISCORD_WEBHOOK_URL"))
+    ap.add_argument("--watchlist",
+                     help="path to a trader list JSON (from find_traders.py) to use instead of "
+                          "pulling a single --top/--period/--category leaderboard slice")
     args = ap.parse_args()
 
     state = load_state(args.state_file, args.starting_bankroll)
@@ -282,8 +285,13 @@ def main():
 
     newly_opened = []
     if not args.no_new_entries:
-        print(f"Fetching top {args.top} traders to look for new consensus trades...")
-        traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
+        if args.watchlist:
+            with open(args.watchlist) as f:
+                traders = json.load(f)
+            print(f"Using {len(traders)} traders from watchlist {args.watchlist}")
+        else:
+            print(f"Fetching top {args.top} traders to look for new consensus trades...")
+            traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
         consensus_trades = build_consensus(traders, args.min_traders, args.min_position_value, args.max_days)
         newly_opened = open_new_positions(state, consensus_trades, args.stake, args.max_open)
 
