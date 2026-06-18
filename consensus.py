@@ -270,11 +270,19 @@ def main():
     ap.add_argument("--json", help="optional path to write full results as JSON")
     ap.add_argument("--discord-webhook", default=os.environ.get("DISCORD_WEBHOOK_URL"),
                      help="Discord webhook URL to post results to (or set DISCORD_WEBHOOK_URL env var)")
+    ap.add_argument("--watchlist",
+                     help="path to a trader list JSON (from find_traders.py) to use instead of "
+                          "pulling a single --top/--period/--category leaderboard slice")
     args = ap.parse_args()
 
-    print(f"Fetching top {args.top} traders ({args.period}, ranked by {args.order_by}, category={args.category})...")
-    traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
-    print(f"Got {len(traders)} traders. Pulling their open positions...")
+    if args.watchlist:
+        with open(args.watchlist) as f:
+            traders = json.load(f)
+        print(f"Using {len(traders)} traders from watchlist {args.watchlist}")
+    else:
+        print(f"Fetching top {args.top} traders ({args.period}, ranked by {args.order_by}, category={args.category})...")
+        traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
+        print(f"Got {len(traders)} traders. Pulling their open positions...")
 
     results = build_consensus(traders, args.min_traders, args.min_position_value, args.max_days)
 
