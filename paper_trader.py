@@ -151,6 +151,7 @@ def open_new_positions(state: dict, consensus_trades: list, stake_usd: float, ma
             "event_slug": trade.event_slug,
             "title": trade.title,
             "outcome": trade.outcome,
+            "end_date": trade.end_date,
             "entry_price": trade.cur_price,
             "last_price": trade.cur_price,
             "stake_usd": stake_usd,
@@ -268,6 +269,8 @@ def main():
     ap.add_argument("--order-by", choices=["PNL", "VOL"], default="PNL", dest="order_by")
     ap.add_argument("--min-traders", type=int, default=3)
     ap.add_argument("--min-position-value", type=float, default=25.0)
+    ap.add_argument("--max-days", type=float, default=None,
+                     help="only open trades resolving within this many days (e.g. 3). Default: no limit")
     ap.add_argument("--no-new-entries", action="store_true", help="only settle/refresh, don't open new positions")
     ap.add_argument("--discord-webhook", default=os.environ.get("DISCORD_WEBHOOK_URL"))
     args = ap.parse_args()
@@ -281,7 +284,7 @@ def main():
     if not args.no_new_entries:
         print(f"Fetching top {args.top} traders to look for new consensus trades...")
         traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
-        consensus_trades = build_consensus(traders, args.min_traders, args.min_position_value)
+        consensus_trades = build_consensus(traders, args.min_traders, args.min_position_value, args.max_days)
         newly_opened = open_new_positions(state, consensus_trades, args.stake, args.max_open)
 
     summary = summarize(state)
