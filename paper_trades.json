@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 980.0,
+  "cash": 940.0,
   "open_positions": [
     {
       "opened_at": "2026-06-18T05:38:53.474498+00:00",
@@ -15,10 +15,42 @@
       "stake_usd": 20.0,
       "shares": 21.85792349726776,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-18T19:45:46.543974+00:00",
+      "condition_id": "0xaf82c474327eb07563996ffd644da88da46547cb5ecb1c63fc7f6d67849fdf00",
+      "market_slug": "fifwc-mex-kr-2026-06-18-btts",
+      "event_slug": "fifwc-mex-kr-2026-06-18-more-markets",
+      "title": "Mexico vs. Korea Republic: Both Teams to Score",
+      "outcome": "No",
+      "end_date": "2026-06-19",
+      "entry_price": 0.485,
+      "last_price": 0.485,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-06-18T19:45:46.543989+00:00",
+      "condition_id": "0xa6ae199ce172475dd0e29d7584810a15a1d4608398d2f42d7ca39bfac45ed52b",
+      "market_slug": "fifwc-mex-kr-2026-06-18-kr",
+      "event_slug": "fifwc-mex-kr-2026-06-18",
+      "title": "Will Korea Republic win on 2026-06-18?",
+      "outcome": "No",
+      "end_date": "2026-06-19",
+      "entry_price": 0.755,
+      "last_price": 0.755,
+      "stake_usd": 20.0,
+      "shares": 26.490066225165563,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [],
   "equity_history": [
+    {
+      "date": "2026-06-18",
+      "equity": 1000.0
+    },
     {
       "date": "2026-06-18",
       "equity": 1000.0
