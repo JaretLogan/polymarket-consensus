@@ -1,0 +1,1806 @@
+[
+  {
+    "trader_count": 9,
+    "title": "Strait of Hormuz traffic returns to normal by end of June?",
+    "outcome": "Yes",
+    "combined_value": 344474.69,
+    "avg_entry_price": 0.2837,
+    "current_price": 0.225,
+    "event_url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 115501.31
+      },
+      {
+        "username": "denizz",
+        "value": 30926.99
+      },
+      {
+        "username": "Erasmus.",
+        "value": 90970.59
+      },
+      {
+        "username": "BrightStars",
+        "value": 2684.95
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1207.78
+      },
+      {
+        "username": "tetrose",
+        "value": 38204.38
+      },
+      {
+        "username": "Valen9",
+        "value": 30485.9
+      },
+      {
+        "username": "Clicker1",
+        "value": 23242.79
+      },
+      {
+        "username": "coali10",
+        "value": 11250.0
+      }
+    ]
+  },
+  {
+    "trader_count": 8,
+    "title": "Will the Iranian regime fall by June 30?",
+    "outcome": "No",
+    "combined_value": 1415158.89,
+    "avg_entry_price": 0.8283,
+    "current_price": 0.9975,
+    "event_url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-june-30",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 26168.86
+      },
+      {
+        "username": "denizz",
+        "value": 25578.11
+      },
+      {
+        "username": "Erasmus.",
+        "value": 163718.76
+      },
+      {
+        "username": "BrightStars",
+        "value": 33249.67
+      },
+      {
+        "username": "Wickier",
+        "value": 51835.59
+      },
+      {
+        "username": "AML",
+        "value": 798000.21
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 105225.59
+      },
+      {
+        "username": "Clicker1",
+        "value": 211382.1
+      }
+    ]
+  },
+  {
+    "trader_count": 8,
+    "title": " Iran agrees to end enrichment of uranium by June 30?",
+    "outcome": "Yes",
+    "combined_value": 301593.24,
+    "avg_entry_price": 0.3903,
+    "current_price": 0.525,
+    "event_url": "https://polymarket.com/event/iran-agrees-to-end-enrichment-of-uranium-by-june-30",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 1886.37
+      },
+      {
+        "username": "denizz",
+        "value": 166230.92
+      },
+      {
+        "username": "aenews2",
+        "value": 3105.75
+      },
+      {
+        "username": "Arbguy",
+        "value": 2489.26
+      },
+      {
+        "username": "PatrocIus",
+        "value": 25792.7
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 48323.4
+      },
+      {
+        "username": "tetrose",
+        "value": 4420.59
+      },
+      {
+        "username": "Valen9",
+        "value": 49344.26
+      }
+    ]
+  },
+  {
+    "trader_count": 6,
+    "title": "Will the Iranian regime fall before 2027?",
+    "outcome": "No",
+    "combined_value": 726218.53,
+    "avg_entry_price": 0.6968,
+    "current_price": 0.905,
+    "event_url": "https://polymarket.com/event/will-the-iranian-regime-fall-by-the-end-of-2026",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 96920.11
+      },
+      {
+        "username": "denizz",
+        "value": 262306.71
+      },
+      {
+        "username": "Erasmus.",
+        "value": 258079.48
+      },
+      {
+        "username": "PatrocIus",
+        "value": 2259.79
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 47857.22
+      },
+      {
+        "username": "Clicker1",
+        "value": 58795.22
+      }
+    ]
+  },
+  {
+    "trader_count": 6,
+    "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+    "outcome": "No",
+    "combined_value": 81755.17,
+    "avg_entry_price": 0.672,
+    "current_price": 0.8149,
+    "event_url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 10740.73
+      },
+      {
+        "username": "PatrocIus",
+        "value": 16368.89
+      },
+      {
+        "username": "cigarettes",
+        "value": 3215.02
+      },
+      {
+        "username": "donthackme",
+        "value": 792.96
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 42488.62
+      },
+      {
+        "username": "Valen9",
+        "value": 8148.96
+      }
+    ]
+  },
+  {
+    "trader_count": 5,
+    "title": "Will the U.S. invade Iran before 2027?",
+    "outcome": "No",
+    "combined_value": 412199.92,
+    "avg_entry_price": 0.7176,
+    "current_price": 0.875,
+    "event_url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 19523.04
+      },
+      {
+        "username": "denizz",
+        "value": 221746.16
+      },
+      {
+        "username": "aenews2",
+        "value": 73931.16
+      },
+      {
+        "username": "PatrocIus",
+        "value": 83698.06
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 13301.49
+      }
+    ]
+  },
+  {
+    "trader_count": 5,
+    "title": "Israel withdraws from Lebanon by June 30, 2026?",
+    "outcome": "No",
+    "combined_value": 150373.59,
+    "avg_entry_price": 0.911,
+    "current_price": 0.967,
+    "event_url": "https://polymarket.com/event/israel-withdraws-from-lebanon-by",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 106487.47
+      },
+      {
+        "username": "Arbguy",
+        "value": 986.75
+      },
+      {
+        "username": "PatrocIus",
+        "value": 1635.2
+      },
+      {
+        "username": "tetrose",
+        "value": 38679.99
+      },
+      {
+        "username": "Valen9",
+        "value": 2584.19
+      }
+    ]
+  },
+  {
+    "trader_count": 5,
+    "title": "Israel x Iran permanent peace deal by June 30, 2026?",
+    "outcome": "Yes",
+    "combined_value": 38795.85,
+    "avg_entry_price": 0.0968,
+    "current_price": 0.079,
+    "event_url": "https://polymarket.com/event/israel-x-iran-permanent-peace-deal-by",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 7915.8
+      },
+      {
+        "username": "PatrocIus",
+        "value": 4195.8
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 20400.97
+      },
+      {
+        "username": "Valen9",
+        "value": 808.8
+      },
+      {
+        "username": "coali10",
+        "value": 5474.48
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+    "outcome": "Yes",
+    "combined_value": 476125.16,
+    "avg_entry_price": 0.9048,
+    "current_price": 0.9855,
+    "event_url": "https://polymarket.com/event/peru-presidential-election-winner",
+    "traders": [
+      {
+        "username": "aenews2",
+        "value": 134744.99
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 82585.67
+      },
+      {
+        "username": "Valen9",
+        "value": 31330.56
+      },
+      {
+        "username": "coali10",
+        "value": 227463.94
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will JD Vance win the 2028 US Presidential Election?",
+    "outcome": "Yes",
+    "combined_value": 320459.71,
+    "avg_entry_price": 0.4331,
+    "current_price": 0.167,
+    "event_url": "https://polymarket.com/event/presidential-election-winner-2028",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 81830
+      },
+      {
+        "username": "BrightStars",
+        "value": 155310
+      },
+      {
+        "username": "PatrocIus",
+        "value": 66800
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 16519.71
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will Spencer Pratt win the 2026 Los Angeles mayoral election?",
+    "outcome": "No",
+    "combined_value": 122695.64,
+    "avg_entry_price": 0.8712,
+    "current_price": 0.9925,
+    "event_url": "https://polymarket.com/event/los-angeles-mayoral-election-117",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 82491.99
+      },
+      {
+        "username": "denizz",
+        "value": 26795.31
+      },
+      {
+        "username": "aenews2",
+        "value": 10483.16
+      },
+      {
+        "username": "Valen9",
+        "value": 2925.17
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will Iran close its airspace by June 30?",
+    "outcome": "Yes",
+    "combined_value": 73970.25,
+    "avg_entry_price": 0.8614,
+    "current_price": 0.9995,
+    "event_url": "https://polymarket.com/event/iran-closes-its-airspace-byptptpt-20260609184135829",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 7534.77
+      },
+      {
+        "username": "BrightStars",
+        "value": 53540.77
+      },
+      {
+        "username": "PatrocIus",
+        "value": 12029.14
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 865.57
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Strait of Hormuz traffic returns to normal by July 31?",
+    "outcome": "Yes",
+    "combined_value": 71280.4,
+    "avg_entry_price": 0.4349,
+    "current_price": 0.545,
+    "event_url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+    "traders": [
+      {
+        "username": "Erasmus.",
+        "value": 29860.09
+      },
+      {
+        "username": "aenews2",
+        "value": 62.4
+      },
+      {
+        "username": "BrightStars",
+        "value": 2985.82
+      },
+      {
+        "username": "Clicker1",
+        "value": 38372.09
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will Portugal win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 42852.96,
+    "avg_entry_price": 0.0591,
+    "current_price": 0.0805,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 38896.43
+      },
+      {
+        "username": "cigarettes",
+        "value": 3052.27
+      },
+      {
+        "username": "donthackme",
+        "value": 99.26
+      },
+      {
+        "username": "boyau",
+        "value": 805.0
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+    "outcome": "Yes",
+    "combined_value": 38007.29,
+    "avg_entry_price": 0.8211,
+    "current_price": 0.8149,
+    "event_url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 669.41
+      },
+      {
+        "username": "PatrocIus",
+        "value": 12321.27
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 16867.61
+      },
+      {
+        "username": "Valen9",
+        "value": 8149
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "outcome": "Yes",
+    "combined_value": 22789.43,
+    "avg_entry_price": 0.1845,
+    "current_price": 0.2435,
+    "event_url": "https://polymarket.com/event/brazil-presidential-election",
+    "traders": [
+      {
+        "username": "aenews2",
+        "value": 56.27
+      },
+      {
+        "username": "cigarettes",
+        "value": 2480.38
+      },
+      {
+        "username": "donthackme",
+        "value": 440.17
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 19812.61
+      }
+    ]
+  },
+  {
+    "trader_count": 4,
+    "title": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
+    "outcome": "Yes",
+    "combined_value": 4030.2,
+    "avg_entry_price": 0.1566,
+    "current_price": 0.156,
+    "event_url": "https://polymarket.com/event/israel-x-hezbollah-permanent-peace-deal-by",
+    "traders": [
+      {
+        "username": "aenews2",
+        "value": 1163.44
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 773.68
+      },
+      {
+        "username": "Valen9",
+        "value": 1969.84
+      },
+      {
+        "username": "coali10",
+        "value": 123.24
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will JD Vance win the 2028 US Presidential Election?",
+    "outcome": "No",
+    "combined_value": 1516060.0,
+    "avg_entry_price": 0.5,
+    "current_price": 0.833,
+    "event_url": "https://polymarket.com/event/presidential-election-winner-2028",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 408170
+      },
+      {
+        "username": "BrightStars",
+        "value": 774690
+      },
+      {
+        "username": "PatrocIus",
+        "value": 333200
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
+    "outcome": "No",
+    "combined_value": 301042.14,
+    "avg_entry_price": 0.9758,
+    "current_price": 0.9955,
+    "event_url": "https://polymarket.com/event/makerfield-by-election-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 254614.78
+      },
+      {
+        "username": "donthackme",
+        "value": 883.6
+      },
+      {
+        "username": "Valen9",
+        "value": 45543.76
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Czechia win on 2026-06-18?",
+    "outcome": "Yes",
+    "combined_value": 213500.93,
+    "avg_entry_price": 0.5263,
+    "current_price": 0.515,
+    "event_url": "https://polymarket.com/event/fifwc-cze-rsa-2026-06-18",
+    "traders": [
+      {
+        "username": "BreakTheBank",
+        "value": 51802.82
+      },
+      {
+        "username": "swisstony",
+        "value": 158093.11
+      },
+      {
+        "username": "RN1",
+        "value": 3605
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Hantavirus pandemic in 2026?",
+    "outcome": "No",
+    "combined_value": 167157.23,
+    "avg_entry_price": 0.9138,
+    "current_price": 0.9595,
+    "event_url": "https://polymarket.com/event/hantavirus-pandemic-in-2026",
+    "traders": [
+      {
+        "username": "Erasmus.",
+        "value": 71138.17
+      },
+      {
+        "username": "PatrocIus",
+        "value": 69.46
+      },
+      {
+        "username": "Clicker1",
+        "value": 95949.59
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Spain win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 114540.08,
+    "avg_entry_price": 0.0606,
+    "current_price": 0.1375,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 110000
+      },
+      {
+        "username": "cigarettes",
+        "value": 4423.86
+      },
+      {
+        "username": "donthackme",
+        "value": 116.22
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "US obtains Iranian enriched uranium by December 31?",
+    "outcome": "No",
+    "combined_value": 106086.41,
+    "avg_entry_price": 0.7429,
+    "current_price": 0.865,
+    "event_url": "https://polymarket.com/event/us-obtains-iranian-enriched-uranium-by",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 41244.46
+      },
+      {
+        "username": "PatrocIus",
+        "value": 57129.29
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 7712.66
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Billionaire one-time wealth tax passes in California election 2026?",
+    "outcome": "No",
+    "combined_value": 100849.58,
+    "avg_entry_price": 0.625,
+    "current_price": 0.82,
+    "event_url": "https://polymarket.com/event/billionaire-one-time-wealth-tax-passes-in-california-election-2026",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 80472.53
+      },
+      {
+        "username": "aenews2",
+        "value": 20049.05
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 328
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Reza Pahlavi enter Iran by December 31?",
+    "outcome": "No",
+    "combined_value": 78476.8,
+    "avg_entry_price": 0.7565,
+    "current_price": 0.925,
+    "event_url": "https://polymarket.com/event/will-reza-pahlavi-enter-iran-by-june-30",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 1314.97
+      },
+      {
+        "username": "denizz",
+        "value": 66335.13
+      },
+      {
+        "username": "PatrocIus",
+        "value": 10826.7
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+    "outcome": "No",
+    "combined_value": 58560.09,
+    "avg_entry_price": 0.9571,
+    "current_price": 0.9675,
+    "event_url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 44230.77
+      },
+      {
+        "username": "PatrocIus",
+        "value": 9491.82
+      },
+      {
+        "username": "Valen9",
+        "value": 4837.5
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Trump agree to withdraw troops from the Iranian region by June 30?",
+    "outcome": "Yes",
+    "combined_value": 56356.77,
+    "avg_entry_price": 0.6128,
+    "current_price": 0.745,
+    "event_url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-june-30",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 26734.45
+      },
+      {
+        "username": "Arbguy",
+        "value": 18625
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 10997.31
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the text of the US-Iran agreement be released by June 16? ",
+    "outcome": "No",
+    "combined_value": 53650.82,
+    "avg_entry_price": 0.7437,
+    "current_price": 0.9875,
+    "event_url": "https://polymarket.com/event/us-iran-deal-text-released-byptptpt-20260615224044572",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 11685.66
+      },
+      {
+        "username": "PatrocIus",
+        "value": 14058.32
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 27906.85
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?",
+    "outcome": "Yes",
+    "combined_value": 50517.53,
+    "avg_entry_price": 0.5781,
+    "current_price": 0.7445,
+    "event_url": "https://polymarket.com/event/venezuela-leader-end-of-2026",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 48074.35
+      },
+      {
+        "username": "PatrocIus",
+        "value": 945.45
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1497.73
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+    "outcome": "Yes",
+    "combined_value": 47985.92,
+    "avg_entry_price": 0.2762,
+    "current_price": 0.3315,
+    "event_url": "https://polymarket.com/event/republican-presidential-nominee-2028",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 21639.74
+      },
+      {
+        "username": "donthackme",
+        "value": 77.92
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 26268.27
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Iran coup attempt by June 30?",
+    "outcome": "No",
+    "combined_value": 47167.86,
+    "avg_entry_price": 0.7793,
+    "current_price": 0.9895,
+    "event_url": "https://polymarket.com/event/iran-coup-attempt-by-june-30",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 36236.32
+      },
+      {
+        "username": "PatrocIus",
+        "value": 10415.02
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 516.51
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Iran agrees to surrender enriched uranium stockpile by July 31, 2026?",
+    "outcome": "No",
+    "combined_value": 46548.16,
+    "avg_entry_price": 0.9244,
+    "current_price": 0.935,
+    "event_url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 37706.13
+      },
+      {
+        "username": "PatrocIus",
+        "value": 4095.73
+      },
+      {
+        "username": "Valen9",
+        "value": 4746.31
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Germany win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 45270.15,
+    "avg_entry_price": 0.0166,
+    "current_price": 0.0565,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 45200
+      },
+      {
+        "username": "cigarettes",
+        "value": 37.97
+      },
+      {
+        "username": "donthackme",
+        "value": 32.18
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+    "outcome": "Yes",
+    "combined_value": 38808.35,
+    "avg_entry_price": 0.5052,
+    "current_price": 0.8465,
+    "event_url": "https://polymarket.com/event/iran-leader-end-of-2026",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 930.69
+      },
+      {
+        "username": "denizz",
+        "value": 37852.26
+      },
+      {
+        "username": "PatrocIus",
+        "value": 25.39
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Trump agree to Iranian transit fees in the Strait of Hormuz by June 30?",
+    "outcome": "No",
+    "combined_value": 30972.08,
+    "avg_entry_price": 0.857,
+    "current_price": 0.943,
+    "event_url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-june-30",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 18373.73
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 3822.29
+      },
+      {
+        "username": "tetrose",
+        "value": 8776.07
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the text of the US-Iran agreement be released by June 17?",
+    "outcome": "Yes",
+    "combined_value": 29749.25,
+    "avg_entry_price": 0.7198,
+    "current_price": 0.9985,
+    "event_url": "https://polymarket.com/event/us-iran-deal-text-released-byptptpt-20260615224044572",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 2382.0
+      },
+      {
+        "username": "aenews2",
+        "value": 3206.02
+      },
+      {
+        "username": "PatrocIus",
+        "value": 24161.24
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Ecuador vs. Cura\u00e7ao end in a draw?",
+    "outcome": "No",
+    "combined_value": 25914.64,
+    "avg_entry_price": 0.895,
+    "current_price": 0.915,
+    "event_url": "https://polymarket.com/event/fifwc-ecu-kor-2026-06-20",
+    "traders": [
+      {
+        "username": "swisstony",
+        "value": 7022.67
+      },
+      {
+        "username": "RN1",
+        "value": 6405
+      },
+      {
+        "username": "cigarettes",
+        "value": 12486.97
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Iran leadership change by June 30?",
+    "outcome": "No",
+    "combined_value": 22268.07,
+    "avg_entry_price": 0.9358,
+    "current_price": 0.9865,
+    "event_url": "https://polymarket.com/event/iran-leadership-change-by",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 20186.59
+      },
+      {
+        "username": "PatrocIus",
+        "value": 1538.93
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 542.55
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Boston Red Sox vs. New York Yankees",
+    "outcome": "New York Yankees",
+    "combined_value": 17724.7,
+    "avg_entry_price": 0.5066,
+    "current_price": 0.535,
+    "event_url": "https://polymarket.com/event/mlb-bos-nyy-2026-06-06",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 14827.84
+      },
+      {
+        "username": "RN1",
+        "value": 1635.5
+      },
+      {
+        "username": "HomeRunHazard",
+        "value": 1261.36
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Canada win on 2026-06-18?",
+    "outcome": "No",
+    "combined_value": 10663.78,
+    "avg_entry_price": 0.2401,
+    "current_price": 0.235,
+    "event_url": "https://polymarket.com/event/fifwc-can-qat-2026-06-18",
+    "traders": [
+      {
+        "username": "swisstony",
+        "value": 10481.36
+      },
+      {
+        "username": "sbsigner",
+        "value": 30.43
+      },
+      {
+        "username": "donthackme",
+        "value": 151.99
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "US strike on Cuba by December 31?",
+    "outcome": "Yes",
+    "combined_value": 10550.08,
+    "avg_entry_price": 0.4292,
+    "current_price": 0.535,
+    "event_url": "https://polymarket.com/event/us-strike-on-cuba-by",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 5431.77
+      },
+      {
+        "username": "aenews2",
+        "value": 4759.45
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 358.86
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": " Iran agrees to end enrichment of uranium by December 31?",
+    "outcome": "Yes",
+    "combined_value": 10397.78,
+    "avg_entry_price": 0.4929,
+    "current_price": 0.68,
+    "event_url": "https://polymarket.com/event/iran-agrees-to-end-enrichment-of-uranium-by-december-31",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 5062.75
+      },
+      {
+        "username": "PatrocIus",
+        "value": 408
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 4927.03
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the U.S. invade Cuba in 2026?",
+    "outcome": "Yes",
+    "combined_value": 9882.94,
+    "avg_entry_price": 0.222,
+    "current_price": 0.225,
+    "event_url": "https://polymarket.com/event/will-the-us-invade-cuba-in-2026",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 3212.27
+      },
+      {
+        "username": "aenews2",
+        "value": 6513.16
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 157.5
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "outcome": "No",
+    "combined_value": 9372.13,
+    "avg_entry_price": 0.3857,
+    "current_price": 0.575,
+    "event_url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 7357.91
+      },
+      {
+        "username": "cigarettes",
+        "value": 1873.55
+      },
+      {
+        "username": "donthackme",
+        "value": 140.68
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will James Fishback be the Republican nominee for Florida Governor?",
+    "outcome": "No",
+    "combined_value": 9146.51,
+    "avg_entry_price": 0.9006,
+    "current_price": 0.935,
+    "event_url": "https://polymarket.com/event/republican-nominee-for-florida-governor",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 2823.53
+      },
+      {
+        "username": "aenews2",
+        "value": 6251.76
+      },
+      {
+        "username": "cigarettes",
+        "value": 71.22
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Ecuador win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 8239.13,
+    "avg_entry_price": 0.013,
+    "current_price": 0.0045,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 3600.0
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 1039.13
+      },
+      {
+        "username": "boyau",
+        "value": 3600.0
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Senegal win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 8056.17,
+    "avg_entry_price": 0.0134,
+    "current_price": 0.0065,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 5200
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 581.17
+      },
+      {
+        "username": "boyau",
+        "value": 2275
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Trump agree to Iranian enrichment of uranium by June 30?",
+    "outcome": "Yes",
+    "combined_value": 7541.45,
+    "avg_entry_price": 0.1529,
+    "current_price": 0.1025,
+    "event_url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-june-30",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 2125.97
+      },
+      {
+        "username": "Arbguy",
+        "value": 4411.57
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1003.91
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the Democrats win the Maine Senate race in 2026?",
+    "outcome": "No",
+    "combined_value": 7539.53,
+    "avg_entry_price": 0.3225,
+    "current_price": 0.36,
+    "event_url": "https://polymarket.com/event/maine-senate-election-winner",
+    "traders": [
+      {
+        "username": "Arbguy",
+        "value": 6404.27
+      },
+      {
+        "username": "cigarettes",
+        "value": 216.0
+      },
+      {
+        "username": "donthackme",
+        "value": 919.25
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Netanyahu out by end of 2026?",
+    "outcome": "Yes",
+    "combined_value": 5807.4,
+    "avg_entry_price": 0.4707,
+    "current_price": 0.63,
+    "event_url": "https://polymarket.com/event/netanyahu-out-before-2027",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 4438.5
+      },
+      {
+        "username": "PatrocIus",
+        "value": 945
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 423.9
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will J.D. Vance attend the next US x Iran diplomatic meeting?",
+    "outcome": "Yes",
+    "combined_value": 4888.34,
+    "avg_entry_price": 0.3649,
+    "current_price": 0.6274,
+    "event_url": "https://polymarket.com/event/who-will-attend-the-next-us-x-iran-diplomatic-meeting",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 1549.33
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 3169.2
+      },
+      {
+        "username": "tetrose",
+        "value": 169.81
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Turkiye win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 4483.89,
+    "avg_entry_price": 0.0151,
+    "current_price": 0.0045,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 3600.0
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 703.89
+      },
+      {
+        "username": "boyau",
+        "value": 180
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Strait of Hormuz traffic returns to normal by July 15?",
+    "outcome": "Yes",
+    "combined_value": 4406.32,
+    "avg_entry_price": 0.4566,
+    "current_price": 0.395,
+    "event_url": "https://polymarket.com/event/strait-of-hormuz-traffic-returns-to-normal-by-july-15",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 1148.76
+      },
+      {
+        "username": "aenews2",
+        "value": 2467.57
+      },
+      {
+        "username": "PatrocIus",
+        "value": 790
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will South Korea win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 4047.47,
+    "avg_entry_price": 0.0119,
+    "current_price": 0.0035,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 2800
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 547.47
+      },
+      {
+        "username": "boyau",
+        "value": 700.0
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the next diplomatic US-Iran meeting be in Qatar?",
+    "outcome": "Yes",
+    "combined_value": 3936.2,
+    "avg_entry_price": 0.1439,
+    "current_price": 0.1095,
+    "event_url": "https://polymarket.com/event/where-will-the-next-us-iran-diplomatic-meeting-happen-455",
+    "traders": [
+      {
+        "username": "denizz",
+        "value": 1992.42
+      },
+      {
+        "username": "donthackme",
+        "value": 37.67
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1906.11
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Ukraine officially agrees to a US backed ceasefire framework by June 30?",
+    "outcome": "No",
+    "combined_value": 3926.69,
+    "avg_entry_price": 0.8254,
+    "current_price": 0.929,
+    "event_url": "https://polymarket.com/event/ukraine-officially-agrees-to-a-us-backed-ceasefire-framework-in-2025",
+    "traders": [
+      {
+        "username": "PatrocIus",
+        "value": 44.59
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 3688.56
+      },
+      {
+        "username": "tetrose",
+        "value": 193.53
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Nithya Raman win the 2026 Los Angeles mayoral election?",
+    "outcome": "Yes",
+    "combined_value": 3898.95,
+    "avg_entry_price": 0.258,
+    "current_price": 0.381,
+    "event_url": "https://polymarket.com/event/los-angeles-mayoral-election-117",
+    "traders": [
+      {
+        "username": "aenews2",
+        "value": 1708.17
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1571.89
+      },
+      {
+        "username": "coali10",
+        "value": 618.88
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Canada win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 3464.95,
+    "avg_entry_price": 0.0121,
+    "current_price": 0.0025,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 2000
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 1224.61
+      },
+      {
+        "username": "boyau",
+        "value": 240.34
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+    "outcome": "Yes",
+    "combined_value": 3387.73,
+    "avg_entry_price": 0.1941,
+    "current_price": 0.0325,
+    "event_url": "https://polymarket.com/event/iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "traders": [
+      {
+        "username": "wan123",
+        "value": 1635.97
+      },
+      {
+        "username": "Arbguy",
+        "value": 691.89
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1059.87
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Scotland win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 3204.71,
+    "avg_entry_price": 0.0121,
+    "current_price": 0.0025,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 2000
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 954.71
+      },
+      {
+        "username": "boyau",
+        "value": 250
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Egypt win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 2702.29,
+    "avg_entry_price": 0.0117,
+    "current_price": 0.0025,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 2000
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 577.29
+      },
+      {
+        "username": "boyau",
+        "value": 125
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Trump agree to withdraw troops from the Iranian region by June 30?",
+    "outcome": "No",
+    "combined_value": 2660.2,
+    "avg_entry_price": 0.3299,
+    "current_price": 0.255,
+    "event_url": "https://polymarket.com/event/what-iranian-demands-will-trump-agree-to-by-june-30",
+    "traders": [
+      {
+        "username": "aenews2",
+        "value": 1698.21
+      },
+      {
+        "username": "PatrocIus",
+        "value": 911.0
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 51
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will there be another US government shutdown by January 31 and will the Republican Party win the House in 2026?",
+    "outcome": "No",
+    "combined_value": 2575.51,
+    "avg_entry_price": 0.5514,
+    "current_price": 0.8179,
+    "event_url": "https://polymarket.com/event/another-us-government-shutdown-house-winner-2026",
+    "traders": [
+      {
+        "username": "cigarettes",
+        "value": 43.29
+      },
+      {
+        "username": "donthackme",
+        "value": 313.86
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 2218.36
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Switzerland win on 2026-06-18?",
+    "outcome": "No",
+    "combined_value": 2558.5,
+    "avg_entry_price": 0.3711,
+    "current_price": 0.375,
+    "event_url": "https://polymarket.com/event/fifwc-che-bih-2026-06-18",
+    "traders": [
+      {
+        "username": "swisstony",
+        "value": 1701.09
+      },
+      {
+        "username": "RN1",
+        "value": 217.5
+      },
+      {
+        "username": "sbsigner",
+        "value": 639.91
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Marco Rubio win the 2028 US Presidential Election?",
+    "outcome": "Yes",
+    "combined_value": 1649.44,
+    "avg_entry_price": 0.0359,
+    "current_price": 0.1565,
+    "event_url": "https://polymarket.com/event/presidential-election-winner-2028",
+    "traders": [
+      {
+        "username": "alwayslatetotheparty",
+        "value": 237.36
+      },
+      {
+        "username": "donthackme",
+        "value": 27.0
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 1385.08
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
+    "outcome": "No",
+    "combined_value": 1352.84,
+    "avg_entry_price": 0.824,
+    "current_price": 0.79,
+    "event_url": "https://polymarket.com/event/where-will-the-next-us-iran-diplomatic-meeting-happen-455",
+    "traders": [
+      {
+        "username": "cigarettes",
+        "value": 47.4
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 78.99
+      },
+      {
+        "username": "Valen9",
+        "value": 1226.45
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will no qualifying diplomatic US-Iran meeting occur by June 30, 2026?",
+    "outcome": "Yes",
+    "combined_value": 985.41,
+    "avg_entry_price": 0.1406,
+    "current_price": 0.21,
+    "event_url": "https://polymarket.com/event/where-will-the-next-us-iran-diplomatic-meeting-happen-455",
+    "traders": [
+      {
+        "username": "PatrocIus",
+        "value": 287.79
+      },
+      {
+        "username": "donthackme",
+        "value": 581.14
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 116.48
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will the next diplomatic US-Iran meeting be in Switzerland?",
+    "outcome": "No",
+    "combined_value": 883.93,
+    "avg_entry_price": 0.1991,
+    "current_price": 0.4595,
+    "event_url": "https://polymarket.com/event/where-will-the-next-us-iran-diplomatic-meeting-happen-455",
+    "traders": [
+      {
+        "username": "donthackme",
+        "value": 235.84
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 147.96
+      },
+      {
+        "username": "tetrose",
+        "value": 500.13
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Canada win Group B in the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 595.5,
+    "avg_entry_price": 0.2604,
+    "current_price": 0.3449,
+    "event_url": "https://polymarket.com/event/world-cup-group-b-winner",
+    "traders": [
+      {
+        "username": "cigarettes",
+        "value": 139.11
+      },
+      {
+        "username": "donthackme",
+        "value": 25.08
+      },
+      {
+        "username": "boyau",
+        "value": 431.3
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Czechia win the 2026 FIFA World Cup?",
+    "outcome": "Yes",
+    "combined_value": 526.62,
+    "avg_entry_price": 0.0119,
+    "current_price": 0.0005,
+    "event_url": "https://polymarket.com/event/world-cup-winner",
+    "traders": [
+      {
+        "username": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "value": 400
+      },
+      {
+        "username": "alwayslatetotheparty",
+        "value": 26.62
+      },
+      {
+        "username": "boyau",
+        "value": 100
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Renan Santos win the 2026 Brazilian presidential election?",
+    "outcome": "Yes",
+    "combined_value": 477.81,
+    "avg_entry_price": 0.0607,
+    "current_price": 0.152,
+    "event_url": "https://polymarket.com/event/brazil-presidential-election",
+    "traders": [
+      {
+        "username": "cigarettes",
+        "value": 225.65
+      },
+      {
+        "username": "donthackme",
+        "value": 83.29
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 168.87
+      }
+    ]
+  },
+  {
+    "trader_count": 3,
+    "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+    "outcome": "Yes",
+    "combined_value": 377.15,
+    "avg_entry_price": 0.242,
+    "current_price": 0.335,
+    "event_url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+    "traders": [
+      {
+        "username": "cigarettes",
+        "value": 181.36
+      },
+      {
+        "username": "donthackme",
+        "value": 145.53
+      },
+      {
+        "username": "ScottyNooo",
+        "value": 50.25
+      }
+    ]
+  }
+]
