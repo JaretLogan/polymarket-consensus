@@ -36,7 +36,7 @@
       "title": " Iran agrees to end enrichment of uranium by June 30?",
       "outcome": "Yes",
       "entry_price": 0.49,
-      "last_price": 0.49,
+      "last_price": 0.505,
       "stake_usd": 20.0,
       "shares": 40.816326530612244,
       "trader_count_at_entry": 8
@@ -62,7 +62,7 @@
       "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
       "outcome": "No",
       "entry_price": 0.8149,
-      "last_price": 0.8149,
+      "last_price": 0.815,
       "stake_usd": 20.0,
       "shares": 24.542888697999757,
       "trader_count_at_entry": 6
@@ -75,7 +75,7 @@
       "title": "Israel x Iran permanent peace deal by June 30, 2026?",
       "outcome": "Yes",
       "entry_price": 0.0755,
-      "last_price": 0.0755,
+      "last_price": 0.0745,
       "stake_usd": 20.0,
       "shares": 264.90066225165566,
       "trader_count_at_entry": 6
@@ -101,7 +101,7 @@
       "title": "Israel withdraws from Lebanon by June 30, 2026?",
       "outcome": "No",
       "entry_price": 0.9715,
-      "last_price": 0.9715,
+      "last_price": 0.9735,
       "stake_usd": 20.0,
       "shares": 20.58672156459084,
       "trader_count_at_entry": 5
@@ -192,7 +192,7 @@
       "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
       "outcome": "Yes",
       "entry_price": 0.8149,
-      "last_price": 0.8149,
+      "last_price": 0.815,
       "stake_usd": 20.0,
       "shares": 24.542888697999757,
       "trader_count_at_entry": 4
@@ -218,7 +218,7 @@
       "title": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
       "outcome": "Yes",
       "entry_price": 0.16,
-      "last_price": 0.16,
+      "last_price": 0.1595,
       "stake_usd": 20.0,
       "shares": 125.0,
       "trader_count_at_entry": 4
@@ -268,6 +268,10 @@
     {
       "date": "2026-06-18",
       "equity": 1000.0
+    },
+    {
+      "date": "2026-06-18",
+      "equity": 1000.33
     }
   ]
 }
