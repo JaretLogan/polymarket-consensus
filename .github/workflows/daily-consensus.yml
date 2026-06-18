@@ -31,7 +31,8 @@ jobs:
             --max-open 20 \
             --top 50 \
             --period MONTH \
-            --min-traders 3
+            --min-traders 3 \
+            --max-days 3
 
       - name: Commit updated paper trading state
         uses: stefanzweifel/git-auto-commit-action@v5
