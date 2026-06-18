@@ -1,7 +1,27 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1000.0,
-  "open_positions": [],
+  "cash": 980.0,
+  "open_positions": [
+    {
+      "opened_at": "2026-06-18T05:38:53.474498+00:00",
+      "condition_id": "0xa6cd933c6cc3487b1a8505ecfad35d38428cbc9e3df01cc81fa10219b8724d25",
+      "market_slug": "fifwc-ecu-kor-2026-06-20-draw",
+      "event_slug": "fifwc-ecu-kor-2026-06-20",
+      "title": "Will Ecuador vs. Cura\u00e7ao end in a draw?",
+      "outcome": "No",
+      "end_date": "2026-06-21",
+      "entry_price": 0.915,
+      "last_price": 0.915,
+      "stake_usd": 20.0,
+      "shares": 21.85792349726776,
+      "trader_count_at_entry": 3
+    }
+  ],
   "closed_positions": [],
-  "equity_history": []
+  "equity_history": [
+    {
+      "date": "2026-06-18",
+      "equity": 1000.0
+    }
+  ]
 }
