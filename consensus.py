@@ -24,6 +24,7 @@ import sys
 import time
 from collections import defaultdict
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 
 import requests
 
@@ -40,11 +41,27 @@ class ConsensusEntry:
     outcome: str
     event_slug: str
     market_slug: str
+    end_date: str = ""
     trader_count: int = 0
     total_current_value: float = 0.0
     avg_entry_price: float = 0.0
     cur_price: float = 0.0
     traders: list = field(default_factory=list)  # list of (username, value)
+
+
+def days_remaining(end_date_str: str):
+    """Days from now until a market's endDate. Returns None if unparseable/missing."""
+    if not end_date_str:
+        return None
+    try:
+        cleaned = end_date_str.replace("Z", "+00:00")
+        end_dt = datetime.fromisoformat(cleaned)
+        if end_dt.tzinfo is None:
+            end_dt = end_dt.replace(tzinfo=timezone.utc)
+        delta = end_dt - datetime.now(timezone.utc)
+        return delta.total_seconds() / 86400
+    except (ValueError, TypeError):
+        return None
 
 
 def fetch_leaderboard(limit: int, period: str, category: str, order_by: str) -> list:
@@ -89,10 +106,15 @@ def fetch_positions(wallet: str, size_threshold: float = 1.0) -> list:
     return resp.json()
 
 
-def build_consensus(traders: list, min_traders: int, min_position_value: float) -> list:
+def build_consensus(traders: list, min_traders: int, min_position_value: float,
+                     max_days: float = None) -> list:
     """
     For every (conditionId, outcome) pair, count how many of the top
     traders hold that exact side, and total how much money they have on it.
+
+    If max_days is set, only keep trades whose market resolves within that
+    many days from now (markets with no/unparseable endDate are excluded
+    when this filter is active, since we can't confirm they qualify).
     """
     groups: dict = defaultdict(lambda: None)
 
@@ -117,6 +139,7 @@ def build_consensus(traders: list, min_traders: int, min_position_value: float) 
                     outcome=p["outcome"],
                     event_slug=p.get("eventSlug", ""),
                     market_slug=p.get("slug", ""),
+                    end_date=p.get("endDate", ""),
                     cur_price=p.get("curPrice", 0),
                 )
             entry = groups[key]
@@ -132,7 +155,18 @@ def build_consensus(traders: list, min_traders: int, min_position_value: float) 
         r.avg_entry_price = round(r.avg_entry_price / r.trader_count, 4)
         r.total_current_value = round(r.total_current_value, 2)
 
-    results.sort(key=lambda r: (r.trader_count, r.total_current_value), reverse=True)
+    if max_days is not None:
+        filtered = []
+        for r in results:
+            d = days_remaining(r.end_date)
+            if d is not None and 0 <= d <= max_days:
+                filtered.append(r)
+        results = filtered
+        # when racing against a deadline, soonest-resolving first beats trader-count first
+        results.sort(key=lambda r: (days_remaining(r.end_date), -r.trader_count))
+    else:
+        results.sort(key=lambda r: (r.trader_count, r.total_current_value), reverse=True)
+
     return results
 
 
@@ -142,7 +176,9 @@ def print_report(results: list, top_n: int):
         return
     print(f"\n{'='*90}\nCONSENSUS TRADES (top {top_n})\n{'='*90}")
     for r in results[:top_n]:
-        print(f"\n[{r.trader_count} traders] {r.title}  ->  {r.outcome}")
+        d = days_remaining(r.end_date)
+        when = f"resolves in {d:.1f}d" if d is not None else "resolution date unknown"
+        print(f"\n[{r.trader_count} traders] {r.title}  ->  {r.outcome}  ({when})")
         print(f"  market: https://polymarket.com/event/{r.event_slug}")
         print(f"  combined position value: ${r.total_current_value:,.2f}   "
               f"avg entry price: {r.avg_entry_price:.3f}   current price: {r.cur_price:.3f}")
@@ -155,12 +191,13 @@ def write_csv(results: list, path: str):
         writer = csv.writer(f)
         writer.writerow([
             "trader_count", "title", "outcome", "combined_value",
-            "avg_entry_price", "current_price", "event_url", "trader_list"
+            "avg_entry_price", "current_price", "end_date", "days_remaining",
+            "event_url", "trader_list"
         ])
         for r in results:
             writer.writerow([
                 r.trader_count, r.title, r.outcome, r.total_current_value,
-                r.avg_entry_price, r.cur_price,
+                r.avg_entry_price, r.cur_price, r.end_date, days_remaining(r.end_date),
                 f"https://polymarket.com/event/{r.event_slug}",
                 "; ".join(f"{n}:${v:,.0f}" for n, v in r.traders),
             ])
@@ -175,6 +212,8 @@ def write_json(results: list, path: str):
             "combined_value": r.total_current_value,
             "avg_entry_price": r.avg_entry_price,
             "current_price": r.cur_price,
+            "end_date": r.end_date,
+            "days_remaining": days_remaining(r.end_date),
             "event_url": f"https://polymarket.com/event/{r.event_slug}",
             "traders": [{"username": n, "value": v} for n, v in r.traders],
         }
@@ -196,10 +235,12 @@ def send_discord(results: list, webhook_url: str, top_n: int):
         names = ", ".join(n for n, _ in r.traders[:6])
         if len(r.traders) > 6:
             names += f" +{len(r.traders) - 6} more"
+        d = days_remaining(r.end_date)
+        when = f"resolves in {d:.1f}d" if d is not None else "resolution unknown"
         fields.append({
             "name": f"[{r.trader_count} traders] {r.title} -> {r.outcome}",
             "value": (f"${r.total_current_value:,.0f} combined | entry {r.avg_entry_price:.2f} -> "
-                      f"now {r.cur_price:.2f}\n{names}\nhttps://polymarket.com/event/{r.event_slug}"),
+                      f"now {r.cur_price:.2f} | {when}\n{names}\nhttps://polymarket.com/event/{r.event_slug}"),
             "inline": False,
         })
 
@@ -222,6 +263,8 @@ def main():
     ap.add_argument("--order-by", choices=["PNL", "VOL"], default="PNL", dest="order_by")
     ap.add_argument("--min-traders", type=int, default=3, help="minimum overlapping traders to count as 'consensus'")
     ap.add_argument("--min-position-value", type=float, default=25.0, help="ignore dust positions below this $ value")
+    ap.add_argument("--max-days", type=float, default=None,
+                     help="only show trades resolving within this many days (e.g. 3). Default: no limit")
     ap.add_argument("--show", type=int, default=15, help="how many consensus trades to print")
     ap.add_argument("--csv", help="optional path to write full results as CSV")
     ap.add_argument("--json", help="optional path to write full results as JSON")
@@ -233,7 +276,7 @@ def main():
     traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
     print(f"Got {len(traders)} traders. Pulling their open positions...")
 
-    results = build_consensus(traders, args.min_traders, args.min_position_value)
+    results = build_consensus(traders, args.min_traders, args.min_position_value, args.max_days)
 
     print_report(results, args.show)
 
