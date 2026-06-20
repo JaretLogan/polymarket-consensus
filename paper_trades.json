@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 980.0,
+  "cash": 1010.3914811087374,
   "open_positions": [
     {
       "opened_at": "2026-06-18T05:38:53.474498+00:00",
@@ -11,13 +11,90 @@
       "outcome": "No",
       "end_date": "2026-06-21",
       "entry_price": 0.915,
-      "last_price": 0.915,
+      "last_price": 0.905,
       "stake_usd": 20.0,
       "shares": 21.85792349726776,
       "trader_count_at_entry": 3
     }
   ],
-  "closed_positions": [],
+  "closed_positions": [
+    {
+      "opened_at": "2026-06-18T19:45:46.543974+00:00",
+      "condition_id": "0xaf82c474327eb07563996ffd644da88da46547cb5ecb1c63fc7f6d67849fdf00",
+      "market_slug": "fifwc-mex-kr-2026-06-18-btts",
+      "event_slug": "fifwc-mex-kr-2026-06-18-more-markets",
+      "title": "Mexico vs. Korea Republic: Both Teams to Score",
+      "outcome": "No",
+      "end_date": "2026-06-19",
+      "entry_price": 0.485,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-06-19T04:33:59.405260+00:00",
+      "exit_price": 1.0,
+      "payout": 41.24,
+      "pnl": 21.24,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-06-18T19:45:46.543989+00:00",
+      "condition_id": "0xa6ae199ce172475dd0e29d7584810a15a1d4608398d2f42d7ca39bfac45ed52b",
+      "market_slug": "fifwc-mex-kr-2026-06-18-kr",
+      "event_slug": "fifwc-mex-kr-2026-06-18",
+      "title": "Will Korea Republic win on 2026-06-18?",
+      "outcome": "No",
+      "end_date": "2026-06-19",
+      "entry_price": 0.755,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 26.490066225165563,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-06-19T04:33:59.545187+00:00",
+      "exit_price": 1.0,
+      "payout": 26.49,
+      "pnl": 6.49,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-06-19T04:34:16.857880+00:00",
+      "condition_id": "0xd414a4bdb4c86f835fb31e432ab3ea15e374fe7f39b6b0a224c7a521378967ea",
+      "market_slug": "fifwc-bra-hai-2026-06-19-draw",
+      "event_slug": "fifwc-bra-hai-2026-06-19",
+      "title": "Will Brazil vs. Haiti end in a draw?",
+      "outcome": "No",
+      "end_date": "2026-06-20",
+      "entry_price": 0.9175,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 21.798365122615806,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-06-20T03:35:27.222144+00:00",
+      "exit_price": 1.0,
+      "payout": 21.8,
+      "pnl": 1.8,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-06-19T16:11:17.306300+00:00",
+      "condition_id": "0xc7a9f8cf846f6eba833fc69da7340af7c150e6cf72fc9501507a4431bbcde19e",
+      "market_slug": "fifwc-bra-hai-2026-06-19-hai",
+      "event_slug": "fifwc-bra-hai-2026-06-19",
+      "title": "Will Haiti win on 2026-06-19?",
+      "outcome": "No",
+      "end_date": "2026-06-20",
+      "entry_price": 0.9585,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.865936358894103,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-06-20T03:35:27.537996+00:00",
+      "exit_price": 1.0,
+      "payout": 20.87,
+      "pnl": 0.87,
+      "result": "win"
+    }
+  ],
   "equity_history": [
     {
       "date": "2026-06-18",
@@ -26,6 +103,42 @@
     {
       "date": "2026-06-18",
       "equity": 1000.0
+    },
+    {
+      "date": "2026-06-18",
+      "equity": 1000.0
+    },
+    {
+      "date": "2026-06-18",
+      "equity": 1000.0
+    },
+    {
+      "date": "2026-06-18",
+      "equity": 1000.0
+    },
+    {
+      "date": "2026-06-19",
+      "equity": 1027.51
+    },
+    {
+      "date": "2026-06-19",
+      "equity": 1027.57
+    },
+    {
+      "date": "2026-06-20",
+      "equity": 1030.13
+    },
+    {
+      "date": "2026-06-20",
+      "equity": 1030.15
+    },
+    {
+      "date": "2026-06-20",
+      "equity": 1030.17
+    },
+    {
+      "date": "2026-06-20",
+      "equity": 1030.17
     }
   ]
 }

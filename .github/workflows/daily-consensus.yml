@@ -19,26 +19,35 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install requests
+      - run: pip install requests matplotlib
 
       - name: Run paper trader (settle + scan for new consensus trades)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
+          if [ -f watchlist.json ]; then
+            echo "Using discovered watchlist.json"
+            EXTRA_ARGS="--watchlist watchlist.json"
+          else
+            echo "No watchlist.json yet, falling back to top-50 monthly leaderboard"
+            EXTRA_ARGS="--top 50 --period MONTH"
+          fi
           python paper_trader.py \
             --starting-bankroll 1000 \
             --stake 20 \
             --max-open 20 \
-            --top 50 \
-            --period MONTH \
             --min-traders 3 \
-            --max-days 3
+            --max-days 3 \
+            $EXTRA_ARGS
 
-      - name: Commit updated paper trading state
+      - name: Render equity curve chart
+        run: python chart.py --state-file paper_trades.json --out equity_curve.png
+
+      - name: Commit updated paper trading state and chart
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update paper trading state [skip ci]"
-          file_pattern: paper_trades.json
+          file_pattern: paper_trades.json equity_curve.png
 
       - name: Upload state as workflow artifact
         uses: actions/upload-artifact@v4
