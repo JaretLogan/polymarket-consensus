@@ -1,0 +1,48 @@
+name: Daily Insider Buying Signal + Paper Trading
+
+on:
+  schedule:
+    - cron: "30 21 * * 1-5"  # 21:30 UTC ~ 5:30pm ET, weekdays only (after market close)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests matplotlib
+
+      - name: Run insider paper trader
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_INSIDER }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          python insider_paper_trader.py \
+            --starting-bankroll 1000 \
+            --stake 50 \
+            --max-open 20 \
+            --hold-days 30 \
+            --min-insiders 2 \
+            --min-value 25000 \
+            --lookback-hours 24
+
+      - name: Render equity curve chart
+        run: |
+          python chart.py \
+            --state-file insider_trades.json \
+            --out insider_equity_curve.png \
+            --title "Insider Buying Strategy — Paper Trading Equity"
+
+      - name: Commit updated state and chart
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update insider paper trading state [skip ci]"
+          file_pattern: insider_trades.json insider_equity_curve.png
