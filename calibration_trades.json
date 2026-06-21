@@ -1,0 +1,12 @@
+{
+  "starting_bankroll": 1000.0,
+  "cash": 1000.0,
+  "open_positions": [],
+  "closed_positions": [],
+  "equity_history": [
+    {
+      "date": "2026-06-21",
+      "equity": 1000.0
+    }
+  ]
+}
