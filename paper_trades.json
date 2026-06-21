@@ -1,19 +1,19 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1010.3914811087374,
+  "cash": 990.3914811087374,
   "open_positions": [
     {
-      "opened_at": "2026-06-18T05:38:53.474498+00:00",
-      "condition_id": "0xa6cd933c6cc3487b1a8505ecfad35d38428cbc9e3df01cc81fa10219b8724d25",
-      "market_slug": "fifwc-ecu-kor-2026-06-20-draw",
-      "event_slug": "fifwc-ecu-kor-2026-06-20",
-      "title": "Will Ecuador vs. Cura\u00e7ao end in a draw?",
+      "opened_at": "2026-06-21T15:14:18.539307+00:00",
+      "condition_id": "0xba8526e4bf87c26c043d7048d364508d066117c173a91f2c56a82128fdc9102c",
+      "market_slug": "will-adriano-espaillat-be-the-democratic-nominee-for-ny-13",
+      "event_slug": "ny-13-democratic-primary-winner",
+      "title": "Will Adriano Espaillat be the Democratic Nominee for NY-13?",
       "outcome": "No",
-      "end_date": "2026-06-21",
-      "entry_price": 0.915,
-      "last_price": 0.905,
+      "end_date": "2026-06-23",
+      "entry_price": 0.435,
+      "last_price": 0.435,
       "stake_usd": 20.0,
-      "shares": 21.85792349726776,
+      "shares": 45.97701149425287,
       "trader_count_at_entry": 3
     }
   ],
@@ -93,6 +93,25 @@
       "payout": 20.87,
       "pnl": 0.87,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-06-18T05:38:53.474498+00:00",
+      "condition_id": "0xa6cd933c6cc3487b1a8505ecfad35d38428cbc9e3df01cc81fa10219b8724d25",
+      "market_slug": "fifwc-ecu-kor-2026-06-20-draw",
+      "event_slug": "fifwc-ecu-kor-2026-06-20",
+      "title": "Will Ecuador vs. Cura\u00e7ao end in a draw?",
+      "outcome": "No",
+      "end_date": "2026-06-21",
+      "entry_price": 0.915,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 21.85792349726776,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-06-21T15:13:56.153789+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -139,6 +158,10 @@
     {
       "date": "2026-06-20",
       "equity": 1030.17
+    },
+    {
+      "date": "2026-06-21",
+      "equity": 1010.39
     }
   ]
 }
