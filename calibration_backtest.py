@@ -74,9 +74,17 @@ def fetch_closed_binary_markets(max_markets: int, min_volume: float, max_pages: 
             "order": "volume",
             "ascending": "false",
         }
-        resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        batch = resp.json()
+        try:
+            resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
+            resp.raise_for_status()
+            batch = resp.json()
+        except requests.RequestException as e:
+            # Gamma's API appears to reject requests past a certain pagination
+            # depth (undocumented). Rather than crash the whole run, work with
+            # whatever was collected so far -- a partial sample is still useful.
+            print(f"  [warn] page at offset {offset} failed ({e}), stopping pagination here "
+                  f"and proceeding with {len(out)} markets collected so far", file=sys.stderr)
+            break
         if not batch:
             break
 
