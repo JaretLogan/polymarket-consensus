@@ -1,0 +1,42 @@
+name: Weekly Calibration Bias Backtest
+
+# Rebuilds calibration_table.json by sampling thousands of already-resolved
+# Polymarket markets and checking whether the market is systematically
+# mispriced at certain price levels (favorite-longshot bias). Weekly because
+# this is a slow-changing structural property of the market, not something
+# that needs checking daily.
+
+on:
+  schedule:
+    - cron: "0 14 * * 0"  # Sundays at 14:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests
+
+      - name: Run calibration backtest
+        run: |
+          python calibration_backtest.py \
+            --max-markets 1500 \
+            --min-volume 5000 \
+            --days-before 3 \
+            --min-bucket-n 30 \
+            --out calibration_table.json
+
+      - name: Commit updated calibration table
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update calibration table [skip ci]"
+          file_pattern: calibration_table.json

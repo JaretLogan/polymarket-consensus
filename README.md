@@ -15,6 +15,10 @@ key, no order placement, ever.
 **Looking for the SEC insider-buying bot?** That's a separate, independent
 strategy in this same repo — see [`INSIDER_TRACKER.md`](INSIDER_TRACKER.md).
 
+**Looking for the calibration bias bot?** A third, independent strategy
+that checks whether Polymarket itself is mispriced, rather than copying
+traders or watching insiders — see [`CALIBRATION_BOT.md`](CALIBRATION_BOT.md).
+
 ## Setup
 
 ```bash

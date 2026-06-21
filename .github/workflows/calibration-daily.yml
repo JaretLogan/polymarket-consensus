@@ -1,0 +1,53 @@
+name: Daily Calibration Bias Paper Trading
+
+on:
+  schedule:
+    - cron: "0 13 * * *"  # 13:00 UTC ~ 9am ET, daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests matplotlib
+
+      - name: Check calibration table exists
+        run: |
+          if [ ! -f calibration_table.json ]; then
+            echo "::error::calibration_table.json doesn't exist yet. Run the 'Weekly Calibration Bias Backtest' workflow manually first (Actions tab), then re-run this one."
+            exit 1
+          fi
+
+      - name: Run calibration paper trader
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_CALIBRATION }}
+        run: |
+          python calibration_paper_trader.py \
+            --starting-bankroll 1000 \
+            --stake 20 \
+            --max-open 20 \
+            --min-edge 0.03 \
+            --min-z 1.5 \
+            --min-bucket-n 30
+
+      - name: Render equity curve chart
+        run: |
+          python chart.py \
+            --state-file calibration_trades.json \
+            --out calibration_equity_curve.png \
+            --title "Calibration Bias Strategy — Paper Trading Equity"
+
+      - name: Commit updated state and chart
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update calibration paper trading state [skip ci]"
+          file_pattern: calibration_trades.json calibration_equity_curve.png
