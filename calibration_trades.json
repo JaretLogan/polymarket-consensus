@@ -5,10 +5,6 @@
   "closed_positions": [],
   "equity_history": [
     {
-      "date": "2026-06-20",
-      "equity": 1000.0
-    },
-    {
       "date": "2026-06-21",
       "equity": 1000.0
     }

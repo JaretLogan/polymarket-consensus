@@ -70,9 +70,14 @@ def fetch_open_binary_markets(max_markets: int, min_volume: float, max_pages: in
             "closed": "false", "active": "true", "limit": page_size, "offset": offset,
             "order": "volume", "ascending": "false",
         }
-        resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        batch = resp.json()
+        try:
+            resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
+            resp.raise_for_status()
+            batch = resp.json()
+        except requests.RequestException as e:
+            print(f"  [warn] page at offset {offset} failed ({e}), stopping pagination here "
+                  f"and proceeding with {len(out)} markets collected so far", file=sys.stderr)
+            break
         if not batch:
             break
         for m in batch:
