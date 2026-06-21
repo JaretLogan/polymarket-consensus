@@ -48,6 +48,8 @@ python calibration_backtest.py --max-markets 3000 --days-before 7 --min-volume 1
 | `--min-volume` | 5000 | ignore markets with less total trading volume |
 | `--days-before` | 3 | how many days before resolution to sample the price |
 | `--min-bucket-n` | 30 | minimum sample size before a bucket's edge is trusted |
+| `--window-days` | 14 | size of each date-slice when paging through history |
+| `--max-windows` | 80 | how many date-slices to walk back through (80×14d ≈ 3 years) |
 | `--out` | calibration_table.json | output path |
 
 Output looks like this (a real run will have its own numbers):
@@ -119,12 +121,14 @@ schedules:
 - **Smaller, slower-moving edge than the other two bots.** Even a real
   favorite-longshot bias is typically a few percentage points, not a
   huge gap — don't expect dramatic swings either direction.
-- **Backtest sample quality matters a lot.** 1500 markets sounds like a
-  lot, but split across 12 price buckets it's roughly 100-150 per
-  bucket on average, and unevenly distributed (extreme buckets near 0%
-  or 100% tend to have fewer qualifying samples than the middle).
-  Increase `--max-markets` over time as you get a feel for which buckets
-  are data-starved.
+- **Backtest sample quality matters a lot.** The included workflow now
+  pulls up to 3000 markets by walking backward through history in date
+  slices (rather than one deep pagination query, which Polymarket's API
+  rejects past a certain depth) — but split across 12 price buckets,
+  expect more samples in the middle buckets than the extremes, since
+  fewer markets get priced at 2% or 98% than at 50%. Increase
+  `--max-markets` or `--max-windows` over time as you get a feel for
+  which buckets are data-starved.
 - **The 3-day-before-resolution snapshot is a judgment call, not a
   proven-optimal choice.** Too close to resolution and you're just
   reading an outcome that's already basically known; too far and you're

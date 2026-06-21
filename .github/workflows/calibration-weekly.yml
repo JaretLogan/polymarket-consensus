@@ -29,7 +29,7 @@ jobs:
       - name: Run calibration backtest
         run: |
           python calibration_backtest.py \
-            --max-markets 1500 \
+            --max-markets 3000 \
             --min-volume 5000 \
             --days-before 3 \
             --min-bucket-n 30 \

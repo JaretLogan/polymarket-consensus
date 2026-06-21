@@ -59,49 +59,82 @@ def parse_list_field(raw):
         return []
 
 
-def fetch_closed_binary_markets(max_markets: int, min_volume: float, max_pages: int) -> list:
-    """Paginate Gamma's closed-markets list, keep only binary (Yes/No) markets above min_volume."""
+def fetch_closed_binary_markets(max_markets: int, min_volume: float, window_days: int, max_windows: int) -> list:
+    """
+    Pull closed markets by slicing history into date windows (end_date_min /
+    end_date_max) and querying each slice separately, walking backward from
+    today. This avoids ever using a deep pagination offset on a single query
+    -- Gamma's API appears to reject requests past a certain offset depth
+    (~2000, undocumented, found via trial and error), and date-slicing
+    sidesteps that entirely since each window's result set is small.
+    """
     out = []
-    offset = 0
+    seen_ids = set()
+    window_end = datetime.now(timezone.utc)
     page_size = 100
-    for _ in range(max_pages):
+
+    for window_num in range(max_windows):
         if len(out) >= max_markets:
             break
-        params = {
-            "closed": "true",
-            "limit": page_size,
-            "offset": offset,
-            "order": "volume",
-            "ascending": "false",
-        }
-        resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        batch = resp.json()
-        if not batch:
-            break
+        window_start = window_end - timedelta(days=window_days)
+        offset = 0
+        window_had_results = False
 
-        for m in batch:
-            outcomes = parse_list_field(m.get("outcomes"))
-            outcome_prices = parse_list_field(m.get("outcomePrices"))
-            clob_ids = parse_list_field(m.get("clobTokenIds"))
-            volume = float(m.get("volume") or 0)
-            if len(outcomes) != 2 or len(outcome_prices) != 2 or len(clob_ids) != 2:
-                continue  # only binary markets
-            if volume < min_volume:
-                continue
-            if not m.get("endDate"):
-                continue
-            out.append({
-                "question": m.get("question", ""),
-                "slug": m.get("slug", ""),
-                "end_date": m["endDate"],
-                "outcome_prices": outcome_prices,
-                "yes_token_id": clob_ids[0],
-                "volume": volume,
-            })
+        for _ in range(10):  # safety cap on pages *within* a single window; should rarely page deep
+            params = {
+                "closed": "true",
+                "limit": page_size,
+                "offset": offset,
+                "end_date_min": window_start.isoformat(),
+                "end_date_max": window_end.isoformat(),
+            }
+            try:
+                resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
+                resp.raise_for_status()
+                batch = resp.json()
+            except requests.RequestException as e:
+                print(f"  [warn] window {window_start.date()}..{window_end.date()} "
+                      f"offset {offset} failed ({e}), skipping rest of this window", file=sys.stderr)
+                break
+            if not batch:
+                break
+            window_had_results = True
 
-        offset += page_size
-        time.sleep(0.15)
+            for m in batch:
+                cid = m.get("conditionId")
+                if cid in seen_ids:
+                    continue
+                outcomes = parse_list_field(m.get("outcomes"))
+                outcome_prices = parse_list_field(m.get("outcomePrices"))
+                clob_ids = parse_list_field(m.get("clobTokenIds"))
+                volume = float(m.get("volume") or 0)
+                if len(outcomes) != 2 or len(outcome_prices) != 2 or len(clob_ids) != 2:
+                    continue  # only binary markets
+                if volume < min_volume:
+                    continue
+                if not m.get("endDate"):
+                    continue
+                seen_ids.add(cid)
+                out.append({
+                    "question": m.get("question", ""),
+                    "slug": m.get("slug", ""),
+                    "end_date": m["endDate"],
+                    "outcome_prices": outcome_prices,
+                    "yes_token_id": clob_ids[0],
+                    "volume": volume,
+                })
+
+            if len(batch) < page_size:
+                break  # this window is exhausted
+            offset += page_size
+            time.sleep(0.1)
+
+        if window_num % 10 == 0:
+            print(f"  [{window_num}/{max_windows} windows] back to {window_start.date()}, "
+                  f"{len(out)} qualifying markets so far...")
+
+        window_end = window_start
+        time.sleep(0.1)
 
     return out[:max_markets]
 
@@ -208,7 +241,8 @@ def print_report(table: list, min_bucket_n: int):
 def main():
     ap = argparse.ArgumentParser(description="Backtest Polymarket's own calibration for favorite-longshot bias.")
     ap.add_argument("--max-markets", type=int, default=1500, help="how many resolved binary markets to sample")
-    ap.add_argument("--max-pages", type=int, default=60, help="safety cap on Gamma list pagination, 100/page")
+    ap.add_argument("--window-days", type=int, default=14, help="size of each date-window slice when paging through history")
+    ap.add_argument("--max-windows", type=int, default=80, help="how many windows to walk back through (80*14d ~= 3 years)")
     ap.add_argument("--min-volume", type=float, default=5000.0, help="ignore markets with less total volume than this")
     ap.add_argument("--days-before", type=float, default=3.0, help="how many days before resolution to sample price")
     ap.add_argument("--min-bucket-n", type=int, default=30, help="minimum sample size to trust a bucket's edge")
@@ -216,7 +250,7 @@ def main():
     args = ap.parse_args()
 
     print(f"Pulling up to {args.max_markets} closed binary markets (min volume ${args.min_volume:,.0f})...")
-    markets = fetch_closed_binary_markets(args.max_markets, args.min_volume, args.max_pages)
+    markets = fetch_closed_binary_markets(args.max_markets, args.min_volume, args.window_days, args.max_windows)
     print(f"Got {len(markets)} qualifying markets. Looking up price ~{args.days_before}d before resolution for each...")
 
     samples = []
