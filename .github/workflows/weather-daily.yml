@@ -1,0 +1,45 @@
+name: Daily Weather Temperature Paper Trading
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # 6:00 UTC = 2am ET, before US markets open and before EU markets fill
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests matplotlib
+
+      - name: Run weather temperature paper trader
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_WEATHER }}
+        run: |
+          python weather_paper_trader.py \
+            --starting-bankroll 1000 \
+            --stake 20 \
+            --max-open 20 \
+            --max-days 3 \
+            --min-edge 0.07
+
+      - name: Render equity curve chart
+        run: |
+          python chart.py \
+            --state-file weather_trades.json \
+            --out weather_equity_curve.png \
+            --title "Weather Temperature Strategy — Paper Trading Equity"
+
+      - name: Commit updated state and chart
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update weather paper trading state [skip ci]"
+          file_pattern: weather_trades.json weather_equity_curve.png

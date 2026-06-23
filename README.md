@@ -19,6 +19,10 @@ strategy in this same repo — see [`INSIDER_TRACKER.md`](INSIDER_TRACKER.md).
 that checks whether Polymarket itself is mispriced, rather than copying
 traders or watching insiders — see [`CALIBRATION_BOT.md`](CALIBRATION_BOT.md).
 
+**Looking for the weather temperature bot?** A fourth bot using Open-Meteo
+meteorological forecasts to find mispriced daily temperature bucket markets
+(resolves every day, fast feedback) — see [`WEATHER_BOT.md`](WEATHER_BOT.md).
+
 ## Setup
 
 ```bash
