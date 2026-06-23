@@ -209,6 +209,7 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
     page_size = 100
     cutoff = datetime.now(timezone.utc) + timedelta(days=max_days)
     total_raw = 0
+    debug_dumped = False
 
     for _ in range(30):
         if len(out) >= max_markets:
@@ -228,6 +229,22 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
             break
 
         total_raw += len(batch)
+
+        # One-time debug: print the first 3 raw market objects so we can see
+        # exactly what fields Gamma returns -- remove after diagnosis
+        if not debug_dumped and batch:
+            import json as _json
+            print("\n[DEBUG] First 3 raw market objects from Gamma API:")
+            for dbg_m in batch[:3]:
+                print(_json.dumps({
+                    k: v for k, v in dbg_m.items()
+                    if k in ("question", "title", "groupItemTitle", "slug",
+                              "endDate", "outcomes", "outcomePrices", "active",
+                              "closed", "events")
+                }, indent=2, default=str))
+            print("[DEBUG END]\n")
+            debug_dumped = True
+
         for m in batch:
             title = m.get("question", "")
             if not re.search(r'(highest|lowest)\s+temperature', title, re.I):
