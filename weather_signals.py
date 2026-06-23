@@ -36,6 +36,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 
 import requests
+from calibration_backtest import parse_list_field
 
 GAMMA_MARKETS_URL = "https://gamma-api.polymarket.com/markets"
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"
@@ -199,18 +200,21 @@ def c_to_f(c: float) -> float:
 # -----------------------------------------------------------------------
 
 def fetch_weather_markets(max_markets: int, max_days: int) -> list:
-    """Pull active temperature markets resolving within max_days, weather category."""
+    """Pull active temperature markets resolving within max_days.
+    Uses title-keyword filtering rather than a tag parameter since Gamma's
+    tag slugs aren't consistently documented and 'weather' may not return results.
+    """
     out = []
     offset = 0
     page_size = 100
     cutoff = datetime.now(timezone.utc) + timedelta(days=max_days)
+    total_raw = 0
 
-    for _ in range(20):
+    for _ in range(30):
         if len(out) >= max_markets:
             break
         params = {
             "closed": "false", "active": "true",
-            "tag_slug": "weather",
             "limit": page_size, "offset": offset,
         }
         try:
@@ -223,6 +227,7 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
         if not batch:
             break
 
+        total_raw += len(batch)
         for m in batch:
             title = m.get("question", "")
             if not re.search(r'(highest|lowest)\s+temperature', title, re.I):
@@ -243,7 +248,9 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
         offset += page_size
         time.sleep(0.12)
 
+    print(f"  Scanned {total_raw} raw markets, found {len(out)} temperature markets resolving within {max_days}d")
     return out[:max_markets]
+
 
 
 def fetch_forecast_temp(lat: float, lon: float, target_date: datetime, unit: str) -> float | None:
