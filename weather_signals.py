@@ -316,6 +316,58 @@ class WeatherSignal:
     bucket_high: float
 
 
+
+def model_prob_yes(question: str, forecast_temp: float, sigma: float) -> float | None:
+    """
+    Given a threshold question like
+      "Will the highest temperature in London be 32°C or below on June 23?"
+    compute P(Yes) under N(forecast_temp, sigma).
+
+    Handles:
+      "be X°C/°F or below"   -> P(T <= X)
+      "be X°C/°F or above"   -> P(T >= X)
+      "be above/below X°C/°F"-> P(T > X) / P(T < X)
+      "be between X and Y"   -> P(X <= T <= Y)
+      "be exactly X°C/°F"    -> bucket ±0.5
+    Returns None if the question doesn't match any known pattern.
+    """
+    q = question.lower()
+    safe_cdf = lambda x: normal_cdf(x / sigma) if sigma > 0 else (1.0 if x >= 0 else 0.0)
+
+    # "be X°C or below" / "be X°F or below"
+    m = re.search(r'be\s+([\d.]+)\s*°?[cCfF]\s+or\s+below', question, re.I)
+    if m:
+        return safe_cdf(float(m.group(1)) - forecast_temp)
+
+    # "be X°C or above"
+    m = re.search(r'be\s+([\d.]+)\s*°?[cCfF]\s+or\s+above', question, re.I)
+    if m:
+        return 1 - safe_cdf(float(m.group(1)) - forecast_temp)
+
+    # "be above X°C"
+    m = re.search(r'be\s+above\s+([\d.]+)\s*°?[cCfF]', question, re.I)
+    if m:
+        return 1 - safe_cdf(float(m.group(1)) - forecast_temp)
+
+    # "be below X°C"
+    m = re.search(r'be\s+below\s+([\d.]+)\s*°?[cCfF]', question, re.I)
+    if m:
+        return safe_cdf(float(m.group(1)) - forecast_temp)
+
+    # "be between X°C and Y°C"
+    m = re.search(r'be\s+between\s+([\d.]+)\s*°?[cCfF]\s+and\s+([\d.]+)\s*°?[cCfF]', question, re.I)
+    if m:
+        return bucket_probability(forecast_temp, sigma, float(m.group(1)), float(m.group(2)))
+
+    # single value "be X°C on" -> ±0.5 bucket
+    m = re.search(r'be\s+([\d.]+)\s*°?[cCfF]\s+on\b', question, re.I)
+    if m:
+        v = float(m.group(1))
+        return bucket_probability(forecast_temp, sigma, v - 0.5, v + 0.5)
+
+    return None
+
+
 def build_signals(markets: list, min_edge: float) -> list:
     """
     markets: list of individual market entries from fetch_weather_markets.
@@ -373,32 +425,44 @@ def build_signals(markets: list, min_edge: float) -> list:
         if forecast_temp is None:
             continue
 
-        # The bucket name is the market question; outcomePrices = [yes_price, no_price]
-        bucket_name = m.get("question", "")
+        # Each market is a binary Yes/No question with a temperature threshold.
+        # question = "Will the highest temperature in London be 32°C or below on June 23?"
+        # Yes price = P(market thinks condition is met), No price = 1 - yes_price
+        question = m.get("question", "")
         outcome_prices = parse_list_field(m.get("outcomePrices", "[]"))
-        outcomes = parse_list_field(m.get("outcomes", "[]"))
+        if len(outcome_prices) < 2:
+            continue
+        try:
+            yes_price = float(outcome_prices[0])
+            no_price  = float(outcome_prices[1])
+        except (ValueError, TypeError):
+            continue
 
-        # Try bucket from question field first; fall back to looping outcomes
-        bucket_candidates = [(bucket_name, outcome_prices[0] if outcome_prices else None)]
-        if not bucket_candidates[0][0] or not outcomes:
-            # Multi-outcome fallback: iterate all outcome/price pairs
-            bucket_candidates = list(zip(outcomes, outcome_prices))
+        model_prob_yes_val = model_prob_yes(question, forecast_temp, sigma)
+        if model_prob_yes_val is None:
+            continue
 
-        for outcome, price_str in bucket_candidates:
-            try:
-                price = float(price_str)
-            except (ValueError, TypeError):
-                continue
-            if not (0.01 < price < 0.99):
-                continue
+        # Evaluate both sides; pick the one with the larger edge (if any clears threshold)
+        yes_edge = model_prob_yes_val - yes_price
+        no_edge  = (1 - model_prob_yes_val) - no_price
 
-            bucket = parse_outcome_bucket(outcome, station["unit"])
-            if bucket is None:
-                continue
-            low, high = bucket
+        best_outcome, best_price, best_model_prob, best_edge = None, None, None, None
+        if abs(yes_edge) >= abs(no_edge) and abs(yes_edge) >= min_edge:
+            best_outcome, best_price = "Yes", yes_price
+            best_model_prob, best_edge = round(model_prob_yes_val, 4), round(yes_edge, 4)
+        elif abs(no_edge) > abs(yes_edge) and abs(no_edge) >= min_edge:
+            best_outcome, best_price = "No", no_price
+            best_model_prob, best_edge = round(1 - model_prob_yes_val, 4), round(no_edge, 4)
 
-            model_prob = bucket_probability(forecast_temp, sigma, low, high)
-            edge = model_prob - price
+        if best_outcome is None:
+            continue
+
+        outcome = best_outcome
+        price   = best_price
+        model_prob = best_model_prob
+        edge    = best_edge
+
+        if True:  # placeholder to keep indentation consistent with old loop
 
             if abs(edge) < min_edge:
                 continue
