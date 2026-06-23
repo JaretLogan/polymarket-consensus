@@ -214,7 +214,7 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
         if len(out) >= max_markets:
             break
         params = {
-            "closed": "false", "active": "true",
+            "closed": "false",
             "limit": page_size, "offset": offset,
         }
         try:
