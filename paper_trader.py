@@ -124,6 +124,35 @@ def mark_to_market_and_settle(state: dict) -> list:
     return newly_closed
 
 
+def resolve_conflicts(consensus_trades: list) -> list:
+    """
+    When the same market (condition_id) appears on both sides, keep only the
+    stronger one -- whichever has more traders agreeing, with total dollar
+    value as the tiebreaker. Returns a deduplicated list safe to pass to
+    open_new_positions.
+    """
+    best = {}  # condition_id -> ConsensusEntry with the stronger signal
+    for trade in consensus_trades:
+        cid = trade.condition_id
+        if cid not in best:
+            best[cid] = trade
+        else:
+            existing = best[cid]
+            # prefer higher trader count; break ties on total_current_value
+            if (trade.trader_count, trade.total_current_value) > (existing.trader_count, existing.total_current_value):
+                best[cid] = trade
+    # preserve original ordering (by trader_count desc) after dedup
+    seen = set()
+    out = []
+    for trade in consensus_trades:
+        if trade.condition_id in seen:
+            continue
+        if best[trade.condition_id] is trade:
+            out.append(trade)
+            seen.add(trade.condition_id)
+    return out
+
+
 def open_new_positions(state: dict, consensus_trades: list, stake_usd: float, max_open: int) -> list:
     """Open a fixed-size paper position on each new consensus trade not already taken.
 
@@ -304,6 +333,7 @@ def main():
             print(f"Fetching top {args.top} traders to look for new consensus trades...")
             traders = fetch_leaderboard(args.top, args.period, args.category, args.order_by)
         consensus_trades = build_consensus(traders, args.min_traders, args.min_position_value, args.max_days)
+        consensus_trades = resolve_conflicts(consensus_trades)
         newly_opened = open_new_positions(state, consensus_trades, args.stake, args.max_open)
 
     summary = summarize(state)
