@@ -477,7 +477,7 @@ def build_signals(markets: list, min_edge: float) -> list:
                 is_high=is_high, cur_price=price,
                 model_prob=round(model_prob, 4), edge=round(edge, 4),
                 forecast_temp=forecast_temp, unit=station["unit"],
-                bucket_low=low, bucket_high=high,
+                bucket_low=0.0, bucket_high=0.0,  # not used for threshold markets
             ))
 
     signals.sort(key=lambda s: abs(s.edge), reverse=True)
