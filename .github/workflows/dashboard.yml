@@ -1,0 +1,28 @@
+name: Rebuild Strategy Dashboard
+
+# Regenerates dashboard.html after any bot commits new state.
+# Runs on a schedule slightly after all the daily bots, plus manual trigger.
+
+on:
+  schedule:
+    - cron: "0 15 * * *"  # 15:00 UTC, after all daily bots have run
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build combined dashboard
+        run: python dashboard.py --out dashboard.html
+      - name: Commit dashboard
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Rebuild strategy dashboard [skip ci]"
+          file_pattern: dashboard.html

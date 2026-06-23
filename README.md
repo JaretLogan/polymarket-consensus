@@ -27,6 +27,10 @@ meteorological forecasts to find mispriced daily temperature bucket markets
 crypto markets against Deribit's professional options-implied probabilities
 — see [`CRYPTO_BOT.md`](CRYPTO_BOT.md).
 
+**Combined dashboard:** `dashboard.py` builds a single `dashboard.html`
+comparing all five strategies side by side — equity curves, win rates, ROI,
+P&L. Open it in any browser. Rebuilt automatically every day.
+
 ## Setup
 
 ```bash
