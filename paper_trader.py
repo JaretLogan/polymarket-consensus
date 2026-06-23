@@ -125,9 +125,17 @@ def mark_to_market_and_settle(state: dict) -> list:
 
 
 def open_new_positions(state: dict, consensus_trades: list, stake_usd: float, max_open: int) -> list:
-    """Open a fixed-size paper position on each new consensus trade not already taken."""
-    seen = {(p["condition_id"], p["outcome"]) for p in state["open_positions"]}
-    seen |= {(p["condition_id"], p["outcome"]) for p in state["closed_positions"]}
+    """Open a fixed-size paper position on each new consensus trade not already taken.
+
+    Deduplicates on TWO levels:
+    1. (condition_id, outcome) -- don't re-enter a position we've already held
+    2. condition_id alone -- don't take both sides of the same market even if
+       different trader groups hold opposite sides (they'd cancel each other out)
+    """
+    seen_positions = {(p["condition_id"], p["outcome"]) for p in state["open_positions"]}
+    seen_positions |= {(p["condition_id"], p["outcome"]) for p in state["closed_positions"]}
+    seen_markets = {p["condition_id"] for p in state["open_positions"]}
+    seen_markets |= {p["condition_id"] for p in state["closed_positions"]}
 
     opened = []
     for trade in consensus_trades:
@@ -135,8 +143,10 @@ def open_new_positions(state: dict, consensus_trades: list, stake_usd: float, ma
             print(f"  [info] hit max open positions ({max_open}), not opening more today")
             break
         key = (trade.condition_id, trade.outcome)
-        if key in seen:
+        if key in seen_positions:
             continue
+        if trade.condition_id in seen_markets:
+            continue  # already hold the other side -- skip to avoid betting against ourselves
         if state["cash"] < stake_usd:
             print("  [info] out of paper cash, skipping further entries")
             break
@@ -160,7 +170,8 @@ def open_new_positions(state: dict, consensus_trades: list, stake_usd: float, ma
         }
         state["open_positions"].append(pos)
         state["cash"] -= stake_usd
-        seen.add(key)
+        seen_positions.add(key)
+        seen_markets.add(trade.condition_id)
         opened.append(pos)
 
     return opened
