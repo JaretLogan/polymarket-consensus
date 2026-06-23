@@ -201,14 +201,20 @@ def c_to_f(c: float) -> float:
 
 def fetch_weather_markets(max_markets: int, max_days: int) -> list:
     """
-    Pull active temperature markets resolving within max_days.
+    Pull active temperature events resolving within max_days, using the
+    /events endpoint (not /markets) with date filtering.
 
-    Key fix: filter by end_date_max rather than paginating through ALL open
-    markets sorted by volume. Temperature markets only do $5-50K volume each
-    (they resolve daily) so they were buried past offset 2100 in a volume-sorted
-    list -- right where Gamma API throws a 422. Filtering by end date gives
-    a tiny, targeted result set that is almost entirely temperature markets.
+    Root cause of previous failures:
+    1. /markets?end_date_max=... didn't filter correctly for open markets,
+       returning all 2000+ markets sorted by volume with temperature ones
+       buried past the API's hard offset ceiling.
+    2. For multi-outcome temperature markets, the individual market's
+       `question` field is the bucket name ("72-73 degF"), NOT the event
+       title. The event title lives in events[0].title. By switching to
+       /events, we get the full event with its title + all outcome markets
+       directly, bypassing both problems at once.
     """
+    GAMMA_EVENTS_URL = "https://gamma-api.polymarket.com/events"
     out = []
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(days=max_days)
@@ -227,28 +233,36 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
             "offset": offset,
         }
         try:
-            resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
+            resp = requests.get(GAMMA_EVENTS_URL, params=params, headers=HEADERS, timeout=20)
             resp.raise_for_status()
             batch = resp.json()
         except requests.RequestException as e:
-            print(f"  [warn] market fetch failed at offset {offset}: {e}", file=sys.stderr)
+            print(f"  [warn] event fetch failed at offset {offset}: {e}", file=sys.stderr)
             break
         if not batch:
             break
 
         total_raw += len(batch)
-        for m in batch:
-            title = m.get("question", "")
+        for event in batch:
+            title = event.get("title", "")
             if not re.search(r'(highest|lowest)\s+temperature', title, re.I):
                 continue
-            out.append(m)
+            # Each event has a markets array -- each market is one outcome bucket
+            # Build a synthetic "market" entry per outcome bucket so the rest of
+            # the pipeline sees the same shape it expects
+            markets_in_event = event.get("markets", [])
+            for m in markets_in_event:
+                # Attach the event title to the market so parse_city/parse_date work
+                m["_event_title"] = title
+                m["_event_slug"] = event.get("slug", "")
+            out.extend(markets_in_event)
 
         if len(batch) < page_size:
             break
         offset += page_size
         time.sleep(0.12)
 
-    print(f"  Scanned {total_raw} short-horizon markets, found {len(out)} temperature markets resolving within {max_days}d")
+    print(f"  Scanned {total_raw} short-horizon events, found {len(out)} temperature market outcomes resolving within {max_days}d")
     return out[:max_markets]
 
 
@@ -303,13 +317,37 @@ class WeatherSignal:
 
 
 def build_signals(markets: list, min_edge: float) -> list:
+    """
+    markets: list of individual market entries from fetch_weather_markets.
+
+    Each entry comes from the /events endpoint and has been augmented with:
+      _event_title  -- "Highest temperature in NYC on June 22?" (for city/date parsing)
+      _event_slug   -- parent event slug (for the market URL)
+      question      -- the bucket name, e.g. "72-73°F" or "29°C" (this IS the outcome)
+      outcomePrices -- [yes_price, no_price] for this binary bucket market
+      conditionId   -- unique market identifier
+
+    Strategy: for each outcome bucket market, treat a BUY on "Yes" as the
+    position if model_prob > market_price, and flag the edge.
+    """
     signals = []
     cache = {}  # (lat, lon, date, unit) -> forecast_temp
-
-    from calibration_backtest import parse_list_field  # reuse the safe JSON/list parser
+    debug_shown = False
 
     for m in markets:
-        title = m.get("question", "")
+        # Title for city/date parsing comes from the parent event
+        title = m.get("_event_title") or m.get("question", "")
+
+        # One-time debug to confirm field structure
+        if not debug_shown:
+            import json as _j
+            print(f"[DEBUG sample market fields]: question={m.get('question')!r}, "
+                  f"_event_title={m.get('_event_title')!r}, "
+                  f"outcomePrices={m.get('outcomePrices')!r}, "
+                  f"outcomes={m.get('outcomes')!r}, "
+                  f"conditionId={m.get('conditionId')!r}")
+            debug_shown = True
+
         city = parse_city(title)
         if not city:
             continue
@@ -335,10 +373,18 @@ def build_signals(markets: list, min_edge: float) -> list:
         if forecast_temp is None:
             continue
 
-        outcomes = parse_list_field(m.get("outcomes", "[]"))
+        # The bucket name is the market question; outcomePrices = [yes_price, no_price]
+        bucket_name = m.get("question", "")
         outcome_prices = parse_list_field(m.get("outcomePrices", "[]"))
+        outcomes = parse_list_field(m.get("outcomes", "[]"))
 
-        for outcome, price_str in zip(outcomes, outcome_prices):
+        # Try bucket from question field first; fall back to looping outcomes
+        bucket_candidates = [(bucket_name, outcome_prices[0] if outcome_prices else None)]
+        if not bucket_candidates[0][0] or not outcomes:
+            # Multi-outcome fallback: iterate all outcome/price pairs
+            bucket_candidates = list(zip(outcomes, outcome_prices))
+
+        for outcome, price_str in bucket_candidates:
             try:
                 price = float(price_str)
             except (ValueError, TypeError):
@@ -358,9 +404,9 @@ def build_signals(markets: list, min_edge: float) -> list:
                 continue
 
             signals.append(WeatherSignal(
-                condition_id=m.get("conditionId", ""),
+                condition_id=m.get("conditionId", "") or m.get("id", ""),
                 title=title, outcome=outcome,
-                event_slug=m.get("slug", ""),
+                event_slug=m.get("_event_slug") or m.get("slug", ""),
                 market_slug=m.get("slug", ""),
                 city=city, station_name=station["name"],
                 target_date=target_date.strftime("%Y-%m-%d"),
