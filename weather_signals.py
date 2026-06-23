@@ -200,23 +200,31 @@ def c_to_f(c: float) -> float:
 # -----------------------------------------------------------------------
 
 def fetch_weather_markets(max_markets: int, max_days: int) -> list:
-    """Pull active temperature markets resolving within max_days.
-    Uses title-keyword filtering rather than a tag parameter since Gamma's
-    tag slugs aren't consistently documented and 'weather' may not return results.
+    """
+    Pull active temperature markets resolving within max_days.
+
+    Key fix: filter by end_date_max rather than paginating through ALL open
+    markets sorted by volume. Temperature markets only do $5-50K volume each
+    (they resolve daily) so they were buried past offset 2100 in a volume-sorted
+    list -- right where Gamma API throws a 422. Filtering by end date gives
+    a tiny, targeted result set that is almost entirely temperature markets.
     """
     out = []
+    now = datetime.now(timezone.utc)
+    cutoff = now + timedelta(days=max_days)
+    total_raw = 0
     offset = 0
     page_size = 100
-    cutoff = datetime.now(timezone.utc) + timedelta(days=max_days)
-    total_raw = 0
-    debug_dumped = False
 
-    for _ in range(30):
+    for _ in range(20):
         if len(out) >= max_markets:
             break
         params = {
             "closed": "false",
-            "limit": page_size, "offset": offset,
+            "end_date_min": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "end_date_max": cutoff.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "limit": page_size,
+            "offset": offset,
         }
         try:
             resp = requests.get(GAMMA_MARKETS_URL, params=params, headers=HEADERS, timeout=20)
@@ -229,34 +237,9 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
             break
 
         total_raw += len(batch)
-
-        # One-time debug: print the first 3 raw market objects so we can see
-        # exactly what fields Gamma returns -- remove after diagnosis
-        if not debug_dumped and batch:
-            import json as _json
-            print("\n[DEBUG] First 3 raw market objects from Gamma API:")
-            for dbg_m in batch[:3]:
-                print(_json.dumps({
-                    k: v for k, v in dbg_m.items()
-                    if k in ("question", "title", "groupItemTitle", "slug",
-                              "endDate", "outcomes", "outcomePrices", "active",
-                              "closed", "events")
-                }, indent=2, default=str))
-            print("[DEBUG END]\n")
-            debug_dumped = True
-
         for m in batch:
             title = m.get("question", "")
             if not re.search(r'(highest|lowest)\s+temperature', title, re.I):
-                continue
-            end_date_str = m.get("endDate", "")
-            if not end_date_str:
-                continue
-            try:
-                end_dt = datetime.fromisoformat(end_date_str.replace("Z", "+00:00"))
-            except ValueError:
-                continue
-            if end_dt > cutoff:
                 continue
             out.append(m)
 
@@ -265,7 +248,7 @@ def fetch_weather_markets(max_markets: int, max_days: int) -> list:
         offset += page_size
         time.sleep(0.12)
 
-    print(f"  Scanned {total_raw} raw markets, found {len(out)} temperature markets resolving within {max_days}d")
+    print(f"  Scanned {total_raw} short-horizon markets, found {len(out)} temperature markets resolving within {max_days}d")
     return out[:max_markets]
 
 
