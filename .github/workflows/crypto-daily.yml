@@ -1,0 +1,43 @@
+name: Daily Crypto Options Paper Trading
+
+on:
+  schedule:
+    - cron: "0 7 * * *"  # 7:00 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests matplotlib
+
+      - name: Run crypto options paper trader
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_CRYPTO }}
+        run: |
+          python crypto_paper_trader.py \
+            --starting-bankroll 1000 \
+            --stake 20 \
+            --max-open 20 \
+            --max-days 14 \
+            --min-edge 0.08
+
+      - name: Render equity curve chart
+        run: |
+          python chart.py \
+            --state-file crypto_trades.json \
+            --out crypto_equity_curve.png \
+            --title "Crypto Options Strategy — Paper Trading Equity"
+
+      - name: Commit updated state and chart
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update crypto paper trading state [skip ci]"
+          file_pattern: crypto_trades.json crypto_equity_curve.png

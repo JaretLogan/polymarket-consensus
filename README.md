@@ -23,6 +23,10 @@ traders or watching insiders — see [`CALIBRATION_BOT.md`](CALIBRATION_BOT.md).
 meteorological forecasts to find mispriced daily temperature bucket markets
 (resolves every day, fast feedback) — see [`WEATHER_BOT.md`](WEATHER_BOT.md).
 
+**Looking for the crypto options bot?** A fifth bot that prices Polymarket
+crypto markets against Deribit's professional options-implied probabilities
+— see [`CRYPTO_BOT.md`](CRYPTO_BOT.md).
+
 ## Setup
 
 ```bash
