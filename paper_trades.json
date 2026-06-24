@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 600.0,
+  "cash": 560.0,
   "open_positions": [
     {
       "opened_at": "2026-06-23T04:54:41.318447+00:00",
@@ -11,7 +11,7 @@
       "outcome": "Yes",
       "end_date": "2026-06-24",
       "entry_price": 0.405,
-      "last_price": 0.415,
+      "last_price": 0.385,
       "stake_usd": 20.0,
       "shares": 49.382716049382715,
       "trader_count_at_entry": 3
@@ -25,7 +25,7 @@
       "outcome": "Over",
       "end_date": "2026-06-24",
       "entry_price": 0.465,
-      "last_price": 0.465,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 43.01075268817204,
       "trader_count_at_entry": 3
@@ -39,38 +39,10 @@
       "outcome": "Yes",
       "end_date": "2026-06-24",
       "entry_price": 0.715,
-      "last_price": 0.715,
+      "last_price": 0.745,
       "stake_usd": 20.0,
       "shares": 27.972027972027973,
       "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-06-23T04:54:41.318469+00:00",
-      "condition_id": "0x8148ac62977e95dd3cb5d2cda5dd0b1071721f3ffb101941b3499fa4e074fae2",
-      "market_slug": "fifwc-col-cdr-2026-06-23-cdr",
-      "event_slug": "fifwc-col-cdr-2026-06-23",
-      "title": "Will DR Congo win on 2026-06-23?",
-      "outcome": "Yes",
-      "end_date": "2026-06-24",
-      "entry_price": 0.135,
-      "last_price": 0.135,
-      "stake_usd": 20.0,
-      "shares": 148.14814814814815,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-06-23T04:54:41.318472+00:00",
-      "condition_id": "0x7492c53d3c56fec34b2c1311a9190f35378d8ab2b7eb39fde966c9a7edfb2078",
-      "market_slug": "fifwc-col-cdr-2026-06-23-spread-home-1pt5",
-      "event_slug": "fifwc-col-cdr-2026-06-23-more-markets",
-      "title": "Spread: Colombia (-1.5)",
-      "outcome": "Colombia",
-      "end_date": "2026-06-24",
-      "entry_price": 0.3449,
-      "last_price": 0.355,
-      "stake_usd": 20.0,
-      "shares": 57.98782255726298,
-      "trader_count_at_entry": 4
     },
     {
       "opened_at": "2026-06-23T04:54:41.318476+00:00",
@@ -81,7 +53,7 @@
       "outcome": "Netherlands",
       "end_date": "2026-06-25",
       "entry_price": 0.455,
-      "last_price": 0.46,
+      "last_price": 0.485,
       "stake_usd": 20.0,
       "shares": 43.956043956043956,
       "trader_count_at_entry": 3
@@ -109,7 +81,7 @@
       "outcome": "Germany",
       "end_date": "2026-06-25",
       "entry_price": 0.265,
-      "last_price": 0.275,
+      "last_price": 0.285,
       "stake_usd": 20.0,
       "shares": 75.47169811320754,
       "trader_count_at_entry": 3
@@ -123,7 +95,7 @@
       "outcome": "No",
       "end_date": "2026-06-25",
       "entry_price": 0.755,
-      "last_price": 0.755,
+      "last_price": 0.745,
       "stake_usd": 20.0,
       "shares": 26.490066225165563,
       "trader_count_at_entry": 4
@@ -151,7 +123,7 @@
       "outcome": "Cura\u00e7ao",
       "end_date": "2026-06-25",
       "entry_price": 0.585,
-      "last_price": 0.58,
+      "last_price": 0.585,
       "stake_usd": 20.0,
       "shares": 34.18803418803419,
       "trader_count_at_entry": 3
@@ -179,7 +151,7 @@
       "outcome": "No",
       "end_date": "2026-06-25",
       "entry_price": 0.9625,
-      "last_price": 0.9625,
+      "last_price": 0.9645,
       "stake_usd": 20.0,
       "shares": 20.77922077922078,
       "trader_count_at_entry": 3
@@ -207,7 +179,7 @@
       "outcome": "Under",
       "end_date": "2026-06-26",
       "entry_price": 0.425,
-      "last_price": 0.425,
+      "last_price": 0.415,
       "stake_usd": 20.0,
       "shares": 47.05882352941177,
       "trader_count_at_entry": 3
@@ -235,7 +207,7 @@
       "outcome": "United States",
       "end_date": "2026-06-26",
       "entry_price": 0.2849,
-      "last_price": 0.275,
+      "last_price": 0.285,
       "stake_usd": 20.0,
       "shares": 70.2000702000702,
       "trader_count_at_entry": 4
@@ -281,9 +253,76 @@
       "stake_usd": 20.0,
       "shares": 27.2108843537415,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-24T15:36:30.621115+00:00",
+      "condition_id": "0x8f0238f109028445232328dce2ff342cb92207a4e9e0e0dda195f1644655b2ab",
+      "market_slug": "fifwc-jpn-swe-2026-06-25-swe",
+      "event_slug": "fifwc-jpn-swe-2026-06-25",
+      "title": "Will Sweden win on 2026-06-25?",
+      "outcome": "Yes",
+      "end_date": "2026-06-25",
+      "entry_price": 0.215,
+      "last_price": 0.215,
+      "stake_usd": 20.0,
+      "shares": 93.02325581395348,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-24T15:36:30.621130+00:00",
+      "condition_id": "0xe690620297dfea974d20df84b4cf90460e46a26ec864353482717b90509a3c0b",
+      "market_slug": "fifwc-ecu-ger-2026-06-25-ger",
+      "event_slug": "fifwc-ecu-ger-2026-06-25",
+      "title": "Will Germany win on 2026-06-25?",
+      "outcome": "No",
+      "end_date": "2026-06-25",
+      "entry_price": 0.465,
+      "last_price": 0.465,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817204,
+      "trader_count_at_entry": 5
     }
   ],
-  "closed_positions": [],
+  "closed_positions": [
+    {
+      "opened_at": "2026-06-23T04:54:41.318469+00:00",
+      "condition_id": "0x8148ac62977e95dd3cb5d2cda5dd0b1071721f3ffb101941b3499fa4e074fae2",
+      "market_slug": "fifwc-col-cdr-2026-06-23-cdr",
+      "event_slug": "fifwc-col-cdr-2026-06-23",
+      "title": "Will DR Congo win on 2026-06-23?",
+      "outcome": "Yes",
+      "end_date": "2026-06-24",
+      "entry_price": 0.135,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 148.14814814814815,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-06-24T15:35:59.096689+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-06-23T04:54:41.318472+00:00",
+      "condition_id": "0x7492c53d3c56fec34b2c1311a9190f35378d8ab2b7eb39fde966c9a7edfb2078",
+      "market_slug": "fifwc-col-cdr-2026-06-23-spread-home-1pt5",
+      "event_slug": "fifwc-col-cdr-2026-06-23-more-markets",
+      "title": "Spread: Colombia (-1.5)",
+      "outcome": "Colombia",
+      "end_date": "2026-06-24",
+      "entry_price": 0.3449,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 57.98782255726298,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-06-24T15:35:59.598048+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    }
+  ],
   "equity_history": [
     {
       "date": "2026-06-23",
@@ -292,6 +331,10 @@
     {
       "date": "2026-06-23",
       "equity": 1000.2
+    },
+    {
+      "date": "2026-06-24",
+      "equity": 959.71
     }
   ]
 }
