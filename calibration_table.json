@@ -1,115 +1,115 @@
 {
-  "generated_at": "2026-06-21T19:55:30.820601+00:00",
-  "sample_size": 1399,
+  "generated_at": "2026-06-28T15:31:07.416267+00:00",
+  "sample_size": 1433,
   "days_before": 3.0,
   "min_volume": 5000.0,
   "buckets": [
     {
       "bucket_low": 0.0,
       "bucket_high": 0.02,
-      "n": 512,
-      "avg_priced_prob": 0.0057,
-      "actual_resolve_rate": 0.0098,
-      "edge": 0.004,
-      "stderr": 0.0043
+      "n": 475,
+      "avg_priced_prob": 0.0058,
+      "actual_resolve_rate": 0.0105,
+      "edge": 0.0047,
+      "stderr": 0.0047
     },
     {
       "bucket_low": 0.02,
       "bucket_high": 0.05,
-      "n": 138,
-      "avg_priced_prob": 0.0322,
-      "actual_resolve_rate": 0.0217,
-      "edge": -0.0105,
-      "stderr": 0.0124
+      "n": 127,
+      "avg_priced_prob": 0.0319,
+      "actual_resolve_rate": 0.0236,
+      "edge": -0.0083,
+      "stderr": 0.0135
     },
     {
       "bucket_low": 0.05,
       "bucket_high": 0.1,
-      "n": 114,
-      "avg_priced_prob": 0.071,
-      "actual_resolve_rate": 0.0789,
-      "edge": 0.0079,
-      "stderr": 0.0253
+      "n": 110,
+      "avg_priced_prob": 0.0688,
+      "actual_resolve_rate": 0.0818,
+      "edge": 0.013,
+      "stderr": 0.0261
     },
     {
       "bucket_low": 0.1,
       "bucket_high": 0.2,
-      "n": 112,
-      "avg_priced_prob": 0.1429,
-      "actual_resolve_rate": 0.1161,
-      "edge": -0.0268,
-      "stderr": 0.0303
+      "n": 123,
+      "avg_priced_prob": 0.1451,
+      "actual_resolve_rate": 0.122,
+      "edge": -0.0232,
+      "stderr": 0.0295
     },
     {
       "bucket_low": 0.2,
       "bucket_high": 0.35,
-      "n": 124,
-      "avg_priced_prob": 0.2641,
-      "actual_resolve_rate": 0.2339,
-      "edge": -0.0302,
-      "stderr": 0.038
+      "n": 170,
+      "avg_priced_prob": 0.2606,
+      "actual_resolve_rate": 0.2353,
+      "edge": -0.0253,
+      "stderr": 0.0325
     },
     {
       "bucket_low": 0.35,
       "bucket_high": 0.5,
-      "n": 77,
-      "avg_priced_prob": 0.4253,
-      "actual_resolve_rate": 0.4026,
-      "edge": -0.0227,
-      "stderr": 0.0559
+      "n": 79,
+      "avg_priced_prob": 0.4227,
+      "actual_resolve_rate": 0.4177,
+      "edge": -0.005,
+      "stderr": 0.0555
     },
     {
       "bucket_low": 0.5,
       "bucket_high": 0.65,
-      "n": 88,
-      "avg_priced_prob": 0.5605,
-      "actual_resolve_rate": 0.5455,
-      "edge": -0.0151,
-      "stderr": 0.0531
+      "n": 83,
+      "avg_priced_prob": 0.5722,
+      "actual_resolve_rate": 0.5542,
+      "edge": -0.0179,
+      "stderr": 0.0546
     },
     {
       "bucket_low": 0.65,
       "bucket_high": 0.8,
-      "n": 54,
-      "avg_priced_prob": 0.721,
-      "actual_resolve_rate": 0.7963,
-      "edge": 0.0753,
-      "stderr": 0.0548
+      "n": 65,
+      "avg_priced_prob": 0.7241,
+      "actual_resolve_rate": 0.7692,
+      "edge": 0.0451,
+      "stderr": 0.0523
     },
     {
       "bucket_low": 0.8,
       "bucket_high": 0.9,
-      "n": 57,
-      "avg_priced_prob": 0.8454,
-      "actual_resolve_rate": 0.8596,
-      "edge": 0.0142,
-      "stderr": 0.046
+      "n": 66,
+      "avg_priced_prob": 0.8469,
+      "actual_resolve_rate": 0.8636,
+      "edge": 0.0168,
+      "stderr": 0.0422
     },
     {
       "bucket_low": 0.9,
       "bucket_high": 0.95,
-      "n": 28,
-      "avg_priced_prob": 0.9251,
-      "actual_resolve_rate": 0.8571,
-      "edge": -0.0679,
-      "stderr": 0.0661
+      "n": 33,
+      "avg_priced_prob": 0.9286,
+      "actual_resolve_rate": 0.8485,
+      "edge": -0.0802,
+      "stderr": 0.0624
     },
     {
       "bucket_low": 0.95,
       "bucket_high": 0.98,
-      "n": 33,
-      "avg_priced_prob": 0.9658,
-      "actual_resolve_rate": 0.9697,
-      "edge": 0.0039,
-      "stderr": 0.0298
+      "n": 32,
+      "avg_priced_prob": 0.9665,
+      "actual_resolve_rate": 0.9688,
+      "edge": 0.0022,
+      "stderr": 0.0308
     },
     {
       "bucket_low": 0.98,
       "bucket_high": 1.0,
-      "n": 62,
-      "avg_priced_prob": 0.9914,
+      "n": 70,
+      "avg_priced_prob": 0.9912,
       "actual_resolve_rate": 1.0,
-      "edge": 0.0086,
+      "edge": 0.0088,
       "stderr": 0.0
     }
   ]
