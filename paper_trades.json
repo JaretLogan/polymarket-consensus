@@ -1,21 +1,7 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 556.0247744535769,
+  "cash": 452.060810489613,
   "open_positions": [
-    {
-      "opened_at": "2026-06-27T14:48:56.201428+00:00",
-      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
-      "market_slug": "fifwc-rsa-can-2026-06-28-can",
-      "event_slug": "fifwc-rsa-can-2026-06-28",
-      "title": "Will Canada win on 2026-06-28?",
-      "outcome": "Yes",
-      "end_date": "2026-06-28",
-      "entry_price": 0.555,
-      "last_price": 0.585,
-      "stake_usd": 20.0,
-      "shares": 36.03603603603603,
-      "trader_count_at_entry": 3
-    },
     {
       "opened_at": "2026-06-27T14:48:56.201437+00:00",
       "condition_id": "0x085e6d64dbcc4a308e7477c3bda16b8c3c62ec37f7df7a06dcafb6ab08396401",
@@ -39,7 +25,7 @@
       "outcome": "Yes",
       "end_date": "2026-06-29",
       "entry_price": 0.085,
-      "last_price": 0.085,
+      "last_price": 0.095,
       "stake_usd": 20.0,
       "shares": 235.2941176470588,
       "trader_count_at_entry": 3
@@ -53,7 +39,7 @@
       "outcome": "No",
       "end_date": "2026-06-29",
       "entry_price": 0.425,
-      "last_price": 0.425,
+      "last_price": 0.455,
       "stake_usd": 20.0,
       "shares": 47.05882352941177,
       "trader_count_at_entry": 4
@@ -67,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-06-29",
       "entry_price": 0.735,
-      "last_price": 0.735,
+      "last_price": 0.725,
       "stake_usd": 20.0,
       "shares": 27.2108843537415,
       "trader_count_at_entry": 3
@@ -81,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-06-29",
       "entry_price": 0.745,
-      "last_price": 0.745,
+      "last_price": 0.725,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "trader_count_at_entry": 3
@@ -95,7 +81,7 @@
       "outcome": "No",
       "end_date": "2026-06-30",
       "entry_price": 0.525,
-      "last_price": 0.525,
+      "last_price": 0.545,
       "stake_usd": 20.0,
       "shares": 38.095238095238095,
       "trader_count_at_entry": 3
@@ -109,7 +95,7 @@
       "outcome": "Yes",
       "end_date": "2026-06-30",
       "entry_price": 0.245,
-      "last_price": 0.245,
+      "last_price": 0.275,
       "stake_usd": 20.0,
       "shares": 81.63265306122449,
       "trader_count_at_entry": 3
@@ -137,7 +123,7 @@
       "outcome": "Yes",
       "end_date": "2026-06-30",
       "entry_price": 0.435,
-      "last_price": 0.435,
+      "last_price": 0.415,
       "stake_usd": 20.0,
       "shares": 45.97701149425287,
       "trader_count_at_entry": 3
@@ -151,9 +137,107 @@
       "outcome": "No",
       "end_date": "2026-06-30",
       "entry_price": 0.6949,
-      "last_price": 0.6949,
+      "last_price": 0.685,
       "stake_usd": 20.0,
       "shares": 28.78111958555188,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385400+00:00",
+      "condition_id": "0xcbececf2cf6b6f91c5041f75cb91a99e57c20a1590e45210c1e75d7f0c4e7573",
+      "market_slug": "fifwc-fra-swe-2026-06-30-spread-home-2pt5",
+      "event_slug": "fifwc-fra-swe-2026-06-30-more-markets",
+      "title": "Spread: France (-2.5)",
+      "outcome": "Sweden",
+      "end_date": "2026-06-30",
+      "entry_price": 0.665,
+      "last_price": 0.665,
+      "stake_usd": 20.0,
+      "shares": 30.075187969924812,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385414+00:00",
+      "condition_id": "0xe2e3e289d42ce5df6a79676f3339b4e9dd353ba97dfe45d272c030599151cea2",
+      "market_slug": "fifwc-civ-nor-2026-06-30-draw",
+      "event_slug": "fifwc-civ-nor-2026-06-30",
+      "title": "Will C\u00f4te d'Ivoire vs. Norway end in a draw?",
+      "outcome": "Yes",
+      "end_date": "2026-06-30",
+      "entry_price": 0.275,
+      "last_price": 0.275,
+      "stake_usd": 20.0,
+      "shares": 72.72727272727272,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385420+00:00",
+      "condition_id": "0x378f7b5c668014d9f6c42c305ec83902f3c8f6c770b336363aed0076ce6ce1c9",
+      "market_slug": "fifwc-fra-swe-2026-06-30-fra",
+      "event_slug": "fifwc-fra-swe-2026-06-30",
+      "title": "Will France win on 2026-06-30?",
+      "outcome": "No",
+      "end_date": "2026-06-30",
+      "entry_price": 0.225,
+      "last_price": 0.225,
+      "stake_usd": 20.0,
+      "shares": 88.88888888888889,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385424+00:00",
+      "condition_id": "0x7f631610811039f03e85106365e1ef4a34dc6bf8329acb700734a7d859dcc5a2",
+      "market_slug": "fifwc-civ-nor-2026-06-30-total-2pt5",
+      "event_slug": "fifwc-civ-nor-2026-06-30-more-markets",
+      "title": "C\u00f4te d'Ivoire vs. Norway: O/U 2.5",
+      "outcome": "Over",
+      "end_date": "2026-06-30",
+      "entry_price": 0.495,
+      "last_price": 0.495,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385430+00:00",
+      "condition_id": "0x801789fd001f72517a0ae1be88b015b239b2ba5846ce73e5d11426d4e17d0514",
+      "market_slug": "fifwc-fra-swe-2026-06-30-spread-home-1pt5",
+      "event_slug": "fifwc-fra-swe-2026-06-30-more-markets",
+      "title": "Spread: France (-1.5)",
+      "outcome": "Sweden",
+      "end_date": "2026-06-30",
+      "entry_price": 0.445,
+      "last_price": 0.445,
+      "stake_usd": 20.0,
+      "shares": 44.9438202247191,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385435+00:00",
+      "condition_id": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67",
+      "market_slug": "fifwc-mex-ecu-2026-06-30-mex",
+      "event_slug": "fifwc-mex-ecu-2026-06-30",
+      "title": "Will Mexico win on 2026-06-30?",
+      "outcome": "No",
+      "end_date": "2026-07-01",
+      "entry_price": 0.5649,
+      "last_price": 0.5649,
+      "stake_usd": 20.0,
+      "shares": 35.40449637103912,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-06-29T16:40:44.385438+00:00",
+      "condition_id": "0xe9d96f957f3f5e4ffa0e920087edf967c4cc353e9d1ad0c2d7ae928b32b61cb0",
+      "market_slug": "fifwc-usa-bih-2026-07-01-usa",
+      "event_slug": "fifwc-usa-bih-2026-07-01",
+      "title": "Will United States win on 2026-07-01?",
+      "outcome": "Yes",
+      "end_date": "2026-07-02",
+      "entry_price": 0.715,
+      "last_price": 0.715,
+      "stake_usd": 20.0,
+      "shares": 27.972027972027973,
       "trader_count_at_entry": 3
     }
   ],
@@ -1050,6 +1134,25 @@
       "payout": 21.04,
       "pnl": 1.04,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-06-27T14:48:56.201428+00:00",
+      "condition_id": "0x688954ad8e279cc5febef6739d4f87acd3e42ca768ac6a8b621386a8578532ed",
+      "market_slug": "fifwc-rsa-can-2026-06-28-can",
+      "event_slug": "fifwc-rsa-can-2026-06-28",
+      "title": "Will Canada win on 2026-06-28?",
+      "outcome": "Yes",
+      "end_date": "2026-06-28",
+      "entry_price": 0.555,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-06-29T16:40:17.338343+00:00",
+      "exit_price": 1.0,
+      "payout": 36.04,
+      "pnl": 16.04,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -1080,6 +1183,10 @@
     {
       "date": "2026-06-28",
       "equity": 776.86
+    },
+    {
+      "date": "2026-06-29",
+      "equity": 796.78
     }
   ]
 }
