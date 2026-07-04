@@ -1,21 +1,7 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 512.8120118910992,
+  "cash": 447.190260591619,
   "open_positions": [
-    {
-      "opened_at": "2026-06-30T15:36:36.309653+00:00",
-      "condition_id": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e",
-      "market_slug": "fifwc-arg-cvi-2026-07-03-spread-home-1pt5",
-      "event_slug": "fifwc-arg-cvi-2026-07-03-more-markets",
-      "title": "Spread: Argentina (-1.5)",
-      "outcome": "Argentina",
-      "end_date": "2026-07-03",
-      "entry_price": 0.605,
-      "last_price": 0.665,
-      "stake_usd": 20.0,
-      "shares": 33.057851239669425,
-      "trader_count_at_entry": 4
-    },
     {
       "opened_at": "2026-07-01T15:51:19.933256+00:00",
       "condition_id": "0xd639ab51a4ff3c0359c4a0bbc05283f088524c007692746778cd2618236859ec",
@@ -25,7 +11,7 @@
       "outcome": "Arizona Diamondbacks",
       "end_date": "2026-07-02",
       "entry_price": 0.59,
-      "last_price": 0.57,
+      "last_price": 0.52,
       "stake_usd": 20.0,
       "shares": 33.898305084745765,
       "trader_count_at_entry": 3
@@ -39,37 +25,9 @@
       "outcome": "No",
       "end_date": "2026-07-04",
       "entry_price": 0.465,
-      "last_price": 0.455,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 43.01075268817204,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-02T15:23:55.441065+00:00",
-      "condition_id": "0x4a0aa5a56b98476ffbab967ba0eb70d35794ad0f154fbce5b976d6053bb47808",
-      "market_slug": "fifwc-arg-cvi-2026-07-03-team-to-advance",
-      "event_slug": "fifwc-arg-cvi-2026-07-03-more-markets",
-      "title": "Argentina vs. Cabo Verde: Team to Advance",
-      "outcome": "Argentina",
-      "end_date": "2026-07-03",
-      "entry_price": 0.915,
-      "last_price": 0.935,
-      "stake_usd": 20.0,
-      "shares": 21.85792349726776,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-02T15:23:55.441079+00:00",
-      "condition_id": "0xf5f92385410ab388143b226e44bc97270f9f39dc3a3f76c19196b48394d37966",
-      "market_slug": "fifwc-arg-cvi-2026-07-03-spread-home-2pt5",
-      "event_slug": "fifwc-arg-cvi-2026-07-03-more-markets",
-      "title": "Spread: Argentina (-2.5)",
-      "outcome": "Cabo Verde",
-      "end_date": "2026-07-03",
-      "entry_price": 0.615,
-      "last_price": 0.585,
-      "stake_usd": 20.0,
-      "shares": 32.520325203252035,
       "trader_count_at_entry": 3
     },
     {
@@ -84,6 +42,90 @@
       "last_price": 0.165,
       "stake_usd": 20.0,
       "shares": 121.2121212121212,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-04T14:42:26.187571+00:00",
+      "condition_id": "0xad9e90bf3ccd05f9c3d4a25f49109d5f860225c26faec54b52edec93c4ba4e62",
+      "market_slug": "fifwc-bra-nor-2026-07-05-team-to-advance",
+      "event_slug": "fifwc-bra-nor-2026-07-05-more-markets",
+      "title": "Brazil vs. Norway: Team to Advance",
+      "outcome": "Brazil",
+      "end_date": "2026-07-05",
+      "entry_price": 0.675,
+      "last_price": 0.675,
+      "stake_usd": 20.0,
+      "shares": 29.629629629629626,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-07-04T14:42:26.187583+00:00",
+      "condition_id": "0xf134b5d6d31ea59fe65cb22961ec1120e41a2451ef9311d6b750d6638a1c9322",
+      "market_slug": "fifwc-bra-nor-2026-07-05-total-2pt5",
+      "event_slug": "fifwc-bra-nor-2026-07-05-more-markets",
+      "title": "Brazil vs. Norway: O/U 2.5",
+      "outcome": "Over",
+      "end_date": "2026-07-05",
+      "entry_price": 0.535,
+      "last_price": 0.535,
+      "stake_usd": 20.0,
+      "shares": 37.38317757009346,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-04T14:42:26.187587+00:00",
+      "condition_id": "0x94e50623d3cfdc1256e16ff372062d42c282bec8af620bb732a19fb4b0dce580",
+      "market_slug": "fifwc-mex-eng-2026-07-05-team-to-advance",
+      "event_slug": "fifwc-mex-eng-2026-07-05-more-markets",
+      "title": "Mexico vs. England: Team to Advance",
+      "outcome": "England",
+      "end_date": "2026-07-06",
+      "entry_price": 0.535,
+      "last_price": 0.535,
+      "stake_usd": 20.0,
+      "shares": 37.38317757009346,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-07-04T14:42:26.187590+00:00",
+      "condition_id": "0x32046bdc03d13d916351bd2178cc20c5f268802d4ae60c0d8383ae91d2dd1d41",
+      "market_slug": "fifwc-mex-eng-2026-07-05-mex",
+      "event_slug": "fifwc-mex-eng-2026-07-05",
+      "title": "Will Mexico win on 2026-07-05?",
+      "outcome": "No",
+      "end_date": "2026-07-06",
+      "entry_price": 0.6949,
+      "last_price": 0.6949,
+      "stake_usd": 20.0,
+      "shares": 28.78111958555188,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-04T14:42:26.187594+00:00",
+      "condition_id": "0x99f0c39e4235d840bd25d2c229b2cda57cc087b6b8c2780f804fffeed0d0c628",
+      "market_slug": "fifwc-mex-eng-2026-07-05-eng",
+      "event_slug": "fifwc-mex-eng-2026-07-05",
+      "title": "Will England win on 2026-07-05?",
+      "outcome": "Yes",
+      "end_date": "2026-07-06",
+      "entry_price": 0.395,
+      "last_price": 0.395,
+      "stake_usd": 20.0,
+      "shares": 50.63291139240506,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-04T14:42:26.187597+00:00",
+      "condition_id": "0x02103f049a5fe127c4ea03c9531772e82f3b9f5e9f5f30d67fda5b472fb56c17",
+      "market_slug": "fifwc-usa-bel-2026-07-06-bel",
+      "event_slug": "fifwc-usa-bel-2026-07-06",
+      "title": "Will Belgium win on 2026-07-06?",
+      "outcome": "Yes",
+      "end_date": "2026-07-07",
+      "entry_price": 0.375,
+      "last_price": 0.375,
+      "stake_usd": 20.0,
+      "shares": 53.333333333333336,
       "trader_count_at_entry": 3
     }
   ],
@@ -1531,6 +1573,63 @@
       "payout": 41.24,
       "pnl": 21.24,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-06-30T15:36:36.309653+00:00",
+      "condition_id": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e",
+      "market_slug": "fifwc-arg-cvi-2026-07-03-spread-home-1pt5",
+      "event_slug": "fifwc-arg-cvi-2026-07-03-more-markets",
+      "title": "Spread: Argentina (-1.5)",
+      "outcome": "Argentina",
+      "end_date": "2026-07-03",
+      "entry_price": 0.605,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 33.057851239669425,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-07-04T14:41:54.111354+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-02T15:23:55.441065+00:00",
+      "condition_id": "0x4a0aa5a56b98476ffbab967ba0eb70d35794ad0f154fbce5b976d6053bb47808",
+      "market_slug": "fifwc-arg-cvi-2026-07-03-team-to-advance",
+      "event_slug": "fifwc-arg-cvi-2026-07-03-more-markets",
+      "title": "Argentina vs. Cabo Verde: Team to Advance",
+      "outcome": "Argentina",
+      "end_date": "2026-07-03",
+      "entry_price": 0.915,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 21.85792349726776,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-04T14:41:55.074372+00:00",
+      "exit_price": 1.0,
+      "payout": 21.86,
+      "pnl": 1.86,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-07-02T15:23:55.441079+00:00",
+      "condition_id": "0xf5f92385410ab388143b226e44bc97270f9f39dc3a3f76c19196b48394d37966",
+      "market_slug": "fifwc-arg-cvi-2026-07-03-spread-home-2pt5",
+      "event_slug": "fifwc-arg-cvi-2026-07-03-more-markets",
+      "title": "Spread: Argentina (-2.5)",
+      "outcome": "Cabo Verde",
+      "end_date": "2026-07-03",
+      "entry_price": 0.615,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 32.520325203252035,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-04T14:41:55.273759+00:00",
+      "exit_price": 1.0,
+      "payout": 32.52,
+      "pnl": 12.52,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -1581,6 +1680,10 @@
     {
       "date": "2026-07-03",
       "equity": 633.15
+    },
+    {
+      "date": "2026-07-04",
+      "equity": 623.53
     }
   ]
 }
