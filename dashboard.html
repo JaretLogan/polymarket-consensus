@@ -30,17 +30,17 @@
 </head>
 <body>
   <h1>Polymarket Strategy Dashboard</h1>
-  <div class="meta">Paper trading — 355 resolved trades total · generated 2026-07-04 16:00 UTC</div>
+  <div class="meta">Paper trading — 378 resolved trades total · generated 2026-07-05 16:07 UTC</div>
   <div class="cards">
         <div class="card">
           <div class="card-title" style="color:#3fb950">Consensus (copy traders)</div>
-          <div class="big" style="color:#f85149">-37.65%</div>
-          <div class="sub">$623.53 equity</div>
+          <div class="big" style="color:#f85149">-41.26%</div>
+          <div class="sub">$587.43 equity</div>
           <table class="stats">
-            <tr><td>Record</td><td>37W–42L–0P</td></tr>
-            <tr><td>Win rate</td><td>46.8%</td></tr>
-            <tr><td>Realized P&amp;L</td><td>$-372.80</td></tr>
-            <tr><td>Open / Closed</td><td>9 / 79</td></tr>
+            <tr><td>Record</td><td>37W–44L–0P</td></tr>
+            <tr><td>Win rate</td><td>45.7%</td></tr>
+            <tr><td>Realized P&amp;L</td><td>$-412.80</td></tr>
+            <tr><td>Open / Closed</td><td>10 / 81</td></tr>
           </table>
         </div>
         <div class="card">
@@ -67,24 +67,24 @@
         </div>
         <div class="card">
           <div class="card-title" style="color:#39c5cf">Weather temperature</div>
-          <div class="big" style="color:#f85149">-19.40%</div>
-          <div class="sub">$806.00 equity</div>
+          <div class="big" style="color:#f85149">-23.27%</div>
+          <div class="sub">$767.31 equity</div>
           <table class="stats">
-            <tr><td>Record</td><td>172W–35L–0P</td></tr>
-            <tr><td>Win rate</td><td>83.1%</td></tr>
-            <tr><td>Realized P&amp;L</td><td>$-193.99</td></tr>
-            <tr><td>Open / Closed</td><td>20 / 207</td></tr>
+            <tr><td>Record</td><td>185W–37L–0P</td></tr>
+            <tr><td>Win rate</td><td>83.3%</td></tr>
+            <tr><td>Realized P&amp;L</td><td>$-232.84</td></tr>
+            <tr><td>Open / Closed</td><td>20 / 222</td></tr>
           </table>
         </div>
         <div class="card">
           <div class="card-title" style="color:#f0883e">Crypto options</div>
-          <div class="big" style="color:#f85149">-77.59%</div>
-          <div class="sub">$224.15 equity</div>
+          <div class="big" style="color:#f85149">-89.33%</div>
+          <div class="sub">$106.70 equity</div>
           <table class="stats">
-            <tr><td>Record</td><td>18W–51L–0P</td></tr>
-            <tr><td>Win rate</td><td>26.1%</td></tr>
-            <tr><td>Realized P&amp;L</td><td>$-580.57</td></tr>
-            <tr><td>Open / Closed</td><td>20 / 69</td></tr>
+            <tr><td>Record</td><td>18W–57L–0P</td></tr>
+            <tr><td>Win rate</td><td>24.0%</td></tr>
+            <tr><td>Realized P&amp;L</td><td>$-700.57</td></tr>
+            <tr><td>Open / Closed</td><td>14 / 75</td></tr>
           </table>
         </div></div>
   <div class="chart-wrap"><canvas id="equityChart"></canvas></div>
@@ -95,7 +95,7 @@
     early numbers are noise.
   </div>
 <script>
-  const datasets = [{"label": "Consensus (copy traders)", "data": [{"x": "2026-06-23", "y": 1000.2}, {"x": "2026-06-24", "y": 959.71}, {"x": "2026-06-25", "y": 1068.51}, {"x": "2026-06-26", "y": 964.97}, {"x": "2026-06-27", "y": 881.2}, {"x": "2026-06-28", "y": 776.86}, {"x": "2026-06-29", "y": 796.78}, {"x": "2026-06-30", "y": 687.43}, {"x": "2026-07-01", "y": 563.48}, {"x": "2026-07-02", "y": 587.59}, {"x": "2026-07-03", "y": 633.15}, {"x": "2026-07-04", "y": 623.53}], "borderColor": "#3fb950", "backgroundColor": "#3fb95022", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Insider buying", "data": [{"x": "2026-06-20", "y": 1000.0}, {"x": "2026-06-21", "y": 1000.0}, {"x": "2026-06-22", "y": 1000.0}, {"x": "2026-06-23", "y": 1000.0}, {"x": "2026-06-24", "y": 1000.0}, {"x": "2026-06-25", "y": 1000.0}, {"x": "2026-06-26", "y": 1000.0}, {"x": "2026-06-29", "y": 1000.0}, {"x": "2026-06-30", "y": 1000.0}, {"x": "2026-07-01", "y": 1000.0}, {"x": "2026-07-02", "y": 1000.0}, {"x": "2026-07-03", "y": 1000.0}], "borderColor": "#58a6ff", "backgroundColor": "#58a6ff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Calibration bias", "data": [{"x": "2026-06-21", "y": 1000.0}, {"x": "2026-06-22", "y": 1000.0}, {"x": "2026-06-23", "y": 1000.0}, {"x": "2026-06-24", "y": 1000.0}, {"x": "2026-06-25", "y": 1000.0}, {"x": "2026-06-26", "y": 1000.0}, {"x": "2026-06-27", "y": 1000.0}, {"x": "2026-06-28", "y": 1000.0}, {"x": "2026-06-29", "y": 1000.0}, {"x": "2026-06-30", "y": 1000.0}, {"x": "2026-07-01", "y": 1000.0}, {"x": "2026-07-02", "y": 1000.0}, {"x": "2026-07-03", "y": 1000.0}, {"x": "2026-07-04", "y": 1000.0}], "borderColor": "#bc8cff", "backgroundColor": "#bc8cff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Weather temperature", "data": [{"x": "2026-06-23", "y": 968.5}, {"x": "2026-06-24", "y": 966.24}, {"x": "2026-06-25", "y": 906.72}, {"x": "2026-06-26", "y": 849.32}, {"x": "2026-06-27", "y": 790.24}, {"x": "2026-06-28", "y": 798.68}, {"x": "2026-06-29", "y": 754.54}, {"x": "2026-06-30", "y": 654.9}, {"x": "2026-07-01", "y": 578.13}, {"x": "2026-07-02", "y": 518.93}, {"x": "2026-07-03", "y": 816.81}, {"x": "2026-07-04", "y": 806.0}], "borderColor": "#39c5cf", "backgroundColor": "#39c5cf22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Crypto options", "data": [{"x": "2026-06-23", "y": 1224.68}, {"x": "2026-06-24", "y": 920.59}, {"x": "2026-06-25", "y": 1113.38}, {"x": "2026-06-26", "y": 1154.52}, {"x": "2026-06-27", "y": 987.29}, {"x": "2026-06-28", "y": 933.44}, {"x": "2026-06-29", "y": 905.42}, {"x": "2026-06-30", "y": 824.69}, {"x": "2026-07-01", "y": 808.93}, {"x": "2026-07-02", "y": 516.33}, {"x": "2026-07-03", "y": 391.32}, {"x": "2026-07-04", "y": 224.15}], "borderColor": "#f0883e", "backgroundColor": "#f0883e22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}];
+  const datasets = [{"label": "Consensus (copy traders)", "data": [{"x": "2026-06-23", "y": 1000.2}, {"x": "2026-06-24", "y": 959.71}, {"x": "2026-06-25", "y": 1068.51}, {"x": "2026-06-26", "y": 964.97}, {"x": "2026-06-27", "y": 881.2}, {"x": "2026-06-28", "y": 776.86}, {"x": "2026-06-29", "y": 796.78}, {"x": "2026-06-30", "y": 687.43}, {"x": "2026-07-01", "y": 563.48}, {"x": "2026-07-02", "y": 587.59}, {"x": "2026-07-03", "y": 633.15}, {"x": "2026-07-04", "y": 623.53}, {"x": "2026-07-05", "y": 587.43}], "borderColor": "#3fb950", "backgroundColor": "#3fb95022", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Insider buying", "data": [{"x": "2026-06-20", "y": 1000.0}, {"x": "2026-06-21", "y": 1000.0}, {"x": "2026-06-22", "y": 1000.0}, {"x": "2026-06-23", "y": 1000.0}, {"x": "2026-06-24", "y": 1000.0}, {"x": "2026-06-25", "y": 1000.0}, {"x": "2026-06-26", "y": 1000.0}, {"x": "2026-06-29", "y": 1000.0}, {"x": "2026-06-30", "y": 1000.0}, {"x": "2026-07-01", "y": 1000.0}, {"x": "2026-07-02", "y": 1000.0}, {"x": "2026-07-03", "y": 1000.0}], "borderColor": "#58a6ff", "backgroundColor": "#58a6ff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Calibration bias", "data": [{"x": "2026-06-21", "y": 1000.0}, {"x": "2026-06-22", "y": 1000.0}, {"x": "2026-06-23", "y": 1000.0}, {"x": "2026-06-24", "y": 1000.0}, {"x": "2026-06-25", "y": 1000.0}, {"x": "2026-06-26", "y": 1000.0}, {"x": "2026-06-27", "y": 1000.0}, {"x": "2026-06-28", "y": 1000.0}, {"x": "2026-06-29", "y": 1000.0}, {"x": "2026-06-30", "y": 1000.0}, {"x": "2026-07-01", "y": 1000.0}, {"x": "2026-07-02", "y": 1000.0}, {"x": "2026-07-03", "y": 1000.0}, {"x": "2026-07-04", "y": 1000.0}, {"x": "2026-07-05", "y": 1000.0}], "borderColor": "#bc8cff", "backgroundColor": "#bc8cff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Weather temperature", "data": [{"x": "2026-06-23", "y": 968.5}, {"x": "2026-06-24", "y": 966.24}, {"x": "2026-06-25", "y": 906.72}, {"x": "2026-06-26", "y": 849.32}, {"x": "2026-06-27", "y": 790.24}, {"x": "2026-06-28", "y": 798.68}, {"x": "2026-06-29", "y": 754.54}, {"x": "2026-06-30", "y": 654.9}, {"x": "2026-07-01", "y": 578.13}, {"x": "2026-07-02", "y": 518.93}, {"x": "2026-07-03", "y": 816.81}, {"x": "2026-07-04", "y": 806.0}, {"x": "2026-07-05", "y": 767.31}], "borderColor": "#39c5cf", "backgroundColor": "#39c5cf22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Crypto options", "data": [{"x": "2026-06-23", "y": 1224.68}, {"x": "2026-06-24", "y": 920.59}, {"x": "2026-06-25", "y": 1113.38}, {"x": "2026-06-26", "y": 1154.52}, {"x": "2026-06-27", "y": 987.29}, {"x": "2026-06-28", "y": 933.44}, {"x": "2026-06-29", "y": 905.42}, {"x": "2026-06-30", "y": 824.69}, {"x": "2026-07-01", "y": 808.93}, {"x": "2026-07-02", "y": 516.33}, {"x": "2026-07-03", "y": 391.32}, {"x": "2026-07-04", "y": 224.15}, {"x": "2026-07-05", "y": 106.7}], "borderColor": "#f0883e", "backgroundColor": "#f0883e22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}];
   new Chart(document.getElementById('equityChart'), {
     type: 'line',
     data: { datasets },
