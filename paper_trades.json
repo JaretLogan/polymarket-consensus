@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 447.190260591619,
+  "cash": 387.190260591619,
   "open_positions": [
     {
       "opened_at": "2026-07-01T15:51:19.933256+00:00",
@@ -11,37 +11,9 @@
       "outcome": "Arizona Diamondbacks",
       "end_date": "2026-07-02",
       "entry_price": 0.59,
-      "last_price": 0.52,
+      "last_price": 0.54,
       "stake_usd": 20.0,
       "shares": 33.898305084745765,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-01T15:51:19.933294+00:00",
-      "condition_id": "0xa947b7c696453a288460a8e12aae31b854ca02d0b87970ffc259cec8a9fffcd2",
-      "market_slug": "fifwc-can-mar-2026-07-04-mar",
-      "event_slug": "fifwc-can-mar-2026-07-04",
-      "title": "Will Morocco win on 2026-07-04?",
-      "outcome": "No",
-      "end_date": "2026-07-04",
-      "entry_price": 0.465,
-      "last_price": 0.435,
-      "stake_usd": 20.0,
-      "shares": 43.01075268817204,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-03T15:16:15.571619+00:00",
-      "condition_id": "0xad3441638abca4aa830cb997b7caea5f3c8b84be06b99173781cb9a47c5cbc5a",
-      "market_slug": "fifwc-par-fra-2026-07-04-fra",
-      "event_slug": "fifwc-par-fra-2026-07-04",
-      "title": "Will France win on 2026-07-04?",
-      "outcome": "No",
-      "end_date": "2026-07-04",
-      "entry_price": 0.165,
-      "last_price": 0.165,
-      "stake_usd": 20.0,
-      "shares": 121.2121212121212,
       "trader_count_at_entry": 3
     },
     {
@@ -53,7 +25,7 @@
       "outcome": "Brazil",
       "end_date": "2026-07-05",
       "entry_price": 0.675,
-      "last_price": 0.675,
+      "last_price": 0.695,
       "stake_usd": 20.0,
       "shares": 29.629629629629626,
       "trader_count_at_entry": 4
@@ -67,7 +39,7 @@
       "outcome": "Over",
       "end_date": "2026-07-05",
       "entry_price": 0.535,
-      "last_price": 0.535,
+      "last_price": 0.585,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
       "trader_count_at_entry": 3
@@ -95,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-07-06",
       "entry_price": 0.6949,
-      "last_price": 0.6949,
+      "last_price": 0.695,
       "stake_usd": 20.0,
       "shares": 28.78111958555188,
       "trader_count_at_entry": 3
@@ -123,10 +95,52 @@
       "outcome": "Yes",
       "end_date": "2026-07-07",
       "entry_price": 0.375,
-      "last_price": 0.375,
+      "last_price": 0.365,
       "stake_usd": 20.0,
       "shares": 53.333333333333336,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-05T14:49:28.569790+00:00",
+      "condition_id": "0xeb83b484265e531f2420e8b6a5f64b6b80258cf9bb45cb421cee504772ca20a7",
+      "market_slug": "fifwc-prt-esp-2026-07-06-total-2pt5",
+      "event_slug": "fifwc-prt-esp-2026-07-06-more-markets",
+      "title": "Portugal vs. Spain: O/U 2.5",
+      "outcome": "Over",
+      "end_date": "2026-07-06",
+      "entry_price": 0.545,
+      "last_price": 0.545,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-05T14:49:28.569808+00:00",
+      "condition_id": "0x4679073f08d01e9ab265464cce7c81904538be21329e9d5e6fe8a6869564f2a7",
+      "market_slug": "fifwc-mex-eng-2026-07-05-exact-score-1-1",
+      "event_slug": "fifwc-mex-eng-2026-07-05-exact-score",
+      "title": "Exact Score: Mexico 1 - 1 England?",
+      "outcome": "No",
+      "end_date": "2026-07-06",
+      "entry_price": 0.845,
+      "last_price": 0.845,
+      "stake_usd": 20.0,
+      "shares": 23.668639053254438,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-05T14:49:28.569813+00:00",
+      "condition_id": "0xb8c4eb2bc36fb256ac730f0d1d05cf5ff6649a7d8d5ed779544dfa068da1cd18",
+      "market_slug": "fifwc-prt-esp-2026-07-06-esp",
+      "event_slug": "fifwc-prt-esp-2026-07-06",
+      "title": "Will Spain win on 2026-07-06?",
+      "outcome": "No",
+      "end_date": "2026-07-06",
+      "entry_price": 0.485,
+      "last_price": 0.485,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -1630,6 +1644,44 @@
       "payout": 32.52,
       "pnl": 12.52,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-01T15:51:19.933294+00:00",
+      "condition_id": "0xa947b7c696453a288460a8e12aae31b854ca02d0b87970ffc259cec8a9fffcd2",
+      "market_slug": "fifwc-can-mar-2026-07-04-mar",
+      "event_slug": "fifwc-can-mar-2026-07-04",
+      "title": "Will Morocco win on 2026-07-04?",
+      "outcome": "No",
+      "end_date": "2026-07-04",
+      "entry_price": 0.465,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-05T14:48:52.338828+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-03T15:16:15.571619+00:00",
+      "condition_id": "0xad3441638abca4aa830cb997b7caea5f3c8b84be06b99173781cb9a47c5cbc5a",
+      "market_slug": "fifwc-par-fra-2026-07-04-fra",
+      "event_slug": "fifwc-par-fra-2026-07-04",
+      "title": "Will France win on 2026-07-04?",
+      "outcome": "No",
+      "end_date": "2026-07-04",
+      "entry_price": 0.165,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 121.2121212121212,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-05T14:48:52.563486+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -1684,6 +1736,10 @@
     {
       "date": "2026-07-04",
       "equity": 623.53
+    },
+    {
+      "date": "2026-07-05",
+      "equity": 587.43
     }
   ]
 }
