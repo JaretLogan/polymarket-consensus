@@ -11,7 +11,7 @@
       "outcome": "Arizona Diamondbacks",
       "end_date": "2026-07-02",
       "entry_price": 0.59,
-      "last_price": 0.57,
+      "last_price": 0.545,
       "stake_usd": 20.0,
       "shares": 33.898305084745765,
       "trader_count_at_entry": 3
@@ -25,7 +25,7 @@
       "outcome": "Over",
       "end_date": "2026-07-09",
       "entry_price": 0.275,
-      "last_price": 0.265,
+      "last_price": 0.26125,
       "stake_usd": 20.0,
       "shares": 72.72727272727272,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-09",
       "entry_price": 0.615,
-      "last_price": 0.615,
+      "last_price": 0.61125,
       "stake_usd": 20.0,
       "shares": 32.520325203252035,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Over",
       "end_date": "2026-07-09",
       "entry_price": 0.495,
-      "last_price": 0.475,
+      "last_price": 0.46375,
       "stake_usd": 20.0,
       "shares": 40.4040404040404,
       "trader_count_at_entry": 3
@@ -67,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-07-09",
       "entry_price": 0.9545,
-      "last_price": 0.9545,
+      "last_price": 0.9535,
       "stake_usd": 20.0,
       "shares": 20.953378732320587,
       "trader_count_at_entry": 3
@@ -81,7 +81,7 @@
       "outcome": "No",
       "end_date": "2026-07-09",
       "entry_price": 0.9705,
-      "last_price": 0.9705,
+      "last_price": 0.9695,
       "stake_usd": 20.0,
       "shares": 20.607934054611025,
       "trader_count_at_entry": 4
@@ -123,7 +123,7 @@
       "outcome": "No",
       "end_date": "2026-07-09",
       "entry_price": 0.9885,
-      "last_price": 0.9885,
+      "last_price": 0.9875,
       "stake_usd": 20.0,
       "shares": 20.23267577137076,
       "trader_count_at_entry": 3
@@ -137,7 +137,7 @@
       "outcome": "Morocco",
       "end_date": "2026-07-09",
       "entry_price": 0.655,
-      "last_price": 0.655,
+      "last_price": 0.65875,
       "stake_usd": 20.0,
       "shares": 30.534351145038165,
       "trader_count_at_entry": 3
@@ -151,7 +151,7 @@
       "outcome": "Over",
       "end_date": "2026-07-09",
       "entry_price": 0.125,
-      "last_price": 0.125,
+      "last_price": 0.1225,
       "stake_usd": 20.0,
       "shares": 160.0,
       "trader_count_at_entry": 3
@@ -165,7 +165,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-09",
       "entry_price": 0.415,
-      "last_price": 0.415,
+      "last_price": 0.425,
       "stake_usd": 20.0,
       "shares": 48.19277108433735,
       "trader_count_at_entry": 3
@@ -179,7 +179,7 @@
       "outcome": "Over",
       "end_date": "2026-07-09",
       "entry_price": 0.745,
-      "last_price": 0.745,
+      "last_price": 0.73625,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "trader_count_at_entry": 3
@@ -193,7 +193,7 @@
       "outcome": "France",
       "end_date": "2026-07-09",
       "entry_price": 0.785,
-      "last_price": 0.785,
+      "last_price": 0.77625,
       "stake_usd": 20.0,
       "shares": 25.477707006369425,
       "trader_count_at_entry": 3
@@ -207,7 +207,7 @@
       "outcome": "No",
       "end_date": "2026-07-09",
       "entry_price": 0.865,
-      "last_price": 0.865,
+      "last_price": 0.86125,
       "stake_usd": 20.0,
       "shares": 23.121387283236995,
       "trader_count_at_entry": 6
@@ -221,7 +221,7 @@
       "outcome": "Belgium",
       "end_date": "2026-07-10",
       "entry_price": 0.665,
-      "last_price": 0.665,
+      "last_price": 0.66625,
       "stake_usd": 20.0,
       "shares": 30.075187969924812,
       "trader_count_at_entry": 3
@@ -235,7 +235,7 @@
       "outcome": "Under",
       "end_date": "2026-07-10",
       "entry_price": 0.455,
-      "last_price": 0.455,
+      "last_price": 0.45625,
       "stake_usd": 20.0,
       "shares": 43.956043956043956,
       "trader_count_at_entry": 3
@@ -249,7 +249,7 @@
       "outcome": "England",
       "end_date": "2026-07-11",
       "entry_price": 0.2849,
-      "last_price": 0.2849,
+      "last_price": 0.27625,
       "stake_usd": 20.0,
       "shares": 70.2000702000702,
       "trader_count_at_entry": 3
@@ -263,7 +263,7 @@
       "outcome": "Over",
       "end_date": "2026-07-11",
       "entry_price": 0.335,
-      "last_price": 0.335,
+      "last_price": 0.33875,
       "stake_usd": 20.0,
       "shares": 59.70149253731343,
       "trader_count_at_entry": 3
@@ -277,7 +277,7 @@
       "outcome": "England",
       "end_date": "2026-07-11",
       "entry_price": 0.655,
-      "last_price": 0.655,
+      "last_price": 0.65125,
       "stake_usd": 20.0,
       "shares": 30.534351145038165,
       "trader_count_at_entry": 3
@@ -2367,6 +2367,10 @@
     {
       "date": "2026-07-08",
       "equity": 537.55
+    },
+    {
+      "date": "2026-07-09",
+      "equity": 535.04
     }
   ]
 }
