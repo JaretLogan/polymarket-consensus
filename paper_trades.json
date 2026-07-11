@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 223.18004875009956,
+  "cash": 153.25523672002436,
   "open_positions": [
     {
       "opened_at": "2026-07-01T15:51:19.933256+00:00",
@@ -11,37 +11,9 @@
       "outcome": "Arizona Diamondbacks",
       "end_date": "2026-07-02",
       "entry_price": 0.59,
-      "last_price": 0.54,
+      "last_price": 0.545,
       "stake_usd": 20.0,
       "shares": 33.898305084745765,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-08T15:27:52.428688+00:00",
-      "condition_id": "0x744df2cb98d5dd869623f254c6bdfb167c9caf1e5dd16732106cb61b2d4bc577",
-      "market_slug": "fifwc-esp-bel-2026-07-10-spread-home-1pt5",
-      "event_slug": "fifwc-esp-bel-2026-07-10-more-markets",
-      "title": "Spread: Spain (-1.5)",
-      "outcome": "Belgium",
-      "end_date": "2026-07-10",
-      "entry_price": 0.665,
-      "last_price": 0.64625,
-      "stake_usd": 20.0,
-      "shares": 30.075187969924812,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-08T15:27:52.428690+00:00",
-      "condition_id": "0x87c9134e18d318a68a48326b8d7492efd08efc2324e5b4414f6bfa512b88b115",
-      "market_slug": "fifwc-esp-bel-2026-07-10-total-2pt5",
-      "event_slug": "fifwc-esp-bel-2026-07-10-more-markets",
-      "title": "Spain vs. Belgium: O/U 2.5",
-      "outcome": "Under",
-      "end_date": "2026-07-10",
-      "entry_price": 0.455,
-      "last_price": 0.44625,
-      "stake_usd": 20.0,
-      "shares": 43.956043956043956,
       "trader_count_at_entry": 3
     },
     {
@@ -53,7 +25,7 @@
       "outcome": "England",
       "end_date": "2026-07-11",
       "entry_price": 0.2849,
-      "last_price": 0.27875,
+      "last_price": 0.26125,
       "stake_usd": 20.0,
       "shares": 70.2000702000702,
       "trader_count_at_entry": 3
@@ -67,7 +39,7 @@
       "outcome": "Over",
       "end_date": "2026-07-11",
       "entry_price": 0.335,
-      "last_price": 0.33375,
+      "last_price": 0.34625,
       "stake_usd": 20.0,
       "shares": 59.70149253731343,
       "trader_count_at_entry": 3
@@ -81,7 +53,7 @@
       "outcome": "England",
       "end_date": "2026-07-11",
       "entry_price": 0.655,
-      "last_price": 0.64625,
+      "last_price": 0.64375,
       "stake_usd": 20.0,
       "shares": 30.534351145038165,
       "trader_count_at_entry": 3
@@ -95,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-07-11",
       "entry_price": 0.935,
-      "last_price": 0.935,
+      "last_price": 0.925,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 3
@@ -123,7 +95,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-11",
       "entry_price": 0.445,
-      "last_price": 0.445,
+      "last_price": 0.465,
       "stake_usd": 20.0,
       "shares": 44.9438202247191,
       "trader_count_at_entry": 3
@@ -137,7 +109,7 @@
       "outcome": "Over",
       "end_date": "2026-07-11",
       "entry_price": 0.5537,
-      "last_price": 0.5537,
+      "last_price": 0.57125,
       "stake_usd": 20.0,
       "shares": 36.120642947444466,
       "trader_count_at_entry": 4
@@ -151,7 +123,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-11",
       "entry_price": 0.5187,
-      "last_price": 0.5187,
+      "last_price": 0.50125,
       "stake_usd": 20.0,
       "shares": 38.557933294775395,
       "trader_count_at_entry": 3
@@ -165,7 +137,7 @@
       "outcome": "No",
       "end_date": "2026-07-11",
       "entry_price": 0.7687,
-      "last_price": 0.7687,
+      "last_price": 0.75125,
       "stake_usd": 20.0,
       "shares": 26.01795238714713,
       "trader_count_at_entry": 5
@@ -179,7 +151,7 @@
       "outcome": "Over",
       "end_date": "2026-07-12",
       "entry_price": 0.4187,
-      "last_price": 0.4187,
+      "last_price": 0.41625,
       "stake_usd": 20.0,
       "shares": 47.76689754000478,
       "trader_count_at_entry": 3
@@ -193,7 +165,7 @@
       "outcome": "Max Holloway",
       "end_date": "2026-07-12",
       "entry_price": 0.675,
-      "last_price": 0.675,
+      "last_price": 0.705,
       "stake_usd": 20.0,
       "shares": 29.629629629629626,
       "trader_count_at_entry": 4
@@ -207,10 +179,80 @@
       "outcome": "Yes",
       "end_date": "2026-07-12",
       "entry_price": 0.5737,
-      "last_price": 0.5737,
+      "last_price": 0.57875,
       "stake_usd": 20.0,
       "shares": 34.86142583231654,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-11T14:24:58.535681+00:00",
+      "condition_id": "0xa1b2aedf6ca5c0fca53bca053f73be36e0594d2972fdf980d81844a639b98930",
+      "market_slug": "fifwc-arg-che-2026-07-11-team-total-home-1pt5",
+      "event_slug": "fifwc-arg-che-2026-07-11-more-markets",
+      "title": "Argentina vs. Switzerland: Argentina O/U 1.5",
+      "outcome": "Under",
+      "end_date": "2026-07-12",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-11T14:24:58.535695+00:00",
+      "condition_id": "0x1db0a673e54d03be88c155835d1b08286a469fe9ae8cfffe73777d18431533e4",
+      "market_slug": "fifwc-arg-che-2026-07-11-total-1pt5",
+      "event_slug": "fifwc-arg-che-2026-07-11-more-markets",
+      "title": "Argentina vs. Switzerland: O/U 1.5",
+      "outcome": "Under",
+      "end_date": "2026-07-12",
+      "entry_price": 0.2987,
+      "last_price": 0.2987,
+      "stake_usd": 20.0,
+      "shares": 66.95681285570807,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-07-11T14:24:58.535699+00:00",
+      "condition_id": "0xd92bc27584a025ecd9d7dc273fca9321a725436fa5f3be0a21cc1b94a7cd1207",
+      "market_slug": "fifwc-arg-che-2026-07-11-goals-lionel-messi-gte1",
+      "event_slug": "fifwc-arg-che-2026-07-11-player-props",
+      "title": "Lionel Messi: 1+ goals",
+      "outcome": "Yes",
+      "end_date": "2026-07-12",
+      "entry_price": 0.505,
+      "last_price": 0.505,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-11T14:24:58.535702+00:00",
+      "condition_id": "0x0891e4792a016a079765dd25029639cd731f7dc0bde3d65d6002b2b19dae2777",
+      "market_slug": "fifwc-arg-che-2026-07-11-team-to-advance",
+      "event_slug": "fifwc-arg-che-2026-07-11-more-markets",
+      "title": "Argentina vs. Switzerland: Team to Advance",
+      "outcome": "Switzerland",
+      "end_date": "2026-07-12",
+      "entry_price": 0.2512,
+      "last_price": 0.2512,
+      "stake_usd": 20.0,
+      "shares": 79.61783439490446,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-07-11T14:24:58.535706+00:00",
+      "condition_id": "0x20f32e9daf45af5142db1adfe40e11c8de19a9d807ff0d26dc85344e74bea2d5",
+      "market_slug": "fifwc-arg-che-2026-07-11-spread-home-1pt5",
+      "event_slug": "fifwc-arg-che-2026-07-11-more-markets",
+      "title": "Spread: Argentina (-1.5)",
+      "outcome": "Switzerland",
+      "end_date": "2026-07-12",
+      "entry_price": 0.6962,
+      "last_price": 0.6962,
+      "stake_usd": 20.0,
+      "shares": 28.72737719046251,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -2493,6 +2535,44 @@
       "payout": 23.12,
       "pnl": 3.12,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-08T15:27:52.428688+00:00",
+      "condition_id": "0x744df2cb98d5dd869623f254c6bdfb167c9caf1e5dd16732106cb61b2d4bc577",
+      "market_slug": "fifwc-esp-bel-2026-07-10-spread-home-1pt5",
+      "event_slug": "fifwc-esp-bel-2026-07-10-more-markets",
+      "title": "Spread: Spain (-1.5)",
+      "outcome": "Belgium",
+      "end_date": "2026-07-10",
+      "entry_price": 0.665,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 30.075187969924812,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-11T14:24:32.066795+00:00",
+      "exit_price": 1.0,
+      "payout": 30.08,
+      "pnl": 10.08,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-07-08T15:27:52.428690+00:00",
+      "condition_id": "0x87c9134e18d318a68a48326b8d7492efd08efc2324e5b4414f6bfa512b88b115",
+      "market_slug": "fifwc-esp-bel-2026-07-10-total-2pt5",
+      "event_slug": "fifwc-esp-bel-2026-07-10-more-markets",
+      "title": "Spain vs. Belgium: O/U 2.5",
+      "outcome": "Under",
+      "end_date": "2026-07-10",
+      "entry_price": 0.455,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 43.956043956043956,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-11T14:24:32.229638+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -2571,6 +2651,10 @@
     {
       "date": "2026-07-10",
       "equity": 519.76
+    },
+    {
+      "date": "2026-07-11",
+      "equity": 511.54
     }
   ]
 }
