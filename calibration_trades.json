@@ -3,5 +3,10 @@
   "cash": 1000.0,
   "open_positions": [],
   "closed_positions": [],
-  "equity_history": []
+  "equity_history": [
+    {
+      "date": "2026-07-13",
+      "equity": 1000.0
+    }
+  ]
 }
