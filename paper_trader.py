@@ -84,7 +84,23 @@ def get_outcome_price(market: dict, outcome_name: str):
 # ---------- core simulation steps ----------
 
 def mark_to_market_and_settle(state: dict) -> list:
-    """Refresh every open position's price; settle any whose market has closed."""
+    """Refresh every open position's price; settle any whose market has TRULY resolved.
+
+    IMPORTANT settlement correctness note:
+    Polymarket's Gamma API is 'eventually consistent'. A market can report
+    closed=true (or show a near-0/near-1 price) BEFORE its outcome is actually
+    final -- during the ~2h UMA dispute window, or (documented Polymarket bug)
+    for finished sports games / eliminated teams that still report closed=false
+    with prices already gapped to 0.0005/0.9995.
+
+    If we settle on that transient state we lock in a wrong win/loss that never
+    corrects, because a closed position is never revisited. So we ONLY settle
+    when BOTH:
+      1. the market is genuinely resolved (umaResolutionStatus == 'resolved',
+         or closed==true AND a closedTime timestamp exists), AND
+      2. our outcome's price is decisively at an extreme (>=0.99 or <=0.01).
+    Anything ambiguous stays open and gets re-checked next run.
+    """
     still_open = []
     newly_closed = []
     for pos in state["open_positions"]:
@@ -102,12 +118,20 @@ def mark_to_market_and_settle(state: dict) -> list:
 
         pos["last_price"] = price
 
-        if market.get("closed"):
-            payout = pos["shares"] * price
+        uma_status = (market.get("umaResolutionStatus") or "").lower()
+        closed_flag = bool(market.get("closed"))
+        closed_time = market.get("closedTime")
+
+        is_resolved = (uma_status == "resolved") or (closed_flag and bool(closed_time))
+        price_is_final = price >= 0.99 or price <= 0.01
+
+        if is_resolved and price_is_final:
+            settle_price = 1.0 if price >= 0.5 else 0.0
+            payout = pos["shares"] * settle_price
             pnl = payout - pos["stake_usd"]
             pos.update({
                 "closed_at": datetime.now(timezone.utc).isoformat(),
-                "exit_price": price,
+                "exit_price": settle_price,
                 "payout": round(payout, 2),
                 "pnl": round(pnl, 2),
                 "result": "win" if pnl > 1e-9 else ("loss" if pnl < -1e-9 else "push"),
@@ -131,17 +155,15 @@ def resolve_conflicts(consensus_trades: list) -> list:
     value as the tiebreaker. Returns a deduplicated list safe to pass to
     open_new_positions.
     """
-    best = {}  # condition_id -> ConsensusEntry with the stronger signal
+    best = {}
     for trade in consensus_trades:
         cid = trade.condition_id
         if cid not in best:
             best[cid] = trade
         else:
             existing = best[cid]
-            # prefer higher trader count; break ties on total_current_value
             if (trade.trader_count, trade.total_current_value) > (existing.trader_count, existing.total_current_value):
                 best[cid] = trade
-    # preserve original ordering (by trader_count desc) after dedup
     seen = set()
     out = []
     for trade in consensus_trades:
@@ -175,12 +197,12 @@ def open_new_positions(state: dict, consensus_trades: list, stake_usd: float, ma
         if key in seen_positions:
             continue
         if trade.condition_id in seen_markets:
-            continue  # already hold the other side -- skip to avoid betting against ourselves
+            continue
         if state["cash"] < stake_usd:
             print("  [info] out of paper cash, skipping further entries")
             break
         if not (0 < trade.cur_price < 1):
-            continue  # already resolved or bad data, skip
+            continue
 
         shares = stake_usd / trade.cur_price
         pos = {
