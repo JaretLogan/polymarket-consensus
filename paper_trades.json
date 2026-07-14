@@ -1,11 +1,44 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1000.0,
-  "open_positions": [],
+  "cash": 960.0,
+  "open_positions": [
+    {
+      "opened_at": "2026-07-14T14:59:53.187580+00:00",
+      "condition_id": "0x0ff5adea9f88269c5c2b30381eb510002e4a01e54efefd07f12b8cdefdb0e88c",
+      "market_slug": "fifwc-eng-arg-2026-07-15-exact-score-1-1",
+      "event_slug": "fifwc-eng-arg-2026-07-15-exact-score",
+      "title": "Exact Score: England 1 - 1 Argentina?",
+      "outcome": "Yes",
+      "end_date": "2026-07-15",
+      "entry_price": 0.165,
+      "last_price": 0.165,
+      "stake_usd": 20.0,
+      "shares": 121.2121212121212,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-14T14:59:53.187594+00:00",
+      "condition_id": "0x657232221932e3686f9a01806de1b6f6387255cd442b8a24d01091f780fbf2de",
+      "market_slug": "fifwc-eng-arg-2026-07-15-exact-score-1-3",
+      "event_slug": "fifwc-eng-arg-2026-07-15-exact-score",
+      "title": "Exact Score: England 1 - 3 Argentina?",
+      "outcome": "Yes",
+      "end_date": "2026-07-15",
+      "entry_price": 0.0275,
+      "last_price": 0.0275,
+      "stake_usd": 20.0,
+      "shares": 727.2727272727273,
+      "trader_count_at_entry": 3
+    }
+  ],
   "closed_positions": [],
   "equity_history": [
     {
       "date": "2026-07-13",
+      "equity": 1000.0
+    },
+    {
+      "date": "2026-07-14",
       "equity": 1000.0
     }
   ]
