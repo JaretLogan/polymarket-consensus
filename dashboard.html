@@ -30,12 +30,12 @@
 </head>
 <body>
   <h1>Polymarket Strategy Dashboard</h1>
-  <div class="meta">Paper trading — 20 resolved trades total · generated 2026-07-14 16:12 UTC</div>
+  <div class="meta">Paper trading — 49 resolved trades total · generated 2026-07-15 16:19 UTC</div>
   <div class="cards">
         <div class="card">
           <div class="card-title" style="color:#3fb950">Consensus (copy traders)</div>
-          <div class="big" style="color:#3fb950">+0.00%</div>
-          <div class="sub">$1,000.00 equity</div>
+          <div class="big" style="color:#3fb950">+0.22%</div>
+          <div class="sub">$1,002.18 equity</div>
           <table class="stats">
             <tr><td>Record</td><td>0W–0L–0P</td></tr>
             <tr><td>Win rate</td><td>—</td></tr>
@@ -67,24 +67,24 @@
         </div>
         <div class="card">
           <div class="card-title" style="color:#39c5cf">Weather temperature</div>
-          <div class="big" style="color:#f85149">-5.95%</div>
-          <div class="sub">$940.47 equity</div>
+          <div class="big" style="color:#f85149">-8.50%</div>
+          <div class="sub">$915.01 equity</div>
           <table class="stats">
-            <tr><td>Record</td><td>17W–3L–0P</td></tr>
-            <tr><td>Win rate</td><td>85.0%</td></tr>
-            <tr><td>Realized P&amp;L</td><td>$-59.53</td></tr>
-            <tr><td>Open / Closed</td><td>20 / 20</td></tr>
+            <tr><td>Record</td><td>35W–5L–0P</td></tr>
+            <tr><td>Win rate</td><td>87.5%</td></tr>
+            <tr><td>Realized P&amp;L</td><td>$-84.99</td></tr>
+            <tr><td>Open / Closed</td><td>20 / 40</td></tr>
           </table>
         </div>
         <div class="card">
           <div class="card-title" style="color:#f0883e">Crypto options</div>
-          <div class="big" style="color:#f85149">-14.22%</div>
-          <div class="sub">$857.80 equity</div>
+          <div class="big" style="color:#f85149">-36.73%</div>
+          <div class="sub">$632.65 equity</div>
           <table class="stats">
-            <tr><td>Record</td><td>0W–0L–0P</td></tr>
-            <tr><td>Win rate</td><td>—</td></tr>
-            <tr><td>Realized P&amp;L</td><td>$0.00</td></tr>
-            <tr><td>Open / Closed</td><td>20 / 0</td></tr>
+            <tr><td>Record</td><td>0W–9L–0P</td></tr>
+            <tr><td>Win rate</td><td>0.0%</td></tr>
+            <tr><td>Realized P&amp;L</td><td>$-180.00</td></tr>
+            <tr><td>Open / Closed</td><td>20 / 9</td></tr>
           </table>
         </div></div>
   <div class="chart-wrap"><canvas id="equityChart"></canvas></div>
@@ -95,7 +95,7 @@
     early numbers are noise.
   </div>
 <script>
-  const datasets = [{"label": "Consensus (copy traders)", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 1000.0}], "borderColor": "#3fb950", "backgroundColor": "#3fb95022", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Insider buying", "data": [{"x": "2026-06-20", "y": 1000.0}, {"x": "2026-06-21", "y": 1000.0}, {"x": "2026-06-22", "y": 1000.0}, {"x": "2026-06-23", "y": 1000.0}, {"x": "2026-06-24", "y": 1000.0}, {"x": "2026-06-25", "y": 1000.0}, {"x": "2026-06-26", "y": 1000.0}, {"x": "2026-06-29", "y": 1000.0}, {"x": "2026-06-30", "y": 1000.0}, {"x": "2026-07-01", "y": 1000.0}, {"x": "2026-07-02", "y": 1000.0}, {"x": "2026-07-03", "y": 1000.0}, {"x": "2026-07-06", "y": 1000.0}, {"x": "2026-07-07", "y": 1000.0}, {"x": "2026-07-08", "y": 1000.0}, {"x": "2026-07-09", "y": 1000.0}, {"x": "2026-07-10", "y": 1000.0}, {"x": "2026-07-13", "y": 1000.0}], "borderColor": "#58a6ff", "backgroundColor": "#58a6ff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Calibration bias", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 1000.0}], "borderColor": "#bc8cff", "backgroundColor": "#bc8cff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Weather temperature", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 940.47}], "borderColor": "#39c5cf", "backgroundColor": "#39c5cf22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Crypto options", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 857.8}], "borderColor": "#f0883e", "backgroundColor": "#f0883e22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}];
+  const datasets = [{"label": "Consensus (copy traders)", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 1000.0}, {"x": "2026-07-15", "y": 1002.18}], "borderColor": "#3fb950", "backgroundColor": "#3fb95022", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Insider buying", "data": [{"x": "2026-06-20", "y": 1000.0}, {"x": "2026-06-21", "y": 1000.0}, {"x": "2026-06-22", "y": 1000.0}, {"x": "2026-06-23", "y": 1000.0}, {"x": "2026-06-24", "y": 1000.0}, {"x": "2026-06-25", "y": 1000.0}, {"x": "2026-06-26", "y": 1000.0}, {"x": "2026-06-29", "y": 1000.0}, {"x": "2026-06-30", "y": 1000.0}, {"x": "2026-07-01", "y": 1000.0}, {"x": "2026-07-02", "y": 1000.0}, {"x": "2026-07-03", "y": 1000.0}, {"x": "2026-07-06", "y": 1000.0}, {"x": "2026-07-07", "y": 1000.0}, {"x": "2026-07-08", "y": 1000.0}, {"x": "2026-07-09", "y": 1000.0}, {"x": "2026-07-10", "y": 1000.0}, {"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 1000.0}], "borderColor": "#58a6ff", "backgroundColor": "#58a6ff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Calibration bias", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 1000.0}, {"x": "2026-07-15", "y": 1000.0}], "borderColor": "#bc8cff", "backgroundColor": "#bc8cff22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Weather temperature", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 940.47}, {"x": "2026-07-15", "y": 915.01}], "borderColor": "#39c5cf", "backgroundColor": "#39c5cf22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}, {"label": "Crypto options", "data": [{"x": "2026-07-13", "y": 1000.0}, {"x": "2026-07-14", "y": 857.8}, {"x": "2026-07-15", "y": 632.65}], "borderColor": "#f0883e", "backgroundColor": "#f0883e22", "tension": 0.2, "pointRadius": 2, "borderWidth": 2, "fill": false}];
   new Chart(document.getElementById('equityChart'), {
     type: 'line',
     data: { datasets },
