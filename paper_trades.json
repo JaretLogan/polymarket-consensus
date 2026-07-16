@@ -1,7 +1,23 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 960.0,
+  "cash": 940.0,
   "open_positions": [
+    {
+      "opened_at": "2026-07-16T15:08:26.962158+00:00",
+      "condition_id": "0x29969b8b233f707f5eb7a771ad6c1c7c19bb8f36890883f11c441450a762019f",
+      "market_slug": "will-spain-win-the-world-cup-20260605224225005",
+      "event_slug": "world-cup-spain-stage-of-elimination",
+      "title": "Will Spain win the World Cup?",
+      "outcome": "Yes",
+      "end_date": "2026-07-19",
+      "entry_price": 0.585,
+      "last_price": 0.585,
+      "stake_usd": 20.0,
+      "shares": 34.18803418803419,
+      "trader_count_at_entry": 3
+    }
+  ],
+  "closed_positions": [
     {
       "opened_at": "2026-07-14T14:59:53.187580+00:00",
       "condition_id": "0x0ff5adea9f88269c5c2b30381eb510002e4a01e54efefd07f12b8cdefdb0e88c",
@@ -11,10 +27,15 @@
       "outcome": "Yes",
       "end_date": "2026-07-15",
       "entry_price": 0.165,
-      "last_price": 0.165,
+      "last_price": 0.0,
       "stake_usd": 20.0,
       "shares": 121.2121212121212,
-      "trader_count_at_entry": 3
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-16T15:08:02.314602+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     },
     {
       "opened_at": "2026-07-14T14:59:53.187594+00:00",
@@ -25,13 +46,17 @@
       "outcome": "Yes",
       "end_date": "2026-07-15",
       "entry_price": 0.0275,
-      "last_price": 0.0305,
+      "last_price": 0.0,
       "stake_usd": 20.0,
       "shares": 727.2727272727273,
-      "trader_count_at_entry": 3
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-16T15:08:02.667073+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
-  "closed_positions": [],
   "equity_history": [
     {
       "date": "2026-07-13",
@@ -44,6 +69,10 @@
     {
       "date": "2026-07-15",
       "equity": 1002.18
+    },
+    {
+      "date": "2026-07-16",
+      "equity": 960.0
     }
   ]
 }
