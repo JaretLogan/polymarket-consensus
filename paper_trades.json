@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 940.0,
+  "cash": 800.0,
   "open_positions": [
     {
       "opened_at": "2026-07-16T15:08:26.962158+00:00",
@@ -15,6 +15,104 @@
       "stake_usd": 20.0,
       "shares": 34.18803418803419,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266581+00:00",
+      "condition_id": "0x678c695b523c324c6741e7c768b5827d9ffb9c4c3c71585ece54fe653127870a",
+      "market_slug": "chi-qin-ron-2026-07-18-total-1pt5",
+      "event_slug": "chi-qin-ron-2026-07-18-more-markets",
+      "title": "Qingdao Xihaian FC vs. Chengdu Rongcheng FC: O/U 1.5",
+      "outcome": "Over",
+      "end_date": "2026-07-18",
+      "entry_price": 0.9995,
+      "last_price": 0.9995,
+      "stake_usd": 20.0,
+      "shares": 20.01000500250125,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266595+00:00",
+      "condition_id": "0x12e12585c2c580d72b322345609893bc416340420f128813df80db41c790e703",
+      "market_slug": "fifwc-fra-eng-2026-07-18-exact-score-any-other",
+      "event_slug": "fifwc-fra-eng-2026-07-18-exact-score",
+      "title": "Exact Score: Any Other Score?",
+      "outcome": "Yes",
+      "end_date": "2026-07-18",
+      "entry_price": 0.135,
+      "last_price": 0.135,
+      "stake_usd": 20.0,
+      "shares": 148.14814814814815,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266600+00:00",
+      "condition_id": "0xe27079847922c5a02b329348e34d0411ee335d11bba4669653179bdf0dfffeac",
+      "market_slug": "2026-the-open-championship-winner-collin-morikawa-win",
+      "event_slug": "2026-the-open-championship-winner",
+      "title": "Will Collin Morikawa win the 2026 The Open Championship?",
+      "outcome": "No",
+      "end_date": "2026-07-19",
+      "entry_price": 0.9875,
+      "last_price": 0.9875,
+      "stake_usd": 20.0,
+      "shares": 20.253164556962023,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266604+00:00",
+      "condition_id": "0x8e5ca27d3dc12409efec1afd6e198ffa2c71122e57c45e3c89e50cf80137a6b1",
+      "market_slug": "fifwc-esp-arg-2026-07-19-exact-score-3-1",
+      "event_slug": "fifwc-esp-arg-2026-07-19-exact-score",
+      "title": "Exact Score: Spain 3 - 1 Argentina?",
+      "outcome": "Yes",
+      "end_date": "2026-07-19",
+      "entry_price": 0.0375,
+      "last_price": 0.0375,
+      "stake_usd": 20.0,
+      "shares": 533.3333333333334,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266608+00:00",
+      "condition_id": "0xae657a1fb4b6342a92d8879635406718e1a2c60db7512ff9d087bce3d2b6baa0",
+      "market_slug": "will-the-2026-fifa-world-cup-champion-be-a-nation-from-group-j-20260605001401291",
+      "event_slug": "world-cup-group-of-champion-20260605001357294",
+      "title": "Will the 2026 FIFA World Cup champion be a nation from Group J?",
+      "outcome": "Yes",
+      "end_date": "2026-07-20",
+      "entry_price": 0.4135,
+      "last_price": 0.4135,
+      "stake_usd": 20.0,
+      "shares": 48.36759371221282,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266611+00:00",
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "market_slug": "will-argentina-win-the-2026-fifa-world-cup-245",
+      "event_slug": "world-cup-winner",
+      "title": "Will Argentina win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "end_date": "2026-07-20",
+      "entry_price": 0.4084,
+      "last_price": 0.4084,
+      "stake_usd": 20.0,
+      "shares": 48.97159647404506,
+      "trader_count_at_entry": 6
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266617+00:00",
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "market_slug": "will-spain-win-the-2026-fifa-world-cup-963",
+      "event_slug": "world-cup-winner",
+      "title": "Will Spain win the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "end_date": "2026-07-20",
+      "entry_price": 0.5865,
+      "last_price": 0.5865,
+      "stake_usd": 20.0,
+      "shares": 34.10059676044331,
+      "trader_count_at_entry": 9
     }
   ],
   "closed_positions": [
@@ -72,6 +170,10 @@
     },
     {
       "date": "2026-07-16",
+      "equity": 960.0
+    },
+    {
+      "date": "2026-07-17",
       "equity": 960.0
     }
   ]
