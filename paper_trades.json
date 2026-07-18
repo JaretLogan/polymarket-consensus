@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 800.0,
+  "cash": 780.0100050025012,
   "open_positions": [
     {
       "opened_at": "2026-07-16T15:08:26.962158+00:00",
@@ -11,23 +11,9 @@
       "outcome": "Yes",
       "end_date": "2026-07-19",
       "entry_price": 0.585,
-      "last_price": 0.585,
+      "last_price": 0.595,
       "stake_usd": 20.0,
       "shares": 34.18803418803419,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-17T14:49:04.266581+00:00",
-      "condition_id": "0x678c695b523c324c6741e7c768b5827d9ffb9c4c3c71585ece54fe653127870a",
-      "market_slug": "chi-qin-ron-2026-07-18-total-1pt5",
-      "event_slug": "chi-qin-ron-2026-07-18-more-markets",
-      "title": "Qingdao Xihaian FC vs. Chengdu Rongcheng FC: O/U 1.5",
-      "outcome": "Over",
-      "end_date": "2026-07-18",
-      "entry_price": 0.9995,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 20.01000500250125,
       "trader_count_at_entry": 3
     },
     {
@@ -53,7 +39,7 @@
       "outcome": "No",
       "end_date": "2026-07-19",
       "entry_price": 0.9875,
-      "last_price": 0.9875,
+      "last_price": 0.997,
       "stake_usd": 20.0,
       "shares": 20.253164556962023,
       "trader_count_at_entry": 3
@@ -67,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-19",
       "entry_price": 0.0375,
-      "last_price": 0.0375,
+      "last_price": 0.0385,
       "stake_usd": 20.0,
       "shares": 533.3333333333334,
       "trader_count_at_entry": 3
@@ -81,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-20",
       "entry_price": 0.4135,
-      "last_price": 0.4135,
+      "last_price": 0.4025,
       "stake_usd": 20.0,
       "shares": 48.36759371221282,
       "trader_count_at_entry": 3
@@ -95,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-20",
       "entry_price": 0.4084,
-      "last_price": 0.4084,
+      "last_price": 0.4015,
       "stake_usd": 20.0,
       "shares": 48.97159647404506,
       "trader_count_at_entry": 6
@@ -109,10 +95,38 @@
       "outcome": "Yes",
       "end_date": "2026-07-20",
       "entry_price": 0.5865,
-      "last_price": 0.5865,
+      "last_price": 0.5915,
       "stake_usd": 20.0,
       "shares": 34.10059676044331,
       "trader_count_at_entry": 9
+    },
+    {
+      "opened_at": "2026-07-18T14:22:27.437996+00:00",
+      "condition_id": "0x3aef2c7978419040fb4803d5b7653f7bc788ddc416bff1088c126dcea3c703c2",
+      "market_slug": "fifwc-esp-arg-2026-07-19-penalty-shootout",
+      "event_slug": "fifwc-esp-arg-2026-07-19-more-markets",
+      "title": "Spain vs. Argentina: Will the Match Go to a Penalty Shootout?",
+      "outcome": "No",
+      "end_date": "2026-07-19",
+      "entry_price": 0.805,
+      "last_price": 0.805,
+      "stake_usd": 20.0,
+      "shares": 24.844720496894407,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-18T14:22:27.438011+00:00",
+      "condition_id": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e",
+      "market_slug": "fifwc-esp-arg-2026-07-19-exact-score-2-3",
+      "event_slug": "fifwc-esp-arg-2026-07-19-exact-score",
+      "title": "Exact Score: Spain 2 - 3 Argentina?",
+      "outcome": "No",
+      "end_date": "2026-07-19",
+      "entry_price": 0.9715,
+      "last_price": 0.9715,
+      "stake_usd": 20.0,
+      "shares": 20.58672156459084,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -153,6 +167,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266581+00:00",
+      "condition_id": "0x678c695b523c324c6741e7c768b5827d9ffb9c4c3c71585ece54fe653127870a",
+      "market_slug": "chi-qin-ron-2026-07-18-total-1pt5",
+      "event_slug": "chi-qin-ron-2026-07-18-more-markets",
+      "title": "Qingdao Xihaian FC vs. Chengdu Rongcheng FC: O/U 1.5",
+      "outcome": "Over",
+      "end_date": "2026-07-18",
+      "entry_price": 0.9995,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.01000500250125,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-18T14:22:05.632020+00:00",
+      "exit_price": 1.0,
+      "payout": 20.01,
+      "pnl": 0.01,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -175,6 +208,10 @@
     {
       "date": "2026-07-17",
       "equity": 960.0
+    },
+    {
+      "date": "2026-07-18",
+      "equity": 960.38
     }
   ]
 }
