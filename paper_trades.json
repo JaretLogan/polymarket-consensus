@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 780.0100050025012,
+  "cash": 888.1581531506494,
   "open_positions": [
     {
       "opened_at": "2026-07-16T15:08:26.962158+00:00",
@@ -17,20 +17,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-07-17T14:49:04.266595+00:00",
-      "condition_id": "0x12e12585c2c580d72b322345609893bc416340420f128813df80db41c790e703",
-      "market_slug": "fifwc-fra-eng-2026-07-18-exact-score-any-other",
-      "event_slug": "fifwc-fra-eng-2026-07-18-exact-score",
-      "title": "Exact Score: Any Other Score?",
-      "outcome": "Yes",
-      "end_date": "2026-07-18",
-      "entry_price": 0.135,
-      "last_price": 0.135,
-      "stake_usd": 20.0,
-      "shares": 148.14814814814815,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-07-17T14:49:04.266600+00:00",
       "condition_id": "0xe27079847922c5a02b329348e34d0411ee335d11bba4669653179bdf0dfffeac",
       "market_slug": "2026-the-open-championship-winner-collin-morikawa-win",
@@ -39,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-07-19",
       "entry_price": 0.9875,
-      "last_price": 0.997,
+      "last_price": 0.996,
       "stake_usd": 20.0,
       "shares": 20.253164556962023,
       "trader_count_at_entry": 3
@@ -53,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-19",
       "entry_price": 0.0375,
-      "last_price": 0.0385,
+      "last_price": 0.0415,
       "stake_usd": 20.0,
       "shares": 533.3333333333334,
       "trader_count_at_entry": 3
@@ -67,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-20",
       "entry_price": 0.4135,
-      "last_price": 0.4025,
+      "last_price": 0.4055,
       "stake_usd": 20.0,
       "shares": 48.36759371221282,
       "trader_count_at_entry": 3
@@ -81,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-20",
       "entry_price": 0.4084,
-      "last_price": 0.4015,
+      "last_price": 0.4085,
       "stake_usd": 20.0,
       "shares": 48.97159647404506,
       "trader_count_at_entry": 6
@@ -123,9 +109,37 @@
       "outcome": "No",
       "end_date": "2026-07-19",
       "entry_price": 0.9715,
-      "last_price": 0.9715,
+      "last_price": 0.9635,
       "stake_usd": 20.0,
       "shares": 20.58672156459084,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-19T14:25:51.228167+00:00",
+      "condition_id": "0x2d1492e3986f791935633c953118998ac0b3e3738bdff60120fa119c6edc4385",
+      "market_slug": "will-kylian-mbappe-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032279",
+      "event_slug": "world-cup-golden-ball-winner-20260603194031758",
+      "title": "Will Kylian Mbapp\u00e9 win the Golden Ball at the 2026 FIFA World Cup?",
+      "outcome": "Yes",
+      "end_date": "2026-07-20",
+      "entry_price": 0.014,
+      "last_price": 0.014,
+      "stake_usd": 20.0,
+      "shares": 1428.5714285714284,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-19T14:25:51.228184+00:00",
+      "condition_id": "0xd2a8caba5559bc21e14f6b2aa504cb14a1782751658b71409e25b82e432c0a97",
+      "market_slug": "will-lionel-messi-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+      "event_slug": "world-cup-golden-boot-winner",
+      "title": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
+      "outcome": "No",
+      "end_date": "2026-07-20",
+      "entry_price": 0.9195,
+      "last_price": 0.9195,
+      "stake_usd": 20.0,
+      "shares": 21.75095160413268,
       "trader_count_at_entry": 3
     }
   ],
@@ -186,6 +200,25 @@
       "payout": 20.01,
       "pnl": 0.01,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-17T14:49:04.266595+00:00",
+      "condition_id": "0x12e12585c2c580d72b322345609893bc416340420f128813df80db41c790e703",
+      "market_slug": "fifwc-fra-eng-2026-07-18-exact-score-any-other",
+      "event_slug": "fifwc-fra-eng-2026-07-18-exact-score",
+      "title": "Exact Score: Any Other Score?",
+      "outcome": "Yes",
+      "end_date": "2026-07-18",
+      "entry_price": 0.135,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 148.14814814814815,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-19T14:25:30.371183+00:00",
+      "exit_price": 1.0,
+      "payout": 148.15,
+      "pnl": 128.15,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -212,6 +245,10 @@
     {
       "date": "2026-07-18",
       "equity": 960.38
+    },
+    {
+      "date": "2026-07-19",
+      "equity": 1090.43
     }
   ]
 }
