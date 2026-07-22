@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1003.8823423217068,
+  "cash": 983.8823423217068,
   "open_positions": [
     {
       "opened_at": "2026-07-21T15:09:38.730838+00:00",
@@ -11,7 +11,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-22",
       "entry_price": 0.955,
-      "last_price": 0.955,
+      "last_price": 0.9365,
       "stake_usd": 20.0,
       "shares": 20.942408376963353,
       "trader_count_at_entry": 5
@@ -25,10 +25,24 @@
       "outcome": "No",
       "end_date": "2026-07-24",
       "entry_price": 0.935,
-      "last_price": 0.935,
+      "last_price": 0.835,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-07-22T15:09:36.175617+00:00",
+      "condition_id": "0xf473c2e521258a81d44f16fd65e811de7bcb6646912561583969004b81c10ec1",
+      "market_slug": "israel-x-iran-ceasefire-continues-through-july-25-20260716224448967",
+      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+      "title": "Israel x Iran ceasefire continues through July 25?",
+      "outcome": "Yes",
+      "end_date": "2026-07-25",
+      "entry_price": 0.6899,
+      "last_price": 0.6899,
+      "stake_usd": 20.0,
+      "shares": 28.989708653428035,
+      "trader_count_at_entry": 5
     }
   ],
   "closed_positions": [
@@ -331,6 +345,10 @@
     {
       "date": "2026-07-21",
       "equity": 1043.88
+    },
+    {
+      "date": "2026-07-22",
+      "equity": 1041.36
     }
   ]
 }
