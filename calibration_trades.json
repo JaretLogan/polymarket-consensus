@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 560.0,
+  "cash": 569.6296296296297,
   "open_positions": [
     {
       "opened_at": "2026-07-20T15:02:14.786925+00:00",
@@ -10,7 +10,7 @@
       "title": "NBA: LeBron to Sign With Former Team?",
       "outcome": "Yes",
       "entry_price": 0.775,
-      "last_price": 0.8385,
+      "last_price": 0.7735,
       "stake_usd": 20.0,
       "shares": 25.806451612903224,
       "bucket_at_entry": "65-80%",
@@ -55,7 +55,7 @@
       "title": "Will Dan Koh be the Democratic nominee for MA-06?",
       "outcome": "Yes",
       "entry_price": 0.695,
-      "last_price": 0.71,
+      "last_price": 0.7,
       "stake_usd": 20.0,
       "shares": 28.77697841726619,
       "bucket_at_entry": "65-80%",
@@ -100,7 +100,7 @@
       "title": "Will Cindy Holscher win the 2026 Kansas Governor Democratic primary election?",
       "outcome": "Yes",
       "entry_price": 0.725,
-      "last_price": 0.74,
+      "last_price": 0.72,
       "stake_usd": 20.0,
       "shares": 27.586206896551726,
       "bucket_at_entry": "65-80%",
@@ -130,24 +130,9 @@
       "title": "Will the Philadelphia Phillies clinch a spot in the 2026 MLB Postseason?",
       "outcome": "Yes",
       "entry_price": 0.79,
-      "last_price": 0.825,
+      "last_price": 0.86,
       "stake_usd": 20.0,
       "shares": 25.31645569620253,
-      "bucket_at_entry": "65-80%",
-      "edge_at_entry": 0.0953,
-      "z_at_entry": 1.906
-    },
-    {
-      "opened_at": "2026-07-20T15:02:14.786986+00:00",
-      "condition_id": "0x9338c02162e3cd9c9ce31660b289f28d0a16a3105abf1653cbc8c0e3f182b666",
-      "market_slug": "will-amish-shah-be-the-az-01-democratic-nominee-20260629182916325",
-      "event_slug": "az-01-democratic-primary-winner-20260629182915544",
-      "title": "Will Amish Shah be the AZ-01 Democratic nominee?",
-      "outcome": "Yes",
-      "entry_price": 0.675,
-      "last_price": 0.972,
-      "stake_usd": 20.0,
-      "shares": 29.629629629629626,
       "bucket_at_entry": "65-80%",
       "edge_at_entry": 0.0953,
       "z_at_entry": 1.906
@@ -175,7 +160,7 @@
       "title": "Will Neuralink's valuation hit (LOW) $35B by December 31?",
       "outcome": "Yes",
       "entry_price": 0.68,
-      "last_price": 0.63,
+      "last_price": 0.47,
       "stake_usd": 20.0,
       "shares": 29.41176470588235,
       "bucket_at_entry": "65-80%",
@@ -190,7 +175,7 @@
       "title": "Will AfD win the most seats in 2 German state elections in September 2026?",
       "outcome": "Yes",
       "entry_price": 0.77,
-      "last_price": 0.775,
+      "last_price": 0.815,
       "stake_usd": 20.0,
       "shares": 25.974025974025974,
       "bucket_at_entry": "65-80%",
@@ -205,7 +190,7 @@
       "title": "Will the Republican Party win the FL-09 House seat?",
       "outcome": "Yes",
       "entry_price": 0.69,
-      "last_price": 0.72,
+      "last_price": 0.76,
       "stake_usd": 20.0,
       "shares": 28.985507246376812,
       "bucket_at_entry": "65-80%",
@@ -235,7 +220,7 @@
       "title": "Aligned FDV above $100M one day after launch?",
       "outcome": "Yes",
       "entry_price": 0.68,
-      "last_price": 0.65,
+      "last_price": 0.62,
       "stake_usd": 20.0,
       "shares": 29.41176470588235,
       "bucket_at_entry": "65-80%",
@@ -250,7 +235,7 @@
       "title": "Surf FDV above $50M one day after launch?",
       "outcome": "Yes",
       "entry_price": 0.745,
-      "last_price": 0.725,
+      "last_price": 0.73,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "bucket_at_entry": "65-80%",
@@ -265,7 +250,7 @@
       "title": "Will Frank F. Blas Jr. win the 2026 Guam Governor Republican primary election?",
       "outcome": "No",
       "entry_price": 0.515,
-      "last_price": 0.765,
+      "last_price": 0.835,
       "stake_usd": 20.0,
       "shares": 38.83495145631068,
       "bucket_at_entry": "35-50%",
@@ -280,7 +265,7 @@
       "title": "Will Mohamed Salah play in S\u00fcper Lig next?",
       "outcome": "Yes",
       "entry_price": 0.7215,
-      "last_price": 0.717,
+      "last_price": 0.724,
       "stake_usd": 20.0,
       "shares": 27.72002772002772,
       "bucket_at_entry": "65-80%",
@@ -298,6 +283,21 @@
       "last_price": 0.7095,
       "stake_usd": 20.0,
       "shares": 28.188865398167724,
+      "bucket_at_entry": "65-80%",
+      "edge_at_entry": 0.0953,
+      "z_at_entry": 1.906
+    },
+    {
+      "opened_at": "2026-07-23T15:02:38.463901+00:00",
+      "condition_id": "0x1ca38119fa2b6100d7ed51b5cd6b6ee77148ea41504bb975bfe6e531f07f51dd",
+      "market_slug": "will-the-republican-party-win-the-fl-07-house-seat",
+      "event_slug": "fl-07-house-election-winner",
+      "title": "Will the Republican Party win the FL-07 House seat?",
+      "outcome": "Yes",
+      "entry_price": 0.675,
+      "last_price": 0.675,
+      "stake_usd": 20.0,
+      "shares": 29.629629629629626,
       "bucket_at_entry": "65-80%",
       "edge_at_entry": 0.0953,
       "z_at_entry": 1.906
@@ -343,6 +343,26 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-20T15:02:14.786986+00:00",
+      "condition_id": "0x9338c02162e3cd9c9ce31660b289f28d0a16a3105abf1653cbc8c0e3f182b666",
+      "market_slug": "will-amish-shah-be-the-az-01-democratic-nominee-20260629182916325",
+      "event_slug": "az-01-democratic-primary-winner-20260629182915544",
+      "title": "Will Amish Shah be the AZ-01 Democratic nominee?",
+      "outcome": "Yes",
+      "entry_price": 0.675,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 29.629629629629626,
+      "bucket_at_entry": "65-80%",
+      "edge_at_entry": 0.0953,
+      "z_at_entry": 1.906,
+      "closed_at": "2026-07-23T15:02:32.218627+00:00",
+      "exit_price": 1.0,
+      "payout": 29.63,
+      "pnl": 9.63,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -385,6 +405,10 @@
     {
       "date": "2026-07-22",
       "equity": 981.6
+    },
+    {
+      "date": "2026-07-23",
+      "equity": 980.45
     }
   ]
 }
