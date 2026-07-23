@@ -11,7 +11,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-22",
       "entry_price": 0.955,
-      "last_price": 0.9365,
+      "last_price": 0.9965,
       "stake_usd": 20.0,
       "shares": 20.942408376963353,
       "trader_count_at_entry": 5
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-07-24",
       "entry_price": 0.935,
-      "last_price": 0.835,
+      "last_price": 0.885,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 4
@@ -349,6 +349,10 @@
     {
       "date": "2026-07-22",
       "equity": 1041.36
+    },
+    {
+      "date": "2026-07-23",
+      "equity": 1043.68
     }
   ]
 }
