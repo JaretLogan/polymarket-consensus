@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 983.8823423217068,
+  "cash": 985.2727166532576,
   "open_positions": [
     {
       "opened_at": "2026-07-21T15:09:38.730838+00:00",
@@ -11,24 +11,10 @@
       "outcome": "Yes",
       "end_date": "2026-07-22",
       "entry_price": 0.955,
-      "last_price": 0.9965,
+      "last_price": 0.9985,
       "stake_usd": 20.0,
       "shares": 20.942408376963353,
       "trader_count_at_entry": 5
-    },
-    {
-      "opened_at": "2026-07-21T15:09:38.730852+00:00",
-      "condition_id": "0x385fb3a0c0c020e9f1c6746a95aabb449ce6465c2917cf607759b52c06934e3d",
-      "market_slug": "iran-full-airspace-closure-by-july-24",
-      "event_slug": "iran-full-airspace-closure-byptptpt-20260625195253028",
-      "title": "Iran full airspace closure by July 24?",
-      "outcome": "No",
-      "end_date": "2026-07-24",
-      "entry_price": 0.935,
-      "last_price": 0.964,
-      "stake_usd": 20.0,
-      "shares": 21.390374331550802,
-      "trader_count_at_entry": 4
     },
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -42,6 +28,20 @@
       "last_price": 0.6899,
       "stake_usd": 20.0,
       "shares": 28.989708653428035,
+      "trader_count_at_entry": 5
+    },
+    {
+      "opened_at": "2026-07-25T14:40:21.763844+00:00",
+      "condition_id": "0x33c491023cecc6a42a70608427c2be37dfbe789ae1b08d8791f2450a3f9696f2",
+      "market_slug": "israel-x-iran-ceasefire-continues-through-july-26",
+      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+      "title": "Israel x Iran ceasefire continues through July 26?",
+      "outcome": "Yes",
+      "end_date": "2026-07-26",
+      "entry_price": 0.925,
+      "last_price": 0.925,
+      "stake_usd": 20.0,
+      "shares": 21.62162162162162,
       "trader_count_at_entry": 5
     }
   ],
@@ -311,6 +311,25 @@
       "payout": 21.75,
       "pnl": 1.75,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-21T15:09:38.730852+00:00",
+      "condition_id": "0x385fb3a0c0c020e9f1c6746a95aabb449ce6465c2917cf607759b52c06934e3d",
+      "market_slug": "iran-full-airspace-closure-by-july-24",
+      "event_slug": "iran-full-airspace-closure-byptptpt-20260625195253028",
+      "title": "Iran full airspace closure by July 24?",
+      "outcome": "No",
+      "end_date": "2026-07-24",
+      "entry_price": 0.935,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 21.390374331550802,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-07-25T14:39:59.306025+00:00",
+      "exit_price": 1.0,
+      "payout": 21.39,
+      "pnl": 1.39,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -357,6 +376,10 @@
     {
       "date": "2026-07-24",
       "equity": 1045.37
+    },
+    {
+      "date": "2026-07-25",
+      "equity": 1046.18
     }
   ]
 }
