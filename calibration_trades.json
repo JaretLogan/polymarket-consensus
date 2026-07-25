@@ -10,7 +10,7 @@
       "title": "NBA: LeBron to Sign With Former Team?",
       "outcome": "Yes",
       "entry_price": 0.775,
-      "last_price": 0.7535,
+      "last_price": 0.0005,
       "stake_usd": 20.0,
       "shares": 25.806451612903224,
       "bucket_at_entry": "65-80%",
@@ -130,7 +130,7 @@
       "title": "Will the Philadelphia Phillies clinch a spot in the 2026 MLB Postseason?",
       "outcome": "Yes",
       "entry_price": 0.79,
-      "last_price": 0.865,
+      "last_price": 0.815,
       "stake_usd": 20.0,
       "shares": 25.31645569620253,
       "bucket_at_entry": "65-80%",
@@ -175,7 +175,7 @@
       "title": "Will AfD win the most seats in 2 German state elections in September 2026?",
       "outcome": "Yes",
       "entry_price": 0.77,
-      "last_price": 0.825,
+      "last_price": 0.81,
       "stake_usd": 20.0,
       "shares": 25.974025974025974,
       "bucket_at_entry": "65-80%",
@@ -190,7 +190,7 @@
       "title": "Will the Republican Party win the FL-09 House seat?",
       "outcome": "Yes",
       "entry_price": 0.69,
-      "last_price": 0.76,
+      "last_price": 0.765,
       "stake_usd": 20.0,
       "shares": 28.985507246376812,
       "bucket_at_entry": "65-80%",
@@ -205,7 +205,7 @@
       "title": "Will Bruno Fernandes win the 2026 PFA Player of the Year?",
       "outcome": "Yes",
       "entry_price": 0.795,
-      "last_price": 0.795,
+      "last_price": 0.76,
       "stake_usd": 20.0,
       "shares": 25.157232704402514,
       "bucket_at_entry": "65-80%",
@@ -235,7 +235,7 @@
       "title": "Surf FDV above $50M one day after launch?",
       "outcome": "Yes",
       "entry_price": 0.745,
-      "last_price": 0.74,
+      "last_price": 0.75,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "bucket_at_entry": "65-80%",
@@ -250,7 +250,7 @@
       "title": "Will Frank F. Blas Jr. win the 2026 Guam Governor Republican primary election?",
       "outcome": "No",
       "entry_price": 0.515,
-      "last_price": 0.84,
+      "last_price": 0.83,
       "stake_usd": 20.0,
       "shares": 38.83495145631068,
       "bucket_at_entry": "35-50%",
@@ -265,7 +265,7 @@
       "title": "Will Mohamed Salah play in S\u00fcper Lig next?",
       "outcome": "Yes",
       "entry_price": 0.7215,
-      "last_price": 0.696,
+      "last_price": 0.552,
       "stake_usd": 20.0,
       "shares": 27.72002772002772,
       "bucket_at_entry": "65-80%",
@@ -413,6 +413,10 @@
     {
       "date": "2026-07-24",
       "equity": 981.16
+    },
+    {
+      "date": "2026-07-25",
+      "equity": 955.23
     }
   ]
 }
