@@ -10,7 +10,7 @@
       "title": "What will the Ethereum Implied Volatility Index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.0165,
-      "last_price": 0.0165,
+      "last_price": 0.0155,
       "stake_usd": 20.0,
       "shares": 1212.121212121212,
       "asset": "ETH",
@@ -30,7 +30,7 @@
       "title": "What will the Ethereum Implied Volatility Index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.022,
-      "last_price": 0.022,
+      "last_price": 0.0215,
       "stake_usd": 20.0,
       "shares": 909.0909090909091,
       "asset": "ETH",
@@ -50,7 +50,7 @@
       "title": "What will the Bitcoin Implied Volatility index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.0245,
-      "last_price": 0.0145,
+      "last_price": 0.0125,
       "stake_usd": 20.0,
       "shares": 816.3265306122448,
       "asset": "BTC",
@@ -90,7 +90,7 @@
       "title": "What will the Bitcoin Implied Volatility index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.0805,
-      "last_price": 0.0715,
+      "last_price": 0.071,
       "stake_usd": 20.0,
       "shares": 248.4472049689441,
       "asset": "BTC",
@@ -110,7 +110,7 @@
       "title": "What will the Ethereum Implied Volatility Index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.17,
-      "last_price": 0.066,
+      "last_price": 0.065,
       "stake_usd": 20.0,
       "shares": 117.6470588235294,
       "asset": "ETH",
@@ -130,7 +130,7 @@
       "title": "What will the Bitcoin Implied Volatility index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.185,
-      "last_price": 0.065,
+      "last_price": 0.06,
       "stake_usd": 20.0,
       "shares": 108.10810810810811,
       "asset": "BTC",
@@ -150,7 +150,7 @@
       "title": "What will the Ethereum Implied Volatility Index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.685,
-      "last_price": 0.175,
+      "last_price": 0.395,
       "stake_usd": 20.0,
       "shares": 29.1970802919708,
       "asset": "ETH",
@@ -1313,6 +1313,10 @@
     {
       "date": "2026-07-24",
       "equity": 116.11
+    },
+    {
+      "date": "2026-07-25",
+      "equity": 118.45
     }
   ]
 }
