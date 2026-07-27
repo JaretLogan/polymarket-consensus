@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 926.215125030221,
+  "cash": 886.215125030221,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-26",
       "entry_price": 0.925,
-      "last_price": 0.9915,
+      "last_price": 0.9995,
       "stake_usd": 20.0,
       "shares": 21.62162162162162,
       "trader_count_at_entry": 5
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-27",
       "entry_price": 0.977,
-      "last_price": 0.977,
+      "last_price": 0.9865,
       "stake_usd": 20.0,
       "shares": 20.470829068577277,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-28",
       "entry_price": 0.963,
-      "last_price": 0.963,
+      "last_price": 0.97,
       "stake_usd": 20.0,
       "shares": 20.768431983385256,
       "trader_count_at_entry": 4
@@ -67,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.8275,
-      "last_price": 0.8275,
+      "last_price": 0.7285,
       "stake_usd": 20.0,
       "shares": 24.169184290030213,
       "trader_count_at_entry": 3
@@ -81,9 +81,37 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.935,
-      "last_price": 0.935,
+      "last_price": 0.9635,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-27T15:47:59.252169+00:00",
+      "condition_id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+      "market_slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting",
+      "event_slug": "fed-decision-in-july-181",
+      "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+      "outcome": "Yes",
+      "end_date": "2026-07-29",
+      "entry_price": 0.2705,
+      "last_price": 0.2705,
+      "stake_usd": 20.0,
+      "shares": 73.93715341959334,
+      "trader_count_at_entry": 5
+    },
+    {
+      "opened_at": "2026-07-27T15:47:59.252184+00:00",
+      "condition_id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+      "market_slug": "will-the-fed-increase-interest-rates-by-50-bps-after-the-july-2026-meeting",
+      "event_slug": "fed-decision-in-july-181",
+      "title": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+      "outcome": "Yes",
+      "end_date": "2026-07-29",
+      "entry_price": 0.0055,
+      "last_price": 0.0055,
+      "stake_usd": 20.0,
+      "shares": 3636.3636363636365,
       "trader_count_at_entry": 3
     }
   ],
@@ -445,6 +473,10 @@
     {
       "date": "2026-07-26",
       "equity": 1047.65
+    },
+    {
+      "date": "2026-07-27",
+      "equity": 1046.38
     }
   ]
 }
