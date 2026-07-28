@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 886.215125030221,
+  "cash": 826.215125030221,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-27",
       "entry_price": 0.977,
-      "last_price": 0.9865,
+      "last_price": 0.9985,
       "stake_usd": 20.0,
       "shares": 20.470829068577277,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-28",
       "entry_price": 0.963,
-      "last_price": 0.97,
+      "last_price": 0.9935,
       "stake_usd": 20.0,
       "shares": 20.768431983385256,
       "trader_count_at_entry": 4
@@ -67,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.8275,
-      "last_price": 0.7285,
+      "last_price": 0.784,
       "stake_usd": 20.0,
       "shares": 24.169184290030213,
       "trader_count_at_entry": 3
@@ -81,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.935,
-      "last_price": 0.9635,
+      "last_price": 0.983,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 3
@@ -95,7 +95,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.2705,
-      "last_price": 0.2705,
+      "last_price": 0.213,
       "stake_usd": 20.0,
       "shares": 73.93715341959334,
       "trader_count_at_entry": 5
@@ -113,6 +113,48 @@
       "stake_usd": 20.0,
       "shares": 3636.3636363636365,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-28T15:27:11.094850+00:00",
+      "condition_id": "0x8646e8f7483f209cf85f4eae70837835b14c5dc79ba10b8728c41d11e1196232",
+      "market_slug": "ucl-kps-sf-2026-07-29-draw",
+      "event_slug": "ucl-kps-sf-2026-07-29",
+      "title": "Will Kuopion PS vs. Sabah FK end in a draw?",
+      "outcome": "No",
+      "end_date": "2026-07-29",
+      "entry_price": 0.705,
+      "last_price": 0.705,
+      "stake_usd": 20.0,
+      "shares": 28.368794326241137,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-28T15:27:11.094867+00:00",
+      "condition_id": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97",
+      "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329843",
+      "event_slug": "largest-company-end-of-july-20260624192302727",
+      "title": "Will Apple be the largest company in the world by market cap on July 31?",
+      "outcome": "Yes",
+      "end_date": "2026-07-31",
+      "entry_price": 0.721,
+      "last_price": 0.721,
+      "stake_usd": 20.0,
+      "shares": 27.739251040221916,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-28T15:27:11.094873+00:00",
+      "condition_id": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55",
+      "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329841",
+      "event_slug": "largest-company-end-of-july-20260624192302727",
+      "title": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "outcome": "No",
+      "end_date": "2026-07-31",
+      "entry_price": 0.745,
+      "last_price": 0.745,
+      "stake_usd": 20.0,
+      "shares": 26.845637583892618,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -477,6 +519,10 @@
     {
       "date": "2026-07-27",
       "equity": 1046.38
+    },
+    {
+      "date": "2026-07-28",
+      "equity": 1044.62
     }
   ]
 }
