@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 826.215125030221,
+  "cash": 814.5839193564622,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-27",
       "entry_price": 0.977,
-      "last_price": 0.9985,
+      "last_price": 0.999,
       "stake_usd": 20.0,
       "shares": 20.470829068577277,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-28",
       "entry_price": 0.963,
-      "last_price": 0.9935,
+      "last_price": 0.9985,
       "stake_usd": 20.0,
       "shares": 20.768431983385256,
       "trader_count_at_entry": 4
@@ -67,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.8275,
-      "last_price": 0.784,
+      "last_price": 0.7515,
       "stake_usd": 20.0,
       "shares": 24.169184290030213,
       "trader_count_at_entry": 3
@@ -81,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.935,
-      "last_price": 0.983,
+      "last_price": 0.9805,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 3
@@ -95,7 +95,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.2705,
-      "last_price": 0.213,
+      "last_price": 0.2515,
       "stake_usd": 20.0,
       "shares": 73.93715341959334,
       "trader_count_at_entry": 5
@@ -109,23 +109,9 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.0055,
-      "last_price": 0.0055,
+      "last_price": 0.0035,
       "stake_usd": 20.0,
       "shares": 3636.3636363636365,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-07-28T15:27:11.094850+00:00",
-      "condition_id": "0x8646e8f7483f209cf85f4eae70837835b14c5dc79ba10b8728c41d11e1196232",
-      "market_slug": "ucl-kps-sf-2026-07-29-draw",
-      "event_slug": "ucl-kps-sf-2026-07-29",
-      "title": "Will Kuopion PS vs. Sabah FK end in a draw?",
-      "outcome": "No",
-      "end_date": "2026-07-29",
-      "entry_price": 0.705,
-      "last_price": 0.705,
-      "stake_usd": 20.0,
-      "shares": 28.368794326241137,
       "trader_count_at_entry": 3
     },
     {
@@ -137,7 +123,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-31",
       "entry_price": 0.721,
-      "last_price": 0.721,
+      "last_price": 0.9235,
       "stake_usd": 20.0,
       "shares": 27.739251040221916,
       "trader_count_at_entry": 3
@@ -151,10 +137,38 @@
       "outcome": "No",
       "end_date": "2026-07-31",
       "entry_price": 0.745,
-      "last_price": 0.745,
+      "last_price": 0.925,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-07-29T15:12:10.804669+00:00",
+      "condition_id": "0x847724a02e48ea5b1f08f1317ff9615077bb45bcf03fab36ee6e20b8cbbce5c8",
+      "market_slug": "wnba-atl-dal-2026-07-29-spread-home-1pt5",
+      "event_slug": "wnba-atl-dal-2026-07-29",
+      "title": "Spread: Dallas Wings (-1.5)",
+      "outcome": "Atlanta Dream",
+      "end_date": "2026-07-30",
+      "entry_price": 0.54,
+      "last_price": 0.54,
+      "stake_usd": 20.0,
+      "shares": 37.03703703703704,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-07-29T15:12:10.804685+00:00",
+      "condition_id": "0xd869d400e5e265f8b94ac234831d21f637fff704d47cd74158bc8bf742f41b00",
+      "market_slug": "wnba-atl-dal-2026-07-29",
+      "event_slug": "wnba-atl-dal-2026-07-29",
+      "title": "Atlanta Dream vs. Dallas Wings",
+      "outcome": "Dallas Wings",
+      "end_date": "2026-07-30",
+      "entry_price": 0.485,
+      "last_price": 0.485,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -461,6 +475,25 @@
       "payout": 20.94,
       "pnl": 0.94,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-28T15:27:11.094850+00:00",
+      "condition_id": "0x8646e8f7483f209cf85f4eae70837835b14c5dc79ba10b8728c41d11e1196232",
+      "market_slug": "ucl-kps-sf-2026-07-29-draw",
+      "event_slug": "ucl-kps-sf-2026-07-29",
+      "title": "Will Kuopion PS vs. Sabah FK end in a draw?",
+      "outcome": "No",
+      "end_date": "2026-07-29",
+      "entry_price": 0.705,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 28.368794326241137,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-29T15:11:46.531245+00:00",
+      "exit_price": 1.0,
+      "payout": 28.37,
+      "pnl": 8.37,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -523,6 +556,10 @@
     {
       "date": "2026-07-28",
       "equity": 1044.62
+    },
+    {
+      "date": "2026-07-29",
+      "equity": 1058.29
     }
   ]
 }
