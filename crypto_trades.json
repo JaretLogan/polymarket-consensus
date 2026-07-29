@@ -90,7 +90,7 @@
       "title": "What will the Bitcoin Implied Volatility index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.0805,
-      "last_price": 0.035,
+      "last_price": 0.03,
       "stake_usd": 20.0,
       "shares": 248.4472049689441,
       "asset": "BTC",
@@ -110,7 +110,7 @@
       "title": "What will the Ethereum Implied Volatility Index hit by July 31?",
       "outcome": "Yes",
       "entry_price": 0.17,
-      "last_price": 0.1,
+      "last_price": 0.04,
       "stake_usd": 20.0,
       "shares": 117.6470588235294,
       "asset": "ETH",
@@ -1329,6 +1329,10 @@
     {
       "date": "2026-07-28",
       "equity": 66.77
+    },
+    {
+      "date": "2026-07-29",
+      "equity": 58.47
     }
   ]
 }
