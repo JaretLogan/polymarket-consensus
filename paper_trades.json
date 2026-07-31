@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 877.4117623051511,
+  "cash": 916.7175428300391,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -17,20 +17,6 @@
       "trader_count_at_entry": 5
     },
     {
-      "opened_at": "2026-07-26T14:41:41.341206+00:00",
-      "condition_id": "0x0f5b0d1fe439c5562ce6e46a08e4f51b758ca0059fb338bb3eb9bb6ee5df5956",
-      "market_slug": "israel-x-iran-ceasefire-continues-through-july-27",
-      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
-      "title": "Israel x Iran ceasefire continues through July 27?",
-      "outcome": "Yes",
-      "end_date": "2026-07-27",
-      "entry_price": 0.977,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 20.470829068577277,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-07-26T14:41:41.341219+00:00",
       "condition_id": "0xf4dbb49b91ca1ed740fda3fdabe621758062fdea8bd236fdf2e540fb6a12a594",
       "market_slug": "israel-x-iran-ceasefire-continues-through-july-28",
@@ -39,7 +25,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-28",
       "entry_price": 0.963,
-      "last_price": 0.999,
+      "last_price": 0.9995,
       "stake_usd": 20.0,
       "shares": 20.768431983385256,
       "trader_count_at_entry": 4
@@ -53,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.935,
-      "last_price": 0.998,
+      "last_price": 0.9985,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 3
@@ -67,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-07-31",
       "entry_price": 0.721,
-      "last_price": 0.814,
+      "last_price": 0.0035,
       "stake_usd": 20.0,
       "shares": 27.739251040221916,
       "trader_count_at_entry": 3
@@ -81,24 +67,24 @@
       "outcome": "No",
       "end_date": "2026-07-31",
       "entry_price": 0.745,
-      "last_price": 0.8185,
+      "last_price": 0.0035,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "trader_count_at_entry": 4
     },
     {
-      "opened_at": "2026-07-30T15:16:39.050054+00:00",
-      "condition_id": "0x4767da1c17b02c486ba72bc649c02211e5c8935d610cbf419749cf87dea09ed5",
-      "market_slug": "wnba-conn-chi-2026-07-30-spread-home-4pt5",
-      "event_slug": "wnba-conn-chi-2026-07-30",
-      "title": "Spread: Chicago Sky (-4.5)",
-      "outcome": "Chicago Sky",
-      "end_date": "2026-07-31",
-      "entry_price": 0.515,
-      "last_price": 0.515,
+      "opened_at": "2026-07-31T15:24:15.328838+00:00",
+      "condition_id": "0x8d53cf3aefc257054c0b6a6cae4a896b2b3da710f105a3c13fa0f4500ce45213",
+      "market_slug": "mex-asl-tij-2026-07-31-asl",
+      "event_slug": "mex-asl-tij-2026-07-31",
+      "title": "Will Atl\u00e9tico San Luis win on 2026-07-31?",
+      "outcome": "No",
+      "end_date": "2026-08-01",
+      "entry_price": 0.5649,
+      "last_price": 0.5649,
       "stake_usd": 20.0,
-      "shares": 38.83495145631068,
-      "trader_count_at_entry": 3
+      "shares": 35.40449637103912,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -538,6 +524,44 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-26T14:41:41.341206+00:00",
+      "condition_id": "0x0f5b0d1fe439c5562ce6e46a08e4f51b758ca0059fb338bb3eb9bb6ee5df5956",
+      "market_slug": "israel-x-iran-ceasefire-continues-through-july-27",
+      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+      "title": "Israel x Iran ceasefire continues through July 27?",
+      "outcome": "Yes",
+      "end_date": "2026-07-27",
+      "entry_price": 0.977,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.470829068577277,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-31T15:23:55.235816+00:00",
+      "exit_price": 1.0,
+      "payout": 20.47,
+      "pnl": 0.47,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-07-30T15:16:39.050054+00:00",
+      "condition_id": "0x4767da1c17b02c486ba72bc649c02211e5c8935d610cbf419749cf87dea09ed5",
+      "market_slug": "wnba-conn-chi-2026-07-30-spread-home-4pt5",
+      "event_slug": "wnba-conn-chi-2026-07-30",
+      "title": "Spread: Chicago Sky (-4.5)",
+      "outcome": "Chicago Sky",
+      "end_date": "2026-07-31",
+      "entry_price": 0.515,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-07-31T15:23:56.151149+00:00",
+      "exit_price": 1.0,
+      "payout": 38.83,
+      "pnl": 18.83,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -608,6 +632,10 @@
     {
       "date": "2026-07-30",
       "equity": 1024.52
+    },
+    {
+      "date": "2026-07-31",
+      "equity": 999.02
     }
   ]
 }
