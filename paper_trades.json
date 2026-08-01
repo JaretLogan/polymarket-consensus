@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 916.7175428300391,
+  "cash": 932.8904711844634,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -17,20 +17,6 @@
       "trader_count_at_entry": 5
     },
     {
-      "opened_at": "2026-07-26T14:41:41.341219+00:00",
-      "condition_id": "0xf4dbb49b91ca1ed740fda3fdabe621758062fdea8bd236fdf2e540fb6a12a594",
-      "market_slug": "israel-x-iran-ceasefire-continues-through-july-28",
-      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
-      "title": "Israel x Iran ceasefire continues through July 28?",
-      "outcome": "Yes",
-      "end_date": "2026-07-28",
-      "entry_price": 0.963,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 20.768431983385256,
-      "trader_count_at_entry": 4
-    },
-    {
       "opened_at": "2026-07-26T14:41:41.341227+00:00",
       "condition_id": "0xe70c3428d7d39579c7357aacc1fa31687e0323f782e13b1733ddabdbc6b1e9a4",
       "market_slug": "israel-x-iran-ceasefire-continues-through-july-29",
@@ -39,52 +25,38 @@
       "outcome": "Yes",
       "end_date": "2026-07-29",
       "entry_price": 0.935,
-      "last_price": 0.9985,
+      "last_price": 0.9995,
       "stake_usd": 20.0,
       "shares": 21.390374331550802,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-07-28T15:27:11.094867+00:00",
-      "condition_id": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97",
-      "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329843",
-      "event_slug": "largest-company-end-of-july-20260624192302727",
-      "title": "Will Apple be the largest company in the world by market cap on July 31?",
-      "outcome": "Yes",
-      "end_date": "2026-07-31",
-      "entry_price": 0.721,
-      "last_price": 0.0035,
+      "opened_at": "2026-08-01T14:38:02.190121+00:00",
+      "condition_id": "0xc06af35119679cdc5420cd3900e8926a7668aee62e60ed2d5c2265a3df411738",
+      "market_slug": "ufc-ale19-jov-2026-08-01",
+      "event_slug": "ufc-ale19-jov-2026-08-01",
+      "title": "UFC Fight Night: Alexander Poppeck vs. Jovan Leka (Heavyweight, Prelims)",
+      "outcome": "Jovan Leka",
+      "end_date": "2026-08-02",
+      "entry_price": 0.9995,
+      "last_price": 0.9995,
       "stake_usd": 20.0,
-      "shares": 27.739251040221916,
+      "shares": 20.01000500250125,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-07-28T15:27:11.094873+00:00",
-      "condition_id": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55",
-      "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329841",
-      "event_slug": "largest-company-end-of-july-20260624192302727",
-      "title": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "opened_at": "2026-08-01T14:38:02.190147+00:00",
+      "condition_id": "0xca0329cd4392d91e39df0702949229573d2415ae4a37b0103d0c6e9d03b8dd44",
+      "market_slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
+      "event_slug": "michigan-democratic-senate-primary-winner",
+      "title": "Will Abdul El-Sayed win the 2026 Michigan Democratic Primary?",
       "outcome": "No",
-      "end_date": "2026-07-31",
-      "entry_price": 0.745,
-      "last_price": 0.0035,
+      "end_date": "2026-08-04",
+      "entry_price": 0.0325,
+      "last_price": 0.0325,
       "stake_usd": 20.0,
-      "shares": 26.845637583892618,
-      "trader_count_at_entry": 4
-    },
-    {
-      "opened_at": "2026-07-31T15:24:15.328838+00:00",
-      "condition_id": "0x8d53cf3aefc257054c0b6a6cae4a896b2b3da710f105a3c13fa0f4500ce45213",
-      "market_slug": "mex-asl-tij-2026-07-31-asl",
-      "event_slug": "mex-asl-tij-2026-07-31",
-      "title": "Will Atl\u00e9tico San Luis win on 2026-07-31?",
-      "outcome": "No",
-      "end_date": "2026-08-01",
-      "entry_price": 0.5649,
-      "last_price": 0.5649,
-      "stake_usd": 20.0,
-      "shares": 35.40449637103912,
-      "trader_count_at_entry": 4
+      "shares": 615.3846153846154,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -562,6 +534,82 @@
       "payout": 38.83,
       "pnl": 18.83,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-26T14:41:41.341219+00:00",
+      "condition_id": "0xf4dbb49b91ca1ed740fda3fdabe621758062fdea8bd236fdf2e540fb6a12a594",
+      "market_slug": "israel-x-iran-ceasefire-continues-through-july-28",
+      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+      "title": "Israel x Iran ceasefire continues through July 28?",
+      "outcome": "Yes",
+      "end_date": "2026-07-28",
+      "entry_price": 0.963,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.768431983385256,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-01T14:37:41.215057+00:00",
+      "exit_price": 1.0,
+      "payout": 20.77,
+      "pnl": 0.77,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-07-28T15:27:11.094867+00:00",
+      "condition_id": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97",
+      "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329843",
+      "event_slug": "largest-company-end-of-july-20260624192302727",
+      "title": "Will Apple be the largest company in the world by market cap on July 31?",
+      "outcome": "Yes",
+      "end_date": "2026-07-31",
+      "entry_price": 0.721,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 27.739251040221916,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-01T14:37:41.698722+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-28T15:27:11.094873+00:00",
+      "condition_id": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55",
+      "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-july-31-20260624192329841",
+      "event_slug": "largest-company-end-of-july-20260624192302727",
+      "title": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "outcome": "No",
+      "end_date": "2026-07-31",
+      "entry_price": 0.745,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 26.845637583892618,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-01T14:37:41.887771+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-07-31T15:24:15.328838+00:00",
+      "condition_id": "0x8d53cf3aefc257054c0b6a6cae4a896b2b3da710f105a3c13fa0f4500ce45213",
+      "market_slug": "mex-asl-tij-2026-07-31-asl",
+      "event_slug": "mex-asl-tij-2026-07-31",
+      "title": "Will Atl\u00e9tico San Luis win on 2026-07-31?",
+      "outcome": "No",
+      "end_date": "2026-08-01",
+      "entry_price": 0.5649,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 35.40449637103912,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-01T14:37:42.065497+00:00",
+      "exit_price": 1.0,
+      "payout": 35.4,
+      "pnl": 15.4,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -636,6 +684,10 @@
     {
       "date": "2026-07-31",
       "equity": 999.02
+    },
+    {
+      "date": "2026-08-01",
+      "equity": 1014.27
     }
   ]
 }
