@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 932.8904711844634,
+  "cash": 974.2908505185154,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -17,34 +17,6 @@
       "trader_count_at_entry": 5
     },
     {
-      "opened_at": "2026-07-26T14:41:41.341227+00:00",
-      "condition_id": "0xe70c3428d7d39579c7357aacc1fa31687e0323f782e13b1733ddabdbc6b1e9a4",
-      "market_slug": "israel-x-iran-ceasefire-continues-through-july-29",
-      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
-      "title": "Israel x Iran ceasefire continues through July 29?",
-      "outcome": "Yes",
-      "end_date": "2026-07-29",
-      "entry_price": 0.935,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 21.390374331550802,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-01T14:38:02.190121+00:00",
-      "condition_id": "0xc06af35119679cdc5420cd3900e8926a7668aee62e60ed2d5c2265a3df411738",
-      "market_slug": "ufc-ale19-jov-2026-08-01",
-      "event_slug": "ufc-ale19-jov-2026-08-01",
-      "title": "UFC Fight Night: Alexander Poppeck vs. Jovan Leka (Heavyweight, Prelims)",
-      "outcome": "Jovan Leka",
-      "end_date": "2026-08-02",
-      "entry_price": 0.9995,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 20.01000500250125,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-08-01T14:38:02.190147+00:00",
       "condition_id": "0xca0329cd4392d91e39df0702949229573d2415ae4a37b0103d0c6e9d03b8dd44",
       "market_slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
@@ -53,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-04",
       "entry_price": 0.0325,
-      "last_price": 0.0325,
+      "last_price": 0.031,
       "stake_usd": 20.0,
       "shares": 615.3846153846154,
       "trader_count_at_entry": 3
@@ -610,6 +582,44 @@
       "payout": 35.4,
       "pnl": 15.4,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-26T14:41:41.341227+00:00",
+      "condition_id": "0xe70c3428d7d39579c7357aacc1fa31687e0323f782e13b1733ddabdbc6b1e9a4",
+      "market_slug": "israel-x-iran-ceasefire-continues-through-july-29",
+      "event_slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
+      "title": "Israel x Iran ceasefire continues through July 29?",
+      "outcome": "Yes",
+      "end_date": "2026-07-29",
+      "entry_price": 0.935,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 21.390374331550802,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-02T14:40:11.220356+00:00",
+      "exit_price": 1.0,
+      "payout": 21.39,
+      "pnl": 1.39,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-01T14:38:02.190121+00:00",
+      "condition_id": "0xc06af35119679cdc5420cd3900e8926a7668aee62e60ed2d5c2265a3df411738",
+      "market_slug": "ufc-ale19-jov-2026-08-01",
+      "event_slug": "ufc-ale19-jov-2026-08-01",
+      "title": "UFC Fight Night: Alexander Poppeck vs. Jovan Leka (Heavyweight, Prelims)",
+      "outcome": "Jovan Leka",
+      "end_date": "2026-08-02",
+      "entry_price": 0.9995,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.01000500250125,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-02T14:40:11.368941+00:00",
+      "exit_price": 1.0,
+      "payout": 20.01,
+      "pnl": 0.01,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -688,6 +698,10 @@
     {
       "date": "2026-08-01",
       "equity": 1014.27
+    },
+    {
+      "date": "2026-08-02",
+      "equity": 1013.37
     }
   ]
 }
