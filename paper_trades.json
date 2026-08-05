@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 974.2908505185154,
+  "cash": 914.2908505185154,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,9 +25,51 @@
       "outcome": "No",
       "end_date": "2026-08-04",
       "entry_price": 0.0325,
-      "last_price": 0.0195,
+      "last_price": 0.0005,
       "stake_usd": 20.0,
       "shares": 615.3846153846154,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-05T15:20:27.714601+00:00",
+      "condition_id": "0x36375b7684adda0616f56e5dd7419567d4e3849de5c2304910fdd60a251172f8",
+      "market_slug": "arg-tig-bel-2026-08-05-total-1pt5",
+      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
+      "title": "CA Tigre vs. CA Belgrano: O/U 1.5",
+      "outcome": "Over",
+      "end_date": "2026-08-06",
+      "entry_price": 0.525,
+      "last_price": 0.525,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-05T15:20:27.714619+00:00",
+      "condition_id": "0x4563c9c99f1739b3bba4b37979a486071e16396ce95317243f3c9976c31cb234",
+      "market_slug": "arg-tig-bel-2026-08-05-total-2pt5",
+      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
+      "title": "CA Tigre vs. CA Belgrano: O/U 2.5",
+      "outcome": "Under",
+      "end_date": "2026-08-06",
+      "entry_price": 0.745,
+      "last_price": 0.745,
+      "stake_usd": 20.0,
+      "shares": 26.845637583892618,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-05T15:20:27.714624+00:00",
+      "condition_id": "0xe9d412c097f914b7b43a0b006717ef5fe18e1eeda3848d435baf168ad9e39314",
+      "market_slug": "arg-tig-bel-2026-08-05-total-5pt5",
+      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
+      "title": "CA Tigre vs. CA Belgrano: O/U 5.5",
+      "outcome": "Under",
+      "end_date": "2026-08-06",
+      "entry_price": 0.9945,
+      "last_price": 0.9945,
+      "stake_usd": 20.0,
+      "shares": 20.110608345902463,
       "trader_count_at_entry": 3
     }
   ],
@@ -710,6 +752,10 @@
     {
       "date": "2026-08-04",
       "equity": 1006.29
+    },
+    {
+      "date": "2026-08-05",
+      "equity": 994.6
     }
   ]
 }
