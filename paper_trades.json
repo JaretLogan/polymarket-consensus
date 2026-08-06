@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 914.2908505185154,
+  "cash": 961.2470964483106,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -15,62 +15,6 @@
       "stake_usd": 20.0,
       "shares": 28.989708653428035,
       "trader_count_at_entry": 5
-    },
-    {
-      "opened_at": "2026-08-01T14:38:02.190147+00:00",
-      "condition_id": "0xca0329cd4392d91e39df0702949229573d2415ae4a37b0103d0c6e9d03b8dd44",
-      "market_slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
-      "event_slug": "michigan-democratic-senate-primary-winner",
-      "title": "Will Abdul El-Sayed win the 2026 Michigan Democratic Primary?",
-      "outcome": "No",
-      "end_date": "2026-08-04",
-      "entry_price": 0.0325,
-      "last_price": 0.0005,
-      "stake_usd": 20.0,
-      "shares": 615.3846153846154,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-05T15:20:27.714601+00:00",
-      "condition_id": "0x36375b7684adda0616f56e5dd7419567d4e3849de5c2304910fdd60a251172f8",
-      "market_slug": "arg-tig-bel-2026-08-05-total-1pt5",
-      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
-      "title": "CA Tigre vs. CA Belgrano: O/U 1.5",
-      "outcome": "Over",
-      "end_date": "2026-08-06",
-      "entry_price": 0.525,
-      "last_price": 0.525,
-      "stake_usd": 20.0,
-      "shares": 38.095238095238095,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-05T15:20:27.714619+00:00",
-      "condition_id": "0x4563c9c99f1739b3bba4b37979a486071e16396ce95317243f3c9976c31cb234",
-      "market_slug": "arg-tig-bel-2026-08-05-total-2pt5",
-      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
-      "title": "CA Tigre vs. CA Belgrano: O/U 2.5",
-      "outcome": "Under",
-      "end_date": "2026-08-06",
-      "entry_price": 0.745,
-      "last_price": 0.745,
-      "stake_usd": 20.0,
-      "shares": 26.845637583892618,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-05T15:20:27.714624+00:00",
-      "condition_id": "0xe9d412c097f914b7b43a0b006717ef5fe18e1eeda3848d435baf168ad9e39314",
-      "market_slug": "arg-tig-bel-2026-08-05-total-5pt5",
-      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
-      "title": "CA Tigre vs. CA Belgrano: O/U 5.5",
-      "outcome": "Under",
-      "end_date": "2026-08-06",
-      "entry_price": 0.9945,
-      "last_price": 0.9945,
-      "stake_usd": 20.0,
-      "shares": 20.110608345902463,
-      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -662,6 +606,82 @@
       "payout": 20.01,
       "pnl": 0.01,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-08-01T14:38:02.190147+00:00",
+      "condition_id": "0xca0329cd4392d91e39df0702949229573d2415ae4a37b0103d0c6e9d03b8dd44",
+      "market_slug": "will-abdul-el-sayed-win-the-2026-michigan-democratic-primary",
+      "event_slug": "michigan-democratic-senate-primary-winner",
+      "title": "Will Abdul El-Sayed win the 2026 Michigan Democratic Primary?",
+      "outcome": "No",
+      "end_date": "2026-08-04",
+      "entry_price": 0.0325,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 615.3846153846154,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-06T15:21:35.943085+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-05T15:20:27.714601+00:00",
+      "condition_id": "0x36375b7684adda0616f56e5dd7419567d4e3849de5c2304910fdd60a251172f8",
+      "market_slug": "arg-tig-bel-2026-08-05-total-1pt5",
+      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
+      "title": "CA Tigre vs. CA Belgrano: O/U 1.5",
+      "outcome": "Over",
+      "end_date": "2026-08-06",
+      "entry_price": 0.525,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-06T15:21:36.289078+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-05T15:20:27.714619+00:00",
+      "condition_id": "0x4563c9c99f1739b3bba4b37979a486071e16396ce95317243f3c9976c31cb234",
+      "market_slug": "arg-tig-bel-2026-08-05-total-2pt5",
+      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
+      "title": "CA Tigre vs. CA Belgrano: O/U 2.5",
+      "outcome": "Under",
+      "end_date": "2026-08-06",
+      "entry_price": 0.745,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 26.845637583892618,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-06T15:21:36.667746+00:00",
+      "exit_price": 1.0,
+      "payout": 26.85,
+      "pnl": 6.85,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-05T15:20:27.714624+00:00",
+      "condition_id": "0xe9d412c097f914b7b43a0b006717ef5fe18e1eeda3848d435baf168ad9e39314",
+      "market_slug": "arg-tig-bel-2026-08-05-total-5pt5",
+      "event_slug": "arg-tig-bel-2026-08-05-more-markets",
+      "title": "CA Tigre vs. CA Belgrano: O/U 5.5",
+      "outcome": "Under",
+      "end_date": "2026-08-06",
+      "entry_price": 0.9945,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.110608345902463,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-06T15:21:37.033902+00:00",
+      "exit_price": 1.0,
+      "payout": 20.11,
+      "pnl": 0.11,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -756,6 +776,10 @@
     {
       "date": "2026-08-05",
       "equity": 994.6
+    },
+    {
+      "date": "2026-08-06",
+      "equity": 981.25
     }
   ]
 }
