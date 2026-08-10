@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 961.2470964483106,
+  "cash": 881.2470964483106,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -15,6 +15,62 @@
       "stake_usd": 20.0,
       "shares": 28.989708653428035,
       "trader_count_at_entry": 5
+    },
+    {
+      "opened_at": "2026-08-10T14:22:23.666038+00:00",
+      "condition_id": "0x76cd762b29b5ba0a64ab1307d51a99354727e4be0288392e45a23bed00c1ed67",
+      "market_slug": "ucl-kau-din-2026-08-11-din",
+      "event_slug": "ucl-kau-din-2026-08-11",
+      "title": "Will GNK Dinamo Zagreb win on 2026-08-11?",
+      "outcome": "Yes",
+      "end_date": "2026-08-11",
+      "entry_price": 0.685,
+      "last_price": 0.685,
+      "stake_usd": 20.0,
+      "shares": 29.1970802919708,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-10T14:22:23.666052+00:00",
+      "condition_id": "0x429d000ad6319aadec153464a262dcc248a11554bbfe747acf83e93ab58ee810",
+      "market_slug": "mlb-tex-laa-2026-08-10-total-8pt5",
+      "event_slug": "mlb-tex-laa-2026-08-10",
+      "title": "Texas Rangers vs. Los Angeles Angels: O/U 8.5",
+      "outcome": "Over",
+      "end_date": "2026-08-11",
+      "entry_price": 0.455,
+      "last_price": 0.455,
+      "stake_usd": 20.0,
+      "shares": 43.956043956043956,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-10T14:22:23.666057+00:00",
+      "condition_id": "0x31895872275819d45a79f75d5328362d86916caa65a707a3186f6ec7e3d974ce",
+      "market_slug": "mlb-hou-sf-2026-08-10-total-8pt5",
+      "event_slug": "mlb-hou-sf-2026-08-10",
+      "title": "Houston Astros vs. San Francisco Giants: O/U 8.5",
+      "outcome": "Under",
+      "end_date": "2026-08-11",
+      "entry_price": 0.505,
+      "last_price": 0.505,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-08-10T14:22:23.666061+00:00",
+      "condition_id": "0xc5e7143aceb34c27cfd6478790b189c594a6385605e4a3558026ac732b2998be",
+      "market_slug": "mlb-tb-oak-2026-08-10-total-9pt5",
+      "event_slug": "mlb-tb-oak-2026-08-10",
+      "title": "Tampa Bay Rays vs. Athletics: O/U 9.5",
+      "outcome": "Over",
+      "end_date": "2026-08-11",
+      "entry_price": 0.525,
+      "last_price": 0.525,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -791,6 +847,10 @@
     },
     {
       "date": "2026-08-09",
+      "equity": 981.25
+    },
+    {
+      "date": "2026-08-10",
       "equity": 981.25
     }
   ]
