@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 781.7463229596631,
+  "cash": 799.9935078735145,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,23 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.39,
+      "last_price": 0.43,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-13T14:24:39.004216+00:00",
-      "condition_id": "0xfa981819b8e94c472dd1afd1bce5a7329d37088b7bd14d731c8e5b40a923595f",
-      "market_slug": "nfl-den-atl-2026-08-14",
-      "event_slug": "nfl-den-atl-2026-08-14",
-      "title": "Broncos vs. Falcons",
-      "outcome": "Broncos",
-      "end_date": "2026-08-14",
-      "entry_price": 0.65,
-      "last_price": 0.635,
-      "stake_usd": 20.0,
-      "shares": 30.769230769230766,
       "trader_count_at_entry": 3
     },
     {
@@ -59,34 +45,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-08-14T14:17:55.063387+00:00",
-      "condition_id": "0x69e83cfb6b8e1a98e0fd3e2ff0a84f148443c689ebee6fb561afb8900e22ae67",
-      "market_slug": "wnba-por-sea-2026-08-14-total-180pt5",
-      "event_slug": "wnba-por-sea-2026-08-14",
-      "title": "Portland Fire vs. Seattle Storm: O/U 180.5",
-      "outcome": "Under",
-      "end_date": "2026-08-15",
-      "entry_price": 0.525,
-      "last_price": 0.525,
-      "stake_usd": 20.0,
-      "shares": 38.095238095238095,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-14T14:17:55.063391+00:00",
-      "condition_id": "0xb577da806ba07d999c342c74dc05fc2f7b207f056e3e6a172a11f908666f64d5",
-      "market_slug": "wnba-por-sea-2026-08-14",
-      "event_slug": "wnba-por-sea-2026-08-14",
-      "title": "Portland Fire vs. Seattle Storm",
-      "outcome": "Portland Fire",
-      "end_date": "2026-08-15",
-      "entry_price": 0.405,
-      "last_price": 0.405,
-      "stake_usd": 20.0,
-      "shares": 49.382716049382715,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-08-14T14:17:55.063393+00:00",
       "condition_id": "0xce41b85e5c378477459d6c1c632b0401e734540e0c3ef16e2b6a28a68e5ced62",
       "market_slug": "mls-nas-mia-2026-08-15-mia",
@@ -95,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-08-16",
       "entry_price": 0.325,
-      "last_price": 0.325,
+      "last_price": 0.375,
       "stake_usd": 20.0,
       "shares": 61.53846153846153,
       "trader_count_at_entry": 3
@@ -109,10 +67,80 @@
       "outcome": "Yes",
       "end_date": "2026-08-16",
       "entry_price": 0.545,
-      "last_price": 0.545,
+      "last_price": 0.565,
       "stake_usd": 20.0,
       "shares": 36.69724770642202,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-15T13:35:29.065176+00:00",
+      "condition_id": "0xe5af514e5779c304bb5b9541f0423e6801f29267fda776b17c92dc4d610e5688",
+      "market_slug": "mls-laf-sdg-2026-08-15-sdg",
+      "event_slug": "mls-laf-sdg-2026-08-15",
+      "title": "Will San Diego FC win on 2026-08-15?",
+      "outcome": "Yes",
+      "end_date": "2026-08-16",
+      "entry_price": 0.195,
+      "last_price": 0.195,
+      "stake_usd": 20.0,
+      "shares": 102.56410256410255,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-15T13:35:29.065189+00:00",
+      "condition_id": "0x7fd17419881b385acbcc4ec6a2e227c8bd88fd798cbb83f9dea3def7617a7ce6",
+      "market_slug": "ufc-eri15-don13-2026-08-15",
+      "event_slug": "ufc-eri15-don13-2026-08-15",
+      "title": "UFC 330: Eric McConico vs. Donte Johnson (Middleweight, Early Prelims)",
+      "outcome": "Eric McConico",
+      "end_date": "2026-08-16",
+      "entry_price": 0.265,
+      "last_price": 0.265,
+      "stake_usd": 20.0,
+      "shares": 75.47169811320754,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-15T13:35:29.065194+00:00",
+      "condition_id": "0x055ca1b2280fd1d10d31fe3a69e020bd64247b8200c81e4806614a982e658699",
+      "market_slug": "mls-sje-stl-2026-08-15-stl",
+      "event_slug": "mls-sje-stl-2026-08-15",
+      "title": "Will St. Louis City SC win on 2026-08-15?",
+      "outcome": "Yes",
+      "end_date": "2026-08-16",
+      "entry_price": 0.305,
+      "last_price": 0.305,
+      "stake_usd": 20.0,
+      "shares": 65.57377049180327,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-15T13:35:29.065198+00:00",
+      "condition_id": "0x394faeb9877b15aa5acd07122b0c9755036c6ec6e61067914c70ea48aa6761e8",
+      "market_slug": "mls-nyc-phi-2026-08-16-nyc",
+      "event_slug": "mls-nyc-phi-2026-08-16",
+      "title": "Will New York City FC win on 2026-08-16?",
+      "outcome": "No",
+      "end_date": "2026-08-16",
+      "entry_price": 0.585,
+      "last_price": 0.585,
+      "stake_usd": 20.0,
+      "shares": 34.18803418803419,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-15T13:35:29.065201+00:00",
+      "condition_id": "0x09a9b9ebeca666ff816a0f655d0b6aba9b41f808393d44c0f241f838f18d3eee",
+      "market_slug": "mls-rsl-min-2026-08-15-rsl",
+      "event_slug": "mls-rsl-min-2026-08-15",
+      "title": "Will Real Salt Lake win on 2026-08-15?",
+      "outcome": "Yes",
+      "end_date": "2026-08-16",
+      "entry_price": 0.555,
+      "last_price": 0.555,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -1331,6 +1359,63 @@
       "payout": 41.24,
       "pnl": 21.24,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-08-13T14:24:39.004216+00:00",
+      "condition_id": "0xfa981819b8e94c472dd1afd1bce5a7329d37088b7bd14d731c8e5b40a923595f",
+      "market_slug": "nfl-den-atl-2026-08-14",
+      "event_slug": "nfl-den-atl-2026-08-14",
+      "title": "Broncos vs. Falcons",
+      "outcome": "Broncos",
+      "end_date": "2026-08-14",
+      "entry_price": 0.65,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 30.769230769230766,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-15T13:35:09.123420+00:00",
+      "exit_price": 1.0,
+      "payout": 30.77,
+      "pnl": 10.77,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-14T14:17:55.063387+00:00",
+      "condition_id": "0x69e83cfb6b8e1a98e0fd3e2ff0a84f148443c689ebee6fb561afb8900e22ae67",
+      "market_slug": "wnba-por-sea-2026-08-14-total-180pt5",
+      "event_slug": "wnba-por-sea-2026-08-14",
+      "title": "Portland Fire vs. Seattle Storm: O/U 180.5",
+      "outcome": "Under",
+      "end_date": "2026-08-15",
+      "entry_price": 0.525,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-15T13:35:09.398962+00:00",
+      "exit_price": 1.0,
+      "payout": 38.1,
+      "pnl": 18.1,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-14T14:17:55.063391+00:00",
+      "condition_id": "0xb577da806ba07d999c342c74dc05fc2f7b207f056e3e6a172a11f908666f64d5",
+      "market_slug": "wnba-por-sea-2026-08-14",
+      "event_slug": "wnba-por-sea-2026-08-14",
+      "title": "Portland Fire vs. Seattle Storm",
+      "outcome": "Portland Fire",
+      "end_date": "2026-08-15",
+      "entry_price": 0.405,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 49.382716049382715,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-15T13:35:09.539918+00:00",
+      "exit_price": 1.0,
+      "payout": 49.38,
+      "pnl": 29.38,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -1461,6 +1546,10 @@
     {
       "date": "2026-08-14",
       "equity": 941.81
+    },
+    {
+      "date": "2026-08-15",
+      "equity": 1006.44
     }
   ]
 }
