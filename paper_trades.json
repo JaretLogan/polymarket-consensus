@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1030.3063356422117,
+  "cash": 1064.494369830246,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -28,20 +28,6 @@
       "last_price": 0.43,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-15T13:35:29.065198+00:00",
-      "condition_id": "0x394faeb9877b15aa5acd07122b0c9755036c6ec6e61067914c70ea48aa6761e8",
-      "market_slug": "mls-nyc-phi-2026-08-16-nyc",
-      "event_slug": "mls-nyc-phi-2026-08-16",
-      "title": "Will New York City FC win on 2026-08-16?",
-      "outcome": "No",
-      "end_date": "2026-08-16",
-      "entry_price": 0.585,
-      "last_price": 0.625,
-      "stake_usd": 20.0,
-      "shares": 34.18803418803419,
       "trader_count_at_entry": 3
     }
   ],
@@ -1451,6 +1437,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-15T13:35:29.065198+00:00",
+      "condition_id": "0x394faeb9877b15aa5acd07122b0c9755036c6ec6e61067914c70ea48aa6761e8",
+      "market_slug": "mls-nyc-phi-2026-08-16-nyc",
+      "event_slug": "mls-nyc-phi-2026-08-16",
+      "title": "Will New York City FC win on 2026-08-16?",
+      "outcome": "No",
+      "end_date": "2026-08-16",
+      "entry_price": 0.585,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 34.18803418803419,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-17T13:44:07.114587+00:00",
+      "exit_price": 1.0,
+      "payout": 34.19,
+      "pnl": 14.19,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -1589,6 +1594,10 @@
     {
       "date": "2026-08-16",
       "equity": 1094.31
+    },
+    {
+      "date": "2026-08-17",
+      "equity": 1107.13
     }
   ]
 }
