@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1044.494369830246,
+  "cash": 824.4943698302459,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -39,9 +39,163 @@
       "outcome": "Yes",
       "end_date": "2026-08-19",
       "entry_price": 0.735,
-      "last_price": 0.735,
+      "last_price": 0.715,
       "stake_usd": 20.0,
       "shares": 27.2108843537415,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628114+00:00",
+      "condition_id": "0xe32e959a5585ba3bb350c196892252868a69c65c9c00b08e2b3b370949dc5511",
+      "market_slug": "mls-lag-sje-2026-08-19-lag",
+      "event_slug": "mls-lag-sje-2026-08-19",
+      "title": "Will Los Angeles Galaxy win on 2026-08-19?",
+      "outcome": "No",
+      "end_date": "2026-08-20",
+      "entry_price": 0.575,
+      "last_price": 0.575,
+      "stake_usd": 20.0,
+      "shares": 34.78260869565218,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628127+00:00",
+      "condition_id": "0x18aa86d93e1b85f4a799d96409077c1f9932ffdf0e295e05af102164fb919a6e",
+      "market_slug": "mls-rsl-dal-2026-08-19-total-4pt5",
+      "event_slug": "mls-rsl-dal-2026-08-19-more-markets",
+      "title": "Real Salt Lake vs. FC Dallas: O/U 4.5",
+      "outcome": "Under",
+      "end_date": "2026-08-20",
+      "entry_price": 0.775,
+      "last_price": 0.775,
+      "stake_usd": 20.0,
+      "shares": 25.806451612903224,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628131+00:00",
+      "condition_id": "0x5a9cb34ac4e8d852e4cf0aee9ee9b9a9e607b7c600d984f4392bdbd43ef91533",
+      "market_slug": "mls-sea-aus-2026-08-19-aus",
+      "event_slug": "mls-sea-aus-2026-08-19",
+      "title": "Will Austin FC win on 2026-08-19?",
+      "outcome": "Yes",
+      "end_date": "2026-08-20",
+      "entry_price": 0.215,
+      "last_price": 0.215,
+      "stake_usd": 20.0,
+      "shares": 93.02325581395348,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628134+00:00",
+      "condition_id": "0xe3879b6027074c0ec8115883c0bb1c60c1934c6ed1125c40f14a4b813bbcd5e3",
+      "market_slug": "mls-vwh-hou-2026-08-19-vwh",
+      "event_slug": "mls-vwh-hou-2026-08-19",
+      "title": "Will Vancouver Whitecaps FC win on 2026-08-19?",
+      "outcome": "Yes",
+      "end_date": "2026-08-20",
+      "entry_price": 0.625,
+      "last_price": 0.625,
+      "stake_usd": 20.0,
+      "shares": 32.0,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628137+00:00",
+      "condition_id": "0xe4a3e1b8204c9717293b166f8f7650098cb56c54e49b444abe1aa2475b4db228",
+      "market_slug": "mls-skc-stl-2026-08-19-stl",
+      "event_slug": "mls-skc-stl-2026-08-19",
+      "title": "Will St. Louis City SC win on 2026-08-19?",
+      "outcome": "Yes",
+      "end_date": "2026-08-20",
+      "entry_price": 0.505,
+      "last_price": 0.505,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628139+00:00",
+      "condition_id": "0x38e9fc72e0cc4126e9043f7758f07568f3d9c5f89fb7e807ae1711c0e69f5122",
+      "market_slug": "mls-por-sdg-2026-08-19-total-3pt5",
+      "event_slug": "mls-por-sdg-2026-08-19-more-markets",
+      "title": "Portland Timbers vs. San Diego FC: O/U 3.5",
+      "outcome": "Under",
+      "end_date": "2026-08-20",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628141+00:00",
+      "condition_id": "0xc5425991bf611abc3fd663ff37d39c294a60ee473c79f78be2e434625bf1f3a4",
+      "market_slug": "mls-sea-aus-2026-08-19-sea",
+      "event_slug": "mls-sea-aus-2026-08-19",
+      "title": "Will Seattle Sounders FC win on 2026-08-19?",
+      "outcome": "No",
+      "end_date": "2026-08-20",
+      "entry_price": 0.445,
+      "last_price": 0.445,
+      "stake_usd": 20.0,
+      "shares": 44.9438202247191,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628146+00:00",
+      "condition_id": "0x5484c7b8fa1f5fcdf52df80651f9ac6f84f73aa4ef5be1b7222059ad4229efbf",
+      "market_slug": "mls-lag-sje-2026-08-19-sje",
+      "event_slug": "mls-lag-sje-2026-08-19",
+      "title": "Will San Jose Earthquakes win on 2026-08-19?",
+      "outcome": "No",
+      "end_date": "2026-08-20",
+      "entry_price": 0.675,
+      "last_price": 0.675,
+      "stake_usd": 20.0,
+      "shares": 29.629629629629626,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628149+00:00",
+      "condition_id": "0xa191e00ab4daea82812f89fe66e0f5d67659fa25c062a182be612ecbf9060c34",
+      "market_slug": "mls-col-laf-2026-08-19-laf",
+      "event_slug": "mls-col-laf-2026-08-19",
+      "title": "Will Los Angeles FC win on 2026-08-19?",
+      "outcome": "No",
+      "end_date": "2026-08-20",
+      "entry_price": 0.635,
+      "last_price": 0.635,
+      "stake_usd": 20.0,
+      "shares": 31.496062992125985,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628152+00:00",
+      "condition_id": "0xbb1682e49e0aba1d452eb672fcc6a4c3dea2ddd01edff310cfa569e46c8602a6",
+      "market_slug": "dota2-liquid-ty-2026-08-20",
+      "event_slug": "dota2-liquid-ty-2026-08-20",
+      "title": "Dota 2: Team Liquid vs Team Yandex (BO3) - The International Playoffs",
+      "outcome": "Team Liquid",
+      "end_date": "2026-08-20",
+      "entry_price": 0.545,
+      "last_price": 0.545,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628154+00:00",
+      "condition_id": "0xbfa5522abf1fdf7f209f18fb5979cb1147a75035a905f043986093a1136177d4",
+      "market_slug": "dota2-vsn2-boombo-2026-08-20",
+      "event_slug": "dota2-vsn2-boombo-2026-08-20",
+      "title": "Dota 2: TEAM VISION vs BoomBoys (BO3) - The International Playoffs",
+      "outcome": "TEAM VISION",
+      "end_date": "2026-08-20",
+      "entry_price": 0.725,
+      "last_price": 0.725,
+      "stake_usd": 20.0,
+      "shares": 27.586206896551726,
       "trader_count_at_entry": 3
     }
   ],
@@ -1616,6 +1770,10 @@
     {
       "date": "2026-08-18",
       "equity": 1107.13
+    },
+    {
+      "date": "2026-08-19",
+      "equity": 1106.58
     }
   ]
 }
