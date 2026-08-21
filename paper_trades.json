@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 978.3842297409672,
+  "cash": 718.3842297409672,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -31,20 +31,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-08-19T13:49:47.628152+00:00",
-      "condition_id": "0xbb1682e49e0aba1d452eb672fcc6a4c3dea2ddd01edff310cfa569e46c8602a6",
-      "market_slug": "dota2-liquid-ty-2026-08-20",
-      "event_slug": "dota2-liquid-ty-2026-08-20",
-      "title": "Dota 2: Team Liquid vs Team Yandex (BO3) - The International Playoffs",
-      "outcome": "Team Liquid",
-      "end_date": "2026-08-20",
-      "entry_price": 0.545,
-      "last_price": 0.0005,
-      "stake_usd": 20.0,
-      "shares": 36.69724770642202,
-      "trader_count_at_entry": 4
-    },
-    {
       "opened_at": "2026-08-20T13:51:37.376109+00:00",
       "condition_id": "0x6ada2bad2aeeb90e5e2e4c958460db1818eb5a2d9c3a4607f7e0e70d7670a951",
       "market_slug": "epl-ars-cov-2026-08-21-spread-home-1pt5",
@@ -53,7 +39,7 @@
       "outcome": "Coventry City FC",
       "end_date": "2026-08-21",
       "entry_price": 0.385,
-      "last_price": 0.385,
+      "last_price": 0.415,
       "stake_usd": 20.0,
       "shares": 51.94805194805195,
       "trader_count_at_entry": 3
@@ -95,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-08-22",
       "entry_price": 0.675,
-      "last_price": 0.675,
+      "last_price": 0.685,
       "stake_usd": 20.0,
       "shares": 29.629629629629626,
       "trader_count_at_entry": 3
@@ -109,10 +95,192 @@
       "outcome": "No",
       "end_date": "2026-08-23",
       "entry_price": 0.56,
-      "last_price": 0.56,
+      "last_price": 0.555,
       "stake_usd": 20.0,
       "shares": 35.71428571428571,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822335+00:00",
+      "condition_id": "0x0523d3e0b7d698763327eb33c19c09d4581e31ce1ebec9230bd6c268acb5eaa1",
+      "market_slug": "argpn-ste-mor-2026-08-22-mor",
+      "event_slug": "argpn-ste-mor-2026-08-22",
+      "title": "Will Deportivo Moron win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.625,
+      "last_price": 0.625,
+      "stake_usd": 20.0,
+      "shares": 32.0,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822350+00:00",
+      "condition_id": "0xc914e43e25348e08546559579f2fe6f30a3a9e744d2218bbfd5eb7825f7a4911",
+      "market_slug": "fl1-rcl-aja-2026-08-22-rcl",
+      "event_slug": "fl1-rcl-aja-2026-08-22",
+      "title": "Will Racing Club de Lens win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.375,
+      "last_price": 0.375,
+      "stake_usd": 20.0,
+      "shares": 53.333333333333336,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822354+00:00",
+      "condition_id": "0x3928e00e5595f450e91f206ef334c4ea97816fd9f391a5c83b0659ec2f3a8c11",
+      "market_slug": "mex-leo-mon1-2026-08-22-total-3pt5",
+      "event_slug": "mex-leo-mon1-2026-08-22-more-markets",
+      "title": "Club Le\u00f3n FC vs. CF Monterrey: O/U 3.5",
+      "outcome": "Under",
+      "end_date": "2026-08-22",
+      "entry_price": 0.655,
+      "last_price": 0.655,
+      "stake_usd": 20.0,
+      "shares": 30.534351145038165,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822357+00:00",
+      "condition_id": "0x35b6be09cff25e3530fd150f2a51c64d830dcdcb42513f79ecafe9d57d098dbb",
+      "market_slug": "mex-tig-atla-2026-08-21-atla",
+      "event_slug": "mex-tig-atla-2026-08-21",
+      "title": "Will Atlante FC win on 2026-08-21?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.825,
+      "last_price": 0.825,
+      "stake_usd": 20.0,
+      "shares": 24.242424242424242,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822361+00:00",
+      "condition_id": "0xea7f9c463c1407c8737bb2014be376a47e9571fd55919015da3b2432fb7c0d53",
+      "market_slug": "mex-leo-mon1-2026-08-22-total-4pt5",
+      "event_slug": "mex-leo-mon1-2026-08-22-more-markets",
+      "title": "Club Le\u00f3n FC vs. CF Monterrey: O/U 4.5",
+      "outcome": "Under",
+      "end_date": "2026-08-22",
+      "entry_price": 0.815,
+      "last_price": 0.815,
+      "stake_usd": 20.0,
+      "shares": 24.539877300613497,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822365+00:00",
+      "condition_id": "0xbefb86b8c7cffdb2392de8c9e7a1d6ea796a35395b4ba6ab2088c8e800e3c024",
+      "market_slug": "mex-jua-ame-2026-08-21-ame",
+      "event_slug": "mex-jua-ame-2026-08-21",
+      "title": "Will CF Am\u00e9rica win on 2026-08-21?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.455,
+      "last_price": 0.455,
+      "stake_usd": 20.0,
+      "shares": 43.956043956043956,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822371+00:00",
+      "condition_id": "0xa76cab4122c22e9625f14c3461e40adb41b15b9521cfeb046ed63362783a95f3",
+      "market_slug": "epl-eve-cry-2026-08-22-cry",
+      "event_slug": "epl-eve-cry-2026-08-22",
+      "title": "Will Crystal Palace FC win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.715,
+      "last_price": 0.715,
+      "stake_usd": 20.0,
+      "shares": 27.972027972027973,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822376+00:00",
+      "condition_id": "0xa61829cdbca398043eb59cb5db4b1c234ecde18c5920eacbdbe059b9c7afc325",
+      "market_slug": "epl-ips-sun-2026-08-22-sun",
+      "event_slug": "epl-ips-sun-2026-08-22",
+      "title": "Will Sunderland AFC win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.625,
+      "last_price": 0.625,
+      "stake_usd": 20.0,
+      "shares": 32.0,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822379+00:00",
+      "condition_id": "0x91d9274c9ae48c1da144fe369edf65041d9fe2c0577e6f66a5fbf17c1df79380",
+      "market_slug": "epl-hul-mun-2026-08-22-spread-away-1pt5",
+      "event_slug": "epl-hul-mun-2026-08-22-more-markets",
+      "title": "Spread: Manchester United FC (-1.5)",
+      "outcome": "Hull City AFC",
+      "end_date": "2026-08-22",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822382+00:00",
+      "condition_id": "0x7c6cd7a3bc858e069d886098c7909b2c733a7f8f586f72a012eb56f7a6686fcb",
+      "market_slug": "epl-bre-tot-2026-08-22-bre",
+      "event_slug": "epl-bre-tot-2026-08-22",
+      "title": "Will Brentford FC win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.585,
+      "last_price": 0.585,
+      "stake_usd": 20.0,
+      "shares": 34.18803418803419,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822385+00:00",
+      "condition_id": "0x9359698aab64d2cf210dbee9926d01188cb5277a3442dcf0552855842c44dce0",
+      "market_slug": "epl-bre-tot-2026-08-22-tot",
+      "event_slug": "epl-bre-tot-2026-08-22",
+      "title": "Will Tottenham Hotspur FC win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.645,
+      "last_price": 0.645,
+      "stake_usd": 20.0,
+      "shares": 31.007751937984494,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822387+00:00",
+      "condition_id": "0xcb736775089cc7636f2b429ece4794c69b46d3e6ffb600ddae3c11eba1af83f2",
+      "market_slug": "epl-new-liv-2026-08-23-spread-away-1pt5",
+      "event_slug": "epl-new-liv-2026-08-23-more-markets",
+      "title": "Spread: Liverpool FC (-1.5)",
+      "outcome": "Newcastle United FC",
+      "end_date": "2026-08-23",
+      "entry_price": 0.71,
+      "last_price": 0.71,
+      "stake_usd": 20.0,
+      "shares": 28.169014084507044,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822390+00:00",
+      "condition_id": "0x787c566f29ed62ea0c68a93cf38ce1291a10038d0aa37757c3a5fe99ff0ecb70",
+      "market_slug": "fl1-psg-ren-2026-08-23-psg",
+      "event_slug": "fl1-psg-ren-2026-08-23",
+      "title": "Will Paris Saint-Germain FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "end_date": "2026-08-23",
+      "entry_price": 0.625,
+      "last_price": 0.625,
+      "stake_usd": 20.0,
+      "shares": 32.0,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -1749,6 +1917,25 @@
       "payout": 27.59,
       "pnl": 7.59,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-08-19T13:49:47.628152+00:00",
+      "condition_id": "0xbb1682e49e0aba1d452eb672fcc6a4c3dea2ddd01edff310cfa569e46c8602a6",
+      "market_slug": "dota2-liquid-ty-2026-08-20",
+      "event_slug": "dota2-liquid-ty-2026-08-20",
+      "title": "Dota 2: Team Liquid vs Team Yandex (BO3) - The International Playoffs",
+      "outcome": "Team Liquid",
+      "end_date": "2026-08-20",
+      "entry_price": 0.545,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-21T13:50:11.473605+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -1903,6 +2090,10 @@
     {
       "date": "2026-08-20",
       "equity": 1119.19
+    },
+    {
+      "date": "2026-08-21",
+      "equity": 1120.85
     }
   ]
 }
