@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 718.3842297409672,
+  "cash": 769.7008824290431,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -31,20 +31,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-08-20T13:51:37.376109+00:00",
-      "condition_id": "0x6ada2bad2aeeb90e5e2e4c958460db1818eb5a2d9c3a4607f7e0e70d7670a951",
-      "market_slug": "epl-ars-cov-2026-08-21-spread-home-1pt5",
-      "event_slug": "epl-ars-cov-2026-08-21-more-markets",
-      "title": "Spread: Arsenal FC (-1.5)",
-      "outcome": "Coventry City FC",
-      "end_date": "2026-08-21",
-      "entry_price": 0.385,
-      "last_price": 0.415,
-      "stake_usd": 20.0,
-      "shares": 51.94805194805195,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-08-20T13:51:37.376121+00:00",
       "condition_id": "0x49576ce30ab058f3a2085a22062313e79efaa418ec50e4a85329f955633c6216",
       "market_slug": "kor-poh-bch-2026-08-22-bch",
@@ -53,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-08-22",
       "entry_price": 0.335,
-      "last_price": 0.335,
+      "last_price": 0.9995,
       "stake_usd": 20.0,
       "shares": 59.70149253731343,
       "trader_count_at_entry": 3
@@ -67,7 +53,7 @@
       "outcome": "No",
       "end_date": "2026-08-22",
       "entry_price": 0.285,
-      "last_price": 0.285,
+      "last_price": 0.9735,
       "stake_usd": 20.0,
       "shares": 70.17543859649123,
       "trader_count_at_entry": 3
@@ -81,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-08-22",
       "entry_price": 0.675,
-      "last_price": 0.685,
+      "last_price": 0.675,
       "stake_usd": 20.0,
       "shares": 29.629629629629626,
       "trader_count_at_entry": 3
@@ -101,20 +87,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-08-21T13:50:34.822335+00:00",
-      "condition_id": "0x0523d3e0b7d698763327eb33c19c09d4581e31ce1ebec9230bd6c268acb5eaa1",
-      "market_slug": "argpn-ste-mor-2026-08-22-mor",
-      "event_slug": "argpn-ste-mor-2026-08-22",
-      "title": "Will Deportivo Moron win on 2026-08-22?",
-      "outcome": "No",
-      "end_date": "2026-08-22",
-      "entry_price": 0.625,
-      "last_price": 0.625,
-      "stake_usd": 20.0,
-      "shares": 32.0,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-08-21T13:50:34.822350+00:00",
       "condition_id": "0xc914e43e25348e08546559579f2fe6f30a3a9e744d2218bbfd5eb7825f7a4911",
       "market_slug": "fl1-rcl-aja-2026-08-22-rcl",
@@ -123,65 +95,9 @@
       "outcome": "No",
       "end_date": "2026-08-22",
       "entry_price": 0.375,
-      "last_price": 0.375,
+      "last_price": 0.355,
       "stake_usd": 20.0,
       "shares": 53.333333333333336,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-21T13:50:34.822354+00:00",
-      "condition_id": "0x3928e00e5595f450e91f206ef334c4ea97816fd9f391a5c83b0659ec2f3a8c11",
-      "market_slug": "mex-leo-mon1-2026-08-22-total-3pt5",
-      "event_slug": "mex-leo-mon1-2026-08-22-more-markets",
-      "title": "Club Le\u00f3n FC vs. CF Monterrey: O/U 3.5",
-      "outcome": "Under",
-      "end_date": "2026-08-22",
-      "entry_price": 0.655,
-      "last_price": 0.655,
-      "stake_usd": 20.0,
-      "shares": 30.534351145038165,
-      "trader_count_at_entry": 4
-    },
-    {
-      "opened_at": "2026-08-21T13:50:34.822357+00:00",
-      "condition_id": "0x35b6be09cff25e3530fd150f2a51c64d830dcdcb42513f79ecafe9d57d098dbb",
-      "market_slug": "mex-tig-atla-2026-08-21-atla",
-      "event_slug": "mex-tig-atla-2026-08-21",
-      "title": "Will Atlante FC win on 2026-08-21?",
-      "outcome": "No",
-      "end_date": "2026-08-22",
-      "entry_price": 0.825,
-      "last_price": 0.825,
-      "stake_usd": 20.0,
-      "shares": 24.242424242424242,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-21T13:50:34.822361+00:00",
-      "condition_id": "0xea7f9c463c1407c8737bb2014be376a47e9571fd55919015da3b2432fb7c0d53",
-      "market_slug": "mex-leo-mon1-2026-08-22-total-4pt5",
-      "event_slug": "mex-leo-mon1-2026-08-22-more-markets",
-      "title": "Club Le\u00f3n FC vs. CF Monterrey: O/U 4.5",
-      "outcome": "Under",
-      "end_date": "2026-08-22",
-      "entry_price": 0.815,
-      "last_price": 0.815,
-      "stake_usd": 20.0,
-      "shares": 24.539877300613497,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-21T13:50:34.822365+00:00",
-      "condition_id": "0xbefb86b8c7cffdb2392de8c9e7a1d6ea796a35395b4ba6ab2088c8e800e3c024",
-      "market_slug": "mex-jua-ame-2026-08-21-ame",
-      "event_slug": "mex-jua-ame-2026-08-21",
-      "title": "Will CF Am\u00e9rica win on 2026-08-21?",
-      "outcome": "No",
-      "end_date": "2026-08-22",
-      "entry_price": 0.455,
-      "last_price": 0.455,
-      "stake_usd": 20.0,
-      "shares": 43.956043956043956,
       "trader_count_at_entry": 3
     },
     {
@@ -193,7 +109,7 @@
       "outcome": "No",
       "end_date": "2026-08-22",
       "entry_price": 0.715,
-      "last_price": 0.715,
+      "last_price": 0.705,
       "stake_usd": 20.0,
       "shares": 27.972027972027973,
       "trader_count_at_entry": 3
@@ -207,7 +123,7 @@
       "outcome": "No",
       "end_date": "2026-08-22",
       "entry_price": 0.625,
-      "last_price": 0.625,
+      "last_price": 0.635,
       "stake_usd": 20.0,
       "shares": 32.0,
       "trader_count_at_entry": 3
@@ -221,7 +137,7 @@
       "outcome": "Hull City AFC",
       "end_date": "2026-08-22",
       "entry_price": 0.515,
-      "last_price": 0.515,
+      "last_price": 0.979,
       "stake_usd": 20.0,
       "shares": 38.83495145631068,
       "trader_count_at_entry": 4
@@ -235,7 +151,7 @@
       "outcome": "No",
       "end_date": "2026-08-22",
       "entry_price": 0.585,
-      "last_price": 0.585,
+      "last_price": 0.545,
       "stake_usd": 20.0,
       "shares": 34.18803418803419,
       "trader_count_at_entry": 3
@@ -249,7 +165,7 @@
       "outcome": "No",
       "end_date": "2026-08-22",
       "entry_price": 0.645,
-      "last_price": 0.645,
+      "last_price": 0.715,
       "stake_usd": 20.0,
       "shares": 31.007751937984494,
       "trader_count_at_entry": 3
@@ -263,7 +179,7 @@
       "outcome": "Newcastle United FC",
       "end_date": "2026-08-23",
       "entry_price": 0.71,
-      "last_price": 0.71,
+      "last_price": 0.705,
       "stake_usd": 20.0,
       "shares": 28.169014084507044,
       "trader_count_at_entry": 3
@@ -277,9 +193,51 @@
       "outcome": "Yes",
       "end_date": "2026-08-23",
       "entry_price": 0.625,
-      "last_price": 0.625,
+      "last_price": 0.615,
       "stake_usd": 20.0,
       "shares": 32.0,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-08-22T13:36:52.486230+00:00",
+      "condition_id": "0x33e394acbf1d728c47f07f8ab574bdf23ebf1da24d33032b68e42656e89b54e9",
+      "market_slug": "epl-new-liv-2026-08-23-total-3pt5",
+      "event_slug": "epl-new-liv-2026-08-23-more-markets",
+      "title": "Newcastle United FC vs. Liverpool FC: O/U 3.5",
+      "outcome": "Under",
+      "end_date": "2026-08-23",
+      "entry_price": 0.575,
+      "last_price": 0.575,
+      "stake_usd": 20.0,
+      "shares": 34.78260869565218,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-22T13:36:52.486245+00:00",
+      "condition_id": "0x6ae54b57f576915b00f24e95c48c5f49fa7a40247caed58746654e7bfce4613a",
+      "market_slug": "epl-new-liv-2026-08-23-liv",
+      "event_slug": "epl-new-liv-2026-08-23",
+      "title": "Will Liverpool FC win on 2026-08-23?",
+      "outcome": "Yes",
+      "end_date": "2026-08-23",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-22T13:36:52.486250+00:00",
+      "condition_id": "0x0e93fc6435e832f728e582ac08f1d337bf9c19fcec4c3a31b5190a62416ea90e",
+      "market_slug": "epl-new-liv-2026-08-23-draw",
+      "event_slug": "epl-new-liv-2026-08-23",
+      "title": "Will Newcastle United FC vs. Liverpool FC end in a draw?",
+      "outcome": "No",
+      "end_date": "2026-08-23",
+      "entry_price": 0.745,
+      "last_price": 0.745,
+      "stake_usd": 20.0,
+      "shares": 26.845637583892618,
       "trader_count_at_entry": 4
     }
   ],
@@ -1936,6 +1894,120 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-20T13:51:37.376109+00:00",
+      "condition_id": "0x6ada2bad2aeeb90e5e2e4c958460db1818eb5a2d9c3a4607f7e0e70d7670a951",
+      "market_slug": "epl-ars-cov-2026-08-21-spread-home-1pt5",
+      "event_slug": "epl-ars-cov-2026-08-21-more-markets",
+      "title": "Spread: Arsenal FC (-1.5)",
+      "outcome": "Coventry City FC",
+      "end_date": "2026-08-21",
+      "entry_price": 0.385,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 51.94805194805195,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-22T13:36:27.821270+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822335+00:00",
+      "condition_id": "0x0523d3e0b7d698763327eb33c19c09d4581e31ce1ebec9230bd6c268acb5eaa1",
+      "market_slug": "argpn-ste-mor-2026-08-22-mor",
+      "event_slug": "argpn-ste-mor-2026-08-22",
+      "title": "Will Deportivo Moron win on 2026-08-22?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.625,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 32.0,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-22T13:36:28.521175+00:00",
+      "exit_price": 1.0,
+      "payout": 32.0,
+      "pnl": 12.0,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822354+00:00",
+      "condition_id": "0x3928e00e5595f450e91f206ef334c4ea97816fd9f391a5c83b0659ec2f3a8c11",
+      "market_slug": "mex-leo-mon1-2026-08-22-total-3pt5",
+      "event_slug": "mex-leo-mon1-2026-08-22-more-markets",
+      "title": "Club Le\u00f3n FC vs. CF Monterrey: O/U 3.5",
+      "outcome": "Under",
+      "end_date": "2026-08-22",
+      "entry_price": 0.655,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 30.534351145038165,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-22T13:36:28.880721+00:00",
+      "exit_price": 1.0,
+      "payout": 30.53,
+      "pnl": 10.53,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822357+00:00",
+      "condition_id": "0x35b6be09cff25e3530fd150f2a51c64d830dcdcb42513f79ecafe9d57d098dbb",
+      "market_slug": "mex-tig-atla-2026-08-21-atla",
+      "event_slug": "mex-tig-atla-2026-08-21",
+      "title": "Will Atlante FC win on 2026-08-21?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.825,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 24.242424242424242,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-22T13:36:29.018164+00:00",
+      "exit_price": 1.0,
+      "payout": 24.24,
+      "pnl": 4.24,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822361+00:00",
+      "condition_id": "0xea7f9c463c1407c8737bb2014be376a47e9571fd55919015da3b2432fb7c0d53",
+      "market_slug": "mex-leo-mon1-2026-08-22-total-4pt5",
+      "event_slug": "mex-leo-mon1-2026-08-22-more-markets",
+      "title": "Club Le\u00f3n FC vs. CF Monterrey: O/U 4.5",
+      "outcome": "Under",
+      "end_date": "2026-08-22",
+      "entry_price": 0.815,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 24.539877300613497,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-22T13:36:29.277610+00:00",
+      "exit_price": 1.0,
+      "payout": 24.54,
+      "pnl": 4.54,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-21T13:50:34.822365+00:00",
+      "condition_id": "0xbefb86b8c7cffdb2392de8c9e7a1d6ea796a35395b4ba6ab2088c8e800e3c024",
+      "market_slug": "mex-jua-ame-2026-08-21-ame",
+      "event_slug": "mex-jua-ame-2026-08-21",
+      "title": "Will CF Am\u00e9rica win on 2026-08-21?",
+      "outcome": "No",
+      "end_date": "2026-08-22",
+      "entry_price": 0.455,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 43.956043956043956,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-22T13:36:29.415907+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -2094,6 +2166,10 @@
     {
       "date": "2026-08-21",
       "equity": 1120.85
+    },
+    {
+      "date": "2026-08-22",
+      "equity": 1215.63
     }
   ]
 }
