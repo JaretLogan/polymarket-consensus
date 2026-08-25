@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1067.1911886433077,
+  "cash": 999.7115138465597,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,23 +25,79 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.4,
+      "last_price": 0.215,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-08-23T13:37:45.099198+00:00",
-      "condition_id": "0xe4e772127cc217f1f9ab8efabfd1cc99ecbed62795fafd3a0d11e025209e703d",
-      "market_slug": "lal-mala-dep-2026-08-24-mala",
-      "event_slug": "lal-mala-dep-2026-08-24",
-      "title": "Will M\u00e1laga CF win on 2026-08-24?",
-      "outcome": "No",
-      "end_date": "2026-08-24",
-      "entry_price": 0.615,
-      "last_price": 0.595,
+      "opened_at": "2026-08-25T13:55:20.063704+00:00",
+      "condition_id": "0x734626872014bd0c544dd1f6f904414a6100565c5f2eafe8b97ac254ac21b1fb",
+      "market_slug": "lol-kt-bro2-2026-08-26",
+      "event_slug": "lol-kt-bro2-2026-08-26",
+      "title": "LoL: KT Rolster vs HANJIN BRION (BO5) - LCK Play-In",
+      "outcome": "HANJIN BRION",
+      "end_date": "2026-08-26",
+      "entry_price": 0.245,
+      "last_price": 0.245,
       "stake_usd": 20.0,
-      "shares": 32.520325203252035,
+      "shares": 81.63265306122449,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-25T13:55:20.063728+00:00",
+      "condition_id": "0x336f5341ee0225793b0d6c274322e1840824fc3107bad168465fab3898188f9c",
+      "market_slug": "lal-rea-rso-2026-08-26-total-3pt5",
+      "event_slug": "lal-rea-rso-2026-08-26-more-markets",
+      "title": "Real Madrid CF vs. Real Sociedad de F\u00fatbol: O/U 3.5",
+      "outcome": "Under",
+      "end_date": "2026-08-26",
+      "entry_price": 0.565,
+      "last_price": 0.565,
+      "stake_usd": 20.0,
+      "shares": 35.39823008849558,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-25T13:55:20.063734+00:00",
+      "condition_id": "0x2e9247cfe2948d9ce0e9e35c08f5a3f6c2b0d9b2e578e19ffa5ec71a9e4efa68",
+      "market_slug": "wnba-wsh-phx-2026-08-25",
+      "event_slug": "wnba-wsh-phx-2026-08-25",
+      "title": "Washington Mystics vs. Phoenix Mercury",
+      "outcome": "Washington Mystics",
+      "end_date": "2026-08-26",
+      "entry_price": 0.545,
+      "last_price": 0.545,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-25T13:55:20.063738+00:00",
+      "condition_id": "0x6828dce345013514719f21c929b61a89aa7d7e0cfc08ef9495cdeef440fa6120",
+      "market_slug": "ucl-lyo-fen-2026-08-26-lyo",
+      "event_slug": "ucl-lyo-fen-2026-08-26",
+      "title": "Will Olympique Lyonnais win on 2026-08-26?",
+      "outcome": "No",
+      "end_date": "2026-08-26",
+      "entry_price": 0.495,
+      "last_price": 0.495,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-25T13:55:20.063741+00:00",
+      "condition_id": "0x9607f2259dc5c2b94f068034a7cead205fc440cb72b5f4afdd842d1a6c7d06cc",
+      "market_slug": "bun-bay-stu-2026-08-28-stu",
+      "event_slug": "bun-bay-stu-2026-08-28",
+      "title": "Will VfB Stuttgart win on 2026-08-28?",
+      "outcome": "No",
+      "end_date": "2026-08-28",
+      "entry_price": 0.905,
+      "last_price": 0.905,
+      "stake_usd": 20.0,
+      "shares": 22.099447513812155,
       "trader_count_at_entry": 3
     }
   ],
@@ -2097,6 +2153,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-23T13:37:45.099198+00:00",
+      "condition_id": "0xe4e772127cc217f1f9ab8efabfd1cc99ecbed62795fafd3a0d11e025209e703d",
+      "market_slug": "lal-mala-dep-2026-08-24-mala",
+      "event_slug": "lal-mala-dep-2026-08-24",
+      "title": "Will M\u00e1laga CF win on 2026-08-24?",
+      "outcome": "No",
+      "end_date": "2026-08-24",
+      "entry_price": 0.615,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 32.520325203252035,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-25T13:55:00.816531+00:00",
+      "exit_price": 1.0,
+      "payout": 32.52,
+      "pnl": 12.52,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -2267,6 +2342,10 @@
     {
       "date": "2026-08-24",
       "equity": 1127.59
+    },
+    {
+      "date": "2026-08-25",
+      "equity": 1131.03
     }
   ]
 }
