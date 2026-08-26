@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 999.7115138465597,
+  "cash": 976.4087615529818,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.215,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "HANJIN BRION",
       "end_date": "2026-08-26",
       "entry_price": 0.245,
-      "last_price": 0.245,
+      "last_price": 0.0005,
       "stake_usd": 20.0,
       "shares": 81.63265306122449,
       "trader_count_at_entry": 3
@@ -53,23 +53,9 @@
       "outcome": "Under",
       "end_date": "2026-08-26",
       "entry_price": 0.565,
-      "last_price": 0.565,
+      "last_price": 0.515,
       "stake_usd": 20.0,
       "shares": 35.39823008849558,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-25T13:55:20.063734+00:00",
-      "condition_id": "0x2e9247cfe2948d9ce0e9e35c08f5a3f6c2b0d9b2e578e19ffa5ec71a9e4efa68",
-      "market_slug": "wnba-wsh-phx-2026-08-25",
-      "event_slug": "wnba-wsh-phx-2026-08-25",
-      "title": "Washington Mystics vs. Phoenix Mercury",
-      "outcome": "Washington Mystics",
-      "end_date": "2026-08-26",
-      "entry_price": 0.545,
-      "last_price": 0.545,
-      "stake_usd": 20.0,
-      "shares": 36.69724770642202,
       "trader_count_at_entry": 3
     },
     {
@@ -81,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-08-26",
       "entry_price": 0.495,
-      "last_price": 0.495,
+      "last_price": 0.505,
       "stake_usd": 20.0,
       "shares": 40.4040404040404,
       "trader_count_at_entry": 3
@@ -98,6 +84,48 @@
       "last_price": 0.905,
       "stake_usd": 20.0,
       "shares": 22.099447513812155,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-26T13:58:13.517816+00:00",
+      "condition_id": "0xb0b22384e91d3a0786451176286a629c81e512027b0a58b2173697ee43cfc2c0",
+      "market_slug": "wnba-tor-sea-2026-08-26",
+      "event_slug": "wnba-tor-sea-2026-08-26",
+      "title": "Toronto Tempo vs. Seattle Storm",
+      "outcome": "Seattle Storm",
+      "end_date": "2026-08-27",
+      "entry_price": 0.725,
+      "last_price": 0.725,
+      "stake_usd": 20.0,
+      "shares": 27.586206896551726,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-26T13:58:13.517828+00:00",
+      "condition_id": "0x5756f7c5b63ecee75626a0e303531ea11dc95a58955af0b89f2b4cbcd4a3f867",
+      "market_slug": "sud-riv-san1-2026-08-19-riv",
+      "event_slug": "sud-riv-san1-2026-08-19",
+      "title": "Will CA River Plate win on 2026-08-19?",
+      "outcome": "Yes",
+      "end_date": "2026-08-27",
+      "entry_price": 0.705,
+      "last_price": 0.705,
+      "stake_usd": 20.0,
+      "shares": 28.368794326241137,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-26T13:58:13.517833+00:00",
+      "condition_id": "0x7df1d4ec251ba238a5578afbaf4a83e5650c69d2b92d59a0629fc3d67cbcb05f",
+      "market_slug": "lol-tes-lgd-2026-08-29",
+      "event_slug": "lol-tes-lgd-2026-08-29",
+      "title": "LoL: Top Esports vs LGD Gaming (BO5) - LPL Playoffs",
+      "outcome": "LGD Gaming",
+      "end_date": "2026-08-29",
+      "entry_price": 0.33,
+      "last_price": 0.33,
+      "stake_usd": 20.0,
+      "shares": 60.6060606060606,
       "trader_count_at_entry": 3
     }
   ],
@@ -2172,6 +2200,25 @@
       "payout": 32.52,
       "pnl": 12.52,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-08-25T13:55:20.063734+00:00",
+      "condition_id": "0x2e9247cfe2948d9ce0e9e35c08f5a3f6c2b0d9b2e578e19ffa5ec71a9e4efa68",
+      "market_slug": "wnba-wsh-phx-2026-08-25",
+      "event_slug": "wnba-wsh-phx-2026-08-25",
+      "title": "Washington Mystics vs. Phoenix Mercury",
+      "outcome": "Washington Mystics",
+      "end_date": "2026-08-26",
+      "entry_price": 0.545,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-26T13:57:51.680681+00:00",
+      "exit_price": 1.0,
+      "payout": 36.7,
+      "pnl": 16.7,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -2346,6 +2393,10 @@
     {
       "date": "2026-08-25",
       "equity": 1131.03
+    },
+    {
+      "date": "2026-08-26",
+      "equity": 1137.98
     }
   ]
 }
