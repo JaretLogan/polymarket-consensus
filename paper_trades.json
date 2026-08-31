@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 847.3032927352389,
+  "cash": 996.4467243946942,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -31,20 +31,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-08-27T22:54:44.761896+00:00",
-      "condition_id": "0xe456796d9cd9c76064f2ec5738856266969aaf80338d671991a9bdd4c915f48c",
-      "market_slug": "lal-rea-mala-2026-08-30-rea",
-      "event_slug": "lal-rea-mala-2026-08-30",
-      "title": "Will Real Madrid CF win on 2026-08-30?",
-      "outcome": "Yes",
-      "end_date": "2026-08-30",
-      "entry_price": 0.875,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 22.857142857142858,
-      "trader_count_at_entry": 4
-    },
-    {
       "opened_at": "2026-08-28T22:59:18.075367+00:00",
       "condition_id": "0xd4cea7608974a3f2df2c6cd4aac691f17d251b874ee4e8eea39af6949c4ad995",
       "market_slug": "epl-ast-ars-2026-08-31-ars",
@@ -53,49 +39,7 @@
       "outcome": "No",
       "end_date": "2026-08-31",
       "entry_price": 0.365,
-      "last_price": 0.365,
-      "stake_usd": 20.0,
-      "shares": 54.794520547945204,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-30T17:17:52.297023+00:00",
-      "condition_id": "0xc1bcead0e64057b35163b1ab45d88918735e80ef5c0c78cde9637f78d49b4a57",
-      "market_slug": "lol-c9-sr-2026-08-30-game-handicap-away-1pt5",
-      "event_slug": "lol-c9-sr-2026-08-30",
-      "title": "Game Handicap: C9 (-1.5) vs Shopify Rebellion (+1.5)",
-      "outcome": "Shopify Rebellion",
-      "end_date": "2026-08-31",
-      "entry_price": 0.545,
-      "last_price": 0.545,
-      "stake_usd": 20.0,
-      "shares": 36.69724770642202,
-      "trader_count_at_entry": 4
-    },
-    {
-      "opened_at": "2026-08-30T17:17:52.297037+00:00",
-      "condition_id": "0xf0fb70d4b94fe53b595cf6fb707e1d67792d6a2b72eb28419313e01ccd5458a6",
-      "market_slug": "lol-ly-tl2-2026-08-30",
-      "event_slug": "lol-ly-tl2-2026-08-30",
-      "title": "LoL: LYON vs Team Liquid (BO3) - LCS Regular Season",
-      "outcome": "Team Liquid",
-      "end_date": "2026-08-31",
-      "entry_price": 0.445,
-      "last_price": 0.445,
-      "stake_usd": 20.0,
-      "shares": 44.9438202247191,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-30T17:17:52.297040+00:00",
-      "condition_id": "0xaf7e74afb2e08c0b6a5bd4dbc2563687dc80e302fccdda87064f183cf43433f5",
-      "market_slug": "val-lev1-g21-2026-08-30",
-      "event_slug": "val-lev1-g21-2026-08-30",
-      "title": "Valorant: Leviat\u00e1n Esports vs G2 Esports (BO3) - VCT Americas Stage 2 Playoffs",
-      "outcome": "G2 Esports",
-      "end_date": "2026-08-31",
-      "entry_price": 0.365,
-      "last_price": 0.365,
+      "last_price": 0.345,
       "stake_usd": 20.0,
       "shares": 54.794520547945204,
       "trader_count_at_entry": 3
@@ -109,21 +53,7 @@
       "outcome": "Arsenal FC",
       "end_date": "2026-08-31",
       "entry_price": 0.365,
-      "last_price": 0.365,
-      "stake_usd": 20.0,
-      "shares": 54.794520547945204,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-30T17:17:52.297046+00:00",
-      "condition_id": "0x6ff7213936da64c1c431868c94080249e535ee4ef673fb4f8bb0467543710fea",
-      "market_slug": "val-loud-mibr-2026-08-30",
-      "event_slug": "val-loud-mibr-2026-08-30",
-      "title": "Valorant: LOUD vs MIBR (BO3) - VCT Americas Stage 2 Playoffs",
-      "outcome": "LOUD",
-      "end_date": "2026-08-31",
-      "entry_price": 0.365,
-      "last_price": 0.365,
+      "last_price": 0.35,
       "stake_usd": 20.0,
       "shares": 54.794520547945204,
       "trader_count_at_entry": 3
@@ -137,10 +67,24 @@
       "outcome": "No",
       "end_date": "2026-08-31",
       "entry_price": 0.955,
-      "last_price": 0.955,
+      "last_price": 0.9675,
       "stake_usd": 20.0,
       "shares": 20.942408376963353,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-08-31T19:28:54.531067+00:00",
+      "condition_id": "0xaa40d1358ac9493cddd813ce8b5be162f40a0e815f494ca5becf1c8e6f2f2248",
+      "market_slug": "cs2-fut-vit-2026-08-31",
+      "event_slug": "cs2-fut-vit-2026-08-31",
+      "title": "Counter-Strike: FUT Esports vs Vitality (BO3) - BLAST Open Porto Group B",
+      "outcome": "FUT Esports",
+      "end_date": "2026-09-01",
+      "entry_price": 0.135,
+      "last_price": 0.135,
+      "stake_usd": 20.0,
+      "shares": 148.14814814814815,
+      "trader_count_at_entry": 6
     }
   ],
   "closed_positions": [
@@ -2594,6 +2538,101 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-27T22:54:44.761896+00:00",
+      "condition_id": "0xe456796d9cd9c76064f2ec5738856266969aaf80338d671991a9bdd4c915f48c",
+      "market_slug": "lal-rea-mala-2026-08-30-rea",
+      "event_slug": "lal-rea-mala-2026-08-30",
+      "title": "Will Real Madrid CF win on 2026-08-30?",
+      "outcome": "Yes",
+      "end_date": "2026-08-30",
+      "entry_price": 0.875,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 22.857142857142858,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-31T19:28:03.361373+00:00",
+      "exit_price": 1.0,
+      "payout": 22.86,
+      "pnl": 2.86,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-30T17:17:52.297023+00:00",
+      "condition_id": "0xc1bcead0e64057b35163b1ab45d88918735e80ef5c0c78cde9637f78d49b4a57",
+      "market_slug": "lol-c9-sr-2026-08-30-game-handicap-away-1pt5",
+      "event_slug": "lol-c9-sr-2026-08-30",
+      "title": "Game Handicap: C9 (-1.5) vs Shopify Rebellion (+1.5)",
+      "outcome": "Shopify Rebellion",
+      "end_date": "2026-08-31",
+      "entry_price": 0.545,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-08-31T19:28:04.048037+00:00",
+      "exit_price": 1.0,
+      "payout": 36.7,
+      "pnl": 16.7,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-30T17:17:52.297037+00:00",
+      "condition_id": "0xf0fb70d4b94fe53b595cf6fb707e1d67792d6a2b72eb28419313e01ccd5458a6",
+      "market_slug": "lol-ly-tl2-2026-08-30",
+      "event_slug": "lol-ly-tl2-2026-08-30",
+      "title": "LoL: LYON vs Team Liquid (BO3) - LCS Regular Season",
+      "outcome": "Team Liquid",
+      "end_date": "2026-08-31",
+      "entry_price": 0.445,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 44.9438202247191,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-31T19:28:04.453020+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-30T17:17:52.297040+00:00",
+      "condition_id": "0xaf7e74afb2e08c0b6a5bd4dbc2563687dc80e302fccdda87064f183cf43433f5",
+      "market_slug": "val-lev1-g21-2026-08-30",
+      "event_slug": "val-lev1-g21-2026-08-30",
+      "title": "Valorant: Leviat\u00e1n Esports vs G2 Esports (BO3) - VCT Americas Stage 2 Playoffs",
+      "outcome": "G2 Esports",
+      "end_date": "2026-08-31",
+      "entry_price": 0.365,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 54.794520547945204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-31T19:28:04.854073+00:00",
+      "exit_price": 1.0,
+      "payout": 54.79,
+      "pnl": 34.79,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-30T17:17:52.297046+00:00",
+      "condition_id": "0x6ff7213936da64c1c431868c94080249e535ee4ef673fb4f8bb0467543710fea",
+      "market_slug": "val-loud-mibr-2026-08-30",
+      "event_slug": "val-loud-mibr-2026-08-30",
+      "title": "Valorant: LOUD vs MIBR (BO3) - VCT Americas Stage 2 Playoffs",
+      "outcome": "LOUD",
+      "end_date": "2026-08-31",
+      "entry_price": 0.365,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 54.794520547945204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-08-31T19:28:05.438337+00:00",
+      "exit_price": 1.0,
+      "payout": 54.79,
+      "pnl": 34.79,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -2788,6 +2827,10 @@
     {
       "date": "2026-08-30",
       "equity": 1056.99
+    },
+    {
+      "date": "2026-08-31",
+      "equity": 1121.63
     }
   ]
 }
