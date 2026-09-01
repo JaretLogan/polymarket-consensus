@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 996.4467243946942,
+  "cash": 1017.3891327716576,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -29,62 +29,6 @@
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-28T22:59:18.075367+00:00",
-      "condition_id": "0xd4cea7608974a3f2df2c6cd4aac691f17d251b874ee4e8eea39af6949c4ad995",
-      "market_slug": "epl-ast-ars-2026-08-31-ars",
-      "event_slug": "epl-ast-ars-2026-08-31",
-      "title": "Will Arsenal FC win on 2026-08-31?",
-      "outcome": "No",
-      "end_date": "2026-08-31",
-      "entry_price": 0.365,
-      "last_price": 0.345,
-      "stake_usd": 20.0,
-      "shares": 54.794520547945204,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-30T17:17:52.297043+00:00",
-      "condition_id": "0xdb4aa2d0b97c3a5e29750e955959b1e41bfd77be4b842c57fd59514b94341128",
-      "market_slug": "epl-ast-ars-2026-08-31-spread-away-1pt5",
-      "event_slug": "epl-ast-ars-2026-08-31-more-markets",
-      "title": "Spread: Arsenal FC (-1.5)",
-      "outcome": "Arsenal FC",
-      "end_date": "2026-08-31",
-      "entry_price": 0.365,
-      "last_price": 0.35,
-      "stake_usd": 20.0,
-      "shares": 54.794520547945204,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-30T17:17:52.297048+00:00",
-      "condition_id": "0xe56f2a966109c979f425c5e392aa2b758390030c7c44fd41fb2df3754b2b5b91",
-      "market_slug": "lal-bar-ray-2026-08-31-ray",
-      "event_slug": "lal-bar-ray-2026-08-31",
-      "title": "Will Rayo Vallecano de Madrid win on 2026-08-31?",
-      "outcome": "No",
-      "end_date": "2026-08-31",
-      "entry_price": 0.955,
-      "last_price": 0.9675,
-      "stake_usd": 20.0,
-      "shares": 20.942408376963353,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-08-31T19:28:54.531067+00:00",
-      "condition_id": "0xaa40d1358ac9493cddd813ce8b5be162f40a0e815f494ca5becf1c8e6f2f2248",
-      "market_slug": "cs2-fut-vit-2026-08-31",
-      "event_slug": "cs2-fut-vit-2026-08-31",
-      "title": "Counter-Strike: FUT Esports vs Vitality (BO3) - BLAST Open Porto Group B",
-      "outcome": "FUT Esports",
-      "end_date": "2026-09-01",
-      "entry_price": 0.135,
-      "last_price": 0.135,
-      "stake_usd": 20.0,
-      "shares": 148.14814814814815,
-      "trader_count_at_entry": 6
     }
   ],
   "closed_positions": [
@@ -2633,6 +2577,82 @@
       "payout": 54.79,
       "pnl": 34.79,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-08-28T22:59:18.075367+00:00",
+      "condition_id": "0xd4cea7608974a3f2df2c6cd4aac691f17d251b874ee4e8eea39af6949c4ad995",
+      "market_slug": "epl-ast-ars-2026-08-31-ars",
+      "event_slug": "epl-ast-ars-2026-08-31",
+      "title": "Will Arsenal FC win on 2026-08-31?",
+      "outcome": "No",
+      "end_date": "2026-08-31",
+      "entry_price": 0.365,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 54.794520547945204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-01T17:16:17.781668+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-30T17:17:52.297043+00:00",
+      "condition_id": "0xdb4aa2d0b97c3a5e29750e955959b1e41bfd77be4b842c57fd59514b94341128",
+      "market_slug": "epl-ast-ars-2026-08-31-spread-away-1pt5",
+      "event_slug": "epl-ast-ars-2026-08-31-more-markets",
+      "title": "Spread: Arsenal FC (-1.5)",
+      "outcome": "Arsenal FC",
+      "end_date": "2026-08-31",
+      "entry_price": 0.365,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 54.794520547945204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-01T17:16:18.015551+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-30T17:17:52.297048+00:00",
+      "condition_id": "0xe56f2a966109c979f425c5e392aa2b758390030c7c44fd41fb2df3754b2b5b91",
+      "market_slug": "lal-bar-ray-2026-08-31-ray",
+      "event_slug": "lal-bar-ray-2026-08-31",
+      "title": "Will Rayo Vallecano de Madrid win on 2026-08-31?",
+      "outcome": "No",
+      "end_date": "2026-08-31",
+      "entry_price": 0.955,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.942408376963353,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-01T17:16:18.401292+00:00",
+      "exit_price": 1.0,
+      "payout": 20.94,
+      "pnl": 0.94,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-08-31T19:28:54.531067+00:00",
+      "condition_id": "0xaa40d1358ac9493cddd813ce8b5be162f40a0e815f494ca5becf1c8e6f2f2248",
+      "market_slug": "cs2-fut-vit-2026-08-31",
+      "event_slug": "cs2-fut-vit-2026-08-31",
+      "title": "Counter-Strike: FUT Esports vs Vitality (BO3) - BLAST Open Porto Group B",
+      "outcome": "FUT Esports",
+      "end_date": "2026-09-01",
+      "entry_price": 0.135,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 148.14814814814815,
+      "trader_count_at_entry": 6,
+      "closed_at": "2026-09-01T17:16:18.707878+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -2831,6 +2851,10 @@
     {
       "date": "2026-08-31",
       "equity": 1121.63
+    },
+    {
+      "date": "2026-09-01",
+      "equity": 1064.23
     }
   ]
 }
