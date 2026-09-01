@@ -10,7 +10,7 @@
       "title": "Lowest temperature in Paris on September 1?",
       "outcome": "Yes",
       "entry_price": 0.55,
-      "last_price": 0.55,
+      "last_price": 0.9945,
       "stake_usd": 20.0,
       "shares": 36.36363636363636,
       "city": "Paris",
@@ -11216,6 +11216,10 @@
     {
       "date": "2026-08-31",
       "equity": 32.92
+    },
+    {
+      "date": "2026-09-01",
+      "equity": 49.08
     }
   ]
 }
