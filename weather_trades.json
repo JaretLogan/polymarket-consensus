@@ -1,24 +1,43 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 12.920002278925537,
+  "cash": 9.283638642561897,
   "open_positions": [
     {
-      "opened_at": "2026-08-31T13:25:35.522631+00:00",
-      "condition_id": "0x452e159b0a0b2ef0ac6d2fb4ca142183c1146765e81bd608628b18c03b18e4d5",
-      "market_slug": "lowest-temperature-in-paris-on-september-1-2026-14c",
-      "event_slug": "lowest-temperature-in-paris-on-september-1-2026",
-      "title": "Lowest temperature in Paris on September 1?",
+      "opened_at": "2026-09-02T11:05:50.287550+00:00",
+      "condition_id": "0x73d6f0652595a1d1fde6da4731888585dcaeca18500ddc3505259f2766e7ea3c",
+      "market_slug": "lowest-temperature-in-seoul-on-september-2-2026-22c",
+      "event_slug": "lowest-temperature-in-seoul-on-september-2-2026",
+      "title": "Lowest temperature in Seoul (Incheon) on September 2?",
       "outcome": "Yes",
-      "entry_price": 0.55,
+      "entry_price": 0.9945,
       "last_price": 0.9945,
       "stake_usd": 20.0,
-      "shares": 36.36363636363636,
+      "shares": 20.110608345902463,
+      "city": "Seoul (Incheon)",
+      "station": "Incheon",
+      "target_date": "2026-09-02",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.9945,
+      "forecast_temp": 26.5,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-02T11:05:50.287565+00:00",
+      "condition_id": "0x2d3dea3f7385bc5df427313ebd4836675be04781b5bd7e00be7c8065f17ca566",
+      "market_slug": "lowest-temperature-in-paris-on-september-2-2026-13c",
+      "event_slug": "lowest-temperature-in-paris-on-september-2-2026",
+      "title": "Lowest temperature in Paris on September 2?",
+      "outcome": "Yes",
+      "entry_price": 0.9645,
+      "last_price": 0.9645,
+      "stake_usd": 20.0,
+      "shares": 20.73613271124935,
       "city": "Paris",
       "station": "Le Bourget",
-      "target_date": "2026-09-01",
+      "target_date": "2026-09-02",
       "model_prob_at_entry": 0.0,
-      "edge_at_entry": -0.55,
-      "forecast_temp": 22.8,
+      "edge_at_entry": -0.9645,
+      "forecast_temp": 24.9,
       "unit": "celsius"
     }
   ],
@@ -11014,6 +11033,30 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-08-31T13:25:35.522631+00:00",
+      "condition_id": "0x452e159b0a0b2ef0ac6d2fb4ca142183c1146765e81bd608628b18c03b18e4d5",
+      "market_slug": "lowest-temperature-in-paris-on-september-1-2026-14c",
+      "event_slug": "lowest-temperature-in-paris-on-september-1-2026",
+      "title": "Lowest temperature in Paris on September 1?",
+      "outcome": "Yes",
+      "entry_price": 0.55,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 36.36363636363636,
+      "city": "Paris",
+      "station": "Le Bourget",
+      "target_date": "2026-09-01",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.55,
+      "forecast_temp": 22.8,
+      "unit": "celsius",
+      "closed_at": "2026-09-02T11:05:34.285281+00:00",
+      "exit_price": 1.0,
+      "payout": 36.36,
+      "pnl": 16.36,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -11220,6 +11263,10 @@
     {
       "date": "2026-09-01",
       "equity": 49.08
+    },
+    {
+      "date": "2026-09-02",
+      "equity": 49.28
     }
   ]
 }
