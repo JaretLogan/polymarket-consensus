@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1017.3891327716576,
+  "cash": 997.3891327716576,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,9 +25,23 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.49,
+      "last_price": 0.51,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-07T18:11:48.662174+00:00",
+      "condition_id": "0x9583192c420c90070797370f7a4da74dbbd089982c62ae27cdc02d3c27ca59b9",
+      "market_slug": "ucl-bru-ast-2026-09-08-total-2pt5",
+      "event_slug": "ucl-bru-ast-2026-09-08-more-markets",
+      "title": "Club Brugge KV vs. Aston Villa FC: O/U 2.5",
+      "outcome": "Over",
+      "end_date": "2026-09-08",
+      "entry_price": 0.555,
+      "last_price": 0.555,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
       "trader_count_at_entry": 3
     }
   ],
@@ -2875,6 +2889,10 @@
     {
       "date": "2026-09-06",
       "equity": 1063.18
+    },
+    {
+      "date": "2026-09-07",
+      "equity": 1064.23
     }
   ]
 }
