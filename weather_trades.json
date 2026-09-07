@@ -1,7 +1,46 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 50.130379699713714,
-  "open_positions": [],
+  "cash": 10.130379699713714,
+  "open_positions": [
+    {
+      "opened_at": "2026-09-07T12:14:25.487583+00:00",
+      "condition_id": "0xa73aa88e4b8429eceedaa830672292fe499511b0eeb0ef3284bc42de7103f1f9",
+      "market_slug": "lowest-temperature-in-shanghai-on-september-8-2026-24c",
+      "event_slug": "lowest-temperature-in-shanghai-on-september-8-2026",
+      "title": "Lowest temperature in Shanghai on September 8?",
+      "outcome": "Yes",
+      "entry_price": 0.615,
+      "last_price": 0.615,
+      "stake_usd": 20.0,
+      "shares": 32.520325203252035,
+      "city": "Shanghai",
+      "station": "Pudong",
+      "target_date": "2026-09-08",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.615,
+      "forecast_temp": 29.4,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-07T12:14:25.487602+00:00",
+      "condition_id": "0x44b91b48709a123d5e20c0a843b787a86c67456969956d4404b18fc2b0e49116",
+      "market_slug": "lowest-temperature-in-hong-kong-on-september-8-2026-27c",
+      "event_slug": "lowest-temperature-in-hong-kong-on-september-8-2026",
+      "title": "Lowest temperature in Hong Kong on September 8?",
+      "outcome": "Yes",
+      "entry_price": 0.53,
+      "last_price": 0.53,
+      "stake_usd": 20.0,
+      "shares": 37.73584905660377,
+      "city": "Hong Kong",
+      "station": "VHHH",
+      "target_date": "2026-09-08",
+      "model_prob_at_entry": 0.0046,
+      "edge_at_entry": -0.5254,
+      "forecast_temp": 30.6,
+      "unit": "celsius"
+    }
+  ],
   "closed_positions": [
     {
       "opened_at": "2026-07-13T09:41:26.879742+00:00",
@@ -11291,6 +11330,10 @@
     },
     {
       "date": "2026-09-06",
+      "equity": 50.13
+    },
+    {
+      "date": "2026-09-07",
       "equity": 50.13
     }
   ]
