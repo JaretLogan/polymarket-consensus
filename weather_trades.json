@@ -10,7 +10,7 @@
       "title": "Lowest temperature in Shanghai on September 8?",
       "outcome": "Yes",
       "entry_price": 0.615,
-      "last_price": 0.615,
+      "last_price": 0.96,
       "stake_usd": 20.0,
       "shares": 32.520325203252035,
       "city": "Shanghai",
@@ -29,7 +29,7 @@
       "title": "Lowest temperature in Hong Kong on September 8?",
       "outcome": "Yes",
       "entry_price": 0.53,
-      "last_price": 0.53,
+      "last_price": 0.968,
       "stake_usd": 20.0,
       "shares": 37.73584905660377,
       "city": "Hong Kong",
@@ -11335,6 +11335,10 @@
     {
       "date": "2026-09-07",
       "equity": 50.13
+    },
+    {
+      "date": "2026-09-08",
+      "equity": 77.88
     }
   ]
 }
