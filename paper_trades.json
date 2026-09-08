@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 997.3891327716576,
+  "cash": 977.3891327716576,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -39,9 +39,23 @@
       "outcome": "Over",
       "end_date": "2026-09-08",
       "entry_price": 0.555,
-      "last_price": 0.555,
+      "last_price": 0.925,
       "stake_usd": 20.0,
       "shares": 36.03603603603603,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-08T17:12:16.005494+00:00",
+      "condition_id": "0x069e0c84cdca04149ca8d57454510fc5c3124b26e612d604b03d6bc0a9b221ce",
+      "market_slug": "ucl-psg-sba-2026-09-09-spread-home-3pt5",
+      "event_slug": "ucl-psg-sba-2026-09-09-more-markets",
+      "title": "Spread: Paris Saint-Germain FC (-3.5)",
+      "outcome": "\u0160K Slovan Bratislava",
+      "end_date": "2026-09-09",
+      "entry_price": 0.535,
+      "last_price": 0.535,
+      "stake_usd": 20.0,
+      "shares": 37.38317757009346,
       "trader_count_at_entry": 3
     }
   ],
@@ -2893,6 +2907,10 @@
     {
       "date": "2026-09-07",
       "equity": 1064.23
+    },
+    {
+      "date": "2026-09-08",
+      "equity": 1077.56
     }
   ]
 }
