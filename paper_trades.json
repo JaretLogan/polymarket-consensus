@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 977.3891327716576,
+  "cash": 853.4251688076937,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,23 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.51,
+      "last_price": 0.505,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-07T18:11:48.662174+00:00",
-      "condition_id": "0x9583192c420c90070797370f7a4da74dbbd089982c62ae27cdc02d3c27ca59b9",
-      "market_slug": "ucl-bru-ast-2026-09-08-total-2pt5",
-      "event_slug": "ucl-bru-ast-2026-09-08-more-markets",
-      "title": "Club Brugge KV vs. Aston Villa FC: O/U 2.5",
-      "outcome": "Over",
-      "end_date": "2026-09-08",
-      "entry_price": 0.555,
-      "last_price": 0.925,
-      "stake_usd": 20.0,
-      "shares": 36.03603603603603,
       "trader_count_at_entry": 3
     },
     {
@@ -53,9 +39,121 @@
       "outcome": "\u0160K Slovan Bratislava",
       "end_date": "2026-09-09",
       "entry_price": 0.535,
-      "last_price": 0.535,
+      "last_price": 0.465,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735657+00:00",
+      "condition_id": "0xf3d6e23aa814bb94ab7e84a3af2722e6ec4919e17734656c0b348c15c5db887b",
+      "market_slug": "lib-est-cor-2026-09-09-total-2pt5",
+      "event_slug": "lib-est-cor-2026-09-09-more-markets",
+      "title": "Estudiantes de La Plata vs. SC Corinthians Paulista: O/U 2.5",
+      "outcome": "Under",
+      "end_date": "2026-09-10",
+      "entry_price": 0.755,
+      "last_price": 0.755,
+      "stake_usd": 20.0,
+      "shares": 26.490066225165563,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735672+00:00",
+      "condition_id": "0x56b071e017739bf17e44ab84a0317fbd390a0c2dfd448eb7ec2f4f7922feb614",
+      "market_slug": "gtm-suc-cdg-2026-09-09-total-1pt5",
+      "event_slug": "gtm-suc-cdg-2026-09-09-more-markets",
+      "title": "CSD Suchitep\u00e9quez vs. CD Guastatoya: O/U 1.5",
+      "outcome": "Over",
+      "end_date": "2026-09-10",
+      "entry_price": 0.64,
+      "last_price": 0.64,
+      "stake_usd": 20.0,
+      "shares": 31.25,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735677+00:00",
+      "condition_id": "0xfdecce512aa8dc3d126e248eb0809de63b3b11f96948736d957166be51c9ce3a",
+      "market_slug": "mls-vwh-lag-2026-09-09-vwh",
+      "event_slug": "mls-vwh-lag-2026-09-09",
+      "title": "Will Vancouver Whitecaps FC win on 2026-09-09?",
+      "outcome": "Yes",
+      "end_date": "2026-09-10",
+      "entry_price": 0.735,
+      "last_price": 0.735,
+      "stake_usd": 20.0,
+      "shares": 27.2108843537415,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735680+00:00",
+      "condition_id": "0xc0341ebcbbe17494650fc2c469a82cdada4c0905643a2db1683fab4f7acbb1ca",
+      "market_slug": "mls-hou-rsl-2026-09-09-hou",
+      "event_slug": "mls-hou-rsl-2026-09-09",
+      "title": "Will Houston Dynamo win on 2026-09-09?",
+      "outcome": "Yes",
+      "end_date": "2026-09-10",
+      "entry_price": 0.485,
+      "last_price": 0.485,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735683+00:00",
+      "condition_id": "0x0999c58df880bce6eb4e90ebc4867257543ce9ae1a3b750745525a01b4efee87",
+      "market_slug": "mls-min-dal-2026-09-09-min",
+      "event_slug": "mls-min-dal-2026-09-09",
+      "title": "Will Minnesota United FC win on 2026-09-09?",
+      "outcome": "No",
+      "end_date": "2026-09-10",
+      "entry_price": 0.505,
+      "last_price": 0.505,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735686+00:00",
+      "condition_id": "0xed7d30a35c2a0e0340d740c7a180dd39f06c09a516e4f817dcb2c76d9dab189a",
+      "market_slug": "mls-chi-mia-2026-09-09-mia",
+      "event_slug": "mls-chi-mia-2026-09-09",
+      "title": "Will Inter Miami CF win on 2026-09-09?",
+      "outcome": "Yes",
+      "end_date": "2026-09-10",
+      "entry_price": 0.345,
+      "last_price": 0.345,
+      "stake_usd": 20.0,
+      "shares": 57.971014492753625,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735693+00:00",
+      "condition_id": "0x2ec869fa4b1db2df135ec53b97db249424b6ae349ff485a6ec17eb256dab4e22",
+      "market_slug": "lib-est-cor-2026-09-09-total-1pt5",
+      "event_slug": "lib-est-cor-2026-09-09-more-markets",
+      "title": "Estudiantes de La Plata vs. SC Corinthians Paulista: O/U 1.5",
+      "outcome": "Over",
+      "end_date": "2026-09-10",
+      "entry_price": 0.505,
+      "last_price": 0.505,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735699+00:00",
+      "condition_id": "0x4732eb48915b52b661020cba51c9356594699a803b231b156c5343a7c12b20ba",
+      "market_slug": "next-white-house-press-secretary-announced-by-september-11-2026",
+      "event_slug": "when-will-trump-announce-a-new-white-house-press-secretary",
+      "title": "Next White House Press Secretary announced by September 11, 2026?",
+      "outcome": "No",
+      "end_date": "2026-09-12",
+      "entry_price": 0.9715,
+      "last_price": 0.9715,
+      "stake_usd": 20.0,
+      "shares": 20.58672156459084,
       "trader_count_at_entry": 3
     }
   ],
@@ -2681,6 +2779,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-07T18:11:48.662174+00:00",
+      "condition_id": "0x9583192c420c90070797370f7a4da74dbbd089982c62ae27cdc02d3c27ca59b9",
+      "market_slug": "ucl-bru-ast-2026-09-08-total-2pt5",
+      "event_slug": "ucl-bru-ast-2026-09-08-more-markets",
+      "title": "Club Brugge KV vs. Aston Villa FC: O/U 2.5",
+      "outcome": "Over",
+      "end_date": "2026-09-08",
+      "entry_price": 0.555,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-09T17:05:50.355253+00:00",
+      "exit_price": 1.0,
+      "payout": 36.04,
+      "pnl": 16.04,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -2911,6 +3028,10 @@
     {
       "date": "2026-09-08",
       "equity": 1077.56
+    },
+    {
+      "date": "2026-09-09",
+      "equity": 1077.39
     }
   ]
 }
