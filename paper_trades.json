@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 923.679992384642,
+  "cash": 954.3419019191576,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,37 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.495,
+      "last_price": 0.49,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-09T17:06:08.735699+00:00",
-      "condition_id": "0x4732eb48915b52b661020cba51c9356594699a803b231b156c5343a7c12b20ba",
-      "market_slug": "next-white-house-press-secretary-announced-by-september-11-2026",
-      "event_slug": "when-will-trump-announce-a-new-white-house-press-secretary",
-      "title": "Next White House Press Secretary announced by September 11, 2026?",
-      "outcome": "No",
-      "end_date": "2026-09-12",
-      "entry_price": 0.9715,
-      "last_price": 0.973,
-      "stake_usd": 20.0,
-      "shares": 20.58672156459084,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-11T16:59:02.554583+00:00",
-      "condition_id": "0x782e55e4423e83f6eb65cb9e71db1149248dcaa5a03784360e46e151497d13d1",
-      "market_slug": "mex-nec-pue-2026-09-11-total-3pt5",
-      "event_slug": "mex-nec-pue-2026-09-11-more-markets",
-      "title": "Club Necaxa vs. Club Puebla: O/U 3.5",
-      "outcome": "Under",
-      "end_date": "2026-09-12",
-      "entry_price": 0.665,
-      "last_price": 0.665,
-      "stake_usd": 20.0,
-      "shares": 30.075187969924812,
       "trader_count_at_entry": 3
     },
     {
@@ -67,24 +39,10 @@
       "outcome": "Over",
       "end_date": "2026-09-12",
       "entry_price": 0.967,
-      "last_price": 0.967,
+      "last_price": 0.0005,
       "stake_usd": 20.0,
       "shares": 20.682523267838675,
       "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-11T16:59:02.554601+00:00",
-      "condition_id": "0xe151f21501b20db7c99f6cf3dcd2d86deb33d01ee428d9976a100caf854b16e9",
-      "market_slug": "arg-boc-cac-2026-09-11-total-2pt5",
-      "event_slug": "arg-boc-cac-2026-09-11-more-markets",
-      "title": "CA Boca Juniors vs. CA Central C\u00f3rdoba: O/U 2.5",
-      "outcome": "Under",
-      "end_date": "2026-09-12",
-      "entry_price": 0.555,
-      "last_price": 0.555,
-      "stake_usd": 20.0,
-      "shares": 36.03603603603603,
-      "trader_count_at_entry": 4
     },
     {
       "opened_at": "2026-09-11T16:59:02.554604+00:00",
@@ -95,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-12",
       "entry_price": 0.315,
-      "last_price": 0.315,
+      "last_price": 0.305,
       "stake_usd": 20.0,
       "shares": 63.492063492063494,
       "trader_count_at_entry": 3
@@ -126,6 +84,20 @@
       "last_price": 0.485,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-12T16:09:15.140311+00:00",
+      "condition_id": "0x1420aeff6ef2683a964383f78efce258aecf1a4edb36c7e92fbe5b2f4da532b4",
+      "market_slug": "epl-lee-new-2026-09-14-new",
+      "event_slug": "epl-lee-new-2026-09-14",
+      "title": "Will Newcastle United FC win on 2026-09-14?",
+      "outcome": "No",
+      "end_date": "2026-09-14",
+      "entry_price": 0.675,
+      "last_price": 0.675,
+      "stake_usd": 20.0,
+      "shares": 29.629629629629626,
       "trader_count_at_entry": 3
     }
   ],
@@ -3017,6 +2989,63 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-09T17:06:08.735699+00:00",
+      "condition_id": "0x4732eb48915b52b661020cba51c9356594699a803b231b156c5343a7c12b20ba",
+      "market_slug": "next-white-house-press-secretary-announced-by-september-11-2026",
+      "event_slug": "when-will-trump-announce-a-new-white-house-press-secretary",
+      "title": "Next White House Press Secretary announced by September 11, 2026?",
+      "outcome": "No",
+      "end_date": "2026-09-12",
+      "entry_price": 0.9715,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.58672156459084,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-12T16:08:55.215470+00:00",
+      "exit_price": 1.0,
+      "payout": 20.59,
+      "pnl": 0.59,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-11T16:59:02.554583+00:00",
+      "condition_id": "0x782e55e4423e83f6eb65cb9e71db1149248dcaa5a03784360e46e151497d13d1",
+      "market_slug": "mex-nec-pue-2026-09-11-total-3pt5",
+      "event_slug": "mex-nec-pue-2026-09-11-more-markets",
+      "title": "Club Necaxa vs. Club Puebla: O/U 3.5",
+      "outcome": "Under",
+      "end_date": "2026-09-12",
+      "entry_price": 0.665,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 30.075187969924812,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-12T16:08:55.490058+00:00",
+      "exit_price": 1.0,
+      "payout": 30.08,
+      "pnl": 10.08,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-11T16:59:02.554601+00:00",
+      "condition_id": "0xe151f21501b20db7c99f6cf3dcd2d86deb33d01ee428d9976a100caf854b16e9",
+      "market_slug": "arg-boc-cac-2026-09-11-total-2pt5",
+      "event_slug": "arg-boc-cac-2026-09-11-more-markets",
+      "title": "CA Boca Juniors vs. CA Central C\u00f3rdoba: O/U 2.5",
+      "outcome": "Under",
+      "end_date": "2026-09-12",
+      "entry_price": 0.555,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-09-12T16:08:55.955383+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -3259,6 +3288,10 @@
     {
       "date": "2026-09-11",
       "equity": 1109.76
+    },
+    {
+      "date": "2026-09-12",
+      "equity": 1079.51
     }
   ]
 }
