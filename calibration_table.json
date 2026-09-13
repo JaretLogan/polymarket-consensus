@@ -1,112 +1,112 @@
 {
-  "generated_at": "2026-09-06T16:57:44.810013+00:00",
-  "sample_size": 1324,
+  "generated_at": "2026-09-13T17:33:57.160029+00:00",
+  "sample_size": 1189,
   "days_before": 3.0,
   "min_volume": 5000.0,
   "buckets": [
     {
       "bucket_low": 0.0,
       "bucket_high": 0.02,
-      "n": 434,
-      "avg_priced_prob": 0.0059,
-      "actual_resolve_rate": 0.0046,
-      "edge": -0.0013,
-      "stderr": 0.0033
+      "n": 381,
+      "avg_priced_prob": 0.0063,
+      "actual_resolve_rate": 0.0052,
+      "edge": -0.001,
+      "stderr": 0.0037
     },
     {
       "bucket_low": 0.02,
       "bucket_high": 0.05,
-      "n": 119,
+      "n": 103,
       "avg_priced_prob": 0.0313,
-      "actual_resolve_rate": 0.0168,
-      "edge": -0.0145,
-      "stderr": 0.0118
+      "actual_resolve_rate": 0.0388,
+      "edge": 0.0075,
+      "stderr": 0.019
     },
     {
       "bucket_low": 0.05,
       "bucket_high": 0.1,
-      "n": 111,
-      "avg_priced_prob": 0.07,
-      "actual_resolve_rate": 0.1261,
-      "edge": 0.0561,
-      "stderr": 0.0315
+      "n": 85,
+      "avg_priced_prob": 0.0731,
+      "actual_resolve_rate": 0.1412,
+      "edge": 0.068,
+      "stderr": 0.0378
     },
     {
       "bucket_low": 0.1,
       "bucket_high": 0.2,
-      "n": 102,
-      "avg_priced_prob": 0.1452,
-      "actual_resolve_rate": 0.1471,
-      "edge": 0.0018,
-      "stderr": 0.0351
+      "n": 85,
+      "avg_priced_prob": 0.1485,
+      "actual_resolve_rate": 0.1882,
+      "edge": 0.0398,
+      "stderr": 0.0424
     },
     {
       "bucket_low": 0.2,
       "bucket_high": 0.35,
-      "n": 139,
-      "avg_priced_prob": 0.2646,
-      "actual_resolve_rate": 0.2734,
-      "edge": 0.0088,
-      "stderr": 0.0378
+      "n": 134,
+      "avg_priced_prob": 0.267,
+      "actual_resolve_rate": 0.2463,
+      "edge": -0.0207,
+      "stderr": 0.0372
     },
     {
       "bucket_low": 0.35,
       "bucket_high": 0.5,
-      "n": 74,
-      "avg_priced_prob": 0.4236,
-      "actual_resolve_rate": 0.5,
-      "edge": 0.0764,
-      "stderr": 0.0581
+      "n": 83,
+      "avg_priced_prob": 0.4161,
+      "actual_resolve_rate": 0.4337,
+      "edge": 0.0177,
+      "stderr": 0.0544
     },
     {
       "bucket_low": 0.5,
       "bucket_high": 0.65,
-      "n": 71,
-      "avg_priced_prob": 0.5753,
-      "actual_resolve_rate": 0.5493,
-      "edge": -0.026,
-      "stderr": 0.059
+      "n": 79,
+      "avg_priced_prob": 0.5736,
+      "actual_resolve_rate": 0.5063,
+      "edge": -0.0673,
+      "stderr": 0.0562
     },
     {
       "bucket_low": 0.65,
       "bucket_high": 0.8,
-      "n": 67,
-      "avg_priced_prob": 0.7183,
-      "actual_resolve_rate": 0.7164,
-      "edge": -0.0019,
-      "stderr": 0.0551
+      "n": 66,
+      "avg_priced_prob": 0.7155,
+      "actual_resolve_rate": 0.7273,
+      "edge": 0.0118,
+      "stderr": 0.0548
     },
     {
       "bucket_low": 0.8,
       "bucket_high": 0.9,
-      "n": 54,
-      "avg_priced_prob": 0.8513,
-      "actual_resolve_rate": 0.8333,
-      "edge": -0.0179,
-      "stderr": 0.0507
+      "n": 37,
+      "avg_priced_prob": 0.8508,
+      "actual_resolve_rate": 0.7297,
+      "edge": -0.121,
+      "stderr": 0.073
     },
     {
       "bucket_low": 0.9,
       "bucket_high": 0.95,
-      "n": 39,
-      "avg_priced_prob": 0.9268,
-      "actual_resolve_rate": 0.8718,
-      "edge": -0.055,
-      "stderr": 0.0535
+      "n": 34,
+      "avg_priced_prob": 0.9217,
+      "actual_resolve_rate": 0.9118,
+      "edge": -0.01,
+      "stderr": 0.0486
     },
     {
       "bucket_low": 0.95,
       "bucket_high": 0.98,
-      "n": 33,
-      "avg_priced_prob": 0.9665,
-      "actual_resolve_rate": 0.9697,
-      "edge": 0.0032,
-      "stderr": 0.0298
+      "n": 28,
+      "avg_priced_prob": 0.9675,
+      "actual_resolve_rate": 1.0,
+      "edge": 0.0325,
+      "stderr": 0.0
     },
     {
       "bucket_low": 0.98,
       "bucket_high": 1.0,
-      "n": 81,
+      "n": 74,
       "avg_priced_prob": 0.9901,
       "actual_resolve_rate": 1.0,
       "edge": 0.0099,
