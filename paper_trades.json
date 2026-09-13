@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 954.3419019191576,
+  "cash": 934.3419019191576,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,37 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.49,
+      "last_price": 0.495,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-11T16:59:02.554598+00:00",
-      "condition_id": "0xe78f14e5fdcc898c98bfc8be06c0f172f6f480cc7f3e42fdab8e8eaf618a2684",
-      "market_slug": "epl-liv-ful-2026-09-12-total-0pt5",
-      "event_slug": "epl-liv-ful-2026-09-12-more-markets",
-      "title": "Liverpool FC vs. Fulham FC: O/U 0.5",
-      "outcome": "Over",
-      "end_date": "2026-09-12",
-      "entry_price": 0.967,
-      "last_price": 0.0005,
-      "stake_usd": 20.0,
-      "shares": 20.682523267838675,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-11T16:59:02.554604+00:00",
-      "condition_id": "0x23f2a2f2a46ea1653978280d42ff332c6443daac47d419d2075ec3c044afa2e8",
-      "market_slug": "mls-fcc-clt-2026-09-12-clt",
-      "event_slug": "mls-fcc-clt-2026-09-12",
-      "title": "Will Charlotte FC win on 2026-09-12?",
-      "outcome": "Yes",
-      "end_date": "2026-09-12",
-      "entry_price": 0.315,
-      "last_price": 0.305,
-      "stake_usd": 20.0,
-      "shares": 63.492063492063494,
       "trader_count_at_entry": 3
     },
     {
@@ -67,23 +39,9 @@
       "outcome": "No",
       "end_date": "2026-09-13",
       "entry_price": 0.535,
-      "last_price": 0.535,
+      "last_price": 0.725,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-11T16:59:02.554633+00:00",
-      "condition_id": "0xb360db111b8fe883c20ae92a0a3e79d607044a7a0c89399f50e672acaa824691",
-      "market_slug": "epl-cov-bri-2026-09-13-bri",
-      "event_slug": "epl-cov-bri-2026-09-13",
-      "title": "Will Brighton & Hove Albion FC win on 2026-09-13?",
-      "outcome": "No",
-      "end_date": "2026-09-13",
-      "entry_price": 0.485,
-      "last_price": 0.485,
-      "stake_usd": 20.0,
-      "shares": 41.23711340206186,
       "trader_count_at_entry": 3
     },
     {
@@ -98,6 +56,20 @@
       "last_price": 0.675,
       "stake_usd": 20.0,
       "shares": 29.629629629629626,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-13T16:55:58.402978+00:00",
+      "condition_id": "0xe23c1ce741c30f3283294afa9fcb621e06d98db7ca4a4057e6111e38b9933126",
+      "market_slug": "chi1-ccu-cdh-2026-08-30-cdh",
+      "event_slug": "chi1-ccu-cdh-2026-08-30",
+      "title": "Will CD Huachipato win on 2026-08-30?",
+      "outcome": "No",
+      "end_date": "2026-09-16",
+      "entry_price": 0.445,
+      "last_price": 0.445,
+      "stake_usd": 20.0,
+      "shares": 44.9438202247191,
       "trader_count_at_entry": 3
     }
   ],
@@ -3046,6 +3018,63 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-11T16:59:02.554598+00:00",
+      "condition_id": "0xe78f14e5fdcc898c98bfc8be06c0f172f6f480cc7f3e42fdab8e8eaf618a2684",
+      "market_slug": "epl-liv-ful-2026-09-12-total-0pt5",
+      "event_slug": "epl-liv-ful-2026-09-12-more-markets",
+      "title": "Liverpool FC vs. Fulham FC: O/U 0.5",
+      "outcome": "Over",
+      "end_date": "2026-09-12",
+      "entry_price": 0.967,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 20.682523267838675,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-13T16:55:35.321473+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-11T16:59:02.554604+00:00",
+      "condition_id": "0x23f2a2f2a46ea1653978280d42ff332c6443daac47d419d2075ec3c044afa2e8",
+      "market_slug": "mls-fcc-clt-2026-09-12-clt",
+      "event_slug": "mls-fcc-clt-2026-09-12",
+      "title": "Will Charlotte FC win on 2026-09-12?",
+      "outcome": "Yes",
+      "end_date": "2026-09-12",
+      "entry_price": 0.315,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 63.492063492063494,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-13T16:55:35.474285+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-11T16:59:02.554633+00:00",
+      "condition_id": "0xb360db111b8fe883c20ae92a0a3e79d607044a7a0c89399f50e672acaa824691",
+      "market_slug": "epl-cov-bri-2026-09-13-bri",
+      "event_slug": "epl-cov-bri-2026-09-13",
+      "title": "Will Brighton & Hove Albion FC win on 2026-09-13?",
+      "outcome": "No",
+      "end_date": "2026-09-13",
+      "entry_price": 0.485,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-13T16:55:35.783263+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -3292,6 +3321,10 @@
     {
       "date": "2026-09-12",
       "equity": 1079.51
+    },
+    {
+      "date": "2026-09-13",
+      "equity": 1047.5
     }
   ]
 }
