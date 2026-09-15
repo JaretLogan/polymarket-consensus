@@ -1,7 +1,84 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 82.99409192425034,
-  "open_positions": [],
+  "cash": 2.994091924250341,
+  "open_positions": [
+    {
+      "opened_at": "2026-09-15T11:33:21.312786+00:00",
+      "condition_id": "0x457087ffd3f32278190613abff51cf20f11818b541d0e8b8fb502e1f0429686d",
+      "market_slug": "highest-temperature-in-seoul-on-september-15-2026-24c",
+      "event_slug": "highest-temperature-in-seoul-on-september-15-2026",
+      "title": "Highest temperature in Seoul (Incheon) on September 15?",
+      "outcome": "Yes",
+      "entry_price": 0.9995,
+      "last_price": 0.9995,
+      "stake_usd": 20.0,
+      "shares": 20.01000500250125,
+      "city": "Seoul (Incheon)",
+      "station": "Incheon",
+      "target_date": "2026-09-15",
+      "model_prob_at_entry": 0.0994,
+      "edge_at_entry": -0.9001,
+      "forecast_temp": 22.5,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-15T11:33:21.312802+00:00",
+      "condition_id": "0xa3b1167bfa2f3e5d05195a25ef7d581021270d1c2e6bf9ed8cca97194e38089e",
+      "market_slug": "highest-temperature-in-tokyo-on-september-15-2026-28c",
+      "event_slug": "highest-temperature-in-tokyo-on-september-15-2026",
+      "title": "Highest temperature in Tokyo on September 15?",
+      "outcome": "Yes",
+      "entry_price": 0.9995,
+      "last_price": 0.9995,
+      "stake_usd": 20.0,
+      "shares": 20.01000500250125,
+      "city": "Tokyo",
+      "station": "Haneda",
+      "target_date": "2026-09-15",
+      "model_prob_at_entry": 0.3017,
+      "edge_at_entry": -0.6978,
+      "forecast_temp": 27.2,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-15T11:33:21.312806+00:00",
+      "condition_id": "0x04a455f9bce10b82fe7f830f21b693ad04f21ece96467b0d24923c2ba0081e22",
+      "market_slug": "highest-temperature-in-tokyo-on-september-15-2026-27c",
+      "event_slug": "highest-temperature-in-tokyo-on-september-15-2026",
+      "title": "Highest temperature in Tokyo on September 15?",
+      "outcome": "No",
+      "entry_price": 0.9995,
+      "last_price": 0.9995,
+      "stake_usd": 20.0,
+      "shares": 20.01000500250125,
+      "city": "Tokyo",
+      "station": "Haneda",
+      "target_date": "2026-09-15",
+      "model_prob_at_entry": 0.5446,
+      "edge_at_entry": -0.4549,
+      "forecast_temp": 27.2,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-15T11:33:21.312809+00:00",
+      "condition_id": "0xb9a95cb28c97e044a2ea1d58dbbf2cc56028ff5da892371f11e9e4ee41892ffd",
+      "market_slug": "highest-temperature-in-seoul-on-september-15-2026-22c",
+      "event_slug": "highest-temperature-in-seoul-on-september-15-2026",
+      "title": "Highest temperature in Seoul (Incheon) on September 15?",
+      "outcome": "Yes",
+      "entry_price": 0.0005,
+      "last_price": 0.0005,
+      "stake_usd": 20.0,
+      "shares": 40000.0,
+      "city": "Seoul (Incheon)",
+      "station": "Incheon",
+      "target_date": "2026-09-15",
+      "model_prob_at_entry": 0.3944,
+      "edge_at_entry": 0.3939,
+      "forecast_temp": 22.5,
+      "unit": "celsius"
+    }
+  ],
   "closed_positions": [
     {
       "opened_at": "2026-07-13T09:41:26.879742+00:00",
@@ -11467,6 +11544,10 @@
     },
     {
       "date": "2026-09-14",
+      "equity": 82.99
+    },
+    {
+      "date": "2026-09-15",
       "equity": 82.99
     }
   ]
