@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 794.3419019191576,
+  "cash": 824.0216568620705,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,23 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.425,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-12T16:09:15.140311+00:00",
-      "condition_id": "0x1420aeff6ef2683a964383f78efce258aecf1a4edb36c7e92fbe5b2f4da532b4",
-      "market_slug": "epl-lee-new-2026-09-14-new",
-      "event_slug": "epl-lee-new-2026-09-14",
-      "title": "Will Newcastle United FC win on 2026-09-14?",
-      "outcome": "No",
-      "end_date": "2026-09-14",
-      "entry_price": 0.675,
-      "last_price": 0.685,
-      "stake_usd": 20.0,
-      "shares": 29.629629629629626,
       "trader_count_at_entry": 3
     },
     {
@@ -53,23 +39,9 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.445,
-      "last_price": 0.455,
+      "last_price": 0.405,
       "stake_usd": 20.0,
       "shares": 44.9438202247191,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-14T18:29:59.662450+00:00",
-      "condition_id": "0x576fe5ccf75a7b676981657e2335e6cd2d13cd559052d729f03bffdab45438b5",
-      "market_slug": "bitcoin-above-86k-on-september-15-2026",
-      "event_slug": "bitcoin-above-on-september-15-2026",
-      "title": "Will the price of Bitcoin be above $86,000 on September 15?",
-      "outcome": "No",
-      "end_date": "2026-09-15",
-      "entry_price": 0.9975,
-      "last_price": 0.9975,
-      "stake_usd": 20.0,
-      "shares": 20.050125313283207,
       "trader_count_at_entry": 3
     },
     {
@@ -81,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-16",
       "entry_price": 0.0075,
-      "last_price": 0.0075,
+      "last_price": 0.0095,
       "stake_usd": 20.0,
       "shares": 2666.666666666667,
       "trader_count_at_entry": 5
@@ -95,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.855,
-      "last_price": 0.855,
+      "last_price": 0.89,
       "stake_usd": 20.0,
       "shares": 23.391812865497077,
       "trader_count_at_entry": 3
@@ -109,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-16",
       "entry_price": 0.85,
-      "last_price": 0.85,
+      "last_price": 0.885,
       "stake_usd": 20.0,
       "shares": 23.529411764705884,
       "trader_count_at_entry": 4
@@ -123,7 +95,7 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.855,
-      "last_price": 0.855,
+      "last_price": 0.885,
       "stake_usd": 20.0,
       "shares": 23.391812865497077,
       "trader_count_at_entry": 12
@@ -137,7 +109,7 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.9975,
-      "last_price": 0.9975,
+      "last_price": 0.9985,
       "stake_usd": 20.0,
       "shares": 20.050125313283207,
       "trader_count_at_entry": 4
@@ -151,10 +123,24 @@
       "outcome": "Yes",
       "end_date": "2026-09-16",
       "entry_price": 0.855,
-      "last_price": 0.855,
+      "last_price": 0.875,
       "stake_usd": 20.0,
       "shares": 23.391812865497077,
       "trader_count_at_entry": 16
+    },
+    {
+      "opened_at": "2026-09-15T17:37:03.287600+00:00",
+      "condition_id": "0x2e3d555335319a9efaef57d0663a58e29ba8cd9a3520158398f68e47f80e5815",
+      "market_slug": "bitcoin-above-88k-on-september-16-2026",
+      "event_slug": "bitcoin-above-on-september-16-2026",
+      "title": "Will the price of Bitcoin be above $88,000 on September 16?",
+      "outcome": "No",
+      "end_date": "2026-09-16",
+      "entry_price": 0.999,
+      "last_price": 0.999,
+      "stake_usd": 20.0,
+      "shares": 20.02002002002002,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -3178,6 +3164,44 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-12T16:09:15.140311+00:00",
+      "condition_id": "0x1420aeff6ef2683a964383f78efce258aecf1a4edb36c7e92fbe5b2f4da532b4",
+      "market_slug": "epl-lee-new-2026-09-14-new",
+      "event_slug": "epl-lee-new-2026-09-14",
+      "title": "Will Newcastle United FC win on 2026-09-14?",
+      "outcome": "No",
+      "end_date": "2026-09-14",
+      "entry_price": 0.675,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 29.629629629629626,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-15T17:36:37.628064+00:00",
+      "exit_price": 1.0,
+      "payout": 29.63,
+      "pnl": 9.63,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-14T18:29:59.662450+00:00",
+      "condition_id": "0x576fe5ccf75a7b676981657e2335e6cd2d13cd559052d729f03bffdab45438b5",
+      "market_slug": "bitcoin-above-86k-on-september-15-2026",
+      "event_slug": "bitcoin-above-on-september-15-2026",
+      "title": "Will the price of Bitcoin be above $86,000 on September 15?",
+      "outcome": "No",
+      "end_date": "2026-09-15",
+      "entry_price": 0.9975,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.050125313283207,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-15T17:36:38.309330+00:00",
+      "exit_price": 1.0,
+      "payout": 20.05,
+      "pnl": 0.05,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -3432,6 +3456,10 @@
     {
       "date": "2026-09-14",
       "equity": 1017.46
+    },
+    {
+      "date": "2026-09-15",
+      "equity": 1033.28
     }
   ]
 }
