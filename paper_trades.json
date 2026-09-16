@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 824.0216568620705,
+  "cash": 844.0416768820905,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.435,
+      "last_price": 0.44,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.445,
-      "last_price": 0.405,
+      "last_price": 0.37,
       "stake_usd": 20.0,
       "shares": 44.9438202247191,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-16",
       "entry_price": 0.0075,
-      "last_price": 0.0095,
+      "last_price": 0.0075,
       "stake_usd": 20.0,
       "shares": 2666.666666666667,
       "trader_count_at_entry": 5
@@ -67,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.855,
-      "last_price": 0.89,
+      "last_price": 0.855,
       "stake_usd": 20.0,
       "shares": 23.391812865497077,
       "trader_count_at_entry": 3
@@ -81,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-16",
       "entry_price": 0.85,
-      "last_price": 0.885,
+      "last_price": 0.86,
       "stake_usd": 20.0,
       "shares": 23.529411764705884,
       "trader_count_at_entry": 4
@@ -95,7 +95,7 @@
       "outcome": "No",
       "end_date": "2026-09-16",
       "entry_price": 0.855,
-      "last_price": 0.885,
+      "last_price": 0.855,
       "stake_usd": 20.0,
       "shares": 23.391812865497077,
       "trader_count_at_entry": 12
@@ -123,24 +123,10 @@
       "outcome": "Yes",
       "end_date": "2026-09-16",
       "entry_price": 0.855,
-      "last_price": 0.875,
+      "last_price": 0.855,
       "stake_usd": 20.0,
       "shares": 23.391812865497077,
       "trader_count_at_entry": 16
-    },
-    {
-      "opened_at": "2026-09-15T17:37:03.287600+00:00",
-      "condition_id": "0x2e3d555335319a9efaef57d0663a58e29ba8cd9a3520158398f68e47f80e5815",
-      "market_slug": "bitcoin-above-88k-on-september-16-2026",
-      "event_slug": "bitcoin-above-on-september-16-2026",
-      "title": "Will the price of Bitcoin be above $88,000 on September 16?",
-      "outcome": "No",
-      "end_date": "2026-09-16",
-      "entry_price": 0.999,
-      "last_price": 0.999,
-      "stake_usd": 20.0,
-      "shares": 20.02002002002002,
-      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -3202,6 +3188,25 @@
       "payout": 20.05,
       "pnl": 0.05,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-15T17:37:03.287600+00:00",
+      "condition_id": "0x2e3d555335319a9efaef57d0663a58e29ba8cd9a3520158398f68e47f80e5815",
+      "market_slug": "bitcoin-above-88k-on-september-16-2026",
+      "event_slug": "bitcoin-above-on-september-16-2026",
+      "title": "Will the price of Bitcoin be above $88,000 on September 16?",
+      "outcome": "No",
+      "end_date": "2026-09-16",
+      "entry_price": 0.999,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.02002002002002,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-16T17:34:45.151721+00:00",
+      "exit_price": 1.0,
+      "payout": 20.02,
+      "pnl": 0.02,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -3460,6 +3465,10 @@
     {
       "date": "2026-09-15",
       "equity": 1033.28
+    },
+    {
+      "date": "2026-09-16",
+      "equity": 1024.08
     }
   ]
 }
