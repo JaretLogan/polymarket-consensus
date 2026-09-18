@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 917.7966525565707,
+  "cash": 877.7966525565707,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,23 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.425,
+      "last_price": 0.43,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-17T17:35:05.222865+00:00",
-      "condition_id": "0x161f15ad1ef0e5191628c074d06b786aac6bf21703878544c1c3869f8711bc1d",
-      "market_slug": "mlb-bos-tex-2026-09-17-total-7pt5",
-      "event_slug": "mlb-bos-tex-2026-09-17",
-      "title": "Boston Red Sox vs. Texas Rangers: O/U 7.5",
-      "outcome": "Over",
-      "end_date": "2026-09-18",
-      "entry_price": 0.525,
-      "last_price": 0.525,
-      "stake_usd": 20.0,
-      "shares": 38.095238095238095,
       "trader_count_at_entry": 3
     },
     {
@@ -53,9 +39,37 @@
       "outcome": "Yes",
       "end_date": "2026-09-20",
       "entry_price": 0.1765,
-      "last_price": 0.1765,
+      "last_price": 0.1665,
       "stake_usd": 20.0,
       "shares": 113.31444759206799,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-18T17:00:44.029228+00:00",
+      "condition_id": "0x44734c467f6ce3c55bff5b8328f2307f66cc250707804a19d38463b05d5bf799",
+      "market_slug": "mlb-sea-col-2026-09-18-spread-away-1pt5",
+      "event_slug": "mlb-sea-col-2026-09-18",
+      "title": "Spread: Seattle Mariners (-1.5)",
+      "outcome": "Colorado Rockies",
+      "end_date": "2026-09-19",
+      "entry_price": 0.465,
+      "last_price": 0.465,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817204,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-18T17:00:44.029243+00:00",
+      "condition_id": "0xe62ab836381dd820968f6b58ab546958aaa63de184c48bc6e0522d551807e1b1",
+      "market_slug": "will-united-russia-win-between-325-and-339-seats-in-the-next-russian-state-duma-election",
+      "event_slug": "how-many-seats-will-united-russia-win-in-the-next-russian-legislative-election",
+      "title": "Will United Russia win between 325 and 339 seats in the next Russian State Duma election?",
+      "outcome": "Yes",
+      "end_date": "2026-09-20",
+      "entry_price": 0.415,
+      "last_price": 0.415,
+      "stake_usd": 20.0,
+      "shares": 48.19277108433735,
       "trader_count_at_entry": 3
     }
   ],
@@ -3270,6 +3284,25 @@
       "payout": 23.39,
       "pnl": 3.39,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-17T17:35:05.222865+00:00",
+      "condition_id": "0x161f15ad1ef0e5191628c074d06b786aac6bf21703878544c1c3869f8711bc1d",
+      "market_slug": "mlb-bos-tex-2026-09-17-total-7pt5",
+      "event_slug": "mlb-bos-tex-2026-09-17",
+      "title": "Boston Red Sox vs. Texas Rangers: O/U 7.5",
+      "outcome": "Over",
+      "end_date": "2026-09-18",
+      "entry_price": 0.525,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-18T17:00:21.072397+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -3536,6 +3569,10 @@
     {
       "date": "2026-09-17",
       "equity": 1000.17
+    },
+    {
+      "date": "2026-09-18",
+      "equity": 979.3
     }
   ]
 }
