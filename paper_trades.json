@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 877.7966525565707,
+  "cash": 880.8074052447428,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.43,
+      "last_price": 0.42,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,23 +39,9 @@
       "outcome": "Yes",
       "end_date": "2026-09-20",
       "entry_price": 0.1765,
-      "last_price": 0.1665,
+      "last_price": 0.1755,
       "stake_usd": 20.0,
       "shares": 113.31444759206799,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-18T17:00:44.029228+00:00",
-      "condition_id": "0x44734c467f6ce3c55bff5b8328f2307f66cc250707804a19d38463b05d5bf799",
-      "market_slug": "mlb-sea-col-2026-09-18-spread-away-1pt5",
-      "event_slug": "mlb-sea-col-2026-09-18",
-      "title": "Spread: Seattle Mariners (-1.5)",
-      "outcome": "Colorado Rockies",
-      "end_date": "2026-09-19",
-      "entry_price": 0.465,
-      "last_price": 0.465,
-      "stake_usd": 20.0,
-      "shares": 43.01075268817204,
       "trader_count_at_entry": 3
     },
     {
@@ -67,9 +53,37 @@
       "outcome": "Yes",
       "end_date": "2026-09-20",
       "entry_price": 0.415,
-      "last_price": 0.415,
+      "last_price": 0.405,
       "stake_usd": 20.0,
       "shares": 48.19277108433735,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-19T16:21:04.016529+00:00",
+      "condition_id": "0x6c9bd12ca2dded7eb4c688a3200e94f143cc95984eb1952ab71f7ec31e07cf8c",
+      "market_slug": "will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+      "event_slug": "mecklenburg-vorpommern-parliamentary-election-winner",
+      "title": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+      "outcome": "No",
+      "end_date": "2026-09-20",
+      "entry_price": 0.525,
+      "last_price": 0.525,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-19T16:21:04.016545+00:00",
+      "condition_id": "0xee59db1dbc9c0ca137f2c6b28338a58e91f812708e5a5fecbe785e23ba7b5a9c",
+      "market_slug": "bitcoin-above-86k-on-september-22-2026",
+      "event_slug": "bitcoin-above-on-september-22-2026",
+      "title": "Will the price of Bitcoin be above $86,000 on September 22?",
+      "outcome": "No",
+      "end_date": "2026-09-22",
+      "entry_price": 0.945,
+      "last_price": 0.945,
+      "stake_usd": 20.0,
+      "shares": 21.164021164021165,
       "trader_count_at_entry": 3
     }
   ],
@@ -3303,6 +3317,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-18T17:00:44.029228+00:00",
+      "condition_id": "0x44734c467f6ce3c55bff5b8328f2307f66cc250707804a19d38463b05d5bf799",
+      "market_slug": "mlb-sea-col-2026-09-18-spread-away-1pt5",
+      "event_slug": "mlb-sea-col-2026-09-18",
+      "title": "Spread: Seattle Mariners (-1.5)",
+      "outcome": "Colorado Rockies",
+      "end_date": "2026-09-19",
+      "entry_price": 0.465,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-19T16:20:41.639909+00:00",
+      "exit_price": 1.0,
+      "payout": 43.01,
+      "pnl": 23.01,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -3573,6 +3606,10 @@
     {
       "date": "2026-09-18",
       "equity": 979.3
+    },
+    {
+      "date": "2026-09-19",
+      "equity": 1002.32
     }
   ]
 }
