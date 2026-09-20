@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 880.8074052447428,
+  "cash": 860.8074052447428,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.42,
+      "last_price": 0.415,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-20",
       "entry_price": 0.1765,
-      "last_price": 0.1755,
+      "last_price": 0.0825,
       "stake_usd": 20.0,
       "shares": 113.31444759206799,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Yes",
       "end_date": "2026-09-20",
       "entry_price": 0.415,
-      "last_price": 0.405,
+      "last_price": 0.2,
       "stake_usd": 20.0,
       "shares": 48.19277108433735,
       "trader_count_at_entry": 3
@@ -67,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-09-20",
       "entry_price": 0.525,
-      "last_price": 0.525,
+      "last_price": 0.17,
       "stake_usd": 20.0,
       "shares": 38.095238095238095,
       "trader_count_at_entry": 3
@@ -81,9 +81,23 @@
       "outcome": "No",
       "end_date": "2026-09-22",
       "entry_price": 0.945,
-      "last_price": 0.945,
+      "last_price": 0.968,
       "stake_usd": 20.0,
       "shares": 21.164021164021165,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-20T16:44:26.533863+00:00",
+      "condition_id": "0x9903480c298532eca2a26b4e373fd5193667d3babef8e21a1d2d82cee7295415",
+      "market_slug": "bitcoin-above-84k-on-september-22-2026",
+      "event_slug": "bitcoin-above-on-september-22-2026",
+      "title": "Will the price of Bitcoin be above $84,000 on September 22?",
+      "outcome": "No",
+      "end_date": "2026-09-22",
+      "entry_price": 0.894,
+      "last_price": 0.894,
+      "stake_usd": 20.0,
+      "shares": 22.371364653243848,
       "trader_count_at_entry": 3
     }
   ],
@@ -3610,6 +3624,10 @@
     {
       "date": "2026-09-19",
       "equity": 1002.32
+    },
+    {
+      "date": "2026-09-20",
+      "equity": 968.6
     }
   ]
 }
