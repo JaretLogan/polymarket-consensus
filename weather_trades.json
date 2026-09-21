@@ -1,7 +1,65 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 64.34330601633575,
-  "open_positions": [],
+  "cash": 4.343306016335745,
+  "open_positions": [
+    {
+      "opened_at": "2026-09-21T12:36:05.812031+00:00",
+      "condition_id": "0x580332f902ddd80982b26e02e1885ea0d0cf30828f86bdd8c3bc20e9b6ac0986",
+      "market_slug": "lowest-temperature-in-hong-kong-on-september-22-2026-27c",
+      "event_slug": "lowest-temperature-in-hong-kong-on-september-22-2026",
+      "title": "Lowest temperature in Hong Kong on September 22?",
+      "outcome": "No",
+      "entry_price": 0.425,
+      "last_price": 0.425,
+      "stake_usd": 20.0,
+      "shares": 47.05882352941177,
+      "city": "Hong Kong",
+      "station": "VHHH",
+      "target_date": "2026-09-22",
+      "model_prob_at_entry": 0.9705,
+      "edge_at_entry": 0.5455,
+      "forecast_temp": 29.7,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-21T12:36:05.812045+00:00",
+      "condition_id": "0x0792c364b6973e9c68d0020b10fa6b33b872ee4d6b849bcd4b56678143269b06",
+      "market_slug": "lowest-temperature-in-wuhan-on-september-22-2026-17corbelow",
+      "event_slug": "lowest-temperature-in-wuhan-on-september-22-2026",
+      "title": "Lowest temperature in Wuhan on September 22?",
+      "outcome": "Yes",
+      "entry_price": 0.485,
+      "last_price": 0.485,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "city": "Wuhan",
+      "station": "Tianhe",
+      "target_date": "2026-09-22",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.485,
+      "forecast_temp": 26.3,
+      "unit": "celsius"
+    },
+    {
+      "opened_at": "2026-09-21T12:36:05.812050+00:00",
+      "condition_id": "0x60b6eef17c272c08198a34c5d777b77798d09b28d08106acb6e047e6014fce43",
+      "market_slug": "lowest-temperature-in-beijing-on-september-22-2026-12corbelow",
+      "event_slug": "lowest-temperature-in-beijing-on-september-22-2026",
+      "title": "Lowest temperature in Beijing on September 22?",
+      "outcome": "Yes",
+      "entry_price": 0.48,
+      "last_price": 0.48,
+      "stake_usd": 20.0,
+      "shares": 41.66666666666667,
+      "city": "Beijing",
+      "station": "Capital Intl",
+      "target_date": "2026-09-22",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.48,
+      "forecast_temp": 29.5,
+      "unit": "celsius"
+    }
+  ],
   "closed_positions": [
     {
       "opened_at": "2026-07-13T09:41:26.879742+00:00",
@@ -11659,6 +11717,10 @@
     },
     {
       "date": "2026-09-20",
+      "equity": 64.34
+    },
+    {
+      "date": "2026-09-21",
       "equity": 64.34
     }
   ]
