@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 860.8074052447428,
+  "cash": 780.8074052447428,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,51 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.415,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-17T17:35:05.222879+00:00",
-      "condition_id": "0x8e41c5c2c887553ea7cce7f3644b50c62c8ab55238b50e939048f6d71aae6d4c",
-      "market_slug": "will-united-russia-win-between-310-and-324-seats-in-the-next-russian-state-duma-election",
-      "event_slug": "how-many-seats-will-united-russia-win-in-the-next-russian-legislative-election",
-      "title": "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?",
-      "outcome": "Yes",
-      "end_date": "2026-09-20",
-      "entry_price": 0.1765,
-      "last_price": 0.0825,
-      "stake_usd": 20.0,
-      "shares": 113.31444759206799,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-18T17:00:44.029243+00:00",
-      "condition_id": "0xe62ab836381dd820968f6b58ab546958aaa63de184c48bc6e0522d551807e1b1",
-      "market_slug": "will-united-russia-win-between-325-and-339-seats-in-the-next-russian-state-duma-election",
-      "event_slug": "how-many-seats-will-united-russia-win-in-the-next-russian-legislative-election",
-      "title": "Will United Russia win between 325 and 339 seats in the next Russian State Duma election?",
-      "outcome": "Yes",
-      "end_date": "2026-09-20",
-      "entry_price": 0.415,
-      "last_price": 0.2,
-      "stake_usd": 20.0,
-      "shares": 48.19277108433735,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-19T16:21:04.016529+00:00",
-      "condition_id": "0x6c9bd12ca2dded7eb4c688a3200e94f143cc95984eb1952ab71f7ec31e07cf8c",
-      "market_slug": "will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
-      "event_slug": "mecklenburg-vorpommern-parliamentary-election-winner",
-      "title": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
-      "outcome": "No",
-      "end_date": "2026-09-20",
-      "entry_price": 0.525,
-      "last_price": 0.17,
-      "stake_usd": 20.0,
-      "shares": 38.095238095238095,
       "trader_count_at_entry": 3
     },
     {
@@ -81,7 +39,7 @@
       "outcome": "No",
       "end_date": "2026-09-22",
       "entry_price": 0.945,
-      "last_price": 0.968,
+      "last_price": 0.5165,
       "stake_usd": 20.0,
       "shares": 21.164021164021165,
       "trader_count_at_entry": 3
@@ -95,9 +53,65 @@
       "outcome": "No",
       "end_date": "2026-09-22",
       "entry_price": 0.894,
-      "last_price": 0.894,
+      "last_price": 0.1125,
       "stake_usd": 20.0,
       "shares": 22.371364653243848,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-21T18:35:24.797493+00:00",
+      "condition_id": "0xab906170ebd92007ac5cb8ae5cb4b6fce5ac1ee75d625ced3aab59ab944b0149",
+      "market_slug": "nfl-nyg-la-2026-09-22-spread-home-6pt5",
+      "event_slug": "nfl-nyg-la-2026-09-22",
+      "title": "Spread: Rams (-6.5)",
+      "outcome": "Rams",
+      "end_date": "2026-09-22",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-21T18:35:24.797508+00:00",
+      "condition_id": "0x38657f1f6a893ee3702217d1af586e8651ee736d613f54180a6d82f81c586f87",
+      "market_slug": "nfl-nyg-la-2026-09-22",
+      "event_slug": "nfl-nyg-la-2026-09-22",
+      "title": "Giants vs. Rams",
+      "outcome": "Rams",
+      "end_date": "2026-09-22",
+      "entry_price": 0.735,
+      "last_price": 0.735,
+      "stake_usd": 20.0,
+      "shares": 27.2108843537415,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-09-21T18:35:24.797513+00:00",
+      "condition_id": "0xe1810cf8925b6a7b130720ff838a14e428a1330613b0f0c7014d1e5cec1853a4",
+      "market_slug": "mlb-min-sf-2026-09-21-total-8pt5",
+      "event_slug": "mlb-min-sf-2026-09-21",
+      "title": "Minnesota Twins vs. San Francisco Giants: O/U 8.5",
+      "outcome": "Under",
+      "end_date": "2026-09-22",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-09-21T18:35:24.797516+00:00",
+      "condition_id": "0x05877726250f4903cbe937cd159419b2be8a9a604f36ae38c062b10b090d4f68",
+      "market_slug": "wnba-atl-nyl-2026-09-21",
+      "event_slug": "wnba-atl-nyl-2026-09-21",
+      "title": "Atlanta Dream vs. New York Liberty",
+      "outcome": "New York Liberty",
+      "end_date": "2026-09-22",
+      "entry_price": 0.465,
+      "last_price": 0.465,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817204,
       "trader_count_at_entry": 3
     }
   ],
@@ -3350,6 +3364,63 @@
       "payout": 43.01,
       "pnl": 23.01,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-17T17:35:05.222879+00:00",
+      "condition_id": "0x8e41c5c2c887553ea7cce7f3644b50c62c8ab55238b50e939048f6d71aae6d4c",
+      "market_slug": "will-united-russia-win-between-310-and-324-seats-in-the-next-russian-state-duma-election",
+      "event_slug": "how-many-seats-will-united-russia-win-in-the-next-russian-legislative-election",
+      "title": "Will United Russia win between 310 and 324 seats in the next Russian State Duma election?",
+      "outcome": "Yes",
+      "end_date": "2026-09-20",
+      "entry_price": 0.1765,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 113.31444759206799,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-21T18:34:59.754584+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-18T17:00:44.029243+00:00",
+      "condition_id": "0xe62ab836381dd820968f6b58ab546958aaa63de184c48bc6e0522d551807e1b1",
+      "market_slug": "will-united-russia-win-between-325-and-339-seats-in-the-next-russian-state-duma-election",
+      "event_slug": "how-many-seats-will-united-russia-win-in-the-next-russian-legislative-election",
+      "title": "Will United Russia win between 325 and 339 seats in the next Russian State Duma election?",
+      "outcome": "Yes",
+      "end_date": "2026-09-20",
+      "entry_price": 0.415,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 48.19277108433735,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-21T18:34:59.915228+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-19T16:21:04.016529+00:00",
+      "condition_id": "0x6c9bd12ca2dded7eb4c688a3200e94f143cc95984eb1952ab71f7ec31e07cf8c",
+      "market_slug": "will-afd-win-the-most-seats-in-the-2026-mecklenburg-vorpommern-parliamentary-elections",
+      "event_slug": "mecklenburg-vorpommern-parliamentary-election-winner",
+      "title": "Will AfD win the most seats in the 2026 Mecklenburg-Vorpommern parliamentary elections?",
+      "outcome": "No",
+      "end_date": "2026-09-20",
+      "entry_price": 0.525,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-21T18:35:00.087734+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -3628,6 +3699,10 @@
     {
       "date": "2026-09-20",
       "equity": 968.6
+    },
+    {
+      "date": "2026-09-21",
+      "equity": 917.15
     }
   ]
 }
