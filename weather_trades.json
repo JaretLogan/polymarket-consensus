@@ -10,7 +10,7 @@
       "title": "Lowest temperature in Hong Kong on September 22?",
       "outcome": "No",
       "entry_price": 0.425,
-      "last_price": 0.425,
+      "last_price": 0.625,
       "stake_usd": 20.0,
       "shares": 47.05882352941177,
       "city": "Hong Kong",
@@ -29,7 +29,7 @@
       "title": "Lowest temperature in Wuhan on September 22?",
       "outcome": "Yes",
       "entry_price": 0.485,
-      "last_price": 0.485,
+      "last_price": 0.44,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
       "city": "Wuhan",
@@ -48,7 +48,7 @@
       "title": "Lowest temperature in Beijing on September 22?",
       "outcome": "Yes",
       "entry_price": 0.48,
-      "last_price": 0.48,
+      "last_price": 0.425,
       "stake_usd": 20.0,
       "shares": 41.66666666666667,
       "city": "Beijing",
@@ -11722,6 +11722,10 @@
     {
       "date": "2026-09-21",
       "equity": 64.34
+    },
+    {
+      "date": "2026-09-22",
+      "equity": 69.61
     }
   ]
 }
