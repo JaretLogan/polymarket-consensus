@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 805.6881925111056,
+  "cash": 716.6959444490901,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -31,48 +31,6 @@
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-09-22T17:36:09.066191+00:00",
-      "condition_id": "0x6430ae2fc13c08508d3f908c7eb3da13d35346446f007fd4871bedb644d26770",
-      "market_slug": "mlb-nym-tex-2026-09-22-spread-home-1pt5",
-      "event_slug": "mlb-nym-tex-2026-09-22",
-      "title": "Spread: Texas Rangers (-1.5)",
-      "outcome": "New York Mets",
-      "end_date": "2026-09-23",
-      "entry_price": 0.645,
-      "last_price": 0.645,
-      "stake_usd": 20.0,
-      "shares": 31.007751937984494,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-22T17:36:09.066206+00:00",
-      "condition_id": "0x64a9de687314000a4ac76d22a82a747935076190e8ce31df8cd8893390497b51",
-      "market_slug": "wnba-tor-chi-2026-09-22-total-179pt5",
-      "event_slug": "wnba-tor-chi-2026-09-22",
-      "title": "Toronto Tempo vs. Chicago Sky: O/U 179.5",
-      "outcome": "Under",
-      "end_date": "2026-09-23",
-      "entry_price": 0.485,
-      "last_price": 0.485,
-      "stake_usd": 20.0,
-      "shares": 41.23711340206186,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-22T17:36:09.066211+00:00",
-      "condition_id": "0xcb6ae7a7242d1f2ec02caaca39510dea90171e8b5f53e518a1eeb34ed2fb302b",
-      "market_slug": "wnba-gsv-por-2026-09-22",
-      "event_slug": "wnba-gsv-por-2026-09-22",
-      "title": "Golden State Valkyries vs. Portland Fire",
-      "outcome": "Golden State Valkyries",
-      "end_date": "2026-09-23",
-      "entry_price": 0.9,
-      "last_price": 0.9,
-      "stake_usd": 20.0,
-      "shares": 22.22222222222222,
-      "trader_count_at_entry": 3
-    },
-    {
       "opened_at": "2026-09-22T17:36:09.066214+00:00",
       "condition_id": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406",
       "market_slug": "nfl-atl-gb-2026-09-25-total-44pt5",
@@ -81,10 +39,94 @@
       "outcome": "Under",
       "end_date": "2026-09-25",
       "entry_price": 0.505,
-      "last_price": 0.505,
+      "last_price": 0.565,
       "stake_usd": 20.0,
       "shares": 39.603960396039604,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-23T17:47:43.178383+00:00",
+      "condition_id": "0x78e16b2e0a9ee3b0d6e3d8f4f6bcec90a1a57605e98c0b357814c67d0b05d482",
+      "market_slug": "mlb-hou-sea-2026-09-23-total-7pt5",
+      "event_slug": "mlb-hou-sea-2026-09-23",
+      "title": "Houston Astros vs. Seattle Mariners: O/U 7.5",
+      "outcome": "Under",
+      "end_date": "2026-09-24",
+      "entry_price": 0.475,
+      "last_price": 0.475,
+      "stake_usd": 20.0,
+      "shares": 42.10526315789474,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-23T17:47:43.178396+00:00",
+      "condition_id": "0x635bc7ea3fd56e53aa7b9b482d2e6204d4463209155071d0c3421304d6181b72",
+      "market_slug": "mlb-ari-col-2026-09-23-total-11pt5",
+      "event_slug": "mlb-ari-col-2026-09-23",
+      "title": "Arizona Diamondbacks vs. Colorado Rockies: O/U 11.5",
+      "outcome": "Under",
+      "end_date": "2026-09-24",
+      "entry_price": 0.52,
+      "last_price": 0.52,
+      "stake_usd": 20.0,
+      "shares": 38.46153846153846,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-23T17:47:43.178400+00:00",
+      "condition_id": "0x58fe37d6b63944e8567e65dab6244745b06fd682cf18a03482dba3d43004306b",
+      "market_slug": "val-tl1-pr1-2026-09-24",
+      "event_slug": "val-tl1-pr1-2026-09-24",
+      "title": "Valorant: Team Liquid vs Paper Rex (BO3) - VCT Champions Group C",
+      "outcome": "Paper Rex",
+      "end_date": "2026-09-24",
+      "entry_price": 0.555,
+      "last_price": 0.555,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-23T17:47:43.178403+00:00",
+      "condition_id": "0x60fa8a64c96b18368aa61a411cd4a23b3ce148ce3d2aaa0ae95c27b0d2db2909",
+      "market_slug": "wnba-atl-nyl-2026-09-23",
+      "event_slug": "wnba-atl-nyl-2026-09-23",
+      "title": "Atlanta Dream vs. New York Liberty",
+      "outcome": "Atlanta Dream",
+      "end_date": "2026-09-24",
+      "entry_price": 0.575,
+      "last_price": 0.575,
+      "stake_usd": 20.0,
+      "shares": 34.78260869565218,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-23T17:47:43.178407+00:00",
+      "condition_id": "0xb865736cce51dfb32d4e97796dfc9be85972159f0cf03c255844c21456b3e17a",
+      "market_slug": "nfl-atl-gb-2026-09-25-spread-home-4pt5",
+      "event_slug": "nfl-atl-gb-2026-09-25",
+      "title": "Spread: Packers (-4.5)",
+      "outcome": "Packers",
+      "end_date": "2026-09-25",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-23T17:47:43.178410+00:00",
+      "condition_id": "0x2010cd76ac0d429f5a085dd0d357ea01f9fe8f8343d399e022cd404208e251db",
+      "market_slug": "nfl-atl-gb-2026-09-25-total-43pt5",
+      "event_slug": "nfl-atl-gb-2026-09-25",
+      "title": "Falcons vs. Packers: O/U 43.5",
+      "outcome": "Over",
+      "end_date": "2026-09-25",
+      "entry_price": 0.475,
+      "last_price": 0.475,
+      "stake_usd": 20.0,
+      "shares": 42.10526315789474,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -3507,6 +3549,63 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-22T17:36:09.066191+00:00",
+      "condition_id": "0x6430ae2fc13c08508d3f908c7eb3da13d35346446f007fd4871bedb644d26770",
+      "market_slug": "mlb-nym-tex-2026-09-22-spread-home-1pt5",
+      "event_slug": "mlb-nym-tex-2026-09-22",
+      "title": "Spread: Texas Rangers (-1.5)",
+      "outcome": "New York Mets",
+      "end_date": "2026-09-23",
+      "entry_price": 0.645,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 31.007751937984494,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-23T17:47:19.898703+00:00",
+      "exit_price": 1.0,
+      "payout": 31.01,
+      "pnl": 11.01,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-22T17:36:09.066206+00:00",
+      "condition_id": "0x64a9de687314000a4ac76d22a82a747935076190e8ce31df8cd8893390497b51",
+      "market_slug": "wnba-tor-chi-2026-09-22-total-179pt5",
+      "event_slug": "wnba-tor-chi-2026-09-22",
+      "title": "Toronto Tempo vs. Chicago Sky: O/U 179.5",
+      "outcome": "Under",
+      "end_date": "2026-09-23",
+      "entry_price": 0.485,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-23T17:47:20.149100+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-22T17:36:09.066211+00:00",
+      "condition_id": "0xcb6ae7a7242d1f2ec02caaca39510dea90171e8b5f53e518a1eeb34ed2fb302b",
+      "market_slug": "wnba-gsv-por-2026-09-22",
+      "event_slug": "wnba-gsv-por-2026-09-22",
+      "title": "Golden State Valkyries vs. Portland Fire",
+      "outcome": "Golden State Valkyries",
+      "end_date": "2026-09-23",
+      "entry_price": 0.9,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 22.22222222222222,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-23T17:47:20.295494+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -3793,6 +3892,10 @@
     {
       "date": "2026-09-22",
       "equity": 925.16
+    },
+    {
+      "date": "2026-09-23",
+      "equity": 898.55
     }
   ]
 }
