@@ -1,7 +1,27 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 32.03956880412132,
-  "open_positions": [],
+  "cash": 12.039568804121323,
+  "open_positions": [
+    {
+      "opened_at": "2026-09-26T11:12:55.537557+00:00",
+      "condition_id": "0x7987723b1a0f005cccaaf536bb6402811d4a05b0985854516d348e660a251a1b",
+      "market_slug": "lowest-temperature-in-paris-on-september-26-2026-13c",
+      "event_slug": "lowest-temperature-in-paris-on-september-26-2026",
+      "title": "Lowest temperature in Paris on September 26?",
+      "outcome": "Yes",
+      "entry_price": 0.9945,
+      "last_price": 0.9945,
+      "stake_usd": 20.0,
+      "shares": 20.110608345902463,
+      "city": "Paris",
+      "station": "Le Bourget",
+      "target_date": "2026-09-26",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.9945,
+      "forecast_temp": 23.5,
+      "unit": "celsius"
+    }
+  ],
   "closed_positions": [
     {
       "opened_at": "2026-07-13T09:41:26.879742+00:00",
@@ -11847,6 +11867,10 @@
     },
     {
       "date": "2026-09-25",
+      "equity": 32.04
+    },
+    {
+      "date": "2026-09-26",
       "equity": 32.04
     }
   ]
