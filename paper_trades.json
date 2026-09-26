@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 535.4727034958103,
+  "cash": 515.4727034958103,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.395,
+      "last_price": 0.47,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Wyoming",
       "end_date": "2026-09-26",
       "entry_price": 0.535,
-      "last_price": 0.575,
+      "last_price": 0.585,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
       "trader_count_at_entry": 3
@@ -81,7 +81,7 @@
       "outcome": "Over",
       "end_date": "2026-09-27",
       "entry_price": 0.505,
-      "last_price": 0.535,
+      "last_price": 0.525,
       "stake_usd": 20.0,
       "shares": 39.603960396039604,
       "trader_count_at_entry": 3
@@ -109,7 +109,7 @@
       "outcome": "Commanders",
       "end_date": "2026-09-27",
       "entry_price": 0.445,
-      "last_price": 0.435,
+      "last_price": 0.425,
       "stake_usd": 20.0,
       "shares": 44.9438202247191,
       "trader_count_at_entry": 3
@@ -123,7 +123,7 @@
       "outcome": "Texans",
       "end_date": "2026-09-27",
       "entry_price": 0.475,
-      "last_price": 0.475,
+      "last_price": 0.465,
       "stake_usd": 20.0,
       "shares": 42.10526315789474,
       "trader_count_at_entry": 3
@@ -137,7 +137,7 @@
       "outcome": "Chiefs",
       "end_date": "2026-09-27",
       "entry_price": 0.495,
-      "last_price": 0.495,
+      "last_price": 0.475,
       "stake_usd": 20.0,
       "shares": 40.4040404040404,
       "trader_count_at_entry": 3
@@ -151,7 +151,7 @@
       "outcome": "Commanders",
       "end_date": "2026-09-27",
       "entry_price": 0.505,
-      "last_price": 0.505,
+      "last_price": 0.495,
       "stake_usd": 20.0,
       "shares": 39.603960396039604,
       "trader_count_at_entry": 3
@@ -165,23 +165,9 @@
       "outcome": "Tennessee",
       "end_date": "2026-09-26",
       "entry_price": 0.485,
-      "last_price": 0.485,
+      "last_price": 0.365,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-25T17:52:54.248340+00:00",
-      "condition_id": "0x2d78fac17419d35a9d61c82afc1f9714b1e66008deda354e39a9912aeb9e727c",
-      "market_slug": "cfb-clmsn-cah-2026-09-25",
-      "event_slug": "cfb-clmsn-cah-2026-09-25",
-      "title": "Clemson vs. California",
-      "outcome": "California",
-      "end_date": "2026-09-26",
-      "entry_price": 0.475,
-      "last_price": 0.475,
-      "stake_usd": 20.0,
-      "shares": 42.10526315789474,
       "trader_count_at_entry": 3
     },
     {
@@ -193,7 +179,7 @@
       "outcome": "Bengals",
       "end_date": "2026-09-27",
       "entry_price": 0.485,
-      "last_price": 0.485,
+      "last_price": 0.475,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
       "trader_count_at_entry": 3
@@ -263,7 +249,7 @@
       "outcome": "Under",
       "end_date": "2026-09-27",
       "entry_price": 0.485,
-      "last_price": 0.485,
+      "last_price": 0.475,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
       "trader_count_at_entry": 3
@@ -281,6 +267,20 @@
       "stake_usd": 20.0,
       "shares": 43.01075268817204,
       "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-26T17:01:32.961502+00:00",
+      "condition_id": "0xc4c47aa2f37a68d5f500939cf2be654fce34a003e8e5dafe0ad9fb6e36878811",
+      "market_slug": "nfl-cin-pit-2026-09-27",
+      "event_slug": "nfl-cin-pit-2026-09-27",
+      "title": "Bengals vs. Steelers",
+      "outcome": "Bengals",
+      "end_date": "2026-09-27",
+      "entry_price": 0.615,
+      "last_price": 0.615,
+      "stake_usd": 20.0,
+      "shares": 32.520325203252035,
+      "trader_count_at_entry": 4
     }
   ],
   "closed_positions": [
@@ -3969,6 +3969,25 @@
       "payout": 32.52,
       "pnl": 12.52,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-25T17:52:54.248340+00:00",
+      "condition_id": "0x2d78fac17419d35a9d61c82afc1f9714b1e66008deda354e39a9912aeb9e727c",
+      "market_slug": "cfb-clmsn-cah-2026-09-25",
+      "event_slug": "cfb-clmsn-cah-2026-09-25",
+      "title": "Clemson vs. California",
+      "outcome": "California",
+      "end_date": "2026-09-26",
+      "entry_price": 0.475,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 42.10526315789474,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-26T17:01:03.098636+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -4267,6 +4286,10 @@
     {
       "date": "2026-09-25",
       "equity": 938.5
+    },
+    {
+      "date": "2026-09-26",
+      "equity": 914.57
     }
   ]
 }
