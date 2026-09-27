@@ -1,24 +1,24 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 12.039568804121323,
+  "cash": 12.150177150023787,
   "open_positions": [
     {
-      "opened_at": "2026-09-26T11:12:55.537557+00:00",
-      "condition_id": "0x7987723b1a0f005cccaaf536bb6402811d4a05b0985854516d348e660a251a1b",
-      "market_slug": "lowest-temperature-in-paris-on-september-26-2026-13c",
-      "event_slug": "lowest-temperature-in-paris-on-september-26-2026",
-      "title": "Lowest temperature in Paris on September 26?",
+      "opened_at": "2026-09-27T11:51:28.939960+00:00",
+      "condition_id": "0x3e21650a9453e115627c4735ce4c257e252916c614ae4cd0ba8a9e0b1d572a6d",
+      "market_slug": "lowest-temperature-in-hong-kong-on-september-27-2026-27c",
+      "event_slug": "lowest-temperature-in-hong-kong-on-september-27-2026",
+      "title": "Lowest temperature in Hong Kong on September 27?",
       "outcome": "Yes",
-      "entry_price": 0.9945,
-      "last_price": 0.9945,
+      "entry_price": 0.997,
+      "last_price": 0.997,
       "stake_usd": 20.0,
-      "shares": 20.110608345902463,
-      "city": "Paris",
-      "station": "Le Bourget",
-      "target_date": "2026-09-26",
+      "shares": 20.060180541624874,
+      "city": "Hong Kong",
+      "station": "VHHH",
+      "target_date": "2026-09-27",
       "model_prob_at_entry": 0.0,
-      "edge_at_entry": -0.9945,
-      "forecast_temp": 23.5,
+      "edge_at_entry": -0.997,
+      "forecast_temp": 30.7,
       "unit": "celsius"
     }
   ],
@@ -11566,6 +11566,30 @@
       "payout": 20.2,
       "pnl": 0.2,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-26T11:12:55.537557+00:00",
+      "condition_id": "0x7987723b1a0f005cccaaf536bb6402811d4a05b0985854516d348e660a251a1b",
+      "market_slug": "lowest-temperature-in-paris-on-september-26-2026-13c",
+      "event_slug": "lowest-temperature-in-paris-on-september-26-2026",
+      "title": "Lowest temperature in Paris on September 26?",
+      "outcome": "Yes",
+      "entry_price": 0.9945,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.110608345902463,
+      "city": "Paris",
+      "station": "Le Bourget",
+      "target_date": "2026-09-26",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.9945,
+      "forecast_temp": 23.5,
+      "unit": "celsius",
+      "closed_at": "2026-09-27T11:51:12.579735+00:00",
+      "exit_price": 1.0,
+      "payout": 20.11,
+      "pnl": 0.11,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -11872,6 +11896,10 @@
     {
       "date": "2026-09-26",
       "equity": 32.04
+    },
+    {
+      "date": "2026-09-27",
+      "equity": 32.15
     }
   ]
 }
