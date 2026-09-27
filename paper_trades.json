@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 515.4727034958103,
+  "cash": 583.5938133813032,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,37 +25,9 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.47,
+      "last_price": 0.46,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-24T17:49:25.112031+00:00",
-      "condition_id": "0xc932650aa8804df78d28b38bb0035cbf59ad127f105d7f7ebd1618d25d488431",
-      "market_slug": "cfb-txam-lsu-2026-09-26",
-      "event_slug": "cfb-txam-lsu-2026-09-26",
-      "title": "Texas A&M vs. LSU",
-      "outcome": "LSU",
-      "end_date": "2026-09-26",
-      "entry_price": 0.755,
-      "last_price": 0.755,
-      "stake_usd": 20.0,
-      "shares": 26.490066225165563,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-24T17:49:25.112034+00:00",
-      "condition_id": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9",
-      "market_slug": "cfb-hawaii-wyom-2026-09-26-spread-away-3pt5",
-      "event_slug": "cfb-hawaii-wyom-2026-09-26",
-      "title": "Spread: Hawai'i (-3.5)",
-      "outcome": "Wyoming",
-      "end_date": "2026-09-26",
-      "entry_price": 0.535,
-      "last_price": 0.585,
-      "stake_usd": 20.0,
-      "shares": 37.38317757009346,
       "trader_count_at_entry": 3
     },
     {
@@ -67,7 +39,7 @@
       "outcome": "Bills",
       "end_date": "2026-09-27",
       "entry_price": 0.755,
-      "last_price": 0.755,
+      "last_price": 0.475,
       "stake_usd": 20.0,
       "shares": 26.490066225165563,
       "trader_count_at_entry": 3
@@ -95,7 +67,7 @@
       "outcome": "Dolphins",
       "end_date": "2026-09-27",
       "entry_price": 0.155,
-      "last_price": 0.155,
+      "last_price": 0.135,
       "stake_usd": 20.0,
       "shares": 129.03225806451613,
       "trader_count_at_entry": 3
@@ -109,7 +81,7 @@
       "outcome": "Commanders",
       "end_date": "2026-09-27",
       "entry_price": 0.445,
-      "last_price": 0.425,
+      "last_price": 0.685,
       "stake_usd": 20.0,
       "shares": 44.9438202247191,
       "trader_count_at_entry": 3
@@ -123,7 +95,7 @@
       "outcome": "Texans",
       "end_date": "2026-09-27",
       "entry_price": 0.475,
-      "last_price": 0.465,
+      "last_price": 0.37,
       "stake_usd": 20.0,
       "shares": 42.10526315789474,
       "trader_count_at_entry": 3
@@ -137,7 +109,7 @@
       "outcome": "Chiefs",
       "end_date": "2026-09-27",
       "entry_price": 0.495,
-      "last_price": 0.475,
+      "last_price": 0.47,
       "stake_usd": 20.0,
       "shares": 40.4040404040404,
       "trader_count_at_entry": 3
@@ -151,23 +123,9 @@
       "outcome": "Commanders",
       "end_date": "2026-09-27",
       "entry_price": 0.505,
-      "last_price": 0.495,
+      "last_price": 0.74,
       "stake_usd": 20.0,
       "shares": 39.603960396039604,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-25T17:52:54.248324+00:00",
-      "condition_id": "0x8fb5a90e9e996b9bdb740fc06683300a8174222ebaa67468fa906354bfc2da2d",
-      "market_slug": "cfb-tx-tenn-2026-09-26-spread-away-4pt5",
-      "event_slug": "cfb-tx-tenn-2026-09-26",
-      "title": "Spread: Texas (-4.5)",
-      "outcome": "Tennessee",
-      "end_date": "2026-09-26",
-      "entry_price": 0.485,
-      "last_price": 0.365,
-      "stake_usd": 20.0,
-      "shares": 41.23711340206186,
       "trader_count_at_entry": 3
     },
     {
@@ -179,7 +137,7 @@
       "outcome": "Bengals",
       "end_date": "2026-09-27",
       "entry_price": 0.485,
-      "last_price": 0.475,
+      "last_price": 0.365,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
       "trader_count_at_entry": 3
@@ -193,7 +151,7 @@
       "outcome": "Lions",
       "end_date": "2026-09-27",
       "entry_price": 0.725,
-      "last_price": 0.725,
+      "last_price": 0.765,
       "stake_usd": 20.0,
       "shares": 27.586206896551726,
       "trader_count_at_entry": 3
@@ -207,7 +165,7 @@
       "outcome": "Texans",
       "end_date": "2026-09-27",
       "entry_price": 0.535,
-      "last_price": 0.535,
+      "last_price": 0.445,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
       "trader_count_at_entry": 3
@@ -221,7 +179,7 @@
       "outcome": "Giants",
       "end_date": "2026-09-27",
       "entry_price": 0.555,
-      "last_price": 0.555,
+      "last_price": 0.615,
       "stake_usd": 20.0,
       "shares": 36.03603603603603,
       "trader_count_at_entry": 3
@@ -235,7 +193,7 @@
       "outcome": "Commanders",
       "end_date": "2026-09-27",
       "entry_price": 0.235,
-      "last_price": 0.235,
+      "last_price": 0.475,
       "stake_usd": 20.0,
       "shares": 85.1063829787234,
       "trader_count_at_entry": 3
@@ -249,23 +207,9 @@
       "outcome": "Under",
       "end_date": "2026-09-27",
       "entry_price": 0.485,
-      "last_price": 0.475,
-      "stake_usd": 20.0,
-      "shares": 41.23711340206186,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-09-25T17:52:54.248369+00:00",
-      "condition_id": "0xcd003cd72db48856b9b3fbe5d8cee7641b8e304637209b38568d6cfb901395f2",
-      "market_slug": "cfb-flatl-lamon-2026-09-26-spread-away-13pt5",
-      "event_slug": "cfb-flatl-lamon-2026-09-26",
-      "title": "Spread: Florida Atlantic (-13.5)",
-      "outcome": "Florida Atlantic",
-      "end_date": "2026-09-27",
-      "entry_price": 0.465,
       "last_price": 0.465,
       "stake_usd": 20.0,
-      "shares": 43.01075268817204,
+      "shares": 41.23711340206186,
       "trader_count_at_entry": 3
     },
     {
@@ -277,10 +221,66 @@
       "outcome": "Bengals",
       "end_date": "2026-09-27",
       "entry_price": 0.615,
-      "last_price": 0.615,
+      "last_price": 0.545,
       "stake_usd": 20.0,
       "shares": 32.520325203252035,
       "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-09-27T17:38:21.714062+00:00",
+      "condition_id": "0x9e3bea70a9e0a310d38cda5ebb44bc94f2240d7bf8bc13f0d1bcb7eecc411abf",
+      "market_slug": "nfl-la-den-2026-09-28-spread-away-2pt5",
+      "event_slug": "nfl-la-den-2026-09-28",
+      "title": "Spread: Rams (-2.5)",
+      "outcome": "Rams",
+      "end_date": "2026-09-28",
+      "entry_price": 0.475,
+      "last_price": 0.475,
+      "stake_usd": 20.0,
+      "shares": 42.10526315789474,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-27T17:38:21.714076+00:00",
+      "condition_id": "0x7a5d47de6d6e3e4fe402307bb10b36f563a02e5b231af171259053806efc6ee6",
+      "market_slug": "nfl-la-den-2026-09-28-total-44pt5",
+      "event_slug": "nfl-la-den-2026-09-28",
+      "title": "Rams vs. Broncos: O/U 44.5",
+      "outcome": "Over",
+      "end_date": "2026-09-28",
+      "entry_price": 0.485,
+      "last_price": 0.485,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-27T17:38:21.714081+00:00",
+      "condition_id": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25",
+      "market_slug": "nfl-la-den-2026-09-28",
+      "event_slug": "nfl-la-den-2026-09-28",
+      "title": "Rams vs. Broncos",
+      "outcome": "Rams",
+      "end_date": "2026-09-28",
+      "entry_price": 0.545,
+      "last_price": 0.545,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-09-27T17:38:21.714084+00:00",
+      "condition_id": "0x7184fa088acbfafbe0a1d7140e9c92cfb7eeb078a474d015cf19e11aaafbf08c",
+      "market_slug": "nfl-phi-chi-2026-09-29-spread-away-5pt5",
+      "event_slug": "nfl-phi-chi-2026-09-29",
+      "title": "Spread: Eagles (-5.5)",
+      "outcome": "Bears",
+      "end_date": "2026-09-29",
+      "entry_price": 0.555,
+      "last_price": 0.555,
+      "stake_usd": 20.0,
+      "shares": 36.03603603603603,
+      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -3988,6 +3988,82 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-09-24T17:49:25.112031+00:00",
+      "condition_id": "0xc932650aa8804df78d28b38bb0035cbf59ad127f105d7f7ebd1618d25d488431",
+      "market_slug": "cfb-txam-lsu-2026-09-26",
+      "event_slug": "cfb-txam-lsu-2026-09-26",
+      "title": "Texas A&M vs. LSU",
+      "outcome": "LSU",
+      "end_date": "2026-09-26",
+      "entry_price": 0.755,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 26.490066225165563,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-27T17:37:53.724702+00:00",
+      "exit_price": 1.0,
+      "payout": 26.49,
+      "pnl": 6.49,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-24T17:49:25.112034+00:00",
+      "condition_id": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9",
+      "market_slug": "cfb-hawaii-wyom-2026-09-26-spread-away-3pt5",
+      "event_slug": "cfb-hawaii-wyom-2026-09-26",
+      "title": "Spread: Hawai'i (-3.5)",
+      "outcome": "Wyoming",
+      "end_date": "2026-09-26",
+      "entry_price": 0.535,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 37.38317757009346,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-27T17:37:53.947196+00:00",
+      "exit_price": 1.0,
+      "payout": 37.38,
+      "pnl": 17.38,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-25T17:52:54.248324+00:00",
+      "condition_id": "0x8fb5a90e9e996b9bdb740fc06683300a8174222ebaa67468fa906354bfc2da2d",
+      "market_slug": "cfb-tx-tenn-2026-09-26-spread-away-4pt5",
+      "event_slug": "cfb-tx-tenn-2026-09-26",
+      "title": "Spread: Texas (-4.5)",
+      "outcome": "Tennessee",
+      "end_date": "2026-09-26",
+      "entry_price": 0.485,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-27T17:37:55.206372+00:00",
+      "exit_price": 1.0,
+      "payout": 41.24,
+      "pnl": 21.24,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-09-25T17:52:54.248369+00:00",
+      "condition_id": "0xcd003cd72db48856b9b3fbe5d8cee7641b8e304637209b38568d6cfb901395f2",
+      "market_slug": "cfb-flatl-lamon-2026-09-26-spread-away-13pt5",
+      "event_slug": "cfb-flatl-lamon-2026-09-26",
+      "title": "Spread: Florida Atlantic (-13.5)",
+      "outcome": "Florida Atlantic",
+      "end_date": "2026-09-27",
+      "entry_price": 0.465,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817204,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-09-27T17:37:56.511019+00:00",
+      "exit_price": 1.0,
+      "payout": 43.01,
+      "pnl": 23.01,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -4290,6 +4366,10 @@
     {
       "date": "2026-09-26",
       "equity": 914.57
+    },
+    {
+      "date": "2026-09-27",
+      "equity": 1005.54
     }
   ]
 }
