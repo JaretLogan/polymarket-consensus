@@ -1,24 +1,24 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 12.150177150023787,
+  "cash": 12.21035769164866,
   "open_positions": [
     {
-      "opened_at": "2026-09-27T11:51:28.939960+00:00",
-      "condition_id": "0x3e21650a9453e115627c4735ce4c257e252916c614ae4cd0ba8a9e0b1d572a6d",
-      "market_slug": "lowest-temperature-in-hong-kong-on-september-27-2026-27c",
-      "event_slug": "lowest-temperature-in-hong-kong-on-september-27-2026",
-      "title": "Lowest temperature in Hong Kong on September 27?",
+      "opened_at": "2026-09-28T13:36:10.451723+00:00",
+      "condition_id": "0x723f742f61a7430740040e088de4bdd6e62213623bf89e57a8388bbf8f0d2841",
+      "market_slug": "lowest-temperature-in-wuhan-on-september-29-2026-17corbelow",
+      "event_slug": "lowest-temperature-in-wuhan-on-september-29-2026",
+      "title": "Lowest temperature in Wuhan on September 29?",
       "outcome": "Yes",
-      "entry_price": 0.997,
-      "last_price": 0.997,
+      "entry_price": 0.5,
+      "last_price": 0.5,
       "stake_usd": 20.0,
-      "shares": 20.060180541624874,
-      "city": "Hong Kong",
-      "station": "VHHH",
-      "target_date": "2026-09-27",
+      "shares": 40.0,
+      "city": "Wuhan",
+      "station": "Tianhe",
+      "target_date": "2026-09-29",
       "model_prob_at_entry": 0.0,
-      "edge_at_entry": -0.997,
-      "forecast_temp": 30.7,
+      "edge_at_entry": -0.5,
+      "forecast_temp": 24.9,
       "unit": "celsius"
     }
   ],
@@ -11590,6 +11590,30 @@
       "payout": 20.11,
       "pnl": 0.11,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-27T11:51:28.939960+00:00",
+      "condition_id": "0x3e21650a9453e115627c4735ce4c257e252916c614ae4cd0ba8a9e0b1d572a6d",
+      "market_slug": "lowest-temperature-in-hong-kong-on-september-27-2026-27c",
+      "event_slug": "lowest-temperature-in-hong-kong-on-september-27-2026",
+      "title": "Lowest temperature in Hong Kong on September 27?",
+      "outcome": "Yes",
+      "entry_price": 0.997,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 20.060180541624874,
+      "city": "Hong Kong",
+      "station": "VHHH",
+      "target_date": "2026-09-27",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.997,
+      "forecast_temp": 30.7,
+      "unit": "celsius",
+      "closed_at": "2026-09-28T13:35:57.743803+00:00",
+      "exit_price": 1.0,
+      "payout": 20.06,
+      "pnl": 0.06,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -11900,6 +11924,10 @@
     {
       "date": "2026-09-27",
       "equity": 32.15
+    },
+    {
+      "date": "2026-09-28",
+      "equity": 32.21
     }
   ]
 }
