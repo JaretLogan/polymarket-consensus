@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 618.3539753988337,
+  "cash": 623.6704310950362,
   "open_positions": [
     {
       "opened_at": "2026-07-20T15:02:14.786954+00:00",
@@ -10,7 +10,7 @@
       "title": "Will Apyx launch a token by September 30, 2027?",
       "outcome": "Yes",
       "entry_price": 0.735,
-      "last_price": 0.8565,
+      "last_price": 0.8795,
       "stake_usd": 20.0,
       "shares": 27.2108843537415,
       "bucket_at_entry": "65-80%",
@@ -25,7 +25,7 @@
       "title": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
       "outcome": "Yes",
       "entry_price": 0.725,
-      "last_price": 0.636,
+      "last_price": 0.6685,
       "stake_usd": 20.0,
       "shares": 27.586206896551726,
       "bucket_at_entry": "65-80%",
@@ -63,21 +63,6 @@
       "z_at_entry": 1.906
     },
     {
-      "opened_at": "2026-07-20T15:02:14.786983+00:00",
-      "condition_id": "0x7276226857e16ce7131ed5f2bacdf4b62a44063ad7e67ba8a3203138dea05986",
-      "market_slug": "will-the-philadelphia-phillies-clinch-a-spot-in-the-2026-mlb-postseason",
-      "event_slug": "mlb-team-to-make-postseason",
-      "title": "Will the Philadelphia Phillies clinch a spot in the 2026 MLB Postseason?",
-      "outcome": "Yes",
-      "entry_price": 0.79,
-      "last_price": 0.782,
-      "stake_usd": 20.0,
-      "shares": 25.31645569620253,
-      "bucket_at_entry": "65-80%",
-      "edge_at_entry": 0.0953,
-      "z_at_entry": 1.906
-    },
-    {
       "opened_at": "2026-07-20T15:02:14.786989+00:00",
       "condition_id": "0xf1d2642b92701d64f638b21e14fccf6f9d5a00eb0dc9224ca6d5240227eff6ff",
       "market_slug": "will-eduardo-braide-win-the-governor-of-maranhao-election-20260611182114393",
@@ -85,7 +70,7 @@
       "title": "Will Eduardo Braide win the Governor of Maranh\u00e3o election?",
       "outcome": "Yes",
       "entry_price": 0.755,
-      "last_price": 0.79,
+      "last_price": 0.875,
       "stake_usd": 20.0,
       "shares": 26.490066225165563,
       "bucket_at_entry": "65-80%",
@@ -175,7 +160,7 @@
       "title": "Xi meets with Lee Jae-Myung by December 31?",
       "outcome": "No",
       "entry_price": 0.135,
-      "last_price": 0.0875,
+      "last_price": 0.081,
       "stake_usd": 20.0,
       "shares": 148.14814814814815,
       "bucket_at_entry": "80-90%",
@@ -190,7 +175,7 @@
       "title": "Will Fl\u00e1vio Bolsonaro win the first round of the 2026 Brazilian presidential election by less than 5%?",
       "outcome": "Yes",
       "entry_price": 0.066,
-      "last_price": 0.211,
+      "last_price": 0.2155,
       "stake_usd": 20.0,
       "shares": 303.030303030303,
       "bucket_at_entry": "5-10%",
@@ -205,7 +190,7 @@
       "title": "Will Radu Burnete be the next Prime Minister of Romania?",
       "outcome": "Yes",
       "entry_price": 0.059,
-      "last_price": 0.0195,
+      "last_price": 0.018,
       "stake_usd": 20.0,
       "shares": 338.98305084745766,
       "bucket_at_entry": "5-10%",
@@ -220,7 +205,7 @@
       "title": "Will the US federal government take a stake in The Boeing Company?",
       "outcome": "Yes",
       "entry_price": 0.065,
-      "last_price": 0.095,
+      "last_price": 0.13,
       "stake_usd": 20.0,
       "shares": 307.6923076923077,
       "bucket_at_entry": "5-10%",
@@ -250,7 +235,7 @@
       "title": "Will SpaceX have between 160-179 launches in 2026?",
       "outcome": "Yes",
       "entry_price": 0.08,
-      "last_price": 0.0505,
+      "last_price": 0.0285,
       "stake_usd": 20.0,
       "shares": 250.0,
       "bucket_at_entry": "5-10%",
@@ -301,6 +286,21 @@
       "bucket_at_entry": "5-10%",
       "edge_at_entry": 0.0544,
       "z_at_entry": 1.6790123456790123
+    },
+    {
+      "opened_at": "2026-09-28T19:54:35.977337+00:00",
+      "condition_id": "0x247f73cf02136f7c6b9a65282cf2f9a31bf50e54ab44194d8c20f43f0d0faaf6",
+      "market_slug": "will-standx-launch-a-token-by-december-31-2026",
+      "event_slug": "will-standx-launch-a-token-by",
+      "title": "Will StandX launch a token by December 31, 2026?",
+      "outcome": "No",
+      "entry_price": 0.405,
+      "last_price": 0.405,
+      "stake_usd": 20.0,
+      "shares": 49.382716049382715,
+      "bucket_at_entry": "50-65%",
+      "edge_at_entry": 0.0884,
+      "z_at_entry": -1.6309963099630997
     }
   ],
   "closed_positions": [
@@ -623,6 +623,26 @@
       "payout": 25.97,
       "pnl": 5.97,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-07-20T15:02:14.786983+00:00",
+      "condition_id": "0x7276226857e16ce7131ed5f2bacdf4b62a44063ad7e67ba8a3203138dea05986",
+      "market_slug": "will-the-philadelphia-phillies-clinch-a-spot-in-the-2026-mlb-postseason",
+      "event_slug": "mlb-team-to-make-postseason",
+      "title": "Will the Philadelphia Phillies clinch a spot in the 2026 MLB Postseason?",
+      "outcome": "Yes",
+      "entry_price": 0.79,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 25.31645569620253,
+      "bucket_at_entry": "65-80%",
+      "edge_at_entry": 0.0953,
+      "z_at_entry": 1.906,
+      "closed_at": "2026-09-28T19:54:26.229353+00:00",
+      "exit_price": 1.0,
+      "payout": 25.32,
+      "pnl": 5.32,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -933,6 +953,10 @@
     {
       "date": "2026-09-27",
       "equity": 1007.95
+    },
+    {
+      "date": "2026-09-28",
+      "equity": 1022.4
     }
   ]
 }
