@@ -10,7 +10,7 @@
       "title": "Lowest temperature in Wuhan on September 29?",
       "outcome": "Yes",
       "entry_price": 0.5,
-      "last_price": 0.5,
+      "last_price": 0.054,
       "stake_usd": 20.0,
       "shares": 40.0,
       "city": "Wuhan",
@@ -11928,6 +11928,10 @@
     {
       "date": "2026-09-28",
       "equity": 32.21
+    },
+    {
+      "date": "2026-09-29",
+      "equity": 14.37
     }
   ]
 }
