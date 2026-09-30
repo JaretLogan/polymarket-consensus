@@ -1,27 +1,7 @@
 {
   "starting_bankroll": 1000.0,
   "cash": 12.21035769164866,
-  "open_positions": [
-    {
-      "opened_at": "2026-09-28T13:36:10.451723+00:00",
-      "condition_id": "0x723f742f61a7430740040e088de4bdd6e62213623bf89e57a8388bbf8f0d2841",
-      "market_slug": "lowest-temperature-in-wuhan-on-september-29-2026-17corbelow",
-      "event_slug": "lowest-temperature-in-wuhan-on-september-29-2026",
-      "title": "Lowest temperature in Wuhan on September 29?",
-      "outcome": "Yes",
-      "entry_price": 0.5,
-      "last_price": 0.054,
-      "stake_usd": 20.0,
-      "shares": 40.0,
-      "city": "Wuhan",
-      "station": "Tianhe",
-      "target_date": "2026-09-29",
-      "model_prob_at_entry": 0.0,
-      "edge_at_entry": -0.5,
-      "forecast_temp": 24.9,
-      "unit": "celsius"
-    }
-  ],
+  "open_positions": [],
   "closed_positions": [
     {
       "opened_at": "2026-07-13T09:41:26.879742+00:00",
@@ -11614,6 +11594,30 @@
       "payout": 20.06,
       "pnl": 0.06,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-09-28T13:36:10.451723+00:00",
+      "condition_id": "0x723f742f61a7430740040e088de4bdd6e62213623bf89e57a8388bbf8f0d2841",
+      "market_slug": "lowest-temperature-in-wuhan-on-september-29-2026-17corbelow",
+      "event_slug": "lowest-temperature-in-wuhan-on-september-29-2026",
+      "title": "Lowest temperature in Wuhan on September 29?",
+      "outcome": "Yes",
+      "entry_price": 0.5,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 40.0,
+      "city": "Wuhan",
+      "station": "Tianhe",
+      "target_date": "2026-09-29",
+      "model_prob_at_entry": 0.0,
+      "edge_at_entry": -0.5,
+      "forecast_temp": 24.9,
+      "unit": "celsius",
+      "closed_at": "2026-09-30T12:21:54.453520+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -11932,6 +11936,10 @@
     {
       "date": "2026-09-29",
       "equity": 14.37
+    },
+    {
+      "date": "2026-09-30",
+      "equity": 12.21
     }
   ]
 }
