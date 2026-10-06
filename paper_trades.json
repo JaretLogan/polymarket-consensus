@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 946.0774453104349,
+  "cash": 906.0774453104349,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.315,
+      "last_price": 0.32,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.171,
+      "last_price": 0.1515,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
@@ -67,7 +67,7 @@
       "outcome": "Over",
       "end_date": "2026-10-07",
       "entry_price": 0.655,
-      "last_price": 0.655,
+      "last_price": 0.685,
       "stake_usd": 20.0,
       "shares": 30.534351145038165,
       "trader_count_at_entry": 3
@@ -81,33 +81,33 @@
       "outcome": "Yes",
       "end_date": "2026-10-07",
       "entry_price": 0.405,
-      "last_price": 0.415,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 49.382716049382715,
       "trader_count_at_entry": 4
     },
     {
-      "opened_at": "2026-10-05T21:13:06.441364+00:00",
-      "condition_id": "0xf1c7468c7c6b777cc189aac97ac4b3a61c6536d0555f2dd1f22290e72115f268",
-      "market_slug": "nfl-atl-no-2026-10-06-spread-home-1pt5",
-      "event_slug": "nfl-atl-no-2026-10-06",
-      "title": "Spread: Saints (-1.5)",
-      "outcome": "Saints",
-      "end_date": "2026-10-06",
-      "entry_price": 0.495,
-      "last_price": 0.495,
+      "opened_at": "2026-10-06T18:52:07.354461+00:00",
+      "condition_id": "0x16bf6187b713dc4c937599080f8063ba55beb46a6b3508e895d4f1114fd4fa48",
+      "market_slug": "cs2-fal2-navi-2026-10-06",
+      "event_slug": "cs2-fal2-navi-2026-10-06",
+      "title": "Counter-Strike: Team Falcons vs Natus Vincere (BO3) - ESL Pro League Group Stage",
+      "outcome": "Natus Vincere",
+      "end_date": "2026-10-07",
+      "entry_price": 0.425,
+      "last_price": 0.425,
       "stake_usd": 20.0,
-      "shares": 40.4040404040404,
-      "trader_count_at_entry": 3
+      "shares": 47.05882352941177,
+      "trader_count_at_entry": 4
     },
     {
-      "opened_at": "2026-10-05T21:13:06.441377+00:00",
-      "condition_id": "0x0821f464f7a3e8cde824ad5b971008110484cbf9ea28883d936589ed22bc621a",
-      "market_slug": "nfl-atl-no-2026-10-06",
-      "event_slug": "nfl-atl-no-2026-10-06",
-      "title": "Falcons vs. Saints",
-      "outcome": "Saints",
-      "end_date": "2026-10-06",
+      "opened_at": "2026-10-06T18:52:07.354470+00:00",
+      "condition_id": "0xa496f2aded4600e6543a66d046ff617c15292c875b91be736b49d8078e889068",
+      "market_slug": "nba-nop-okc-2026-10-06",
+      "event_slug": "nba-nop-okc-2026-10-06",
+      "title": "Pelicans vs. Thunder",
+      "outcome": "Thunder",
+      "end_date": "2026-10-07",
       "entry_price": 0.525,
       "last_price": 0.525,
       "stake_usd": 20.0,
@@ -5207,6 +5207,44 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-05T21:13:06.441364+00:00",
+      "condition_id": "0xf1c7468c7c6b777cc189aac97ac4b3a61c6536d0555f2dd1f22290e72115f268",
+      "market_slug": "nfl-atl-no-2026-10-06-spread-home-1pt5",
+      "event_slug": "nfl-atl-no-2026-10-06",
+      "title": "Spread: Saints (-1.5)",
+      "outcome": "Saints",
+      "end_date": "2026-10-06",
+      "entry_price": 0.495,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-06T18:51:44.089314+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-05T21:13:06.441377+00:00",
+      "condition_id": "0x0821f464f7a3e8cde824ad5b971008110484cbf9ea28883d936589ed22bc621a",
+      "market_slug": "nfl-atl-no-2026-10-06",
+      "event_slug": "nfl-atl-no-2026-10-06",
+      "title": "Falcons vs. Saints",
+      "outcome": "Saints",
+      "end_date": "2026-10-06",
+      "entry_price": 0.525,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-06T18:51:44.434297+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -5545,6 +5583,10 @@
     {
       "date": "2026-10-05",
       "equity": 1092.28
+    },
+    {
+      "date": "2026-10-06",
+      "equity": 1053.41
     }
   ]
 }
