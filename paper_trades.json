@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 883.1018626806386,
+  "cash": 907.6417399812522,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -39,52 +39,10 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.1525,
+      "last_price": 0.1415,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-07T19:17:15.796328+00:00",
-      "condition_id": "0x21d82ea3337d649dc0cc9bdc4205eed331a2030c636b1ab3ee20d155c648a706",
-      "market_slug": "nba-gsw-por-2026-10-07",
-      "event_slug": "nba-gsw-por-2026-10-07",
-      "title": "Warriors vs. Trail Blazers",
-      "outcome": "Trail Blazers",
-      "end_date": "2026-10-08",
-      "entry_price": 0.815,
-      "last_price": 0.815,
-      "stake_usd": 20.0,
-      "shares": 24.539877300613497,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-07T19:17:15.796341+00:00",
-      "condition_id": "0x9c590cb7f94923807b640b194c1a00ad86216a4be9f4326479c16a6001fdd711",
-      "market_slug": "nba-mil-okc-2026-10-07",
-      "event_slug": "nba-mil-okc-2026-10-07",
-      "title": "Bucks vs. Thunder",
-      "outcome": "Thunder",
-      "end_date": "2026-10-08",
-      "entry_price": 0.835,
-      "last_price": 0.835,
-      "stake_usd": 20.0,
-      "shares": 23.952095808383234,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-07T19:17:15.796345+00:00",
-      "condition_id": "0x0dff9d77778a16b428c341660ecc93d2720973394537b23db870dd44e494b3d5",
-      "market_slug": "cs2-ts7-m80-2026-10-07-map-handicap-away-1pt5",
-      "event_slug": "cs2-ts7-m80-2026-10-07",
-      "title": "Map Handicap: TS (-1.5) vs M80 (+1.5)",
-      "outcome": "Spirit",
-      "end_date": "2026-10-08",
-      "entry_price": 0.5,
-      "last_price": 0.5,
-      "stake_usd": 20.0,
-      "shares": 40.0,
-      "trader_count_at_entry": 4
     },
     {
       "opened_at": "2026-10-07T19:17:15.796347+00:00",
@@ -98,6 +56,34 @@
       "last_price": 0.535,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-08T19:13:38.069547+00:00",
+      "condition_id": "0x06a387467cbf3d6c6701ebbc7ad19acc2ecb6058fede13e389dab69ba1b7199f",
+      "market_slug": "nba-sac-lal-2026-10-08",
+      "event_slug": "nba-sac-lal-2026-10-08",
+      "title": "Kings vs. Lakers",
+      "outcome": "Lakers",
+      "end_date": "2026-10-09",
+      "entry_price": 0.785,
+      "last_price": 0.785,
+      "stake_usd": 20.0,
+      "shares": 25.477707006369425,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-08T19:13:38.069560+00:00",
+      "condition_id": "0x306ca09360baedbd65018082be1b6abeb2a9c6e92598a7a8e36dd2457a318557",
+      "market_slug": "nba-atl-sas-2026-10-08",
+      "event_slug": "nba-atl-sas-2026-10-08",
+      "title": "Hawks vs. Spurs",
+      "outcome": "Hawks",
+      "end_date": "2026-10-09",
+      "entry_price": 0.275,
+      "last_price": 0.275,
+      "stake_usd": 20.0,
+      "shares": 72.72727272727272,
       "trader_count_at_entry": 3
     }
   ],
@@ -5326,6 +5312,63 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-07T19:17:15.796328+00:00",
+      "condition_id": "0x21d82ea3337d649dc0cc9bdc4205eed331a2030c636b1ab3ee20d155c648a706",
+      "market_slug": "nba-gsw-por-2026-10-07",
+      "event_slug": "nba-gsw-por-2026-10-07",
+      "title": "Warriors vs. Trail Blazers",
+      "outcome": "Trail Blazers",
+      "end_date": "2026-10-08",
+      "entry_price": 0.815,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 24.539877300613497,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-08T19:13:12.460680+00:00",
+      "exit_price": 1.0,
+      "payout": 24.54,
+      "pnl": 4.54,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-10-07T19:17:15.796341+00:00",
+      "condition_id": "0x9c590cb7f94923807b640b194c1a00ad86216a4be9f4326479c16a6001fdd711",
+      "market_slug": "nba-mil-okc-2026-10-07",
+      "event_slug": "nba-mil-okc-2026-10-07",
+      "title": "Bucks vs. Thunder",
+      "outcome": "Thunder",
+      "end_date": "2026-10-08",
+      "entry_price": 0.835,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 23.952095808383234,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-08T19:13:12.780513+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-07T19:17:15.796345+00:00",
+      "condition_id": "0x0dff9d77778a16b428c341660ecc93d2720973394537b23db870dd44e494b3d5",
+      "market_slug": "cs2-ts7-m80-2026-10-07-map-handicap-away-1pt5",
+      "event_slug": "cs2-ts7-m80-2026-10-07",
+      "title": "Map Handicap: TS (-1.5) vs M80 (+1.5)",
+      "outcome": "Spirit",
+      "end_date": "2026-10-08",
+      "entry_price": 0.5,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 40.0,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-10-08T19:13:13.096653+00:00",
+      "exit_price": 1.0,
+      "payout": 40.0,
+      "pnl": 20.0,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -5672,6 +5715,10 @@
     {
       "date": "2026-10-07",
       "equity": 1009.93
+    },
+    {
+      "date": "2026-10-08",
+      "equity": 1013.88
     }
   ]
 }
