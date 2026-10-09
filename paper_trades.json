@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 907.6417399812522,
+  "cash": 965.8467197148943,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.355,
+      "last_price": 0.375,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.1415,
+      "last_price": 0.1175,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
@@ -53,37 +53,37 @@
       "outcome": "Oklahoma",
       "end_date": "2026-10-10",
       "entry_price": 0.535,
-      "last_price": 0.535,
+      "last_price": 0.545,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-10-08T19:13:38.069547+00:00",
-      "condition_id": "0x06a387467cbf3d6c6701ebbc7ad19acc2ecb6058fede13e389dab69ba1b7199f",
-      "market_slug": "nba-sac-lal-2026-10-08",
-      "event_slug": "nba-sac-lal-2026-10-08",
-      "title": "Kings vs. Lakers",
-      "outcome": "Lakers",
-      "end_date": "2026-10-09",
-      "entry_price": 0.785,
-      "last_price": 0.785,
+      "opened_at": "2026-10-09T18:44:10.037525+00:00",
+      "condition_id": "0x0a5fa080b8caad42f5d19345839f61578e77c07a2600f95f15bb6bd5231cd823",
+      "market_slug": "cfb-duke-gtech-2026-10-10-total-43pt5",
+      "event_slug": "cfb-duke-gtech-2026-10-10",
+      "title": "Duke vs. Georgia Tech: O/U 43.5",
+      "outcome": "Over",
+      "end_date": "2026-10-10",
+      "entry_price": 0.515,
+      "last_price": 0.515,
       "stake_usd": 20.0,
-      "shares": 25.477707006369425,
+      "shares": 38.83495145631068,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-10-08T19:13:38.069560+00:00",
-      "condition_id": "0x306ca09360baedbd65018082be1b6abeb2a9c6e92598a7a8e36dd2457a318557",
-      "market_slug": "nba-atl-sas-2026-10-08",
-      "event_slug": "nba-atl-sas-2026-10-08",
-      "title": "Hawks vs. Spurs",
-      "outcome": "Hawks",
-      "end_date": "2026-10-09",
-      "entry_price": 0.275,
-      "last_price": 0.275,
+      "opened_at": "2026-10-09T18:44:10.037539+00:00",
+      "condition_id": "0x56750a951922aebf0227d711cf694d224887a21483d66f635cb8a6bf70fa4be9",
+      "market_slug": "cfb-iowast-byu-2026-10-09-spread-home-10pt5",
+      "event_slug": "cfb-iowast-byu-2026-10-09",
+      "title": "Spread: BYU (-10.5)",
+      "outcome": "BYU",
+      "end_date": "2026-10-10",
+      "entry_price": 0.505,
+      "last_price": 0.505,
       "stake_usd": 20.0,
-      "shares": 72.72727272727272,
+      "shares": 39.603960396039604,
       "trader_count_at_entry": 3
     }
   ],
@@ -5369,6 +5369,44 @@
       "payout": 40.0,
       "pnl": 20.0,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-08T19:13:38.069547+00:00",
+      "condition_id": "0x06a387467cbf3d6c6701ebbc7ad19acc2ecb6058fede13e389dab69ba1b7199f",
+      "market_slug": "nba-sac-lal-2026-10-08",
+      "event_slug": "nba-sac-lal-2026-10-08",
+      "title": "Kings vs. Lakers",
+      "outcome": "Lakers",
+      "end_date": "2026-10-09",
+      "entry_price": 0.785,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 25.477707006369425,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-09T18:43:49.122856+00:00",
+      "exit_price": 1.0,
+      "payout": 25.48,
+      "pnl": 5.48,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-10-08T19:13:38.069560+00:00",
+      "condition_id": "0x306ca09360baedbd65018082be1b6abeb2a9c6e92598a7a8e36dd2457a318557",
+      "market_slug": "nba-atl-sas-2026-10-08",
+      "event_slug": "nba-atl-sas-2026-10-08",
+      "title": "Hawks vs. Spurs",
+      "outcome": "Hawks",
+      "end_date": "2026-10-09",
+      "entry_price": 0.275,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 72.72727272727272,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-09T18:43:49.441835+00:00",
+      "exit_price": 1.0,
+      "payout": 72.73,
+      "pnl": 52.73,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -5719,6 +5757,10 @@
     {
       "date": "2026-10-08",
       "equity": 1013.88
+    },
+    {
+      "date": "2026-10-09",
+      "equity": 1072.23
     }
   ]
 }
