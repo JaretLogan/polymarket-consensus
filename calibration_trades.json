@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 933.1908003505048,
+  "cash": 976.2015530386768,
   "open_positions": [
     {
       "opened_at": "2026-07-20T15:02:14.786954+00:00",
@@ -10,7 +10,7 @@
       "title": "Will Apyx launch a token by September 30, 2027?",
       "outcome": "Yes",
       "entry_price": 0.735,
-      "last_price": 0.732,
+      "last_price": 0.7335,
       "stake_usd": 20.0,
       "shares": 27.2108843537415,
       "bucket_at_entry": "65-80%",
@@ -25,7 +25,7 @@
       "title": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
       "outcome": "Yes",
       "entry_price": 0.725,
-      "last_price": 0.6705,
+      "last_price": 0.659,
       "stake_usd": 20.0,
       "shares": 27.586206896551726,
       "bucket_at_entry": "65-80%",
@@ -70,7 +70,7 @@
       "title": "Will Neuralink's valuation hit (LOW) $35B by December 31?",
       "outcome": "Yes",
       "entry_price": 0.68,
-      "last_price": 0.185,
+      "last_price": 0.19,
       "stake_usd": 20.0,
       "shares": 29.41176470588235,
       "bucket_at_entry": "65-80%",
@@ -115,7 +115,7 @@
       "title": "Will Eurozone annual GDP growth in 2026 be between 0% and 1.0%?",
       "outcome": "Yes",
       "entry_price": 0.7095,
-      "last_price": 0.4775,
+      "last_price": 0.467,
       "stake_usd": 20.0,
       "shares": 28.188865398167724,
       "bucket_at_entry": "65-80%",
@@ -175,7 +175,7 @@
       "title": "Will the US federal government take a stake in The Boeing Company?",
       "outcome": "Yes",
       "entry_price": 0.065,
-      "last_price": 0.075,
+      "last_price": 0.085,
       "stake_usd": 20.0,
       "shares": 307.6923076923077,
       "bucket_at_entry": "5-10%",
@@ -190,7 +190,7 @@
       "title": "Will Napoli win the 2026-27 Serie A Championship?",
       "outcome": "Yes",
       "entry_price": 0.065,
-      "last_price": 0.0175,
+      "last_price": 0.0165,
       "stake_usd": 20.0,
       "shares": 307.6923076923077,
       "bucket_at_entry": "5-10%",
@@ -205,7 +205,7 @@
       "title": "Will SpaceX have between 160-179 launches in 2026?",
       "outcome": "Yes",
       "entry_price": 0.08,
-      "last_price": 0.0255,
+      "last_price": 0.026,
       "stake_usd": 20.0,
       "shares": 250.0,
       "bucket_at_entry": "5-10%",
@@ -235,7 +235,7 @@
       "title": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
       "outcome": "Yes",
       "entry_price": 0.0605,
-      "last_price": 0.0595,
+      "last_price": 0.0555,
       "stake_usd": 20.0,
       "shares": 330.57851239669424,
       "bucket_at_entry": "5-10%",
@@ -250,7 +250,7 @@
       "title": "Will Jordan join the Abraham Accords before 2027?",
       "outcome": "Yes",
       "entry_price": 0.065,
-      "last_price": 0.08,
+      "last_price": 0.075,
       "stake_usd": 20.0,
       "shares": 307.6923076923077,
       "bucket_at_entry": "5-10%",
@@ -265,27 +265,12 @@
       "title": "Will StandX launch a token by December 31, 2026?",
       "outcome": "No",
       "entry_price": 0.405,
-      "last_price": 0.305,
+      "last_price": 0.335,
       "stake_usd": 20.0,
       "shares": 49.382716049382715,
       "bucket_at_entry": "50-65%",
       "edge_at_entry": 0.0884,
       "z_at_entry": -1.6309963099630997
-    },
-    {
-      "opened_at": "2026-10-08T19:04:36.753925+00:00",
-      "condition_id": "0xb6c8d536a09595ff07092b4a882d26ff08a093b62511cfff3bf43036558e9035",
-      "market_slug": "nfl-tb-dal-2026-10-09-total-47pt5",
-      "event_slug": "nfl-tb-dal-2026-10-09",
-      "title": "Buccaneers vs. Cowboys: O/U 47.5",
-      "outcome": "Under",
-      "entry_price": 0.46499999999999997,
-      "last_price": 0.46499999999999997,
-      "stake_usd": 20.0,
-      "shares": 43.01075268817205,
-      "bucket_at_entry": "50-65%",
-      "edge_at_entry": 0.1193,
-      "z_at_entry": -1.7441520467836258
     }
   ],
   "closed_positions": [
@@ -668,6 +653,26 @@
       "payout": 303.03,
       "pnl": 283.03,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-08T19:04:36.753925+00:00",
+      "condition_id": "0xb6c8d536a09595ff07092b4a882d26ff08a093b62511cfff3bf43036558e9035",
+      "market_slug": "nfl-tb-dal-2026-10-09-total-47pt5",
+      "event_slug": "nfl-tb-dal-2026-10-09",
+      "title": "Buccaneers vs. Cowboys: O/U 47.5",
+      "outcome": "Under",
+      "entry_price": 0.46499999999999997,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 43.01075268817205,
+      "bucket_at_entry": "50-65%",
+      "edge_at_entry": 0.1193,
+      "z_at_entry": -1.7441520467836258,
+      "closed_at": "2026-10-09T18:35:05.541325+00:00",
+      "exit_price": 1.0,
+      "payout": 43.01,
+      "pnl": 23.01,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -1018,6 +1023,10 @@
     {
       "date": "2026-10-08",
       "equity": 1234.3
+    },
+    {
+      "date": "2026-10-09",
+      "equity": 1258.4
     }
   ]
 }
