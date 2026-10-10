@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 965.8467197148943,
+  "cash": 985.450680110934,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.375,
+      "last_price": 0.3,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "Oklahoma",
       "end_date": "2026-10-10",
       "entry_price": 0.535,
-      "last_price": 0.545,
+      "last_price": 0.525,
       "stake_usd": 20.0,
       "shares": 37.38317757009346,
       "trader_count_at_entry": 3
@@ -67,23 +67,23 @@
       "outcome": "Over",
       "end_date": "2026-10-10",
       "entry_price": 0.515,
-      "last_price": 0.515,
+      "last_price": 0.575,
       "stake_usd": 20.0,
       "shares": 38.83495145631068,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-10-09T18:44:10.037539+00:00",
-      "condition_id": "0x56750a951922aebf0227d711cf694d224887a21483d66f635cb8a6bf70fa4be9",
-      "market_slug": "cfb-iowast-byu-2026-10-09-spread-home-10pt5",
-      "event_slug": "cfb-iowast-byu-2026-10-09",
-      "title": "Spread: BYU (-10.5)",
-      "outcome": "BYU",
-      "end_date": "2026-10-10",
-      "entry_price": 0.505,
-      "last_price": 0.505,
+      "opened_at": "2026-10-10T17:44:20.909962+00:00",
+      "condition_id": "0xa1a3e537ebccee6bfbe676cb29e82aa0ba47a9267236826ab95b533bc104aa57",
+      "market_slug": "nfl-hou-ten-2026-10-11-spread-away-7pt5",
+      "event_slug": "nfl-hou-ten-2026-10-11",
+      "title": "Spread: Texans (-7.5)",
+      "outcome": "Titans",
+      "end_date": "2026-10-11",
+      "entry_price": 0.545,
+      "last_price": 0.545,
       "stake_usd": 20.0,
-      "shares": 39.603960396039604,
+      "shares": 36.69724770642202,
       "trader_count_at_entry": 3
     }
   ],
@@ -5407,6 +5407,25 @@
       "payout": 72.73,
       "pnl": 52.73,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-09T18:44:10.037539+00:00",
+      "condition_id": "0x56750a951922aebf0227d711cf694d224887a21483d66f635cb8a6bf70fa4be9",
+      "market_slug": "cfb-iowast-byu-2026-10-09-spread-home-10pt5",
+      "event_slug": "cfb-iowast-byu-2026-10-09",
+      "title": "Spread: BYU (-10.5)",
+      "outcome": "BYU",
+      "end_date": "2026-10-10",
+      "entry_price": 0.505,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-10T17:43:59.962392+00:00",
+      "exit_price": 1.0,
+      "payout": 39.6,
+      "pnl": 19.6,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -5761,6 +5780,10 @@
     {
       "date": "2026-10-09",
       "equity": 1072.23
+    },
+    {
+      "date": "2026-10-10",
+      "equity": 1089.47
     }
   ]
 }
