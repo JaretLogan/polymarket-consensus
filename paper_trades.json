@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 985.450680110934,
+  "cash": 1061.668809137338,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.3,
+      "last_price": 0.215,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,37 +39,9 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.1175,
+      "last_price": 0.1205,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-07T19:17:15.796347+00:00",
-      "condition_id": "0x2770e37488667c00412b3f15dcc911b9f3969fd06b552095f9441f8d7b93c035",
-      "market_slug": "cfb-tx-okl-2026-10-10-spread-away-8pt5",
-      "event_slug": "cfb-tx-okl-2026-10-10",
-      "title": "Spread: Texas (-8.5)",
-      "outcome": "Oklahoma",
-      "end_date": "2026-10-10",
-      "entry_price": 0.535,
-      "last_price": 0.525,
-      "stake_usd": 20.0,
-      "shares": 37.38317757009346,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-09T18:44:10.037525+00:00",
-      "condition_id": "0x0a5fa080b8caad42f5d19345839f61578e77c07a2600f95f15bb6bd5231cd823",
-      "market_slug": "cfb-duke-gtech-2026-10-10-total-43pt5",
-      "event_slug": "cfb-duke-gtech-2026-10-10",
-      "title": "Duke vs. Georgia Tech: O/U 43.5",
-      "outcome": "Over",
-      "end_date": "2026-10-10",
-      "entry_price": 0.515,
-      "last_price": 0.575,
-      "stake_usd": 20.0,
-      "shares": 38.83495145631068,
       "trader_count_at_entry": 3
     },
     {
@@ -81,7 +53,7 @@
       "outcome": "Titans",
       "end_date": "2026-10-11",
       "entry_price": 0.545,
-      "last_price": 0.545,
+      "last_price": 0.445,
       "stake_usd": 20.0,
       "shares": 36.69724770642202,
       "trader_count_at_entry": 3
@@ -5426,6 +5398,44 @@
       "payout": 39.6,
       "pnl": 19.6,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-07T19:17:15.796347+00:00",
+      "condition_id": "0x2770e37488667c00412b3f15dcc911b9f3969fd06b552095f9441f8d7b93c035",
+      "market_slug": "cfb-tx-okl-2026-10-10-spread-away-8pt5",
+      "event_slug": "cfb-tx-okl-2026-10-10",
+      "title": "Spread: Texas (-8.5)",
+      "outcome": "Oklahoma",
+      "end_date": "2026-10-10",
+      "entry_price": 0.535,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 37.38317757009346,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-11T17:58:32.138580+00:00",
+      "exit_price": 1.0,
+      "payout": 37.38,
+      "pnl": 17.38,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-10-09T18:44:10.037525+00:00",
+      "condition_id": "0x0a5fa080b8caad42f5d19345839f61578e77c07a2600f95f15bb6bd5231cd823",
+      "market_slug": "cfb-duke-gtech-2026-10-10-total-43pt5",
+      "event_slug": "cfb-duke-gtech-2026-10-10",
+      "title": "Duke vs. Georgia Tech: O/U 43.5",
+      "outcome": "Over",
+      "end_date": "2026-10-10",
+      "entry_price": 0.515,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-11T17:58:32.417135+00:00",
+      "exit_price": 1.0,
+      "payout": 38.83,
+      "pnl": 18.83,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -5784,6 +5794,10 @@
     {
       "date": "2026-10-10",
       "equity": 1089.47
+    },
+    {
+      "date": "2026-10-11",
+      "equity": 1115.75
     }
   ]
 }
