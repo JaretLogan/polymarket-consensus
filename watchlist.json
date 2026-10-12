@@ -1,63 +1,15 @@
 [
   {
+    "proxyWallet": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
+    "userName": "primm"
+  },
+  {
     "proxyWallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
     "userName": "omnibus-076daa"
   },
   {
     "proxyWallet": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
     "userName": "BreakTheBank"
-  },
-  {
-    "proxyWallet": "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
-    "userName": "primm"
-  },
-  {
-    "proxyWallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
-    "userName": "mooseborzoii"
-  },
-  {
-    "proxyWallet": "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3",
-    "userName": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816"
-  },
-  {
-    "proxyWallet": "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
-    "userName": "Diabolical-Prize"
-  },
-  {
-    "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
-    "userName": "HomeRunHazard"
-  },
-  {
-    "proxyWallet": "0x111f73e91f85b6fe4de1ddec3de2fe32122e355b",
-    "userName": "Papeasy"
-  },
-  {
-    "proxyWallet": "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60",
-    "userName": "BillyGating"
-  },
-  {
-    "proxyWallet": "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747",
-    "userName": "juice-fruit"
-  },
-  {
-    "proxyWallet": "0xc9ae00eda811041a059f3eec9356b24067c1b9e0",
-    "userName": "Ancient-Strike"
-  },
-  {
-    "proxyWallet": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
-    "userName": "justaluckydude"
-  },
-  {
-    "proxyWallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-    "userName": "beachboy4"
-  },
-  {
-    "proxyWallet": "0x9319a045cdd0c2180e5eb7ad44374383db9a6410",
-    "userName": "sainttroplay"
-  },
-  {
-    "proxyWallet": "0x51698a47f840a242abc2ca0351371c7ffac41842",
-    "userName": "00gringo00"
   },
   {
     "proxyWallet": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
@@ -68,91 +20,139 @@
     "userName": "UpTheBlues"
   },
   {
-    "proxyWallet": "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
-    "userName": "wr0ngw4yb3tt0r"
+    "proxyWallet": "0x924379a79c64b77ad5816ad362122a5f6228658e",
+    "userName": "Kch-Temp"
   },
   {
-    "proxyWallet": "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62",
-    "userName": "raybanman"
+    "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+    "userName": "HomeRunHazard"
   },
   {
-    "proxyWallet": "0xb0e74df9430a089aa102e2207af5fde1967439d2",
-    "userName": "0xb0e74DF9430A089Aa102e2207Af5fde1967439D2-1789545517033"
-  },
-  {
-    "proxyWallet": "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d",
-    "userName": "Elaran1993"
-  },
-  {
-    "proxyWallet": "0x1465b79bff7992bc703e1aafb3683b1089647072",
-    "userName": "JnStrtPrdctnMrkts"
-  },
-  {
-    "proxyWallet": "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
-    "userName": "anoin123"
-  },
-  {
-    "proxyWallet": "0x9ba9dec33838f4ec9f032f7247d7481987e63ce9",
-    "userName": "TeamA"
-  },
-  {
-    "proxyWallet": "0x80d5aebbe7a714879177e4dae0014195beb3987e",
-    "userName": "0x80d5aebbE7a714879177E4dAE0014195beb3987E-1789159822906"
-  },
-  {
-    "proxyWallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
-    "userName": "aenews2"
-  },
-  {
-    "proxyWallet": "0x27f738fe203827445690339104aae35b20bc44b0",
-    "userName": "ic4cream"
-  },
-  {
-    "proxyWallet": "0x1e52bbdf389526f57abc62641d518868f4c5eb43",
-    "userName": "dsasdaas"
-  },
-  {
-    "proxyWallet": "0x7b6c6d1279098054b0c630a4b871002a7cd46305",
-    "userName": "eschaworldchampion2026"
-  },
-  {
-    "proxyWallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
-    "userName": "0x06dc51826bc524d9a83770e7de9dd7e005b0452"
-  },
-  {
-    "proxyWallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
-    "userName": "Sassy-Bucket"
-  },
-  {
-    "proxyWallet": "0x1d1ade627d0bb0205758580b20d808573e720df6",
-    "userName": "Pwaddler"
-  },
-  {
-    "proxyWallet": "0x709e8dcb133555794decc598e07f2c923b8366f5",
-    "userName": "0xd4aa6f8e91cfea29b66a48ebff52814"
-  },
-  {
-    "proxyWallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
-    "userName": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592"
+    "proxyWallet": "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
+    "userName": "alwaysfade"
   },
   {
     "proxyWallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
     "userName": "THEHIGHLIFE"
   },
   {
-    "proxyWallet": "0xcd84d7f9262516865553555751609fb6f52abec6",
-    "userName": "Donkey14"
+    "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "userName": "RN1"
   },
   {
-    "proxyWallet": "0x68df8708aadb901618f11abf2471805a66a24815",
-    "userName": "TKD44"
+    "proxyWallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+    "userName": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465"
   },
   {
-    "proxyWallet": "0xddc38b82423310f5bbf2e2dc58745661a624029c",
-    "userName": "JohnLKellyJr"
+    "proxyWallet": "0x51698a47f840a242abc2ca0351371c7ffac41842",
+    "userName": "00gringo00"
   },
   {
-    "proxyWallet": "0xf5592765133941c40c77e52bc56bbe7ec167f462",
-    "userName": "0xf5592765133941c40C77e52Bc56bbe7EC167F462-1755612447740"
+    "proxyWallet": "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+    "userName": "joseph00677"
+  },
+  {
+    "proxyWallet": "0x111f73e91f85b6fe4de1ddec3de2fe32122e355b",
+    "userName": "Papeasy"
+  },
+  {
+    "proxyWallet": "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+    "userName": "mooseborzoii"
+  },
+  {
+    "proxyWallet": "0xb0e74df9430a089aa102e2207af5fde1967439d2",
+    "userName": "0xb0e74DF9430A089Aa102e2207Af5fde1967439D2-1789545517033"
+  },
+  {
+    "proxyWallet": "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747",
+    "userName": "juice-fruit"
+  },
+  {
+    "proxyWallet": "0x511f9c771449162349795d17becf8b37031acbe1",
+    "userName": "Bigggggggg"
+  },
+  {
+    "proxyWallet": "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3",
+    "userName": "0xBc43c8bfBC4d77c2FC9011adaD38Ba43b88996d3-1765231687816"
+  },
+  {
+    "proxyWallet": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "userName": "fortnitethegoat667"
+  },
+  {
+    "proxyWallet": "0x0f6f76ced62a911bccef92f50faaff143854d977",
+    "userName": "totoro3miyazaki"
+  },
+  {
+    "proxyWallet": "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748",
+    "userName": "3edmond.dantes"
+  },
+  {
+    "proxyWallet": "0xc9ae00eda811041a059f3eec9356b24067c1b9e0",
+    "userName": "Ancient-Strike"
+  },
+  {
+    "proxyWallet": "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc",
+    "userName": "justwins"
+  },
+  {
+    "proxyWallet": "0x1109da04152c38666464f5adb5d7c55618810b2c",
+    "userName": "MumiaTriste"
+  },
+  {
+    "proxyWallet": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+    "userName": "0x9b11866433281ade9f2811dbde8acdefc45f5375"
+  },
+  {
+    "proxyWallet": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
+    "userName": "para-Vision"
+  },
+  {
+    "proxyWallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+    "userName": "cigarettes"
+  },
+  {
+    "proxyWallet": "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+    "userName": "donthackme"
+  },
+  {
+    "proxyWallet": "0xe4a57385a34b0b32fd86be72efd25cda41003cad",
+    "userName": "chubbytoro"
+  },
+  {
+    "proxyWallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+    "userName": "theowalcott"
+  },
+  {
+    "proxyWallet": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+    "userName": "0x06dc51826bc524d9a83770e7de9dd7e005b0452"
+  },
+  {
+    "proxyWallet": "0xe40ecff63ec661d218a86c048186ac83389a9770",
+    "userName": "lllllllIlll"
+  },
+  {
+    "proxyWallet": "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+    "userName": "Kkunn"
+  },
+  {
+    "proxyWallet": "0xb4164e085a0503532989d487c4b4b19f4288dd7b",
+    "userName": "MKSafe"
+  },
+  {
+    "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+    "userName": "Herdonia"
+  },
+  {
+    "proxyWallet": "0xe1787252abc9db4d5bfac51c253a68e0162ffe19",
+    "userName": "lalalalalalallalalalala"
+  },
+  {
+    "proxyWallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+    "userName": "wan123"
+  },
+  {
+    "proxyWallet": "0x1610db79f753a80207e1d66716be9e91e627ae49",
+    "userName": "NS13"
   }
 ]
