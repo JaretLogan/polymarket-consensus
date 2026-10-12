@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1061.668809137338,
+  "cash": 1001.668809137338,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-08-12",
       "entry_price": 0.38,
-      "last_price": 0.215,
+      "last_price": 0.21,
       "stake_usd": 20.0,
       "shares": 52.63157894736842,
       "trader_count_at_entry": 3
@@ -39,23 +39,51 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.1205,
+      "last_price": 0.1305,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
     },
     {
-      "opened_at": "2026-10-10T17:44:20.909962+00:00",
-      "condition_id": "0xa1a3e537ebccee6bfbe676cb29e82aa0ba47a9267236826ab95b533bc104aa57",
-      "market_slug": "nfl-hou-ten-2026-10-11-spread-away-7pt5",
-      "event_slug": "nfl-hou-ten-2026-10-11",
-      "title": "Spread: Texans (-7.5)",
-      "outcome": "Titans",
-      "end_date": "2026-10-11",
-      "entry_price": 0.545,
-      "last_price": 0.445,
+      "opened_at": "2026-10-12T21:40:46.001266+00:00",
+      "condition_id": "0xb8505aa36ca51e10b1077439bdabc8a74bbf299a08d113b966621f7f1582defc",
+      "market_slug": "nfl-buf-la-2026-10-13-spread-home-3pt5",
+      "event_slug": "nfl-buf-la-2026-10-13",
+      "title": "Spread: Rams (-3.5)",
+      "outcome": "Bills",
+      "end_date": "2026-10-13",
+      "entry_price": 0.525,
+      "last_price": 0.525,
       "stake_usd": 20.0,
-      "shares": 36.69724770642202,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 5
+    },
+    {
+      "opened_at": "2026-10-12T21:40:46.001281+00:00",
+      "condition_id": "0x758c4fa5611bb0f37118dc6997209958129d4dbe0b70a518d28bbbbdbce74f7a",
+      "market_slug": "nba-sas-uta-2026-10-12",
+      "event_slug": "nba-sas-uta-2026-10-12",
+      "title": "Spurs vs. Jazz",
+      "outcome": "Jazz",
+      "end_date": "2026-10-13",
+      "entry_price": 0.625,
+      "last_price": 0.625,
+      "stake_usd": 20.0,
+      "shares": 32.0,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-12T21:40:46.001285+00:00",
+      "condition_id": "0x4b57d3bf6c5410219d0bd6f7c0ad0f57e83b1c9cbc4cb850e7fb44e35b9b35f9",
+      "market_slug": "nfl-buf-la-2026-10-13-total-54pt5",
+      "event_slug": "nfl-buf-la-2026-10-13",
+      "title": "Bills vs. Rams: O/U 54.5",
+      "outcome": "Over",
+      "end_date": "2026-10-13",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
       "trader_count_at_entry": 3
     }
   ],
@@ -5436,6 +5464,25 @@
       "payout": 38.83,
       "pnl": 18.83,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-10T17:44:20.909962+00:00",
+      "condition_id": "0xa1a3e537ebccee6bfbe676cb29e82aa0ba47a9267236826ab95b533bc104aa57",
+      "market_slug": "nfl-hou-ten-2026-10-11-spread-away-7pt5",
+      "event_slug": "nfl-hou-ten-2026-10-11",
+      "title": "Spread: Texans (-7.5)",
+      "outcome": "Titans",
+      "end_date": "2026-10-11",
+      "entry_price": 0.545,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-12T21:40:25.653776+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -5798,6 +5845,10 @@
     {
       "date": "2026-10-11",
       "equity": 1115.75
+    },
+    {
+      "date": "2026-10-12",
+      "equity": 1099.69
     }
   ]
 }
