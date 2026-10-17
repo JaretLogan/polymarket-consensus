@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 1005.0625776154855,
+  "cash": 925.0625776154855,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -39,7 +39,7 @@
       "outcome": "Falcons",
       "end_date": "2026-10-18",
       "entry_price": 0.555,
-      "last_price": 0.56,
+      "last_price": 0.565,
       "stake_usd": 20.0,
       "shares": 36.03603603603603,
       "trader_count_at_entry": 3
@@ -53,37 +53,9 @@
       "outcome": "Over",
       "end_date": "2026-10-18",
       "entry_price": 0.435,
-      "last_price": 0.435,
+      "last_price": 0.445,
       "stake_usd": 20.0,
       "shares": 45.97701149425287,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-16T17:17:19.402305+00:00",
-      "condition_id": "0xc02fe715aec755035ad29b2193263e219463c18fdf769b09bb30afc1cac4af43",
-      "market_slug": "nba-cha-mem-2026-10-16",
-      "event_slug": "nba-cha-mem-2026-10-16",
-      "title": "Hornets vs. Grizzlies",
-      "outcome": "Hornets",
-      "end_date": "2026-10-17",
-      "entry_price": 0.505,
-      "last_price": 0.505,
-      "stake_usd": 20.0,
-      "shares": 39.603960396039604,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-16T17:17:19.402321+00:00",
-      "condition_id": "0x22a86e6a8b7fedf6a82604e75ef10cd3e8fd1e48925779e45b68d6a9fac9ec4c",
-      "market_slug": "nba-sac-sas-2026-10-16-spread-home-17pt5",
-      "event_slug": "nba-sac-sas-2026-10-16",
-      "title": "Spread: Spurs (-17.5)",
-      "outcome": "Kings",
-      "end_date": "2026-10-17",
-      "entry_price": 0.545,
-      "last_price": 0.545,
-      "stake_usd": 20.0,
-      "shares": 36.69724770642202,
       "trader_count_at_entry": 3
     },
     {
@@ -95,9 +67,65 @@
       "outcome": "Under",
       "end_date": "2026-10-17",
       "entry_price": 0.485,
-      "last_price": 0.485,
+      "last_price": 0.495,
       "stake_usd": 20.0,
       "shares": 41.23711340206186,
+      "trader_count_at_entry": 4
+    },
+    {
+      "opened_at": "2026-10-17T16:17:12.908886+00:00",
+      "condition_id": "0xe5699e9eeb4d985d52ced2156482d1f49c3c27806e68e8011f4a4d217799e84c",
+      "market_slug": "nfl-no-nyg-2026-10-18",
+      "event_slug": "nfl-no-nyg-2026-10-18",
+      "title": "Saints vs. Giants",
+      "outcome": "Giants",
+      "end_date": "2026-10-18",
+      "entry_price": 0.495,
+      "last_price": 0.495,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-17T16:17:12.908904+00:00",
+      "condition_id": "0x415b2def3beae88104397ed861ae18253d8e8daf90f2b1b78dffa31afcc090f4",
+      "market_slug": "nfl-hou-jax-2026-10-18-total-42pt5",
+      "event_slug": "nfl-hou-jax-2026-10-18",
+      "title": "Texans vs. Jaguars: O/U 42.5",
+      "outcome": "Over",
+      "end_date": "2026-10-18",
+      "entry_price": 0.495,
+      "last_price": 0.495,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-17T16:17:12.908908+00:00",
+      "condition_id": "0x805f9815edc00b4e6374b32aa345c151a6602ba816d1aeffacee26910bfe7271",
+      "market_slug": "nfl-ten-ind-2026-10-18-total-44pt5",
+      "event_slug": "nfl-ten-ind-2026-10-18",
+      "title": "Titans vs. Colts: O/U 44.5",
+      "outcome": "Under",
+      "end_date": "2026-10-18",
+      "entry_price": 0.495,
+      "last_price": 0.495,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-17T16:17:12.908912+00:00",
+      "condition_id": "0x932c1e274aa13c4ecc3c286f5fc1c135ab3e7a5c8cbc11c81c5bf5272a0f840a",
+      "market_slug": "nfl-was-sf-2026-10-20-total-50pt5",
+      "event_slug": "nfl-was-sf-2026-10-20",
+      "title": "Commanders vs. 49ers: O/U 50.5",
+      "outcome": "Under",
+      "end_date": "2026-10-20",
+      "entry_price": 0.425,
+      "last_price": 0.425,
+      "stake_usd": 20.0,
+      "shares": 47.05882352941177,
       "trader_count_at_entry": 4
     }
   ],
@@ -5820,6 +5848,44 @@
       "payout": 42.11,
       "pnl": 22.11,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-16T17:17:19.402305+00:00",
+      "condition_id": "0xc02fe715aec755035ad29b2193263e219463c18fdf769b09bb30afc1cac4af43",
+      "market_slug": "nba-cha-mem-2026-10-16",
+      "event_slug": "nba-cha-mem-2026-10-16",
+      "title": "Hornets vs. Grizzlies",
+      "outcome": "Hornets",
+      "end_date": "2026-10-17",
+      "entry_price": 0.505,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 39.603960396039604,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-17T16:16:47.974929+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-16T17:17:19.402321+00:00",
+      "condition_id": "0x22a86e6a8b7fedf6a82604e75ef10cd3e8fd1e48925779e45b68d6a9fac9ec4c",
+      "market_slug": "nba-sac-sas-2026-10-16-spread-home-17pt5",
+      "event_slug": "nba-sac-sas-2026-10-16",
+      "title": "Spread: Spurs (-17.5)",
+      "outcome": "Kings",
+      "end_date": "2026-10-17",
+      "entry_price": 0.545,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 36.69724770642202,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-17T16:16:48.298007+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -6202,6 +6268,10 @@
     {
       "date": "2026-10-16",
       "equity": 1137.66
+    },
+    {
+      "date": "2026-10-17",
+      "equity": 1098.71
     }
   ]
 }
