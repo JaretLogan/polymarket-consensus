@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 868.4773707076979,
+  "cash": 955.94023464115,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,24 +25,10 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.2315,
+      "last_price": 0.2295,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-17T16:17:12.908912+00:00",
-      "condition_id": "0x932c1e274aa13c4ecc3c286f5fc1c135ab3e7a5c8cbc11c81c5bf5272a0f840a",
-      "market_slug": "nfl-was-sf-2026-10-20-total-50pt5",
-      "event_slug": "nfl-was-sf-2026-10-20",
-      "title": "Commanders vs. 49ers: O/U 50.5",
-      "outcome": "Under",
-      "end_date": "2026-10-20",
-      "entry_price": 0.425,
-      "last_price": 0.455,
-      "stake_usd": 20.0,
-      "shares": 47.05882352941177,
-      "trader_count_at_entry": 4
     },
     {
       "opened_at": "2026-10-18T16:26:16.577904+00:00",
@@ -53,24 +39,10 @@
       "outcome": "Yes",
       "end_date": "2026-10-21",
       "entry_price": 0.435,
-      "last_price": 0.445,
+      "last_price": 0.435,
       "stake_usd": 20.0,
       "shares": 45.97701149425287,
       "trader_count_at_entry": 4
-    },
-    {
-      "opened_at": "2026-10-19T19:12:06.157492+00:00",
-      "condition_id": "0xe899447d5c12318b14d086ce50f9efe77ae8db953b4e937f155e68ac0de8cc82",
-      "market_slug": "nfl-was-sf-2026-10-20",
-      "event_slug": "nfl-was-sf-2026-10-20",
-      "title": "Commanders vs. 49ers",
-      "outcome": "Commanders",
-      "end_date": "2026-10-20",
-      "entry_price": 0.215,
-      "last_price": 0.215,
-      "stake_usd": 20.0,
-      "shares": 93.02325581395348,
-      "trader_count_at_entry": 3
     },
     {
       "opened_at": "2026-10-19T19:12:06.157506+00:00",
@@ -84,34 +56,6 @@
       "last_price": 0.605,
       "stake_usd": 20.0,
       "shares": 33.057851239669425,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-19T19:12:06.157510+00:00",
-      "condition_id": "0x7fefe447029d22c576841234c8cf8a0b545b0e81e1c3e7842ace7f907bc80946",
-      "market_slug": "mlb-cle-tb-2026-10-19-total-6pt5",
-      "event_slug": "mlb-cle-tb-2026-10-19",
-      "title": "Cleveland Guardians vs. Tampa Bay Rays: O/U 6.5",
-      "outcome": "Under",
-      "end_date": "2026-10-20",
-      "entry_price": 0.475,
-      "last_price": 0.475,
-      "stake_usd": 20.0,
-      "shares": 42.10526315789474,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-19T19:12:06.157514+00:00",
-      "condition_id": "0x10bf7d910baab65a3a9224488b8960d146b92661fdb52b58baa3be7fde724d2f",
-      "market_slug": "nfl-was-sf-2026-10-20-total-51pt5",
-      "event_slug": "nfl-was-sf-2026-10-20",
-      "title": "Commanders vs. 49ers: O/U 51.5",
-      "outcome": "Under",
-      "end_date": "2026-10-20",
-      "entry_price": 0.495,
-      "last_price": 0.495,
-      "stake_usd": 20.0,
-      "shares": 40.4040404040404,
       "trader_count_at_entry": 3
     }
   ],
@@ -6024,6 +5968,82 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-17T16:17:12.908912+00:00",
+      "condition_id": "0x932c1e274aa13c4ecc3c286f5fc1c135ab3e7a5c8cbc11c81c5bf5272a0f840a",
+      "market_slug": "nfl-was-sf-2026-10-20-total-50pt5",
+      "event_slug": "nfl-was-sf-2026-10-20",
+      "title": "Commanders vs. 49ers: O/U 50.5",
+      "outcome": "Under",
+      "end_date": "2026-10-20",
+      "entry_price": 0.425,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 47.05882352941177,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-10-20T17:52:21.646835+00:00",
+      "exit_price": 1.0,
+      "payout": 47.06,
+      "pnl": 27.06,
+      "result": "win"
+    },
+    {
+      "opened_at": "2026-10-19T19:12:06.157492+00:00",
+      "condition_id": "0xe899447d5c12318b14d086ce50f9efe77ae8db953b4e937f155e68ac0de8cc82",
+      "market_slug": "nfl-was-sf-2026-10-20",
+      "event_slug": "nfl-was-sf-2026-10-20",
+      "title": "Commanders vs. 49ers",
+      "outcome": "Commanders",
+      "end_date": "2026-10-20",
+      "entry_price": 0.215,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 93.02325581395348,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-20T17:52:22.020483+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-19T19:12:06.157510+00:00",
+      "condition_id": "0x7fefe447029d22c576841234c8cf8a0b545b0e81e1c3e7842ace7f907bc80946",
+      "market_slug": "mlb-cle-tb-2026-10-19-total-6pt5",
+      "event_slug": "mlb-cle-tb-2026-10-19",
+      "title": "Cleveland Guardians vs. Tampa Bay Rays: O/U 6.5",
+      "outcome": "Under",
+      "end_date": "2026-10-20",
+      "entry_price": 0.475,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 42.10526315789474,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-20T17:52:22.534700+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-19T19:12:06.157514+00:00",
+      "condition_id": "0x10bf7d910baab65a3a9224488b8960d146b92661fdb52b58baa3be7fde724d2f",
+      "market_slug": "nfl-was-sf-2026-10-20-total-51pt5",
+      "event_slug": "nfl-was-sf-2026-10-20",
+      "title": "Commanders vs. 49ers: O/U 51.5",
+      "outcome": "Under",
+      "end_date": "2026-10-20",
+      "entry_price": 0.495,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 40.4040404040404,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-20T17:52:22.717107+00:00",
+      "exit_price": 1.0,
+      "payout": 40.4,
+      "pnl": 20.4,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -6418,6 +6438,10 @@
     {
       "date": "2026-10-19",
       "equity": 1022.71
+    },
+    {
+      "date": "2026-10-20",
+      "equity": 1028.2
     }
   ]
 }
