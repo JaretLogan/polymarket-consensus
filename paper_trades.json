@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 955.94023464115,
+  "cash": 835.94023464115,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.2295,
+      "last_price": 0.213,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
@@ -39,23 +39,93 @@
       "outcome": "Yes",
       "end_date": "2026-10-21",
       "entry_price": 0.435,
-      "last_price": 0.435,
+      "last_price": 0.425,
       "stake_usd": 20.0,
       "shares": 45.97701149425287,
       "trader_count_at_entry": 4
     },
     {
-      "opened_at": "2026-10-19T19:12:06.157506+00:00",
-      "condition_id": "0xf4bcfc73a0bc66dfaa13cbe9669a6aed0738e4739698faf079eab69f96eb4fe9",
-      "market_slug": "ucl-psg-fcb-2026-10-20-psg",
-      "event_slug": "ucl-psg-fcb-2026-10-20",
-      "title": "Will Paris Saint-Germain FC win on 2026-10-20?",
+      "opened_at": "2026-10-21T17:58:07.370216+00:00",
+      "condition_id": "0xf0dfe0ad7442624dcacedce3c08e6d972f3c497d32a35357836716657d845176",
+      "market_slug": "ethereum-above-2600-on-october-22-2026",
+      "event_slug": "ethereum-above-on-october-22-2026",
+      "title": "Will the price of Ethereum be above $2,600 on October 22?",
       "outcome": "No",
-      "end_date": "2026-10-20",
-      "entry_price": 0.605,
-      "last_price": 0.605,
+      "end_date": "2026-10-22",
+      "entry_price": 0.9315,
+      "last_price": 0.9315,
       "stake_usd": 20.0,
-      "shares": 33.057851239669425,
+      "shares": 21.470746108427267,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-21T17:58:07.370232+00:00",
+      "condition_id": "0x3327a870ed03def99ad0e0bc5874b9909ed25638ca923633c1bca8f33a304bb4",
+      "market_slug": "will-bitcoin-reach-88k-on-october-21-2026",
+      "event_slug": "what-price-will-bitcoin-hit-on-october-21-2026",
+      "title": "Will Bitcoin reach $88,000 on October 21?",
+      "outcome": "No",
+      "end_date": "2026-10-22",
+      "entry_price": 0.9905,
+      "last_price": 0.9905,
+      "stake_usd": 20.0,
+      "shares": 20.191822311963655,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-21T17:58:07.370237+00:00",
+      "condition_id": "0x4c14622a5a2258a4047dad9644f23ac06c3bcf09e62334aa053e56159c2b8828",
+      "market_slug": "cfb-nmxst-smho-2026-10-21-total-45pt5",
+      "event_slug": "cfb-nmxst-smho-2026-10-21",
+      "title": "New Mexico State vs. Sam Houston: O/U 45.5",
+      "outcome": "Over",
+      "end_date": "2026-10-22",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-21T17:58:07.370240+00:00",
+      "condition_id": "0x360644ef518f7777fa316729890cb3f81066923a040273ebb3338fd442945c59",
+      "market_slug": "wnba-gsv-atl-2026-10-21-spread-home-3pt5",
+      "event_slug": "wnba-gsv-atl-2026-10-21",
+      "title": "Spread: Atlanta Dream (-3.5)",
+      "outcome": "Atlanta Dream",
+      "end_date": "2026-10-22",
+      "entry_price": 0.525,
+      "last_price": 0.525,
+      "stake_usd": 20.0,
+      "shares": 38.095238095238095,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-21T17:58:07.370244+00:00",
+      "condition_id": "0xa9ced0ba40242ad009b8668b13ec5269644905e86016e702f49e83054f30f1c7",
+      "market_slug": "nba-dal-hou-2026-10-21",
+      "event_slug": "nba-dal-hou-2026-10-21",
+      "title": "Mavericks vs. Rockets",
+      "outcome": "Mavericks",
+      "end_date": "2026-10-22",
+      "entry_price": 0.215,
+      "last_price": 0.215,
+      "stake_usd": 20.0,
+      "shares": 93.02325581395348,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-21T17:58:07.370247+00:00",
+      "condition_id": "0x758a7d0628a034bb82fc399918e00ca11322e12c3837d03e7287ca69deb2b800",
+      "market_slug": "nba-sac-lac-2026-10-21-spread-home-5pt5",
+      "event_slug": "nba-sac-lac-2026-10-21",
+      "title": "Spread: Clippers (-5.5)",
+      "outcome": "Clippers",
+      "end_date": "2026-10-22",
+      "entry_price": 0.48,
+      "last_price": 0.48,
+      "stake_usd": 20.0,
+      "shares": 41.66666666666667,
       "trader_count_at_entry": 3
     }
   ],
@@ -6044,6 +6114,25 @@
       "payout": 40.4,
       "pnl": 20.4,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-19T19:12:06.157506+00:00",
+      "condition_id": "0xf4bcfc73a0bc66dfaa13cbe9669a6aed0738e4739698faf079eab69f96eb4fe9",
+      "market_slug": "ucl-psg-fcb-2026-10-20-psg",
+      "event_slug": "ucl-psg-fcb-2026-10-20",
+      "title": "Will Paris Saint-Germain FC win on 2026-10-20?",
+      "outcome": "No",
+      "end_date": "2026-10-20",
+      "entry_price": 0.605,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 33.057851239669425,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-21T17:57:46.050731+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -6442,6 +6531,10 @@
     {
       "date": "2026-10-20",
       "equity": 1028.2
+    },
+    {
+      "date": "2026-10-21",
+      "equity": 1006.86
     }
   ]
 }
