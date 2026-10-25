@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 533.8023465945961,
+  "cash": 473.8023465945961,
   "open_positions": [
     {
       "opened_at": "2026-07-22T15:09:36.175617+00:00",
@@ -25,7 +25,7 @@
       "outcome": "No",
       "end_date": "2026-10-05",
       "entry_price": 0.3745,
-      "last_price": 0.172,
+      "last_price": 0.1925,
       "stake_usd": 20.0,
       "shares": 53.4045393858478,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-23",
       "entry_price": 0.976,
-      "last_price": 0.9935,
+      "last_price": 0.997,
       "stake_usd": 20.0,
       "shares": 20.491803278688526,
       "trader_count_at_entry": 3
@@ -53,24 +53,10 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.885,
-      "last_price": 0.9735,
+      "last_price": 0.9935,
       "stake_usd": 20.0,
       "shares": 22.598870056497177,
       "trader_count_at_entry": 4
-    },
-    {
-      "opened_at": "2026-10-23T17:49:34.309129+00:00",
-      "condition_id": "0x8833a390db1f099a59a934c37600a24656e95e7433a9eeada02a52655f3d89aa",
-      "market_slug": "ufc-avagae-jac7-2026-10-24",
-      "event_slug": "ufc-avagae-jac7-2026-10-24",
-      "title": "UFC 333: Abubakar Vagaev vs. Jacob Malkoun (Middleweight, Early Prelims)",
-      "outcome": "Jacob Malkoun",
-      "end_date": "2026-10-25",
-      "entry_price": 0.415,
-      "last_price": 0.0005,
-      "stake_usd": 20.0,
-      "shares": 48.19277108433735,
-      "trader_count_at_entry": 3
     },
     {
       "opened_at": "2026-10-23T17:49:34.309133+00:00",
@@ -81,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.0405,
-      "last_price": 0.0395,
+      "last_price": 0.044,
       "stake_usd": 20.0,
       "shares": 493.82716049382714,
       "trader_count_at_entry": 3
@@ -95,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.1385,
-      "last_price": 0.1465,
+      "last_price": 0.2195,
       "stake_usd": 20.0,
       "shares": 144.40433212996388,
       "trader_count_at_entry": 3
@@ -109,7 +95,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-26",
       "entry_price": 0.415,
-      "last_price": 0.385,
+      "last_price": 0.495,
       "stake_usd": 20.0,
       "shares": 48.19277108433735,
       "trader_count_at_entry": 3
@@ -123,38 +109,10 @@
       "outcome": "No",
       "end_date": "2026-10-26",
       "entry_price": 0.35,
-      "last_price": 0.325,
+      "last_price": 0.34,
       "stake_usd": 20.0,
       "shares": 57.142857142857146,
       "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-24T16:31:18.659108+00:00",
-      "condition_id": "0x8cdd30d071410d634c3b9701a64c3e6582b412df98111926a2b6f99a00eda6fe",
-      "market_slug": "ufc-mer-pet-2026-10-24",
-      "event_slug": "ufc-mer-pet-2026-10-24",
-      "title": "UFC 333: Merab Dvalishvili vs. Petr Yan (Bantamweight, Main Card)",
-      "outcome": "Merab Dvalishvili",
-      "end_date": "2026-10-25",
-      "entry_price": 0.405,
-      "last_price": 0.405,
-      "stake_usd": 20.0,
-      "shares": 49.382716049382715,
-      "trader_count_at_entry": 3
-    },
-    {
-      "opened_at": "2026-10-24T16:31:18.659121+00:00",
-      "condition_id": "0xe0fc7df425dbc4946684b8c0d0b0e808d469da60e9f21bdbdc73c7153583ff69",
-      "market_slug": "ufc-ram10-lon-2026-10-24",
-      "event_slug": "ufc-ram10-lon-2026-10-24",
-      "title": "UFC 333: Ramazan Temirov vs. Lone'er Kavanagh (Flyweight, Main Card)",
-      "outcome": "Ramazan Temirov",
-      "end_date": "2026-10-25",
-      "entry_price": 0.485,
-      "last_price": 0.485,
-      "stake_usd": 20.0,
-      "shares": 41.23711340206186,
-      "trader_count_at_entry": 4
     },
     {
       "opened_at": "2026-10-24T16:31:18.659127+00:00",
@@ -165,7 +123,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-26",
       "entry_price": 0.155,
-      "last_price": 0.155,
+      "last_price": 0.165,
       "stake_usd": 20.0,
       "shares": 129.03225806451613,
       "trader_count_at_entry": 3
@@ -179,7 +137,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-27",
       "entry_price": 0.7125,
-      "last_price": 0.7125,
+      "last_price": 0.7155,
       "stake_usd": 20.0,
       "shares": 28.07017543859649,
       "trader_count_at_entry": 3
@@ -280,6 +238,48 @@
       "last_price": 0.0005,
       "stake_usd": 20.0,
       "shares": 40000.0,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-25T17:01:10.213981+00:00",
+      "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+      "market_slug": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election",
+      "event_slug": "brazil-presidential-election",
+      "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "outcome": "No",
+      "end_date": "2026-10-26",
+      "entry_price": 0.805,
+      "last_price": 0.805,
+      "stake_usd": 20.0,
+      "shares": 24.844720496894407,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-25T17:01:10.213997+00:00",
+      "condition_id": "0x01be71dd0dc760f659c8f31c031a6ec3c3a45eac86a92da8be7d2a3e8437cfc4",
+      "market_slug": "arg-cac-vel-2026-10-25-vel",
+      "event_slug": "arg-cac-vel-2026-10-25",
+      "title": "Will CA V\u00e9lez Sarsfield win on 2026-10-25?",
+      "outcome": "No",
+      "end_date": "2026-10-26",
+      "entry_price": 0.515,
+      "last_price": 0.515,
+      "stake_usd": 20.0,
+      "shares": 38.83495145631068,
+      "trader_count_at_entry": 3
+    },
+    {
+      "opened_at": "2026-10-25T17:01:10.214002+00:00",
+      "condition_id": "0x801561a0810c3ec27b046068244cccd5320256146c151a9b3cf785c23979345f",
+      "market_slug": "nba-mem-sac-2026-10-25",
+      "event_slug": "nba-mem-sac-2026-10-25",
+      "title": "Grizzlies vs. Kings",
+      "outcome": "Kings",
+      "end_date": "2026-10-26",
+      "entry_price": 0.395,
+      "last_price": 0.395,
+      "stake_usd": 20.0,
+      "shares": 50.63291139240506,
       "trader_count_at_entry": 3
     }
   ],
@@ -6648,6 +6648,63 @@
       "payout": 38.1,
       "pnl": 18.1,
       "result": "win"
+    },
+    {
+      "opened_at": "2026-10-23T17:49:34.309129+00:00",
+      "condition_id": "0x8833a390db1f099a59a934c37600a24656e95e7433a9eeada02a52655f3d89aa",
+      "market_slug": "ufc-avagae-jac7-2026-10-24",
+      "event_slug": "ufc-avagae-jac7-2026-10-24",
+      "title": "UFC 333: Abubakar Vagaev vs. Jacob Malkoun (Middleweight, Early Prelims)",
+      "outcome": "Jacob Malkoun",
+      "end_date": "2026-10-25",
+      "entry_price": 0.415,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 48.19277108433735,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-25T17:00:40.779849+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-24T16:31:18.659108+00:00",
+      "condition_id": "0x8cdd30d071410d634c3b9701a64c3e6582b412df98111926a2b6f99a00eda6fe",
+      "market_slug": "ufc-mer-pet-2026-10-24",
+      "event_slug": "ufc-mer-pet-2026-10-24",
+      "title": "UFC 333: Merab Dvalishvili vs. Petr Yan (Bantamweight, Main Card)",
+      "outcome": "Merab Dvalishvili",
+      "end_date": "2026-10-25",
+      "entry_price": 0.405,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 49.382716049382715,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-10-25T17:00:41.989218+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
+    },
+    {
+      "opened_at": "2026-10-24T16:31:18.659121+00:00",
+      "condition_id": "0xe0fc7df425dbc4946684b8c0d0b0e808d469da60e9f21bdbdc73c7153583ff69",
+      "market_slug": "ufc-ram10-lon-2026-10-24",
+      "event_slug": "ufc-ram10-lon-2026-10-24",
+      "title": "UFC 333: Ramazan Temirov vs. Lone'er Kavanagh (Flyweight, Main Card)",
+      "outcome": "Ramazan Temirov",
+      "end_date": "2026-10-25",
+      "entry_price": 0.485,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 41.23711340206186,
+      "trader_count_at_entry": 4,
+      "closed_at": "2026-10-25T17:00:42.327561+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -7062,6 +7119,10 @@
     {
       "date": "2026-10-24",
       "equity": 903.16
+    },
+    {
+      "date": "2026-10-25",
+      "equity": 885.05
     }
   ]
 }
