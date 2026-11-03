@@ -25,7 +25,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.0405,
-      "last_price": 0.1315,
+      "last_price": 0.1255,
       "stake_usd": 20.0,
       "shares": 493.82716049382714,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.1385,
-      "last_price": 0.538,
+      "last_price": 0.4985,
       "stake_usd": 20.0,
       "shares": 144.40433212996388,
       "trader_count_at_entry": 3
@@ -53,7 +53,7 @@
       "outcome": "No",
       "end_date": "2026-10-28",
       "entry_price": 0.755,
-      "last_price": 0.675,
+      "last_price": 0.659,
       "stake_usd": 20.0,
       "shares": 26.490066225165563,
       "trader_count_at_entry": 5
@@ -67,7 +67,7 @@
       "outcome": "Yes",
       "end_date": "2026-11-03",
       "entry_price": 0.0405,
-      "last_price": 0.037,
+      "last_price": 0.0405,
       "stake_usd": 20.0,
       "shares": 493.82716049382714,
       "trader_count_at_entry": 3
@@ -81,7 +81,7 @@
       "outcome": "Yes",
       "end_date": "2026-11-04",
       "entry_price": 0.575,
-      "last_price": 0.515,
+      "last_price": 0.495,
       "stake_usd": 20.0,
       "shares": 34.78260869565218,
       "trader_count_at_entry": 3
@@ -95,7 +95,7 @@
       "outcome": "Yes",
       "end_date": "2026-11-04",
       "entry_price": 0.705,
-      "last_price": 0.755,
+      "last_price": 0.745,
       "stake_usd": 20.0,
       "shares": 28.368794326241137,
       "trader_count_at_entry": 3
@@ -109,7 +109,7 @@
       "outcome": "Yes",
       "end_date": "2026-11-04",
       "entry_price": 0.48,
-      "last_price": 0.385,
+      "last_price": 0.365,
       "stake_usd": 20.0,
       "shares": 41.66666666666667,
       "trader_count_at_entry": 3
@@ -123,7 +123,7 @@
       "outcome": "No",
       "end_date": "2026-11-04",
       "entry_price": 0.475,
-      "last_price": 0.385,
+      "last_price": 0.365,
       "stake_usd": 20.0,
       "shares": 42.10526315789474,
       "trader_count_at_entry": 3
@@ -137,7 +137,7 @@
       "outcome": "No",
       "end_date": "2026-11-04",
       "entry_price": 0.3275,
-      "last_price": 0.3885,
+      "last_price": 0.38,
       "stake_usd": 20.0,
       "shares": 61.06870229007633,
       "trader_count_at_entry": 4
@@ -151,7 +151,7 @@
       "outcome": "No",
       "end_date": "2026-11-04",
       "entry_price": 0.775,
-      "last_price": 0.755,
+      "last_price": 0.825,
       "stake_usd": 20.0,
       "shares": 25.806451612903224,
       "trader_count_at_entry": 3
@@ -165,7 +165,7 @@
       "outcome": "No",
       "end_date": "2026-11-04",
       "entry_price": 0.635,
-      "last_price": 0.655,
+      "last_price": 0.6,
       "stake_usd": 20.0,
       "shares": 31.496062992125985,
       "trader_count_at_entry": 3
@@ -179,7 +179,7 @@
       "outcome": "No",
       "end_date": "2026-11-04",
       "entry_price": 0.885,
-      "last_price": 0.855,
+      "last_price": 0.875,
       "stake_usd": 20.0,
       "shares": 22.598870056497177,
       "trader_count_at_entry": 3
@@ -193,7 +193,7 @@
       "outcome": "Yes",
       "end_date": "2026-11-04",
       "entry_price": 0.235,
-      "last_price": 0.175,
+      "last_price": 0.195,
       "stake_usd": 20.0,
       "shares": 85.1063829787234,
       "trader_count_at_entry": 5
@@ -8781,6 +8781,10 @@
     {
       "date": "2026-11-02",
       "equity": 1006.98
+    },
+    {
+      "date": "2026-11-03",
+      "equity": 998.67
     }
   ]
 }
