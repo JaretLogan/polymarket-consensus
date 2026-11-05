@@ -25,7 +25,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.0405,
-      "last_price": 0.1325,
+      "last_price": 0.1015,
       "stake_usd": 20.0,
       "shares": 493.82716049382714,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.1385,
-      "last_price": 0.5485,
+      "last_price": 0.5895,
       "stake_usd": 20.0,
       "shares": 144.40433212996388,
       "trader_count_at_entry": 3
@@ -53,24 +53,10 @@
       "outcome": "No",
       "end_date": "2026-10-28",
       "entry_price": 0.755,
-      "last_price": 0.7215,
+      "last_price": 0.7385,
       "stake_usd": 20.0,
       "shares": 26.490066225165563,
       "trader_count_at_entry": 5
-    },
-    {
-      "opened_at": "2026-11-01T18:20:58.243504+00:00",
-      "condition_id": "0xaa9322326dfc99b4291bbbc96373acc5bb73c71dcf653e90d021d63a1d3fdf13",
-      "market_slug": "2026-senate-map-r-all",
-      "event_slug": "which-tossup-senate-states-will-republicans-win-ak-ia-ks-me-mi-oh-tx",
-      "title": "Will Republicans win the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
-      "outcome": "Yes",
-      "end_date": "2026-11-03",
-      "entry_price": 0.0405,
-      "last_price": 0.0005,
-      "stake_usd": 20.0,
-      "shares": 493.82716049382714,
-      "trader_count_at_entry": 3
     },
     {
       "opened_at": "2026-11-01T18:20:58.243534+00:00",
@@ -81,7 +67,7 @@
       "outcome": "No",
       "end_date": "2026-11-04",
       "entry_price": 0.885,
-      "last_price": 0.076,
+      "last_price": 0.0145,
       "stake_usd": 20.0,
       "shares": 22.598870056497177,
       "trader_count_at_entry": 3
@@ -8371,6 +8357,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-11-01T18:20:58.243504+00:00",
+      "condition_id": "0xaa9322326dfc99b4291bbbc96373acc5bb73c71dcf653e90d021d63a1d3fdf13",
+      "market_slug": "2026-senate-map-r-all",
+      "event_slug": "which-tossup-senate-states-will-republicans-win-ak-ia-ks-me-mi-oh-tx",
+      "title": "Will Republicans win the Alaska, Iowa, Kansas, Maine, Michigan, Ohio, and Texas Senate seats?",
+      "outcome": "Yes",
+      "end_date": "2026-11-03",
+      "entry_price": 0.0405,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 493.82716049382714,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-11-05T20:32:38.365551+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -8829,6 +8834,10 @@
     {
       "date": "2026-11-04",
       "equity": 971.01
+    },
+    {
+      "date": "2026-11-05",
+      "equity": 960.44
     }
   ]
 }
