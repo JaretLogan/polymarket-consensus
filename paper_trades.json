@@ -25,7 +25,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.0405,
-      "last_price": 0.099,
+      "last_price": 0.1515,
       "stake_usd": 20.0,
       "shares": 493.82716049382714,
       "trader_count_at_entry": 3
@@ -39,7 +39,7 @@
       "outcome": "Yes",
       "end_date": "2026-10-25",
       "entry_price": 0.1385,
-      "last_price": 0.386,
+      "last_price": 0.4275,
       "stake_usd": 20.0,
       "shares": 144.40433212996388,
       "trader_count_at_entry": 3
@@ -53,24 +53,10 @@
       "outcome": "No",
       "end_date": "2026-10-28",
       "entry_price": 0.755,
-      "last_price": 0.7765,
+      "last_price": 0.7815,
       "stake_usd": 20.0,
       "shares": 26.490066225165563,
       "trader_count_at_entry": 5
-    },
-    {
-      "opened_at": "2026-11-01T18:20:58.243534+00:00",
-      "condition_id": "0x8c9b8ad3a64088a06d45e0b296a9a836203bc7f3ef35d134c57abead446a8b72",
-      "market_slug": "will-the-democrats-win-the-mississippi-senate-race-in-2026",
-      "event_slug": "mississippi-senate-election-winner",
-      "title": "Will the Democrats win the Mississippi Senate race in 2026?",
-      "outcome": "No",
-      "end_date": "2026-11-04",
-      "entry_price": 0.885,
-      "last_price": 0.0025,
-      "stake_usd": 20.0,
-      "shares": 22.598870056497177,
-      "trader_count_at_entry": 3
     }
   ],
   "closed_positions": [
@@ -8376,6 +8362,25 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-11-01T18:20:58.243534+00:00",
+      "condition_id": "0x8c9b8ad3a64088a06d45e0b296a9a836203bc7f3ef35d134c57abead446a8b72",
+      "market_slug": "will-the-democrats-win-the-mississippi-senate-race-in-2026",
+      "event_slug": "mississippi-senate-election-winner",
+      "title": "Will the Democrats win the Mississippi Senate race in 2026?",
+      "outcome": "No",
+      "end_date": "2026-11-04",
+      "entry_price": 0.885,
+      "last_price": 0.0,
+      "stake_usd": 20.0,
+      "shares": 22.598870056497177,
+      "trader_count_at_entry": 3,
+      "closed_at": "2026-11-12T20:43:35.372803+00:00",
+      "exit_price": 0.0,
+      "payout": 0.0,
+      "pnl": -20.0,
+      "result": "loss"
     }
   ],
   "equity_history": [
@@ -8862,6 +8867,10 @@
     {
       "date": "2026-11-11",
       "equity": 930.55
+    },
+    {
+      "date": "2026-11-12",
+      "equity": 962.55
     }
   ]
 }
