@@ -1,6 +1,6 @@
 {
   "starting_bankroll": 1000.0,
-  "cash": 914.2966475516818,
+  "cash": 938.7410919961262,
   "open_positions": [
     {
       "opened_at": "2026-07-20T15:02:14.786954+00:00",
@@ -10,7 +10,7 @@
       "title": "Will Apyx launch a token by September 30, 2027?",
       "outcome": "Yes",
       "entry_price": 0.735,
-      "last_price": 0.837,
+      "last_price": 0.8535,
       "stake_usd": 20.0,
       "shares": 27.2108843537415,
       "bucket_at_entry": "65-80%",
@@ -25,7 +25,7 @@
       "title": "Will Aleksandar Vu\u010di\u0107 be the next Prime Minister of Serbia?",
       "outcome": "Yes",
       "entry_price": 0.725,
-      "last_price": 0.025,
+      "last_price": 0.0215,
       "stake_usd": 20.0,
       "shares": 27.586206896551726,
       "bucket_at_entry": "65-80%",
@@ -40,7 +40,7 @@
       "title": "Will Neuralink's valuation hit (LOW) $35B by December 31?",
       "outcome": "Yes",
       "entry_price": 0.68,
-      "last_price": 0.0485,
+      "last_price": 0.047,
       "stake_usd": 20.0,
       "shares": 29.41176470588235,
       "bucket_at_entry": "65-80%",
@@ -55,7 +55,7 @@
       "title": "Surf FDV above $50M one day after launch?",
       "outcome": "Yes",
       "entry_price": 0.745,
-      "last_price": 0.625,
+      "last_price": 0.63,
       "stake_usd": 20.0,
       "shares": 26.845637583892618,
       "bucket_at_entry": "65-80%",
@@ -100,7 +100,7 @@
       "title": "Will Napoli win the 2026-27 Serie A Championship?",
       "outcome": "Yes",
       "entry_price": 0.065,
-      "last_price": 0.006,
+      "last_price": 0.0055,
       "stake_usd": 20.0,
       "shares": 307.6923076923077,
       "bucket_at_entry": "5-10%",
@@ -160,7 +160,7 @@
       "title": "Will Jordan join the Abraham Accords before 2027?",
       "outcome": "Yes",
       "entry_price": 0.065,
-      "last_price": 0.045,
+      "last_price": 0.05,
       "stake_usd": 20.0,
       "shares": 307.6923076923077,
       "bucket_at_entry": "5-10%",
@@ -190,7 +190,7 @@
       "title": "Will Petr Yan be the UFC Bantamweight Champion on December 31, 2026?",
       "outcome": "No",
       "entry_price": 0.375,
-      "last_price": 0.0235,
+      "last_price": 0.025,
       "stake_usd": 20.0,
       "shares": 53.333333333333336,
       "bucket_at_entry": "50-65%",
@@ -205,7 +205,7 @@
       "title": "Will DeepSeek IPO by December 31, 2027?",
       "outcome": "No",
       "entry_price": 0.375,
-      "last_price": 0.259,
+      "last_price": 0.2585,
       "stake_usd": 20.0,
       "shares": 53.333333333333336,
       "bucket_at_entry": "50-65%",
@@ -220,7 +220,7 @@
       "title": "Will Meta be the #3 AI Lab at the end of November 2026 (Style Control On)?",
       "outcome": "No",
       "entry_price": 0.45999999999999996,
-      "last_price": 0.86,
+      "last_price": 0.925,
       "stake_usd": 20.0,
       "shares": 43.47826086956522,
       "bucket_at_entry": "50-65%",
@@ -250,7 +250,7 @@
       "title": "Will the Fed increase interest rates by 25 bps after the March 2027 meeting?",
       "outcome": "No",
       "entry_price": 0.41500000000000004,
-      "last_price": 0.56,
+      "last_price": 0.55,
       "stake_usd": 20.0,
       "shares": 48.192771084337345,
       "bucket_at_entry": "50-65%",
@@ -265,24 +265,9 @@
       "title": "Will the Swedish Social Democratic Party (S) be in the next Swedish government?",
       "outcome": "No",
       "entry_price": 0.4425,
-      "last_price": 0.467,
+      "last_price": 0.573,
       "stake_usd": 20.0,
       "shares": 45.19774011299435,
-      "bucket_at_entry": "50-65%",
-      "edge_at_entry": 0.1165,
-      "z_at_entry": -2.288801571709234
-    },
-    {
-      "opened_at": "2026-11-12T20:32:48.826606+00:00",
-      "condition_id": "0x29e0792ea05736053ff0cb113549be50c4fa4662c4262a1cd36a50a4f6981ea2",
-      "market_slug": "will-the-next-fable-model-5pt2-debut-in-the-top-3-of-the-text-arena-leaderboard-by-june-30-2027",
-      "event_slug": "next-fable-model-5pt2-text-arena-rank-debut-20261027",
-      "title": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
-      "outcome": "No",
-      "entry_price": 0.44999999999999996,
-      "last_price": 0.9995,
-      "stake_usd": 20.0,
-      "shares": 44.44444444444445,
       "bucket_at_entry": "50-65%",
       "edge_at_entry": 0.1165,
       "z_at_entry": -2.288801571709234
@@ -298,6 +283,21 @@
       "last_price": 0.89,
       "stake_usd": 20.0,
       "shares": 21.978021978021978,
+      "bucket_at_entry": "5-10%",
+      "edge_at_entry": 0.0397,
+      "z_at_entry": -2.377245508982036
+    },
+    {
+      "opened_at": "2026-11-21T19:52:42.531908+00:00",
+      "condition_id": "0x0eac38a2c3cc0a5fe2c0466d0acd532247e3c14e0d722800a9037d14e2f1eb0c",
+      "market_slug": "will-byd-be-removed-from-chinese-military-companies-list-by-june-30-2027-20260706223230559",
+      "event_slug": "who-will-be-removed-from-chinese-military-companies-list-by-june-30-2027-20260706223230550",
+      "title": "Will BYD be removed from Chinese Military Companies list by June 30, 2027?",
+      "outcome": "No",
+      "entry_price": 0.945,
+      "last_price": 0.945,
+      "stake_usd": 20.0,
+      "shares": 21.164021164021165,
       "bucket_at_entry": "5-10%",
       "edge_at_entry": 0.0397,
       "z_at_entry": -2.377245508982036
@@ -863,6 +863,26 @@
       "payout": 0.0,
       "pnl": -20.0,
       "result": "loss"
+    },
+    {
+      "opened_at": "2026-11-12T20:32:48.826606+00:00",
+      "condition_id": "0x29e0792ea05736053ff0cb113549be50c4fa4662c4262a1cd36a50a4f6981ea2",
+      "market_slug": "will-the-next-fable-model-5pt2-debut-in-the-top-3-of-the-text-arena-leaderboard-by-june-30-2027",
+      "event_slug": "next-fable-model-5pt2-text-arena-rank-debut-20261027",
+      "title": "Will the next Fable model (5.2+) debut in the top 3 of the Text Arena leaderboard by June 30, 2027?",
+      "outcome": "No",
+      "entry_price": 0.44999999999999996,
+      "last_price": 1.0,
+      "stake_usd": 20.0,
+      "shares": 44.44444444444445,
+      "bucket_at_entry": "50-65%",
+      "edge_at_entry": 0.1165,
+      "z_at_entry": -2.288801571709234,
+      "closed_at": "2026-11-21T19:52:34.410978+00:00",
+      "exit_price": 1.0,
+      "payout": 44.44,
+      "pnl": 24.44,
+      "result": "win"
     }
   ],
   "equity_history": [
@@ -1385,6 +1405,10 @@
     {
       "date": "2026-11-20",
       "equity": 1253.58
+    },
+    {
+      "date": "2026-11-21",
+      "equity": 1262.62
     }
   ]
 }
